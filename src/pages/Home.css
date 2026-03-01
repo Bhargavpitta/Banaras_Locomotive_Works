@@ -1,0 +1,69 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home__content {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+  width: 100%;
+}
+
+.home__main {
+  min-width: 0;
+}
+
+.home__sidebar {
+  min-width: 0;
+}
+
+.home__ticker {
+  width: 100%;
+  background: var(--gov-gold);
+  overflow: hidden;
+  padding: 8px 0;
+}
+
+.home__ticker-inner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 16px;
+}
+
+.home__ticker-badge {
+  background: var(--gov-maroon);
+  color: var(--gov-white);
+  padding: 4px 14px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.home__ticker-text {
+  font-size: 0.82rem;
+  color: var(--gov-text);
+  font-weight: 500;
+  white-space: nowrap;
+  animation: ticker-scroll 20s linear infinite;
+}
+
+@keyframes ticker-scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+@media (max-width: 900px) {
+  .home__content {
+    grid-template-columns: 1fr;
+    padding: 16px;
+  }
+}

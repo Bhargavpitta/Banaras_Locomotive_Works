@@ -1,0 +1,89 @@
+.footer {
+  width: 100%;
+  background: var(--gov-brown-dark);
+  color: rgba(255,255,255,0.85);
+  padding: 0;
+}
+
+.footer__top {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+}
+
+.footer__section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gov-gold);
+  margin-bottom: 16px;
+}
+
+.footer__link {
+  display: block;
+  padding: 4px 0;
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.7);
+  transition: color var(--transition);
+}
+
+.footer__link:hover {
+  color: var(--gov-gold-light);
+}
+
+.footer__vision {
+  font-size: 0.82rem;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.7);
+}
+
+.footer__mission-list {
+  padding-left: 16px;
+  list-style: disc;
+}
+
+.footer__mission-list li {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+.footer__bottom {
+  background: rgba(0,0,0,0.3);
+  text-align: center;
+  padding: 16px 24px;
+}
+
+.footer__bottom-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.footer__bottom-link {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.6);
+  transition: color var(--transition);
+}
+
+.footer__bottom-link:hover {
+  color: var(--gov-gold-light);
+}
+
+.footer__copyright {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.4);
+}
+
+.footer__description {
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.35);
+  max-width: 800px;
+  margin: 8px auto 0;
+  line-height: 1.5;
+}

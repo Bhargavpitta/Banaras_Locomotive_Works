@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gov-maroon: #7B1F1F;
+  --gov-maroon-dark: #5A1515;
+  --gov-brown: #6B4C2A;
+  --gov-brown-dark: #4A3520;
+  --gov-gold: #C9A84C;
+  --gov-gold-light: #E8D48B;
+  --gov-cream: #FDF8EE;
+  --gov-white: #FFFFFF;
+  --gov-text: #1A1A1A;
+  --gov-text-light: #555555;
+  --gov-border: #D4C5A9;
+  --gov-bg-light: #F5F0E6;
+  --gov-green: #1B5E20;
+  --gov-blue: #1565C0;
+  --gov-red: #C62828;
+  --gov-orange: #E65100;
+  --gov-sidebar-bg: #F9F6F0;
+  --gov-nav-bg: #6B4C2A;
+  --gov-nav-hover: #8B6B3D;
+  --gov-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  --gov-shadow-lg: 0 4px 20px rgba(0,0,0,0.15);
+  --font-primary: 'Poppins', sans-serif;
+  --font-hindi: 'Noto Sans Devanagari', sans-serif;
+  --transition: 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--gov-text);
+  background: var(--gov-white);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+html[lang="hi"] body {
+  font-family: var(--font-hindi);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

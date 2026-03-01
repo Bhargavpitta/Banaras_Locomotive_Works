@@ -1,0 +1,89 @@
+.ministers {
+  padding: 48px 24px;
+  background: var(--gov-white);
+}
+
+.ministers__title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--gov-maroon);
+  margin-bottom: 36px;
+  position: relative;
+}
+
+.ministers__title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--gov-gold);
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.ministers__grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ministers__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 24px 20px;
+  border-radius: 12px;
+  background: var(--gov-bg-light);
+  border: 1px solid var(--gov-border);
+  transition: all var(--transition);
+  width: 220px;
+}
+
+.ministers__card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--gov-shadow-lg);
+  border-color: var(--gov-gold);
+}
+
+.ministers__photo {
+  width: 120px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  border: 2px solid var(--gov-border);
+}
+
+.ministers__name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--gov-text);
+  margin-bottom: 4px;
+}
+
+.ministers__role {
+  font-size: 0.82rem;
+  color: var(--gov-text-light);
+  font-weight: 400;
+}
+
+@media (max-width: 640px) {
+  .ministers__grid {
+    gap: 20px;
+  }
+
+  .ministers__card {
+    width: 160px;
+    padding: 16px 12px;
+  }
+
+  .ministers__photo {
+    width: 90px;
+    height: 110px;
+  }
+}

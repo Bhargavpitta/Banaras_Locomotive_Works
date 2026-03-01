@@ -1,0 +1,132 @@
+{
+  "header": {
+    "title": "Banaras Locomotive Works, Varanasi",
+    "subtitle": "An IRIS (ISO 22163), ISO 9001, 14001, 45001, & 5-S Certified Organization",
+    "address": "Varanasi-221004, Uttar Pradesh (India)",
+    "phone": "Tel.: 0542-2270589-90",
+    "fax": "Fax: 0542-2270603",
+    "search": "Search",
+    "langToggle": "हिन्दी"
+  },
+  "nav": {
+    "aboutBLW": "About BLW",
+    "department": "Department",
+    "locoPortal": "Loco Portal",
+    "tenderInfo": "Tender Information",
+    "vendorInfo": "Vendor Information",
+    "newsEvents": "News & Events",
+    "contactUs": "Contact Us"
+  },
+  "about": {
+    "briefHistory": "Brief History",
+    "organization": "BLW Organization",
+    "heritage": "BLW Heritage",
+    "orgStrength": "Organizational Strength",
+    "qualityAssurance": "Quality Assurance",
+    "department": "Department",
+    "milestones": "Recent Milestones & Future Plans",
+    "productForSale": "Product for Sale",
+    "designCapabilities": "Design & Development Capabilities",
+    "qualityPolicy": "Our Quality Policy",
+    "portalPolicies": "Portal Policies",
+    "photoGallery": "Photo Gallery"
+  },
+  "departments": {
+    "accounts": "Accounts",
+    "civilEng": "Civil Engineering",
+    "electricalEng": "Electrical Engineering",
+    "mechEng": "Mechanical Engineering (Production)",
+    "marketing": "Marketing",
+    "medical": "Medical",
+    "personnel": "Personnel",
+    "stores": "Stores",
+    "techTraining": "Technical Training Centre",
+    "vigilance": "Vigilance",
+    "design": "Design Department",
+    "safety": "Safety Department"
+  },
+  "locoPortal": {
+    "hhpSpares": "HHP BIM Spares",
+    "designBulletin": "Design Bulletin",
+    "warrantyClaim": "Warranty Claim",
+    "nonRailway": "Non Railway Customer Portal"
+  },
+  "tender": {
+    "materialMgmt": "Material Management",
+    "liveTender": "Live Tender",
+    "awardedContracts": "Awarded Contracts",
+    "tenders": "Tenders",
+    "auctionInfo": "Auction Informations",
+    "cppTenders": "CPP Tenders"
+  },
+  "vendor": {
+    "draftSpec": "Draft Specification",
+    "login": "Vendor Login",
+    "billingStatus": "Vendors Billing Status",
+    "billsFormat": "Bills Format for Stores Supplied",
+    "vendorDirectory": "Vendor Directory (VD)",
+    "newRegistration": "New Vendor Registration System",
+    "guidelines": "Guideline to vendors for registration",
+    "rejectionPolicy": "Policy for Rejection and Ground Rent",
+    "approvalSystem": "Vendor Approval System",
+    "eftMandate": "EFT Mandate Form",
+    "particulars": "Vendor Particulars",
+    "gst": "BLW GST"
+  },
+  "news": {
+    "announcements": "News & Announcements",
+    "annualReport": "GM's Annual Report",
+    "pressReleases": "Press Releases",
+    "currentNews": "Current News & Features",
+    "achievements": "Achievements of BLW",
+    "civilDefence": "Civil Defence BLW",
+    "tourism": "Varanasi Tourism"
+  },
+  "hero": {
+    "banner1": "Building the Future of Indian Railways",
+    "banner2": "World-Class Locomotive Manufacturing",
+    "banner3": "Innovation in Railway Engineering",
+    "cta": "Explore More"
+  },
+  "ministers": {
+    "title": "Leadership",
+    "minister1": "Shri Ashwini Vaishnaw",
+    "minister1Role": "Minister for Railways",
+    "minister2": "Shri V. Somanna",
+    "minister2Role": "Minister of State for Railways",
+    "minister3": "Shri Ravneet Singh",
+    "minister3Role": "Minister of State for Railways"
+  },
+  "sidebar": {
+    "newsTitle": "News & Announcements",
+    "tendersTitle": "Active Tenders",
+    "noTenders": "Currently there are no active Tenders.",
+    "quickLinks": "Quick Links",
+    "complaints": "Complaints (Rail Madad)",
+    "gstRailways": "GST - Indian Railways",
+    "publicGrievances": "Public Grievances",
+    "lastUpdated": "Last updated on: 01-03-2026",
+    "visitors": "No. of Visitors: 16049255",
+    "eoi": "EOI for Sale/Leasing/Hiring of In-Service Diesel Locomotives"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "siteMap": "Site Map",
+    "contactUs": "Contact Us",
+    "rti": "RTI",
+    "disclaimer": "Disclaimer",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "accessibility": "Accessibility",
+    "copyright": "© 2010 All Rights Reserved. Indian Railways.",
+    "description": "This is a portal of Indian Railways for information and services provided by various Indian Railway organizations, Railway Ministry, Government of India.",
+    "skillDev": "Rail Skill Development Scheme",
+    "vision": "Vision - To become a world-class manufacturer of Diesel-Electric Locomotives with reliable, cost-effective, and state-of-the-art technology.",
+    "mission": "Mission - To fulfill our vision by:",
+    "missionPoints": [
+      "Ensuring reliability and continuous improvement in product quality through customer satisfaction.",
+      "Innovation, human resource development, and teamwork to develop competency.",
+      "Conservation of energy and natural resources for a clean environment."
+    ]
+  }
+}
