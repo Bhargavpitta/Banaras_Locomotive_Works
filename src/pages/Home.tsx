@@ -11,15 +11,29 @@ const Home = () => {
     <div className="home">
       <Header />
       <Navbar />
+
+      {/* ===== TICKER SECTION ===== */}
       <div className="home__ticker">
         <div className="home__ticker-inner">
-          <span className="home__ticker-badge">What's New »</span>
-          <span className="home__ticker-text">
-            RailOne - Official Indian Railways Super App! (Android / iOS) • Unified Vendor Approval Management (U-VAM) • Recent guideline on development of vendors • Banaras Locomotive Works Vendor Development Program
-          </span>
+
+          <div className="home__ticker-badge">
+            What's New »
+          </div>
+
+          <div className="home__ticker-scroll">
+            <div className="home__ticker-text">
+              RailOne - Official Indian Railways Super App! (Android / iOS) • 
+              Unified Vendor Approval Management (U-VAM) • 
+              Recent guideline on development of vendors • 
+              Banaras Locomotive Works Vendor Development Program
+            </div>
+          </div>
+
         </div>
       </div>
+
       <Hero />
+
       <div className="home__content">
         <main className="home__main">
           <Ministers />
@@ -28,6 +42,7 @@ const Home = () => {
           <Sidebar />
         </div>
       </div>
+
       <Footer />
     </div>
   );

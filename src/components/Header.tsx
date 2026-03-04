@@ -15,7 +15,7 @@ const Header = () => {
       <div className="header__inner">
         <div className="header__left">
           <img
-            src="/images/railway-logo.png"
+            src="/images/main_logo.jpg"
             alt="Indian Railways Logo"
             className="header__logo"
           />
@@ -44,7 +44,7 @@ const Header = () => {
             {t('header.langToggle')}
           </button>
           <img
-            src="/images/emblem.png"
+            src="/images/em.jpg"
             alt="Government of India Emblem"
             className="header__emblem"
           />

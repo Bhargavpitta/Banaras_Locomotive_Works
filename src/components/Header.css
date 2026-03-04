@@ -1,7 +1,7 @@
 .header {
   width: 100%;
-  background: var(--gov-white);
-  border-bottom: 3px solid var(--gov-maroon);
+  background: #ffffff;
+  border-bottom: 3px solid #1f277b; /* Blue border */
   padding: 0;
 }
 
@@ -38,13 +38,13 @@
 .header__title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--gov-maroon);
+  color: #1f277b; /* Blue title */
   line-height: 1.2;
 }
 
 .header__subtitle {
   font-size: 0.75rem;
-  color: var(--gov-text-light);
+  color: #777777;
   font-weight: 400;
   max-width: 500px;
 }
@@ -52,12 +52,12 @@
 .header__address {
   font-size: 0.85rem;
   font-weight: 600;
-  color: var(--gov-text);
+  color: #333333;
 }
 
 .header__contact {
   font-size: 0.8rem;
-  color: var(--gov-maroon);
+  color: #1f277b; /* Blue contact */
   font-weight: 500;
 }
 
@@ -72,44 +72,44 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  background: var(--gov-bg-light);
-  border: 1px solid var(--gov-border);
+  background: #ffffff;
+  border: 1px solid #1f277b; /* Blue border */
   border-radius: 6px;
   padding: 6px 12px;
   cursor: pointer;
-  transition: var(--transition);
+  transition: 0.3s ease;
 }
 
 .header__search:hover {
-  border-color: var(--gov-maroon);
+  background: #f4f6ff;
 }
 
 .header__search-icon {
   width: 16px;
   height: 16px;
-  color: var(--gov-text-light);
+  color: #777777;
 }
 
 .header__search-text {
   font-size: 0.8rem;
-  color: var(--gov-text-light);
+  color: #777777;
 }
 
 .header__lang-btn {
-  background: var(--gov-maroon);
-  color: var(--gov-white);
+  background: #1f277b;
+  color: #ffffff;
   border: none;
   padding: 8px 20px;
   border-radius: 6px;
   font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
-  transition: var(--transition);
-  font-family: var(--font-hindi);
+  transition: 0.3s ease;
+  font-family: inherit;
 }
 
 .header__lang-btn:hover {
-  background: var(--gov-maroon-dark);
+  background: #161d5c; /* slightly darker blue */
 }
 
 .header__emblem {
@@ -117,6 +117,8 @@
   height: 64px;
   object-fit: contain;
 }
+
+/* Mobile */
 
 @media (max-width: 768px) {
   .header__inner {

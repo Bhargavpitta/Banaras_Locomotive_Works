@@ -1,24 +1,30 @@
 import { useTranslation } from 'react-i18next';
 import './Ministers.css';
 
+interface Minister {
+  name: string;
+  role: string;
+  photo: string;
+}
+
 const Ministers = () => {
   const { t } = useTranslation();
 
-  const ministers = [
+  const ministers: Minister[] = [
     {
       name: t('ministers.minister1'),
       role: t('ministers.minister1Role'),
-      photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ashwini_Vaishnaw_official_portrait.jpg/220px-Ashwini_Vaishnaw_official_portrait.jpg',
+      photo: '/images/a..jpeg', // <-- Image path relative to public folder
     },
     {
       name: t('ministers.minister2'),
       role: t('ministers.minister2Role'),
-      photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Official_portrait_of_V._Somanna.jpg/220px-Official_portrait_of_V._Somanna.jpg',
+      photo: '/images/b..jpg',
     },
     {
       name: t('ministers.minister3'),
       role: t('ministers.minister3Role'),
-      photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Official_portrait_of_Ravneet_Singh_Bittu.jpg/220px-Official_portrait_of_Ravneet_Singh_Bittu.jpg',
+      photo: '/images/c..jpeg',
     },
   ];
 

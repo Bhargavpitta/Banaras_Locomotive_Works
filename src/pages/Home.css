@@ -1,3 +1,5 @@
+/* ================= HOME LAYOUT ================= */
+
 .home {
   width: 100%;
   min-height: 100vh;
@@ -23,43 +25,62 @@
   min-width: 0;
 }
 
+/* ================= TICKER SECTION ================= */
+
 .home__ticker {
   width: 100%;
-  background: var(--gov-gold);
-  overflow: hidden;
+  background: #ffffff;                 /* White background */
   padding: 8px 0;
+  border-top: 2px solid #1f277b;
+  border-bottom: 2px solid #1f277b;
 }
 
 .home__ticker-inner {
   display: flex;
   align-items: center;
-  gap: 16px;
   padding: 0 16px;
 }
 
+/* WHAT'S NEW BUTTON */
 .home__ticker-badge {
-  background: var(--gov-maroon);
-  color: var(--gov-white);
-  padding: 4px 14px;
-  font-size: 0.78rem;
+  background: #1f277b;                 /* Blue background */
+  color: #ffffff;                      /* White text */
+  padding: 6px 16px;
+  font-size: 0.8rem;
   font-weight: 700;
   border-radius: 4px;
   white-space: nowrap;
   flex-shrink: 0;
+  margin-right: 24px;
 }
 
+/* Scroll container */
+.home__ticker-scroll {
+  flex: 1;
+  overflow: hidden;                    /* Prevents overlap */
+  position: relative;
+}
+
+/* Scrolling text */
 .home__ticker-text {
-  font-size: 0.82rem;
-  color: var(--gov-text);
-  font-weight: 500;
+  display: inline-block;
   white-space: nowrap;
+  color: #1f277b;                      /* Blue text */
+  font-weight: 500;
   animation: ticker-scroll 20s linear infinite;
 }
 
+/* Animation */
 @keyframes ticker-scroll {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
+
+/* ================= RESPONSIVE ================= */
 
 @media (max-width: 900px) {
   .home__content {

@@ -1,13 +1,13 @@
 .ministers {
   padding: 48px 24px;
-  background: var(--gov-white);
+  background: #ffffff;
 }
 
 .ministers__title {
   text-align: center;
   font-size: 1.6rem;
   font-weight: 700;
-  color: var(--gov-maroon);
+  color: #1f277b; /* Blue title */
   margin-bottom: 36px;
   position: relative;
 }
@@ -17,7 +17,7 @@
   display: block;
   width: 60px;
   height: 3px;
-  background: var(--gov-gold);
+  background: #1f277b; /* Blue underline */
   margin: 10px auto 0;
   border-radius: 2px;
 }
@@ -38,16 +38,16 @@
   text-align: center;
   padding: 24px 20px;
   border-radius: 12px;
-  background: var(--gov-bg-light);
-  border: 1px solid var(--gov-border);
-  transition: all var(--transition);
+  background: #f8f9ff;
+  border: 1px solid #1f277b; /* Blue border */
+  transition: all 0.3s ease;
   width: 220px;
 }
 
 .ministers__card:hover {
   transform: translateY(-4px);
-  box-shadow: var(--gov-shadow-lg);
-  border-color: var(--gov-gold);
+  box-shadow: 0 8px 20px rgba(31, 39, 123, 0.2);
+  border-color: #1f277b;
 }
 
 .ministers__photo {
@@ -56,19 +56,19 @@
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 16px;
-  border: 2px solid var(--gov-border);
+  border: 2px solid #1f277b; /* Blue photo border */
 }
 
 .ministers__name {
   font-size: 0.95rem;
   font-weight: 600;
-  color: var(--gov-text);
+  color: #333333;
   margin-bottom: 4px;
 }
 
 .ministers__role {
   font-size: 0.82rem;
-  color: var(--gov-text-light);
+  color: #777777;
   font-weight: 400;
 }
 
