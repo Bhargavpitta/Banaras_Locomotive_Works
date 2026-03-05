@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "./Navbar.css";
 
+
+
 interface DropdownItem {
   label: string;
   href?: string;
@@ -14,10 +16,17 @@ interface NavItem {
 
 const Navbar = () => {
   const { t } = useTranslation();
+<<<<<<< HEAD
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<number | null>(null);
   const [isMobile, setIsMobile] = useState(false);
+=======
+  const [isOpen, setIsOpen] = useState(false);
+  const [activeMenu, setActiveMenu] = useState<number | null>(null);
+  const [scrolled, setScrolled] = useState(false);
+  
+>>>>>>> c562898f74bd0e1c2a8937a3e5c445d7fe9dc445
 
   useEffect(() => {
     const checkMobile = () => setIsMobile(window.innerWidth <= 768);
@@ -134,6 +143,7 @@ const Navbar = () => {
   ];
 
   return (
+<<<<<<< HEAD
     <nav className="navbar">
       <div className="navbar__inner">
 
@@ -181,6 +191,80 @@ const Navbar = () => {
               )}
             </li>
           ))}
+=======
+    <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`}>
+      <div className="navbar__inner">
+
+        {/* Hamburger */}
+        <button
+          className="navbar__hamburger"
+          onClick={() => {
+            setIsOpen(!isOpen);
+            setActiveMenu(null);
+          }}
+        >
+          ☰
+        </button>
+
+        {/* MAIN MENU */}
+        <ul className={`navbar__list ${isOpen ? 'navbar__list--open' : ''}`}>
+
+          {activeMenu === null &&
+            navItems.map((item, idx) => (
+              <li className="navbar__item" key={idx}>
+                <button
+                  className="navbar__link"
+                  onClick={() => {
+                    if (item.dropdown) {
+                      setActiveMenu(idx);
+                    }
+                  }}
+                >
+                  {item.label}
+                </button>
+
+                {/* Desktop Dropdown */}
+                {item.dropdown && (
+                  <div className="navbar__dropdown">
+                    {item.dropdown.map((sub, i) => (
+                      <a key={i} href="#" className="navbar__dropdown-link">
+                        {sub.label}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </li>
+            ))}
+
+          {/* MOBILE SUBMENU */}
+          {activeMenu !== null && (
+            <div className="navbar__mobile-submenu">
+
+              <button
+                className="navbar__back"
+                onClick={() => setActiveMenu(null)}
+              >
+                ← Back
+              </button>
+
+              {navItems[activeMenu].dropdown?.map((sub, i) => (
+                <a
+                  key={i}
+                  href="#"
+                  className="navbar__dropdown-link"
+                  onClick={() => {
+                    setActiveMenu(null);
+                    setIsOpen(false);
+                  }}
+                >
+                  {sub.label}
+                </a>
+              ))}
+
+            </div>
+          )}
+
+>>>>>>> c562898f74bd0e1c2a8937a3e5c445d7fe9dc445
         </ul>
 
       </div>
