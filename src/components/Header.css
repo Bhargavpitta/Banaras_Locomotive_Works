@@ -120,27 +120,64 @@
 
 /* Mobile */
 
+/* ================= MOBILE FIX ================= */
+
 @media (max-width: 768px) {
+
   .header__inner {
-    flex-direction: column;
-    text-align: center;
-    padding: 12px 16px;
+    flex-direction: row;          /* keep horizontal */
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    text-align: left;
   }
 
   .header__left {
-    flex-direction: column;
+    flex-direction: row;          /* logo + text side by side */
+    align-items: center;
+    gap: 10px;
+  }
+
+  .header__logo {
+    width: 55px;
+    height: 55px;
+  }
+
+  .header__info {
+    gap: 2px;
   }
 
   .header__title {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.2;
   }
 
-  .header__right {
-    flex-wrap: wrap;
-    justify-content: center;
+  .header__subtitle {
+    font-size: 0.65rem;
+    max-width: 220px;
+  }
+
+  .header__address,
+  .header__contact {
+    display: none;   /* optional: hide extra text like reference site */
   }
 
   .header__emblem {
-    display: none;
+    width: 45px;
+    height: 45px;
+    display: block;
+  }
+
+  .header__right {
+    gap: 8px;
+  }
+
+  .header__search-text {
+    display: none;   /* show only icon */
+  }
+
+  .header__lang-btn {
+    padding: 6px 10px;
+    font-size: 0.7rem;
   }
 }

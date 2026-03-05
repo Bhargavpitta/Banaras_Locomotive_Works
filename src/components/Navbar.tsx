@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import './Navbar.css';
 
+
+
 interface DropdownItem {
   label: string;
   href?: string;
@@ -15,7 +17,9 @@ interface NavItem {
 const Navbar = () => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [activeMenu, setActiveMenu] = useState<number | null>(null);
   const [scrolled, setScrolled] = useState(false);
+  
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 10);
@@ -113,54 +117,78 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`} role="navigation" aria-label="Main navigation">
+    <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`}>
       <div className="navbar__inner">
+
+        {/* Hamburger */}
         <button
           className="navbar__hamburger"
-          onClick={() => setIsOpen(!isOpen)}
-          aria-expanded={isOpen}
-          aria-label="Toggle navigation menu"
+          onClick={() => {
+            setIsOpen(!isOpen);
+            setActiveMenu(null);
+          }}
         >
-          <svg className="navbar__hamburger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            {isOpen ? (
-              <path d="M6 18L18 6M6 6l12 12" />
-            ) : (
-              <>
-                <path d="M4 6h16" />
-                <path d="M4 12h16" />
-                <path d="M4 18h16" />
-              </>
-            )}
-          </svg>
+          ☰
         </button>
-        <ul className={`navbar__list${isOpen ? ' navbar__list--open' : ''}`}>
-          {navItems.map((item, idx) => (
-            <li className="navbar__item" key={idx}>
-              <button className="navbar__link" tabIndex={0}>
-                {item.label}
+
+        {/* MAIN MENU */}
+        <ul className={`navbar__list ${isOpen ? 'navbar__list--open' : ''}`}>
+
+          {activeMenu === null &&
+            navItems.map((item, idx) => (
+              <li className="navbar__item" key={idx}>
+                <button
+                  className="navbar__link"
+                  onClick={() => {
+                    if (item.dropdown) {
+                      setActiveMenu(idx);
+                    }
+                  }}
+                >
+                  {item.label}
+                </button>
+
+                {/* Desktop Dropdown */}
                 {item.dropdown && (
-                  <svg className="navbar__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="m6 9 6 6 6-6" />
-                  </svg>
+                  <div className="navbar__dropdown">
+                    {item.dropdown.map((sub, i) => (
+                      <a key={i} href="#" className="navbar__dropdown-link">
+                        {sub.label}
+                      </a>
+                    ))}
+                  </div>
                 )}
+              </li>
+            ))}
+
+          {/* MOBILE SUBMENU */}
+          {activeMenu !== null && (
+            <div className="navbar__mobile-submenu">
+
+              <button
+                className="navbar__back"
+                onClick={() => setActiveMenu(null)}
+              >
+                ← Back
               </button>
-              {item.dropdown && (
-                <div className="navbar__dropdown" role="menu">
-                  {item.dropdown.map((sub, subIdx) => (
-                    <a
-                      key={subIdx}
-                      href={sub.href || '#'}
-                      className="navbar__dropdown-link"
-                      role="menuitem"
-                      tabIndex={0}
-                    >
-                      {sub.label}
-                    </a>
-                  ))}
-                </div>
-              )}
-            </li>
-          ))}
+
+              {navItems[activeMenu].dropdown?.map((sub, i) => (
+                <a
+                  key={i}
+                  href="#"
+                  className="navbar__dropdown-link"
+                  onClick={() => {
+                    setActiveMenu(null);
+                    setIsOpen(false);
+                  }}
+                >
+                  {sub.label}
+                </a>
+              ))}
+
+            </div>
+          )}
+
         </ul>
       </div>
     </nav>
