@@ -15,14 +15,24 @@ const Sidebar = () => {
         </div>
         <div className="sidebar-widget__body">
           <div className="sidebar-widget__item">
-            <a href="#" className="sidebar-widget__link">
-              Result for Junior Resident (House Surgeon) on contract basis for the Central Hospital, BLW/Varanasi
-            </a>
+            <a 
+  href="/images/AA.pdf" 
+  className="sidebar-widget__link" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  Result for Junior Resident (House Surgeon) on contract basis for the Central Hospital, BLW/Varanasi
+</a>
           </div>
           <div className="sidebar-widget__item">
-            <a href="#" className="sidebar-widget__link">
-              C & T Lab, BLW Varanasi Testing Charges for Outside Firm
-            </a>
+            <a
+      href="/images/BB.pdf"
+      className="sidebar-widget__link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      C & T Lab, BLW Varanasi Testing Charges for Outside Firm
+    </a>
           </div>
         </div>
       </div>
@@ -40,8 +50,15 @@ const Sidebar = () => {
       </div>
 
       <button className="sidebar__btn sidebar__btn--red">
-        {t('sidebar.eoi')}
-      </button>
+  <a 
+    href="/images/CC.pdf"       // path to your PDF in public folder
+    target="_blank"      // opens in new tab
+    rel="noopener noreferrer"
+    style={{ color: "inherit", textDecoration: "none" }} // keep button styling
+  >
+    {t('sidebar.eoi')}
+  </a>
+</button>
       <button className="sidebar__btn sidebar__btn--orange">
         {t('sidebar.complaints')}
       </button>
