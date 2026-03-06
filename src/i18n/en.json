@@ -17,6 +17,7 @@
     "newsEvents": "News & Events",
     "contactUs": "Contact Us"
   },
+
   "about": {
     "briefHistory": "Brief History",
     "organization": "BLW Organization",
@@ -29,8 +30,94 @@
     "designCapabilities": "Design & Development Capabilities",
     "qualityPolicy": "Our Quality Policy",
     "portalPolicies": "Portal Policies",
-    "photoGallery": "Photo Gallery"
+    "photoGallery": "Photo Gallery",
+
+    "bookmark": "Bookmark",
+    "mailPage": "Mail this Page",
+    "printPage": "Print Page",
+    "quickLinks": "Quick Links",
+    "briefHistoryTitle": "Brief History of BLW",
+
+    "historyData": [
+    { "date": "23-Apr", "year": "1956", "event": "Laying of foundation stone of factory by the first President of India Late Dr. Rajendra Prasad." },
+    { "date": "August", "year": "1961", "event": "Banaras Locomotive Works (erstwhile Diesel Locomotive works) came into existence." },
+    { "date": "January", "year": "1964", "event": "First Broad Gauge Locomotive (WDM-2) released by (Late) Shri Lal Bahadur Shastri." },
+    { "date": "November", "year": "1968", "event": "First Meter Gauge Locomotive (YDM-4) released by (Late) Shri Morarji Desai. (22 Nov.)" },
+    { "date": "February", "year": "1975", "event": "First Broad Gauge Shunting locomotive (WDS-6) turned out." },
+    { "date": "January", "year": "1976", "event": "Locos exported to Tanzania." },
+    { "date": "March", "year": "1977", "event": "1000th Locomotive turned out." },
+    { "date": "December", "year": "1977", "event": "First Diesel Generating Set Commissioned." },
+    { "date": "May", "year": "1984", "event": "Locos exported to Vietnam." },
+    { "date": "August", "year": "1994", "event": "First 3100 HP WDM-2C loco turned out." },
+    { "date": "April", "year": "1995", "event": "First 2300 HP WDP-1 Passenger loco turned out." },
+    { "date": "July", "year": "1995", "event": "First 3100 HP WDG-2 Freight loco turned out." },
+    { "date": "December", "year": "1995", "event": "Locos exported to Sri Lanka." },
+    { "date": "April", "year": "1996", "event": "Locos exported to Bangladesh." },
+    { "date": "February", "year": "1997", "event": "Awarded ISO-9002 Certification." },
+    { "date": "August", "year": "1998", "event": "First 3100 HP WDP-2 Passenger loco turned out." },
+    { "date": "March", "year": "1999", "event": "4000th Locomotive turned out." },
+    { "date": "August", "year": "1999", "event": "First PKD WDG-4 Locomotive turned out." },
+    { "date": "March", "year": "2001", "event": "Awarded ISO-14001 Certification." },
+    { "date": "April", "year": "2002", "event": "First BLW built 4000 HP WDG-4 Loco turned out." },
+    { "date": "June", "year": "2002", "event": "First BLW built 3300 HP WDG-3C Freight Loco turned out." },
+    { "date": "June", "year": "2005", "event": "2.4 MW Diesel Generating Set commissioned." },
+    { "date": "September", "year": "2005", "event": "Certified for OHSAS- 18001:1999" },
+    { "date": "November", "year": "2006", "event": "First IGBT based WDG-4 loco turned out." },
+    { "date": "January", "year": "2007", "event": "5000th Locomotive turned out." },
+    { "date": "November", "year": "2008", "event": "Locos exported to Mozambique." },
+    { "date": "October", "year": "2010", "event": "First Dual Cab WDP-4D loco turned out." },
+    { "date": "February", "year": "2012", "event": "First 5500 HP WDG-5 locomotive manufactured." },
+    { "date": "November", "year": "2012", "event": "First Dual Cab WDG-4D loco turned out." },
+    { "date": "January", "year": "2013", "event": "Enter into Golden Jubilee Year." },
+    { "date": "April", "year": "2013", "event": "BLW bagged the ‘Best Production Unit Shield 2012-13’ of Indian Railways." },
+    { "date": "July", "year": "2013", "event": "1000th High Horse Power Locomotive turned out." },
+    { "date": "January", "year": "2014", "event": "Golden Jubilee Locomotive WDP4B ‘PRATEEK’ turned out." },
+    { "date": "April", "year": "2016", "event": "BLW bagged the ‘Best Production Unit Shield 2015-16’ of Indian Railways." },
+    { "date": "April", "year": "2016", "event": "First Vacuum type Bio-Toilet equipped WDG-4D loco turned out." },
+    { "date": "December", "year": "2016", "event": "2000th HHP loco flagged off by MoSR." },
+    { "date": "February", "year": "2017", "event": "First electric loco WAP-7 turned out." },
+    { "date": "March", "year": "2017", "event": "Obtained certification of ISO 50001, for Energy Management and GreenCo Silver Rating under the GreenCo Green Company Rating System." },
+    { "date": "April", "year": "2017", "event": "BLW bagged the ‘Best Production Unit Shield 2016-17’ of Indian Railways for second successive year." },
+    { "date": "August", "year": "2017", "event": "Obtained certification of ISO 3834, for Fusion Welding of Metallic Materials." },
+    { "date": "January", "year": "2018", "event": "Obtained NABL Accreditation for Laboratories." },
+    { "date": "March", "year": "2018", "event": "Implementation of 5 S Workplace Management System." },
+    { "date": "April", "year": "2018", "event": "BLW bagged the ‘Best Production Unit Shield 2017-18’ of Indian Railways for 3rd consecutive year." },
+    { "date": "December", "year": "2018", "event": "Successfully converted two old HHP diesel loco (WDG4) into Electric loco WAG11." },
+    { "date": "January", "year": "2020", "event": "IRIS Certification obtained." },
+    { "date": "March", "year": "2020", "event": "First ever dual traction WDAP 5 locomotive turned out." },
+    { "date": "January", "year": "2021", "event": "Obtained certification of ISO 50001:2018 for Energy Management System." },
+    { "date": "December", "year": "2021", "event": "BLW bagged the ‘Best Production Unit Shield 2020-21’ of Indian Railways fifth time." },
+    { "date": "January", "year": "2022", "event": "1000th Electric loco turned out." },
+    { "date": "March", "year": "2022", "event": "Highest ever locomotive production of 367 in 2021-22." },
+    { "date": "November", "year": "2022", "event": "Highest ever Electric locomotive Bogies Production of 52 loco set in a month." },
+    { "date": "December", "year": "2022", "event": "Manufacturing of 8 shell assemblies of WAG9H with complete piping & painting in second consecutive months." },
+    { "date": "November", "year": "2023", "event": "10,000th locomotive turned out." },
+    { "date": "March", "year": "2025", "event": "Highest ever Electric locomotives Production of 61 in a month & highest ever locomotive production figure of 477." },
+    { "date": "October", "year": "2025", "event": "11,000th locomotive turned out." }
+  ],
+
+       "orgStrengthData": {
+      "title": "Organization Strength",
+      "points": [
+        "Banaras Locomotive Works (BLW) is a premier locomotive manufacturing unit of Indian Railways, capable of producing locomotives with a wide range of horsepower—from 1350 HP to 6000 HP.",
+        "The facilities at BLW are equipped with state-of-the-art machinery, tools, and technologies required for manufacturing high-quality locomotives.",
+        "In line with Indian Railways' policy of 100% electrification, BLW now manufactures electric locomotives for IR and also domestic and export requirements of diesel locomotives.",
+        "State-of-the-art design and manufacturing facility to manufacture locomotives for meeting transportation needs of Indian Railways and Non-Railway Customers (NRC) & Export.",
+        "Maintenance support is provided through the supply of spares to Zonal Railways, Non-Railway Customers, and export clients as per demand.",
+        "Unbeatable trail-blazing track record in providing cost-effective, eco-friendly and reliable solutions to ever-increasing transportation needs for over six decades.",
+        "Fully geared to meet specific transportation needs by putting Price - Value - Technology equation perfectly right.",
+        "A large base of delighted customers among many countries viz. Myanmar, Sri Lanka, Malaysia, Vietnam, Bangladesh, Tanzania, Angola, Mozambique to name a few, bearing testimony to product leadership in its category.",
+        "BLW has an advanced Regional Welding Research Institute, capable of certifying welders for Indian Railways.",
+        "It also serves as a nodal center for the ‘Rail Kaushal Vikas’ programme of Indian Railways.",
+        "BLW has a strong focus on environmental sustainability, with initiatives like roof-mounted solar power plants, rainwater harvesting, energy-efficient lighting, tree plantations, and waste management. Approximately 40% of BLW area is green, with more than 1.2 lakh trees in the township area.",
+        "BLW is certified under ISO 9001, ISO 14001, and ISO 45001, covering integrated Quality, Environment, and Health & Safety Management Systems.",
+        "BLW has achieved ISO 50001 for Energy Management, ISO 3834 for Fusion Welding of Metallic Materials, NABL Accreditation for laboratory, 5S Workplace Management System, and IRIS for efficient and transparent system for Design & Development and Manufacturing of Locos."
+      ]
+    }
+  
+
   },
+
   "departments": {
     "accounts": "Accounts",
     "civilEng": "Civil Engineering",
@@ -45,12 +132,14 @@
     "design": "Design Department",
     "safety": "Safety Department"
   },
+
   "locoPortal": {
     "hhpSpares": "HHP BIM Spares",
     "designBulletin": "Design Bulletin",
     "warrantyClaim": "Warranty Claim",
     "nonRailway": "Non Railway Customer Portal"
   },
+
   "tender": {
     "materialMgmt": "Material Management",
     "liveTender": "Live Tender",
@@ -59,6 +148,7 @@
     "auctionInfo": "Auction Informations",
     "cppTenders": "CPP Tenders"
   },
+
   "vendor": {
     "draftSpec": "Draft Specification",
     "login": "Vendor Login",
@@ -73,6 +163,7 @@
     "particulars": "Vendor Particulars",
     "gst": "BLW GST"
   },
+
   "news": {
     "announcements": "News & Announcements",
     "annualReport": "GM's Annual Report",
@@ -82,12 +173,14 @@
     "civilDefence": "Civil Defence BLW",
     "tourism": "Varanasi Tourism"
   },
+
   "hero": {
     "banner1": "Building the Future of Indian Railways",
     "banner2": "World-Class Locomotive Manufacturing",
     "banner3": "Innovation in Railway Engineering",
     "cta": "Explore More"
   },
+
   "ministers": {
     "title": "Leadership",
     "minister1": "Shri Ashwini Vaishnaw",
@@ -97,6 +190,7 @@
     "minister3": "Shri Ravneet Singh",
     "minister3Role": "Minister of State for Railways"
   },
+
   "sidebar": {
     "newsTitle": "News & Announcements",
     "tendersTitle": "Active Tenders",
@@ -109,6 +203,7 @@
     "visitors": "No. of Visitors: 16049255",
     "eoi": "EOI for Sale/Leasing/Hiring of In-Service Diesel Locomotives"
   },
+
   "footer": {
     "quickLinks": "Quick Links",
     "siteMap": "Site Map",

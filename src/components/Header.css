@@ -8,10 +8,10 @@
 .header__inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 12px 24px;
+  justify-content: flex-start;
+  padding: 12px 16px;
   max-width: 1400px;
-  margin: 0 auto;
+  margin: 0px auto;
   gap: 16px;
 }
 
@@ -64,7 +64,7 @@
 .header__right {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
   flex-shrink: 0;
 }
 
@@ -121,12 +121,9 @@
 
 /* ================= MOBILE VIEW ================= */
 
-/* ================= MOBILE FIX ================= */
-
 @media (max-width: 768px) {
 
   .header__inner {
-<<<<<<< HEAD
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -136,42 +133,20 @@
 
   .header__left {
     flex-direction: column;
-=======
-    flex-direction: row;          /* keep horizontal */
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 12px;
-    text-align: left;
-  }
-
-  .header__left {
-    flex-direction: row;          /* logo + text side by side */
->>>>>>> c562898f74bd0e1c2a8937a3e5c445d7fe9dc445
     align-items: center;
     gap: 10px;
   }
 
   .header__logo {
-<<<<<<< HEAD
     width: 60px;
     height: 60px;
-=======
-    width: 55px;
-    height: 55px;
-  }
-
-  .header__info {
-    gap: 2px;
->>>>>>> c562898f74bd0e1c2a8937a3e5c445d7fe9dc445
   }
 
   .header__title {
-    font-size: 1rem;
-    line-height: 1.2;
+    font-size: 1.2rem;
   }
 
   .header__subtitle {
-<<<<<<< HEAD
     font-size: 0.7rem;
     max-width: 95%;
   }
@@ -199,34 +174,6 @@
   .header__lang-btn {
     padding: 6px 14px;
     font-size: 0.8rem;
-=======
-    font-size: 0.65rem;
-    max-width: 220px;
-  }
-
-  .header__address,
-  .header__contact {
-    display: none;   /* optional: hide extra text like reference site */
-  }
-
-  .header__emblem {
-    width: 45px;
-    height: 45px;
-    display: block;
-  }
-
-  .header__right {
-    gap: 8px;
-  }
-
-  .header__search-text {
-    display: none;   /* show only icon */
-  }
-
-  .header__lang-btn {
-    padding: 6px 10px;
-    font-size: 0.7rem;
->>>>>>> c562898f74bd0e1c2a8937a3e5c445d7fe9dc445
   }
 
   .header__emblem {
