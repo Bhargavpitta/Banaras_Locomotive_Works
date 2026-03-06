@@ -19,7 +19,7 @@ const Navbar = () => {
   const [activeDropdown, setActiveDropdown] = useState<number | null>(null);
   const [scrolled, setScrolled] = useState(false);
 
-  // Detect scroll for sticky navbar or styling
+  // Detect scroll
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -34,22 +34,21 @@ const Navbar = () => {
     };
   }, [menuOpen]);
 
-  // Toggle dropdown menus
+  // Toggle dropdown
   const toggleDropdown = (index: number) => {
     if (activeDropdown === index) {
-      setActiveDropdown(null); // Close if already open
+      setActiveDropdown(null);
     } else {
-      setActiveDropdown(index); // Open new dropdown
+      setActiveDropdown(index);
     }
   };
 
-  // Close all menus (optional)
   const closeAll = () => {
     setMenuOpen(false);
     setActiveDropdown(null);
   };
 
-  // Nav items
+  // All nav items with full dropdowns
   const navItems: NavItem[] = [
     {
       label: t("nav.aboutBLW"),
@@ -84,7 +83,59 @@ const Navbar = () => {
         { label: t("departments.safety") },
       ],
     },
-    // Add other nav items here
+    {
+      label: t("nav.locoPortal"),
+      dropdown: [
+        { label: t("locoPortal.hhpSpares") },
+        { label: t("locoPortal.designBulletin") },
+        { label: t("locoPortal.warrantyClaim") },
+        { label: t("locoPortal.nonRailway") },
+        { label: t("locoPortal.procur") },
+      ],
+    },
+    {
+      label: t("nav.tenderInfo"),
+      dropdown: [
+        { label: t("tender.materialMgmt") },
+        { label: t("tender.liveTender") },
+        { label: t("tender.awardedContracts") },
+        { label: t("tender.tenders") },
+        { label: t("tender.auctionInfo") },
+        { label: t("tender.cppTenders") },
+      ],
+    },
+    {
+      label: t("nav.vendorInfo"),
+      dropdown: [
+        { label: t("vendor.draftSpec") },
+        { label: t("vendor.login") },
+        { label: t("vendor.billingStatus") },
+        { label: t("vendor.billsFormat") },
+        { label: t("vendor.vendorDirectory") },
+        { label: t("vendor.newRegistration") },
+        { label: t("vendor.guidelines") },
+        { label: t("vendor.rejectionPolicy") },
+        { label: t("vendor.approvalSystem") },
+        { label: t("vendor.eftMandate") },
+        { label: t("vendor.particulars") },
+        { label: t("vendor.gst") },
+      ],
+    },
+    {
+      label: t("nav.newsEvents"),
+      dropdown: [
+        { label: t("news.announcements") },
+        { label: t("news.annualReport") },
+        { label: t("news.pressReleases") },
+        { label: t("news.currentNews") },
+        { label: t("news.achievements") },
+        { label: t("news.civilDefence") },
+        { label: t("news.tourism") },
+      ],
+    },
+    {
+      label: t("nav.contactUs"),
+    },
   ];
 
   return (
@@ -136,7 +187,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
       </div>
     </nav>
   );
