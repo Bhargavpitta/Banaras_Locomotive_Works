@@ -2,8 +2,6 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "./Navbar.css";
 
-
-
 interface DropdownItem {
   label: string;
   href?: string;
@@ -19,24 +17,39 @@ const Navbar = () => {
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<number | null>(null);
-  const [isMobile, setIsMobile] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
+  // Detect scroll for sticky navbar or styling
   useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth <= 768);
-    checkMobile();
-    window.addEventListener("resize", checkMobile);
-    return () => window.removeEventListener("resize", checkMobile);
+    const handleScroll = () => setScrolled(window.scrollY > 50);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Lock body scroll when mobile menu is open
   useEffect(() => {
-    document.body.style.overflow = menuOpen ? "hidden" : "auto";
+    document.body.style.overflow = menuOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [menuOpen]);
 
+  // Toggle dropdown menus
   const toggleDropdown = (index: number) => {
-    if (!isMobile) return; // Desktop dropdown is hover
-    setActiveDropdown(prev => (prev === index ? null : index));
+    if (activeDropdown === index) {
+      setActiveDropdown(null); // Close if already open
+    } else {
+      setActiveDropdown(index); // Open new dropdown
+    }
   };
 
+  // Close all menus (optional)
+  const closeAll = () => {
+    setMenuOpen(false);
+    setActiveDropdown(null);
+  };
+
+  // Nav items
   const navItems: NavItem[] = [
     {
       label: t("nav.aboutBLW"),
@@ -44,7 +57,7 @@ const Navbar = () => {
         { label: t("about.briefHistory"), href: "/about/brief-history" },
         { label: t("about.organization") },
         { label: t("about.heritage") },
-        { label: t("about.orgStrength") , href:"/about/organization-strength"},
+        { label: t("about.orgStrength"), href: "/about/organization-strength" },
         { label: t("about.qualityAssurance") },
         { label: t("about.department") },
         { label: t("about.milestones") },
@@ -52,13 +65,6 @@ const Navbar = () => {
         { label: t("about.designCapabilities") },
         { label: t("about.qualityPolicy") },
         { label: t("about.portalPolicies") },
-        /*{ label: t("about.SOP")},
-        {label: t("about.Immovable property return by officer as on 01.01.2022")},
-        {label: t("about.Visitors")},
-        {label: t("about.Environmental/Social Orientation ")},
-        {label: t("about.Photo Gallary")},
-        {label: t("about.B.L.W Calendar")},
-        {label: t("about.Swatchh Bharat Mission")} */
       ],
     },
     {
@@ -71,72 +77,18 @@ const Navbar = () => {
         { label: t("departments.marketing") },
         { label: t("departments.medical") },
         { label: t("departments.personnel") },
-      
         { label: t("departments.stores") },
         { label: t("departments.techTraining") },
         { label: t("departments.vigilance") },
         { label: t("departments.design") },
         { label: t("departments.safety") },
-        
       ],
     },
-    {
-      label: t("nav.locoPortal"),
-      dropdown: [
-        { label: t("locoPortal.hhpSpares") },
-        { label: t("locoPortal.designBulletin") },
-        { label: t("locoPortal.warrantyClaim") },
-        { label: t("locoPortal.nonRailway") },
-        {label: t("locoportal.procur")}
-      ],
-    },
-    {
-      label: t("nav.tenderInfo"),
-      dropdown: [
-        { label: t("tender.materialMgmt") },
-        { label: t("tender.liveTender") },
-        { label: t("tender.awardedContracts") },
-        { label: t("tender.tenders") },
-        { label: t("tender.auctionInfo") },
-        { label: t("tender.cppTenders") },
-      ],
-    },
-    {
-      label: t("nav.vendorInfo"),
-      dropdown: [
-        { label: t("vendor.draftSpec") },
-        { label: t("vendor.login") },
-        { label: t("vendor.billingStatus") },
-        { label: t("vendor.billsFormat") },
-        { label: t("vendor.vendorDirectory") },
-        { label: t("vendor.newRegistration") },
-        { label: t("vendor.guidelines") },
-        { label: t("vendor.rejectionPolicy") },
-        { label: t("vendor.approvalSystem") },
-        { label: t("vendor.eftMandate") },
-        { label: t("vendor.particulars") },
-        { label: t("vendor.gst") },
-      ],
-    },
-    {
-      label: t("nav.newsEvents"),
-      dropdown: [
-        { label: t("news.announcements") },
-        { label: t("news.annualReport") },
-        { label: t("news.pressReleases") },
-        { label: t("news.currentNews") },
-        { label: t("news.achievements") },
-        { label: t("news.civilDefence") },
-        { label: t("news.tourism") },
-      ],
-    },
-    {
-      label: t("nav.contactUs"),
-    },
+    // Add other nav items here
   ];
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${scrolled ? "navbar--scrolled" : ""}`}>
       <div className="navbar__inner">
 
         {/* Hamburger / Close Button */}
@@ -161,20 +113,20 @@ const Navbar = () => {
             >
               <button
                 className="navbar__link"
-                onClick={() => toggleDropdown(index)}
+                onClick={() => item.dropdown && toggleDropdown(index)}
               >
                 {item.label}
                 {item.dropdown && <span className="navbar__arrow">▾</span>}
               </button>
 
-              {item.dropdown && (
+              {item.dropdown && activeDropdown === index && (
                 <div className="navbar__dropdown">
                   {item.dropdown.map((sub, subIndex) => (
                     <a
                       key={subIndex}
                       href={sub.href || "#"}
                       className="navbar__dropdown-link"
-                      onClick={() => setMenuOpen(false)}
+                      onClick={closeAll}
                     >
                       {sub.label}
                     </a>

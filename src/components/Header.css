@@ -1,8 +1,20 @@
+/* ================= HEADER BASE ================= */
 .header {
   width: 100%;
   background: #ffffff;
   border-bottom: 3px solid #1f277b;
   padding: 0;
+  /* Sticky so it occupies space; JS hides it by sliding up */
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+  transition: transform 0.35s ease;
+  will-change: transform;
+}
+
+/* Scrolling DOWN → JS adds this class → header slides out of view */
+.header--hidden {
+  transform: translateY(-100%);
 }
 
 .header__inner {
@@ -27,12 +39,14 @@
   height: 72px;
   border-radius: 50%;
   object-fit: cover;
+  flex-shrink: 0;
 }
 
 .header__info {
   display: flex;
   flex-direction: column;
   gap: 2px;
+  flex: 1;
 }
 
 .header__title {
@@ -40,6 +54,7 @@
   font-weight: 700;
   color: #1f277b;
   line-height: 1.2;
+  margin: 0;
 }
 
 .header__subtitle {
@@ -47,25 +62,21 @@
   color: #777777;
   font-weight: 400;
   max-width: 500px;
+  margin: 0;
 }
 
 .header__address {
   font-size: 0.85rem;
   font-weight: 600;
   color: #333333;
+  margin: 0;
 }
 
 .header__contact {
   font-size: 0.8rem;
   color: #1f277b;
   font-weight: 500;
-}
-
-.header__right {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-shrink: 0;
+  margin: 0;
 }
 
 .header__search {
@@ -76,8 +87,11 @@
   border: 1px solid #1f277b;
   border-radius: 6px;
   padding: 6px 12px;
+  width: 80%;
+  max-width: 250px;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: background 0.3s ease;
+  flex-shrink: 0;
 }
 
 .header__search:hover {
@@ -88,6 +102,7 @@
   width: 16px;
   height: 16px;
   color: #777777;
+  flex-shrink: 0;
 }
 
 .header__search-text {
@@ -104,8 +119,10 @@
   font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: background 0.3s ease;
   font-family: inherit;
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .header__lang-btn:hover {
@@ -116,64 +133,53 @@
   width: 64px;
   height: 64px;
   object-fit: contain;
+  flex-shrink: 0;
 }
 
-
-/* ================= MOBILE VIEW ================= */
-
+/* ================= MOBILE HEADER ================= */
 @media (max-width: 768px) {
-
   .header__inner {
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
     padding: 12px 16px;
     gap: 10px;
   }
 
-  .header__left {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  .header__logo {
+    width: 55px;
+    height: 55px;
   }
 
-  .header__logo {
-    width: 60px;
-    height: 60px;
+  .header__info {
+    flex: unset;
+    align-items: flex-start;
+    text-align: left;
+    max-width: calc(100% - 70px);
   }
 
   .header__title {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .header__subtitle {
     font-size: 0.7rem;
-    max-width: 95%;
+    max-width: 100%;
   }
 
-  .header__address {
-    font-size: 0.75rem;
-  }
-
+  /* Hide address/contact on mobile to keep header compact */
+  .header__address,
   .header__contact {
-    font-size: 0.75rem;
-  }
-
-  .header__right {
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
+    display: none;
   }
 
   .header__search {
-    width: 90%;
-    justify-content: center;
+    width: 80%;
+    max-width: 220px;
   }
 
-  .header__lang-btn {
-    padding: 6px 14px;
-    font-size: 0.8rem;
+  .header__search-text {
+    display: none;
   }
 
   .header__emblem {
@@ -181,15 +187,15 @@
     height: 50px;
   }
 
+  .header__lang-btn {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+  }
 }
 
-
-/* ================= SMALL MOBILE ================= */
-
 @media (max-width: 480px) {
-
   .header__title {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .header__subtitle {
@@ -197,13 +203,12 @@
   }
 
   .header__logo {
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
   }
 
   .header__emblem {
-    width: 45px;
-    height: 45px;
+    width: 44px;
+    height: 44px;
   }
-
 }
