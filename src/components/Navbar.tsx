@@ -1,8 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import "./Navbar.css";
-
-
 
 interface DropdownItem {
   label: string;
@@ -21,15 +19,25 @@ const Navbar = () => {
   const [activeMenu, setActiveMenu] = useState<number | null>(null);
   const [scrolled, setScrolled] = useState(false);
 
+  // ── Scroll: add shadow when page is scrolled ────────────────────────────
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-
-    window.addEventListener("scroll", handleScroll);
+    const handleScroll = () => setScrolled(window.scrollY > 50);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // ── Lock body scroll when mobile drawer is open ─────────────────────────
+  useEffect(() => {
+    document.body.style.overflow = isOpen ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [isOpen]);
+
+  const closeAll = () => {
+    setIsOpen(false);
+    setActiveMenu(null);
+  };
+
+  // ── Nav items ───────────────────────────────────────────────────────────
   const navItems: NavItem[] = [
     {
       label: t("nav.aboutBLW"),
@@ -45,13 +53,6 @@ const Navbar = () => {
         { label: t("about.designCapabilities") },
         { label: t("about.qualityPolicy") },
         { label: t("about.portalPolicies") },
-        /*{ label: t("about.SOP")},
-        {label: t("about.Immovable property return by officer as on 01.01.2022")},
-        {label: t("about.Visitors")},
-        {label: t("about.Environmental/Social Orientation ")},
-        {label: t("about.Photo Gallary")},
-        {label: t("about.B.L.W Calendar")},
-        {label: t("about.Swatchh Bharat Mission")} */
       ],
     },
     {
@@ -64,13 +65,11 @@ const Navbar = () => {
         { label: t("departments.marketing") },
         { label: t("departments.medical") },
         { label: t("departments.personnel") },
-      
         { label: t("departments.stores") },
         { label: t("departments.techTraining") },
         { label: t("departments.vigilance") },
         { label: t("departments.design") },
         { label: t("departments.safety") },
-        
       ],
     },
     {
@@ -80,7 +79,7 @@ const Navbar = () => {
         { label: t("locoPortal.designBulletin") },
         { label: t("locoPortal.warrantyClaim") },
         { label: t("locoPortal.nonRailway") },
-        {label: t("locoportal.procur")}
+        { label: t("locoportal.procur") },
       ],
     },
     {
@@ -129,42 +128,63 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`}>
-      <div className="navbar__inner">
+    <>
+      {/* ── Dark backdrop: tap anywhere outside drawer to close ── */}
+      <div
+        className={`navbar__backdrop${isOpen ? " navbar__backdrop--visible" : ""}`}
+        onClick={closeAll}
+        aria-hidden="true"
+      />
 
-        {/* Hamburger */}
-        <button
-          className="navbar__hamburger"
-          onClick={() => {
-            setIsOpen(!isOpen);
-            setActiveMenu(null);
-          }}
-        >
-          ☰
-        </button>
+      <nav className={`navbar${scrolled ? " navbar--scrolled" : ""}`}>
+        <div className="navbar__inner">
 
-        {/* MAIN MENU */}
-        <ul className={`navbar__list ${isOpen ? 'navbar__list--open' : ''}`}>
+          {/* Hamburger */}
+          <button
+            className="navbar__hamburger"
+            aria-label="Toggle navigation"
+            aria-expanded={isOpen}
+            onClick={() => {
+              setIsOpen((prev) => !prev);
+              setActiveMenu(null);
+            }}
+          >
+            {isOpen ? "✕" : "☰"}
+          </button>
 
-          {activeMenu === null &&
-            navItems.map((item, idx) => (
-              <li className="navbar__item" key={idx}>
+          {/* ── DESKTOP + MOBILE MAIN LIST ── */}
+          <ul className={`navbar__list${isOpen ? " navbar__list--open" : ""}`}>
+
+            {/* Main items — hidden on mobile when a submenu is active */}
+            {navItems.map((item, idx) => (
+              <li
+                className={`navbar__item${activeMenu === idx ? " navbar__item--active" : ""}`}
+                key={idx}
+              >
                 <button
                   className="navbar__link"
                   onClick={() => {
                     if (item.dropdown) {
-                      setActiveMenu(idx);
+                      // Mobile: show submenu panel
+                      if (window.innerWidth <= 768) {
+                        setActiveMenu(idx);
+                      }
+                    } else {
+                      closeAll();
                     }
                   }}
                 >
                   {item.label}
+                  {item.dropdown && (
+                    <span className="navbar__arrow" aria-hidden="true">›</span>
+                  )}
                 </button>
 
-                {/* Desktop Dropdown */}
+                {/* Desktop dropdown (CSS hover) */}
                 {item.dropdown && (
                   <div className="navbar__dropdown">
                     {item.dropdown.map((sub, i) => (
-                      <a key={i} href="#" className="navbar__dropdown-link">
+                      <a key={i} href={sub.href ?? "#"} className="navbar__dropdown-link">
                         {sub.label}
                       </a>
                     ))}
@@ -173,36 +193,43 @@ const Navbar = () => {
               </li>
             ))}
 
-          {/* MOBILE SUBMENU */}
-          {activeMenu !== null && (
-            <div className="navbar__mobile-submenu">
+          </ul>
 
-              <button
-                className="navbar__back"
-                onClick={() => setActiveMenu(null)}
-              >
-                ← Back
-              </button>
-
-              {navItems[activeMenu].dropdown?.map((sub, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="navbar__dropdown-link"
-                  onClick={() => {
-                    setActiveMenu(null);
-                    setIsOpen(false);
-                  }}
+          {/* ── MOBILE SUBMENU PANEL ── */}
+          {activeMenu !== null && navItems[activeMenu]?.dropdown && (
+            <div className="navbar__mobile-submenu navbar__mobile-submenu--open">
+              {/* Header row */}
+              <div className="navbar__submenu-header">
+                <button
+                  className="navbar__back"
+                  onClick={() => setActiveMenu(null)}
                 >
-                  {sub.label}
-                </a>
-              ))}
+                  ← Back
+                </button>
+                <span className="navbar__submenu-title">
+                  {navItems[activeMenu].label}
+                </span>
+              </div>
 
+              {/* Scrollable link list */}
+              <div className="navbar__submenu-scroll">
+                {navItems[activeMenu].dropdown!.map((sub, i) => (
+                  <a
+                    key={i}
+                    href={sub.href ?? "#"}
+                    className="navbar__dropdown-link"
+                    onClick={closeAll}
+                  >
+                    {sub.label}
+                  </a>
+                ))}
+              </div>
             </div>
           )}
-        </ul>
-      </div>
-    </nav>
+
+        </div>
+      </nav>
+    </>
   );
 };
 
