@@ -1,18 +1,34 @@
-/* ================= NAVBAR BASE ================= */
+/* ============================================================
+   NAVBAR — BLW
+   Navbar is ALWAYS sticky at top:0, independent of the header.
+   Header hides/shows via JS; navbar never hides.
+   ============================================================ */
 
+/* ── BACKDROP: full-screen overlay behind drawer ───────────── */
+.navbar__backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1050;          /* above page content, below drawer (1200) */
+}
+.navbar__backdrop--visible {
+  display: block;
+}
+
+/* ── NAVBAR SHELL ───────────────────────────────────────────── */
 .navbar {
   width: 100%;
   background: #1f277b;
-  color: white;
+  color: #ffffff;
   position: sticky;
-  top: 0;
-  z-index: 1000;
+  top: 0;                 /* Always stuck to top */
+  z-index: 1100;
+  transition: box-shadow 0.3s ease;
 }
-
 .navbar--scrolled {
-  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
 }
-
 .navbar__inner {
   max-width: 1400px;
   margin: auto;
@@ -24,8 +40,7 @@
   padding: 0 20px;
 }
 
-/* ================= MENU LIST ================= */
-
+/* ── DESKTOP LIST ───────────────────────────────────────────── */
 .navbar__list {
   list-style: none;
   display: flex;
@@ -35,156 +50,259 @@
   padding: 0;
 }
 
-/* ================= MENU ITEM ================= */
-
+/* ── MENU ITEM ──────────────────────────────────────────────── */
 .navbar__item {
   position: relative;
 }
-
 .navbar__link {
   background: none;
   border: none;
-  color: white;
+  color: #ffffff;
   font-size: 15px;
   font-weight: 500;
   cursor: pointer;
   padding: 18px 4px;
   display: flex;
   align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+  font-family: inherit;
+  transition: color 0.2s ease;
 }
-
 .navbar__link:hover {
   color: #ffd700;
 }
+.navbar__arrow {
+  font-size: 14px;
+  opacity: 0.75;
+  transition: transform 0.2s ease;
+}
+.navbar__item:hover .navbar__arrow {
+  transform: rotate(90deg);
+}
 
-/* ================= DROPDOWN ================= */
-
+/* ── DESKTOP DROPDOWN ───────────────────────────────────────── */
 .navbar__dropdown {
   position: absolute;
   top: 100%;
   left: 0;
   min-width: 240px;
-  background: white;
+  background: #ffffff;
   border-radius: 4px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   display: none;
   flex-direction: column;
   overflow: hidden;
+  z-index: 1200;
 }
-
 .navbar__item:hover .navbar__dropdown {
   display: flex;
 }
-
 .navbar__dropdown-link {
   padding: 10px 16px;
   color: #1f277b;
   font-size: 0.85rem;
   text-decoration: none;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeee;
+  transition: background 0.2s ease, color 0.2s ease;
 }
-
+.navbar__dropdown-link:last-child {
+  border-bottom: none;
+}
 .navbar__dropdown-link:hover {
   background: #1f277b;
-  color: white;
+  color: #ffffff;
 }
 
-/* ================= HAMBURGER ================= */
-
+/* ── HAMBURGER ──────────────────────────────────────────────── */
 .navbar__hamburger {
   display: none;
   position: absolute;
   left: 20px;
-  top: 16px;
-  font-size: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 22px;
   background: none;
   border: none;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
+  z-index: 1300;
+  line-height: 1;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+.navbar__hamburger:hover {
+  background: rgba(255, 255, 255, 0.15);
 }
 
-/* ================= MOBILE ================= */
-
+/* ============================================================
+   MOBILE  (≤ 768px)
+   ============================================================ */
 @media (max-width: 768px) {
 
   .navbar__inner {
     justify-content: center;
   }
 
+  /* Show hamburger on mobile */
   .navbar__hamburger {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
+  /* ── SLIDE-IN DRAWER ────────────────────────────────────── */
   .navbar__list {
     position: fixed;
     top: 0;
     left: -100%;
     width: 280px;
-    height: 100vh;
+    height: 100dvh;           /* use dvh for mobile browser chrome */
     background: #1f277b;
     flex-direction: column;
-    gap: 0;
-    padding-top: 80px;
-    transition: 0.35s ease;
     align-items: flex-start;
-  }
+    gap: 0;
+    padding: 0;
+    padding-top: 64px;        /* space below status bar / hamburger area */
+    transition: left 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1200;
 
+    /* Internal scroll if many items */
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+  }
   .navbar__list--open {
     left: 0;
   }
 
-  .navbar__item {
-    width: 100%;
-  }
-
-  .navbar__link {
-    width: 100%;
-    padding: 14px 22px;
-    font-size: 1rem;
-    justify-content: flex-start;
-  }
-
-  /* hide desktop dropdown */
-
+  /* Hide desktop dropdowns on mobile */
   .navbar__dropdown {
     display: none !important;
   }
 
-  /* ================= MOBILE SUBMENU ================= */
+  .navbar__item {
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .navbar__link {
+    width: 100%;
+    padding: 15px 22px;
+    font-size: 1rem;
+    justify-content: space-between;
+  }
+  .navbar__arrow {
+    font-size: 18px;
+    opacity: 1;
+  }
+  /* Don't rotate arrow on mobile (tap, not hover) */
+  .navbar__item:hover .navbar__arrow {
+    transform: none;
+  }
 
+  /* ── MOBILE SUBMENU PANEL ───────────────────────────────── */
+  /* Slides in over the main drawer */
   .navbar__mobile-submenu {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: #1f277b;
-    padding: 70px 20px;
+    left: -100%;
+    width: 280px;
+    height: 100dvh;
+    background: #1a2270;      /* slightly darker shade */
     display: flex;
     flex-direction: column;
-    gap: 14px;
-    z-index: 2000;
+    z-index: 1300;
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overscroll-behavior: contain;
+  }
+  .navbar__mobile-submenu--open {
+    left: 0;
+  }
+
+  /* Submenu top bar with back button + title */
+  .navbar__submenu-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    flex-shrink: 0;
+    background: #161d5c;
+    min-height: 64px;
   }
 
   .navbar__back {
     background: none;
     border: none;
-    color: white;
-    font-size: 1rem;
+    color: #ffd700;
+    font-size: 0.9rem;
     font-weight: 600;
-    margin-bottom: 20px;
     cursor: pointer;
-    text-align: left;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-family: inherit;
+    white-space: nowrap;
+    transition: background 0.2s ease;
+    flex-shrink: 0;
+  }
+  .navbar__back:hover,
+  .navbar__back:active {
+    background: rgba(255, 215, 0, 0.15);
   }
 
-  .navbar__dropdown-link {
-    color: white;
+  .navbar__submenu-title {
+    color: #ffffff;
     font-size: 0.95rem;
-    padding: 10px 8px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
-  .navbar__dropdown-link:hover {
-    background: white;
-    color: #1f277b;
+  /* Scrollable area for submenu links */
+  .navbar__submenu-scroll {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Override dropdown link styles inside mobile submenu */
+  .navbar__mobile-submenu .navbar__dropdown-link {
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 0.95rem;
+    padding: 14px 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+    display: block;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  .navbar__mobile-submenu .navbar__dropdown-link:last-child {
+    border-bottom: none;
+  }
+  .navbar__mobile-submenu .navbar__dropdown-link:hover,
+  .navbar__mobile-submenu .navbar__dropdown-link:active {
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+  }
+}
+
+/* ============================================================
+   SMALL MOBILE  (≤ 480px)
+   ============================================================ */
+@media (max-width: 480px) {
+  .navbar__list,
+  .navbar__mobile-submenu {
+    width: 100%;           /* full width on small screens */
+    left: -100%;
+  }
+  .navbar__list--open,
+  .navbar__mobile-submenu--open {
+    left: 0;
   }
 }
