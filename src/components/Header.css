@@ -118,6 +118,25 @@
   object-fit: contain;
 }
 
+.header__search {
+  width: 80%;
+  max-width: 250px;
+}
+
+.header {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 3px solid #1f277b;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header__logo {
+  flex-shrink: 0;
+}
+
 
 /* ================= MOBILE VIEW ================= */
 
@@ -126,7 +145,6 @@
 @media (max-width: 768px) {
 
   .header__inner {
-<<<<<<< HEAD
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -135,34 +153,21 @@
   }
 
   .header__left {
-    flex-direction: column;
-=======
     flex-direction: row;          /* keep horizontal */
     align-items: center;
-    justify-content: space-between;
-    padding: 10px 12px;
+    justify-content: center;
+  gap: 10px;
     text-align: left;
   }
 
-  .header__left {
-    flex-direction: row;          /* logo + text side by side */
->>>>>>> c562898f74bd0e1c2a8937a3e5c445d7fe9dc445
-    align-items: center;
-    gap: 10px;
-  }
 
   .header__logo {
-<<<<<<< HEAD
-    width: 60px;
-    height: 60px;
-=======
     width: 55px;
     height: 55px;
   }
 
   .header__info {
     gap: 2px;
->>>>>>> c562898f74bd0e1c2a8937a3e5c445d7fe9dc445
   }
 
   .header__title {
@@ -171,7 +176,6 @@
   }
 
   .header__subtitle {
-<<<<<<< HEAD
     font-size: 0.7rem;
     max-width: 95%;
   }
@@ -188,21 +192,13 @@
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 8px;
   }
 
-  .header__search {
-    width: 90%;
-    justify-content: center;
-  }
-
-  .header__lang-btn {
-    padding: 6px 14px;
-    font-size: 0.8rem;
-=======
-    font-size: 0.65rem;
-    max-width: 220px;
-  }
+ .header__search {
+  width: 80%;
+  max-width: 250px;
+}
 
   .header__address,
   .header__contact {
@@ -210,13 +206,9 @@
   }
 
   .header__emblem {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     display: block;
-  }
-
-  .header__right {
-    gap: 8px;
   }
 
   .header__search-text {
@@ -226,13 +218,8 @@
   .header__lang-btn {
     padding: 6px 10px;
     font-size: 0.7rem;
->>>>>>> c562898f74bd0e1c2a8937a3e5c445d7fe9dc445
   }
 
-  .header__emblem {
-    width: 50px;
-    height: 50px;
-  }
 
 }
 
