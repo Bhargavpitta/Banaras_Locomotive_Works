@@ -16,33 +16,19 @@ interface NavItem {
 
 const Navbar = () => {
   const { t } = useTranslation();
-<<<<<<< HEAD
 
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState<number | null>(null);
-  const [isMobile, setIsMobile] = useState(false);
-=======
   const [isOpen, setIsOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<number | null>(null);
   const [scrolled, setScrolled] = useState(false);
-  
->>>>>>> c562898f74bd0e1c2a8937a3e5c445d7fe9dc445
 
   useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth <= 768);
-    checkMobile();
-    window.addEventListener("resize", checkMobile);
-    return () => window.removeEventListener("resize", checkMobile);
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  useEffect(() => {
-    document.body.style.overflow = menuOpen ? "hidden" : "auto";
-  }, [menuOpen]);
-
-  const toggleDropdown = (index: number) => {
-    if (!isMobile) return; // Desktop dropdown is hover
-    setActiveDropdown(prev => (prev === index ? null : index));
-  };
 
   const navItems: NavItem[] = [
     {
@@ -143,55 +129,6 @@ const Navbar = () => {
   ];
 
   return (
-<<<<<<< HEAD
-    <nav className="navbar">
-      <div className="navbar__inner">
-
-        {/* Hamburger / Close Button */}
-        <button
-          className={`navbar__hamburger ${menuOpen ? "navbar__close" : ""}`}
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          {menuOpen ? "✕" : (
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
-              <rect y="4" width="24" height="2" />
-              <rect y="11" width="24" height="2" />
-              <rect y="18" width="24" height="2" />
-            </svg>
-          )}
-        </button>
-
-        <ul className={`navbar__list ${menuOpen ? "navbar__list--open" : ""}`}>
-          {navItems.map((item, index) => (
-            <li
-              key={index}
-              className={`navbar__item ${activeDropdown === index ? "navbar__item--open" : ""}`}
-            >
-              <button
-                className="navbar__link"
-                onClick={() => toggleDropdown(index)}
-              >
-                {item.label}
-                {item.dropdown && <span className="navbar__arrow">▾</span>}
-              </button>
-
-              {item.dropdown && (
-                <div className="navbar__dropdown">
-                  {item.dropdown.map((sub, subIndex) => (
-                    <a
-                      key={subIndex}
-                      href={sub.href || "#"}
-                      className="navbar__dropdown-link"
-                      onClick={() => setMenuOpen(false)}
-                    >
-                      {sub.label}
-                    </a>
-                  ))}
-                </div>
-              )}
-            </li>
-          ))}
-=======
     <nav className={`navbar${scrolled ? ' navbar--scrolled' : ''}`}>
       <div className="navbar__inner">
 
@@ -263,10 +200,7 @@ const Navbar = () => {
 
             </div>
           )}
-
->>>>>>> c562898f74bd0e1c2a8937a3e5c445d7fe9dc445
         </ul>
-
       </div>
     </nav>
   );
