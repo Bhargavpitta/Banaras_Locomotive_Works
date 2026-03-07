@@ -49,25 +49,6 @@ const Sidebar = () => {
         </div>
       </div>
 
-      <button className="sidebar__btn sidebar__btn--red">
-  <a 
-    href="/images/CC.pdf"       // path to your PDF in public folder
-    target="_blank"      // opens in new tab
-    rel="noopener noreferrer"
-    style={{ color: "inherit", textDecoration: "none" }} // keep button styling
-  >
-    {t('sidebar.eoi')}
-  </a>
-</button>
-      <button className="sidebar__btn sidebar__btn--orange">
-        {t('sidebar.complaints')}
-      </button>
-      <button className="sidebar__btn sidebar__btn--green">
-        {t('sidebar.gstRailways')}
-      </button>
-      <button className="sidebar__btn">
-        {t('sidebar.publicGrievances')}
-      </button>
 
       <p className="sidebar__meta">{t('sidebar.lastUpdated')}</p>
       <p className="sidebar__meta">{t('sidebar.visitors')}</p>
