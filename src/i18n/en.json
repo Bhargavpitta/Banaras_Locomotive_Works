@@ -113,9 +113,271 @@
         "BLW is certified under ISO 9001, ISO 14001, and ISO 45001, covering integrated Quality, Environment, and Health & Safety Management Systems.",
         "BLW has achieved ISO 50001 for Energy Management, ISO 3834 for Fusion Welding of Metallic Materials, NABL Accreditation for laboratory, 5S Workplace Management System, and IRIS for efficient and transparent system for Design & Development and Manufacturing of Locos."
       ]
-    }
-  
+    }, 
+    
+    "heritageLocomotives": {
+    "heritagePageTitle": "BLW Heritage",
+    "heritagePageSubtitle": "List of Preserved Steam and Diesel Locomotives at Banaras Locomotive Works (BLW)",
+    "description": [
+      {
+        "id": 1,
+        "heading": "[1] KUNDAN (YB: 3rd January 1964)",
+        "image": "#",
+        "imageAlt": "Heritage Diesel Locomotive – Kundan (WDM2-18233)",
+        "typeHeading": "Heritage Diesel Locomotive – Kundan (WDM2-18233):",
+        "para1": "The first BLW built Broad Gauge WDM2 locomotive no. 18233 was flagged-off by Shri Lal Bahadur Shastri on 3rd January 1964. The locomotive was then homed at Howrah diesel shed. It worked initially on freight service. Thereafter, it hauled the prestigious Kalka Mail and Amritsar Mail. It was transferred to Bardhman Diesel Shed in 1977. It worked there till the dawn of the new millennium. In 2004, it was shifted to Mughalsarai shed.",
+        "para2": "The locomotives had two 3-axle tri-mount type Co-Co bogies.",
+        "para3": "The locomotive was powered with a 251-B type, 16-cylinder, turbo charged, 4-stroke diesel engine capable of developing 2636 HP under SAE standard climatic conditions. The power transmission was electric, consisting of one DC main generator, Exciter and Auxiliary generator. The transmission included 6 DC traction motors, geared for a maximum speed of 120 kmph. Compressed air brake for locomotive and vacuum brake system for the train was provided. This 50-year-old locomotive has now been decommissioned and is permanent exhibit at Central Market, BLW as heritage of Indian Railways."
+      },
 
+      {
+        "id": 2,
+        "heading": "[2] Miss Muffet (YB: 1935-Narrow Gauge Steam Locomotive)",
+        "image": "#",
+        "imageAlt": "Heritage Steam Locomotive – Miss Muffet (2-4-0T)",
+        "typeHeading": "Heritage Steam Locomotive – Miss Muffet (2-4-0T):",
+        "para1": "Miss Muffet is the smallest steam locomotive ever used in the country barely the size of a small lorry.",
+        "para2": "It was manufactured by W.G. Bangal Ltd. Castle Engine Works, U.K. It was on the line in 1935 with a maximum rolling speed of 13 mph. Its coal capacity was 10 cwt and the water tank capacity of 260 gallons, when fully loaded it weighed 11.80 tones.",
+        "para3": "The heritage steam locomotive is on display in the front of BLW Administrative Office."
+      },
+
+      {
+        "id": 3,
+        "heading": "[3] Hercules (YB: 1908 Steam Locomotive)",
+        "image": "#",
+        "imageAlt": "Heritage Steam Locomotive – Hercules (0-4-0 WT)",
+        "typeHeading": "Heritage Steam Locomotive – Hercules (0-4-0 WT):",
+        "para1": "Hercules was manufactured by M/s Nasmyth Wilson & Co, Patricroft, Manchester, UK in 1908. It was used for shop shunting at Jamalpur Workshop. A silver chimney crowns its boiler head.",
+        "para2": "The Locomotive is 7440 mm long, 2410 mm in width and 4110 mm in height. Its total weight is 23 tonnes, water capacity 2272 litres having one tonne of coal also.",
+        "para3": "The heritage steam locomotive is on display in the front of BLW Administrative Office."
+      },
+
+      {
+        "id": 4,
+        "heading": "[4] Mahalaxmi (YB: 1944-WDS1 Diesel Locomotive)",
+        "image": "#",
+        "imageAlt": "Heritage Diesel Locomotive – Mahalaxmi (WDS1)",
+        "typeHeading": "Heritage Diesel Locomotive – Mahalaxmi:",
+        "para1": "Mahalaxmi, the Broad gauge diesel locomotive, was manufactured by M/s General Electric Company, U.S.A. in 1944, costing Rs. 1,86,900/- approximately. The engine was provided by M/s Cater Pillar Tractor Co., U.S.A.",
+        "para2": "It is of 10331 mm in length, 2743 mm in width and 3760 mm in height. Its fuel capacity is 946 litres and total weight 46 tonnes.",
+        "para3": "It was utilized in yard shunting and as goods pilot in Bombay area. This heritage diesel locomotive is on display in the front of BLW Administrative Office."
+      },
+
+      {
+        "id": 5,
+        "heading": "[5] Locomotive No. 6073 (YB-1960 YDM3 Meter Gauge Diesel Electric)",
+        "image": "#",
+        "imageAlt": "Heritage Diesel Locomotive – Locomotive No. 6073 (YDM3)",
+        "typeHeading": "Heritage Diesel Locomotive – Locomotive No. 6073 (YDM3):",
+        "para1": "This YDM3 Class MG Diesel Locomotive was homed at Sabarmati Diesel Shed, WR. The locomotive was manufactured by M/s GM-EMD, USA.",
+        "para2": "It was powered by single 12-cylinders, 2-stroke EMD 567C type diesel engine capable of developing 1390 hp at 800 RPM under SAE standard conditions.",
+        "para3": "The locomotive was equipped with Electric Transmission consisting of one EMD make D-25 Direct Current main generator and two EMU make D 69 MC direct current. This heritage diesel locomotive is on display in the front of BLW Cinema Hall."
+      },
+
+      {
+        "id": 6,
+        "heading": "[6] Locomotive No 6074  (YB-1960* YDM3 Meter Gauge Diesel Electric)",
+        "image": "#",
+        "imageAlt": "Heritage Diesel Locomotive – Locomotive No. 6074 (YDM3)",
+        "typeHeading": "Heritage Diesel Locomotive – Locomotive No. 6074 (YDM3):",
+        "para1": "This YDM3 Class MG Diesel Locomotive was homed at Sabarmati Diesel Shed, WR. The locomotive was manufactured by M/s GM-EMD, USA.",
+        "para2": "It was powered by single 12-cylinders, 2-stroke EMD 567C type diesel engine capable of developing 1390 hp at 800 RPM under SAE standard conditions.",
+        "para3": "The locomotive was equipped with Electric Transmission consisting of one EMD make D-25 Direct Current main generator and two EMU make D 69 MC direct current. This heritage diesel locomotive is on display in the front of BLW EDP Centre. (* Tentative)"
+        
+      },
+      {
+        "id": 7,
+        "heading": "[7] Locomotive No. 6098 (YB-1964* YDM5 Meter Gauge Diesel Electric)",
+        "image": "/assets/heritage/loco_6074.jpg",
+        "imageAlt": "Heritage Diesel Locomotive – Locomotive No. 6098 (YDM5)",
+        "typeHeading": "Heritage Diesel Locomotive – Locomotive No. 6098 (YDM5):",
+        "para1": "This 5th generation YDM5 Class MG Diesel Locomotive was homed at Sabarmati Diesel Shed, WR. The locomotive was manufactured by M/s GM-EMD, USA.",
+        "para2": "The locomotive was powered by a single 12-cylinders, 2-stroke EMD 567C type diesel engine capable of developing 1390 hp at 800 RPM under SAE standard conditions.",
+        "para3": "The locomotive was equipped with Electric Transmission consisting of one EMD make D-25 Direct Current main generator and two EMU make D 69 MC direct current. This heritage diesel locomotive is on display in the front of BLW Design Office. (* Tentative)"
+  
+      }
+
+
+      
+    ]
+
+  },
+
+     "quality": {
+      "title": "Quality Assurance",
+      "subtitle": "Quality Assurance",
+
+      "description": [
+        "Quality has been a crusade in BLW since its very inception. We actively inculcate the primary importance of manufacturing a quality product in all our workmen, supervisors and engineers from the day they join BLW.",
+        "Each of our workmen is continually trained and re-trained in quality aspects. Modern instrumentation and machinery help the workmen in maintaining a high standard of quality.",
+        "Under ISO 9001 certification scheme, all our jigs and fixtures, tools and gauges are calibrated regularly according to a carefully worked out plan.",
+        "BLW has a fully equipped Gauge Room for calibration of gauges, and a Tool Room for checking of jigs and fixtures.",
+        "To supplement the rigorous standards of certification for BLW’s vendors, almost all bought-out items are subjected to quality checks and certified by our inspectors.",
+        "BLW’s quality thrust has been certified by an internationally accredited ISO certifying body, and BLW is a proud owner of ISO 9001 & 5-S certificate for the entire range of manufacturing activities."
+      ],
+
+      "objectivesTitle": "Quality Objectives",
+
+      "objectives": [
+        "Reduction in rectification & rework",
+        "Improvement in reliability of locomotives",
+        "Reduction in inventory including W.I.P."
+      ]
+     },
+
+    "milestonesFuturePlans": {
+    "title": "Recent Milestones & Future Plans",
+
+    "recentMilestonesTitle": "Recent Milestones (2024-25)",
+    "recentMilestones": [
+      "BLW achieved a significant milestone by manufacturing 523 locomotives in current FY 2025-26, setting a new record for highest annual locomotive production. This includes 511 electric and 12 diesel locomotives for domestic and export customers."
+    ],
+
+    "certificationsTitle": "At present BLW have following certifications:",
+    "certifications": [
+      "IRIS",
+      "ISO 9001",
+      "ISO 14001",
+      "ISO 45001",
+      "ISO 50001",
+      "ISO 3834",
+      "NABL Accreditation",
+      "5S - Workplace Management System"
+    ],
+
+     "image ": "#",
+    "locomotiveProductionLast10Years": "Locomotive Production (Last 10 Years)",
+
+    "locomotiveProductionTitle": "Locomotive Production",
+    "locomotiveProductionDescription": [
+      "Since its inception, BLW has manufactured 11,210 locomotives (all types) till February 2026. This includes 5031 ALCO, 2467 HHP and 2878 Electric locomotives for Indian Railways, and 182 export and 643 diesel locomotives for Non-Railway Customers (NRC)."
+    ],
+
+    "productionPlan2025Title": "Production Plan for FY 2025-26",
+    "productionPlan2025": [
+      "A total of 553 electric locomotives, comprising 394 WAG9H and 159 WAP7 (including 24 'Amrit Bharat') locomotives, have been planned for manufacturing in FY 2025–26 against the Railway Board target.",
+      "In addition, 17 diesel locomotives have been planned to manufacture for domestic and foreign customers."
+    ],
+
+    "futurePlan2026Title": "Future Plan FY 2026-27",
+    "futurePlan2026": [
+      "A total of 642 electric locomotives, comprising 400 WAG9H and 242 WAP7 (including 166 'Amrit Bharat') locomotives, have been planned to manufacture in FY 2026–27 against the Railway Board target.",
+      "Further, the Railway Board has directed BLW to undertake the POH of diesel and electric locomotives."
+    ],
+
+    "pohPlanTitle": "Year-wise POH Plan up to FY 2029-30",
+
+    "pohTable": {
+      "headers": [
+        "Description",
+        "2025-26",
+        "2026-27",
+        "2027-28",
+        "2028-29",
+        "2029-30"
+      ],
+      "rows": [
+        {
+          "description": "POH of HHP Diesel Locomotives",
+          "data": ["8", "10", "35", "54", "70"]
+        },
+        {
+          "description": "POH of Electric Locomotives",
+          "data": ["-", "5", "40", "60", "50"]
+        }
+      ]
+    },
+
+    "electricProductionLast10Years": "Electric Locomotives Production (Last 10 Years)",
+     "image":"#"
+},
+
+ 
+  "QualityPolicy": {
+    "title": "Our Quality Policy",
+    "subtitle": "Quality, Health, Safety & Environment (QHSE) Policy",
+    "description": "Banaras Locomotive Works, a Production Unit under Ministry of Railways, is committed to manufacture reliable, cost-effective and state-of-the-art Locomotives, Diesel Generating sets, and their spares for Indian Railways, Non-Railway Customers including exports.",
+    "commitmentTitle": "We are committed to achieve excellence by:",
+    "points": [
+      "Enhancing Customer Satisfaction through continuous improvement in reliability, performance and safety of our products.",
+      "Comply with applicable Environmental, Health & Safety legislations and legal requirements to which our organization subscribes.",
+      "Identifying and providing relevant training to staff & supervisors and give them the opportunity to contribute for continuous improvement in Quality, Environmental, Health & Safety management system.",
+      "Communicating QHSE policy to all employees, interested parties and persons working on or behalf of the Organization.",
+      "Preventing all type of pollution by minimizing resource consumption and waste generation using cleaner technologies, material substitution and process changes.",
+      "Preventing all injuries and loss of property, including environmental performance, through continuous safety inspections.",
+      "Striving for 'Right first time' and safe working practice through system improvement and training.",
+      "Implementing progressive health and safety practices to prevent all employees from occupational diseases and health hazards.",
+      "Setting objectives & targets and periodically monitor their progress.",
+      "Ensuring failure prevention and customer expectations."
+    ]
+  },
+
+  "Portal": {
+    "title": "Portal Policies",
+    "introduction": "The users of the portal would like to contact Indian Railway organisations to ask questions, get information, seek clarifications or sort out problems. Therefore it is essential that websites provide them with the means to do that.",
+    "contactUs": {
+      "title": "Contact Us Page",
+      "description": "All Indian Railways websites must have a 'Contact Us' page, linked from the Homepage and all relevant places in the website.",
+      "details": [
+        "The 'Contact Us' page should be categorised according to the various divisions handling different kinds of queries; e.g. grievance redressal, file status, procedural details, etc.",
+        "The contact details for the important functionaries in the Department must include telephone numbers, fax numbers, postal address, as well as email address along with timings specified for personal public dealing (if applicable).",
+        "The content policy of the department should enlist the functionaries whose details are to be given on the website.",
+        "There should be a clear-cut policy for redress (correction) of inaccurate information found on the website.",
+        "The contact details of the Web Information Manager, who is overall responsible for the content on the website, should be provided."
+      ]
+    },
+    "nationalPortal": {
+      "title": "Presence on the National Portal",
+      "description": "Mechanism must be in place to ensure that all Citizen Services, Forms, Documents, and Schemes are registered with the respective repositories of the National Portal."
+    },
+    "secondaryContent": {
+      "title": "Secondary Content",
+      "description": "Secondary content is generated from the assortment and packaging of primary content to suit the requirement of different audience, events, and occasions."
+    },
+    "eventsAnnouncements": {
+      "title": "Events and Announcements",
+      "description": "Indian Railways websites should have a section to cover various Events & Announcements such as:",
+      "examples": [
+        "Announcements having National/State level importance should be published on the website.",
+        "Announcements related to important upcoming Indian Railways / Government events being organised by a relevant organisation/Ministry/Department/State/Centre.",
+        "Announcements related to schemes, grants, scholarships, fellowships, etc.",
+        "Warnings of Natural disasters/Epidemics etc.",
+        "Calls for relief funds during disasters. Help from other agencies.",
+        "Display of important helpline numbers in case of crisis."
+      ],
+      "guidelines": [
+        "Announcements must be taken off or archived once they lose relevance or after the expiry of the time period attached to the event or happening.",
+        "All important announcements should also be published on the National Portal for wider access.",
+        "Announcements should be worded in simple English/Regional language depending on whom it is meant for."
+      ]
+    },
+    "relatedLinks": {
+      "title": "Related Links",
+      "description": "For every content topic in different modules of the website, a section should be provided for 'Related Links' to the concerned information.",
+      "guidelines": [
+        "Each content topic covered in the website may have some Related Links to other Government websites which provide further details on the topic.",
+        "For every Related Link, the complete URL of the Homepage/Concerned webpage must be provided correctly along with the complete title of the Website which shall appear on the screen.",
+        "The validity and accuracy of the URL must be checked on a regular basis to make sure that the information is relevant and the linked address is correct.",
+        "Only Government websites/web pages should be provided as 'Related Links' for further information since there is no control over the veracity and availability of information on private websites."
+      ]
+    }
+  },
+
+   "Department": {
+    "title": "Department",
+    "description": "The department is responsible for overseeing and managing various functions within the organization, ensuring that all operations are conducted efficiently, safely, and in accordance with applicable rules and regulations. It coordinates with other departments and stakeholders to implement policies, monitor performance, and achieve organizational objectives."
+  },
+
+   "design": {
+  "title": "Design & Development Capabilities",
+  "description": "Click here to view the detailed PDF.",
+  "pdfLink": "/images/DD.pdf"
+}
+
+
+
+
+    
   },
 
   "departments": {

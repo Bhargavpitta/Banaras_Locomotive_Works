@@ -38,17 +38,36 @@ const AboutBar = () => {
             <Link to="/about/brief-history">{t("about.briefHistory")}</Link>
           </li>
           <li>{t("about.organization")}</li>
-          <li>{t("about.heritage")}</li>
+          <li>
+                <Link to="/about/blw-heritage">{t("about.heritage")}</Link>
+            </li>
           <li>
             <Link to="/about/organization-strength">{t("about.orgStrength")}</Link>
           </li>
-          <li>{t("about.qualityAssurance")}</li>
-          <li>{t("about.department")}</li>
-          <li>{t("about.milestones")}</li>
+         
+         
+           <li>
+  <Link to="/about/quality">{t("about.qualityAssurance")}</Link>
+</li>
+           
+          <li>
+  <Link to="/about/Department">{t("about.department")}</Link>
+
+</li>
+          <li>
+             <Link to="/about/milestones">{t("about.milestones")}</Link>
+             </li>
+
           <li>{t("about.productForSale")}</li>
-          <li>{t("about.designCapabilities")}</li>
-          <li>{t("about.qualityPolicy")}</li>
-          <li>{t("about.portalPolicies")}</li>
+          <li>
+  <Link to="/about/design">{t("about.design.title")}</Link>
+</li>
+           <li>
+             <Link to="/about/quality">{t("about.qualityPolicy")}</Link>
+             </li>
+          <li>
+          <Link to="/about/portal">{t("about.portalPolicies")}</Link>
+        </li>
         </ul>
       </aside>
     </>

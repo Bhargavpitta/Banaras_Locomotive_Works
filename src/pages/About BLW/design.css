@@ -1,0 +1,117 @@
+/* design.css */
+
+/* Container for the page */
+.design-container {
+  display: flex;
+  min-height: calc(100vh - 120px); /* subtract header/nav height */
+}
+
+/* Main content area */
+.design-main {
+  flex: 1;
+  padding: 1.5rem;
+}
+
+/* Top buttons container */
+.design-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #d1d5db;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Left button group */
+.design-buttons {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.design-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem; /* icon on left, text on right */
+  font-size: 0.875rem;
+  color: #1d4ed8; /* blue text */
+  background: none; /* no background */
+  border: none;
+  cursor: pointer;
+}
+
+.design-buttons button:hover {
+  text-decoration: underline;
+}
+
+/* Quick links section */
+.design-quick {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.design-quick span {
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.design-quick select {
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+/* Page title */
+.design-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1d4ed8;
+  margin-bottom: 1.5rem;
+}
+
+
+/* PDF link styling */
+.design-pdf-link {
+  color: #1d4ed8;           /* Blue text */
+  font-weight: bold;         /* Bold text */
+  text-decoration: none;     /* Remove default underline */
+  cursor: pointer;           /* Pointer on hover */
+}
+
+.design-pdf-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* ===== MOBILE VIEW ===== */
+@media (max-width: 768px) {
+  .design-container {
+    flex-direction: column;
+  }
+
+  .design-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .design-buttons {
+    gap: 0.75rem;
+  }
+
+  .design-quick {
+    margin-top: 0.5rem;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .design-title {
+    font-size: 1rem;
+  }
+
+  .design-pdf {
+    font-size: 0.75rem;
+  }
+}
