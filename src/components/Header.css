@@ -126,7 +126,7 @@
 @media (max-width: 768px) {
 
   .header__inner {
-<<<<<<< HEAD
+
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -136,7 +136,7 @@
 
   .header__left {
     flex-direction: column;
-=======
+
     flex-direction: row;          /* keep horizontal */
     align-items: center;
     justify-content: space-between;
@@ -146,23 +146,20 @@
 
   .header__left {
     flex-direction: row;          /* logo + text side by side */
->>>>>>> c562898f74bd0e1c2a8937a3e5c445d7fe9dc445
     align-items: center;
     gap: 10px;
   }
 
   .header__logo {
-<<<<<<< HEAD
+
     width: 60px;
     height: 60px;
-=======
     width: 55px;
     height: 55px;
   }
 
   .header__info {
     gap: 2px;
->>>>>>> c562898f74bd0e1c2a8937a3e5c445d7fe9dc445
   }
 
   .header__title {
@@ -171,7 +168,6 @@
   }
 
   .header__subtitle {
-<<<<<<< HEAD
     font-size: 0.7rem;
     max-width: 95%;
   }
@@ -199,7 +195,6 @@
   .header__lang-btn {
     padding: 6px 14px;
     font-size: 0.8rem;
-=======
     font-size: 0.65rem;
     max-width: 220px;
   }
@@ -226,7 +221,6 @@
   .header__lang-btn {
     padding: 6px 10px;
     font-size: 0.7rem;
->>>>>>> c562898f74bd0e1c2a8937a3e5c445d7fe9dc445
   }
 
   .header__emblem {

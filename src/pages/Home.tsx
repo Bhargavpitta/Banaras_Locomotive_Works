@@ -2,6 +2,7 @@ import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Ministers from '../components/Ministers';
+import Roller from "../components/Roller";
 import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
 import './Home.css';
@@ -37,6 +38,7 @@ const Home = () => {
       <div className="home__content">
         <main className="home__main">
           <Ministers />
+          <Roller />
         </main>
         <div className="home__sidebar">
           <Sidebar />

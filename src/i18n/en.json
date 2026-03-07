@@ -109,6 +109,12 @@
     "visitors": "No. of Visitors: 16049255",
     "eoi": "EOI for Sale/Leasing/Hiring of In-Service Diesel Locomotives"
   },
+  "governmentMedia": {
+  "title": "Government & Media",
+  "indiaPortal": "india.gov.in",
+  "indiaPortalDesc": "The National Portal of India",
+  "visitPortal": "Visit Portal"
+},
   "footer": {
     "quickLinks": "Quick Links",
     "siteMap": "Site Map",
