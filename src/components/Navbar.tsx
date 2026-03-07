@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import "./Navbar.css";
 
@@ -18,8 +18,27 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<number | null>(null);
   const [scrolled, setScrolled] = useState(false);
+  const [navBottom, setNavBottom] = useState(60); // tracks real bottom of navbar
+  const navRef = useRef<HTMLElement>(null);
 
-  // Detect scroll
+  // Track navbar's bottom position so drawer always starts right below it
+  useEffect(() => {
+    const updateNavBottom = () => {
+      if (navRef.current) {
+        const rect = navRef.current.getBoundingClientRect();
+        setNavBottom(rect.bottom);
+      }
+    };
+    updateNavBottom();
+    window.addEventListener("resize", updateNavBottom);
+    window.addEventListener("scroll", updateNavBottom, { passive: true });
+    return () => {
+      window.removeEventListener("resize", updateNavBottom);
+      window.removeEventListener("scroll", updateNavBottom);
+    };
+  }, []);
+
+  // Detect scroll for style change
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -34,13 +53,8 @@ const Navbar = () => {
     };
   }, [menuOpen]);
 
-  // Toggle dropdown
   const toggleDropdown = (index: number) => {
-    if (activeDropdown === index) {
-      setActiveDropdown(null);
-    } else {
-      setActiveDropdown(index);
-    }
+    setActiveDropdown(activeDropdown === index ? null : index);
   };
 
   const closeAll = () => {
@@ -48,22 +62,21 @@ const Navbar = () => {
     setActiveDropdown(null);
   };
 
-  // All nav items with full dropdowns
   const navItems: NavItem[] = [
     {
       label: t("nav.aboutBLW"),
       dropdown: [
         { label: t("about.briefHistory"), href: "/about/brief-history" },
         { label: t("about.organization") },
-        { label: t("about.heritage") },
+        { label: t("about.heritage"), href:"/about/blw-heritage"},
         { label: t("about.orgStrength"), href: "/about/organization-strength" },
-        { label: t("about.qualityAssurance") },
-        { label: t("about.department") },
-        { label: t("about.milestones") },
+        { label: t("about.qualityAssurance"), href:"/about/quality" },
+        { label: t("about.department"), href:"/about/Department" },
+        { label: t("about.milestones"),href:"/about/milestones" },
         { label: t("about.productForSale") },
-        { label: t("about.designCapabilities") },
-        { label: t("about.qualityPolicy") },
-        { label: t("about.portalPolicies") },
+        { label: t("about.designCapabilities"), href:"/about/design" },
+        { label: t("about.qualityPolicy"), href:"/about/quality" },
+        { label: t("about.portalPolicies"), href:"/about/portal"},
       ],
     },
     {
@@ -138,16 +151,44 @@ const Navbar = () => {
     },
   ];
 
+  // Inline styles for drawer & overlay — driven by real navbar bottom position
+  const drawerStyle: React.CSSProperties = {
+    top: navBottom,
+    height: `calc(100vh - ${navBottom}px)`,
+  };
+
+  const overlayStyle: React.CSSProperties = {
+    top: navBottom,
+  };
+
   return (
-    <nav className={`navbar ${scrolled ? "navbar--scrolled" : ""}`}>
+    <nav ref={navRef} className={`navbar ${scrolled ? "navbar--scrolled" : ""}`}>
+
+      {/* Overlay rendered only when menu is open */}
+      {menuOpen && (
+        <div
+          className="navbar__overlay"
+          style={overlayStyle}
+          onClick={closeAll}
+          aria-hidden="true"
+        />
+      )}
+
       <div className="navbar__inner">
 
         {/* Hamburger / Close Button */}
         <button
-          className={`navbar__hamburger ${menuOpen ? "navbar__close" : ""}`}
+          className="navbar__hamburger"
           onClick={() => setMenuOpen(!menuOpen)}
+          aria-label={menuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={menuOpen}
         >
-          {menuOpen ? "✕" : (
+          {menuOpen ? (
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <line x1="4" y1="4" x2="20" y2="20" stroke="white" strokeWidth="2.5" strokeLinecap="round"/>
+              <line x1="20" y1="4" x2="4" y2="20" stroke="white" strokeWidth="2.5" strokeLinecap="round"/>
+            </svg>
+          ) : (
             <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
               <rect y="4" width="24" height="2" />
               <rect y="11" width="24" height="2" />
@@ -156,7 +197,10 @@ const Navbar = () => {
           )}
         </button>
 
-        <ul className={`navbar__list ${menuOpen ? "navbar__list--open" : ""}`}>
+        <ul
+          className={`navbar__list ${menuOpen ? "navbar__list--open" : ""}`}
+          style={menuOpen ? drawerStyle : undefined}
+        >
           {navItems.map((item, index) => (
             <li
               key={index}
@@ -164,14 +208,18 @@ const Navbar = () => {
             >
               <button
                 className="navbar__link"
-                onClick={() => item.dropdown && toggleDropdown(index)}
+                onClick={() => item.dropdown ? toggleDropdown(index) : closeAll()}
               >
                 {item.label}
-                {item.dropdown && <span className="navbar__arrow">▾</span>}
+                {item.dropdown && (
+                  <span className="navbar__arrow">▾</span>
+                )}
               </button>
 
-              {item.dropdown && activeDropdown === index && (
-                <div className="navbar__dropdown">
+              {item.dropdown && (
+                <div
+                  className={`navbar__dropdown ${activeDropdown === index ? "navbar__dropdown--open" : ""}`}
+                >
                   {item.dropdown.map((sub, subIndex) => (
                     <a
                       key={subIndex}
