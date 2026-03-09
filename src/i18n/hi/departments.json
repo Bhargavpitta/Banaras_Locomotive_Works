@@ -1,0 +1,138 @@
+{
+  "accounts": {
+    "title": "लेखा",
+    "billsFormat": "भंडार को आपूर्ति किए गए बिलों का प्रारूप",
+    "codesManuals": "कोड/मैनुअल",
+    "eftMandate": "EFT अधिदेश प्रपत्र",
+    "declarationNonApplicability": "ई-इनवॉइस की अप्रयोज्यता के संबंध में प्रत्येक इनवॉइस पर दी जाने वाली घोषणा",
+    "amendmentTurnover": "GST के तहत ई-इनवॉइसिंग के लिए टर्नओवर सीमा में संशोधन",
+    "assetRegister": "वर्ष 2017-18 और 2018-19 के लिए संपत्ति रजिस्टर तैयार करने का प्रपत्र",
+    "selectionNotice": "30% LDCE चयन के लिए अधिसूचना"
+  },
+  "civilEng": {
+    "title": "सिविल इंजीनियरिंग",
+    "eliminationManualScavenging": "मैनुअल स्कैवेंजिंग का उन्मूलन"
+  },
+  "electricalEng": "विद्युत इंजीनियरिंग",
+  "mechEng": {
+    "title": "यांत्रिक इंजीनियरिंग (उत्पादन)",
+    "manufacturingProcess": "निर्माण प्रक्रिया",
+    "orgStructure": "संगठनात्मक संरचना",
+    "nonMovingItems": "नॉन मूविंग आइटम की सूची (नॉन स्टॉक)"
+  },
+  "marketing": {
+    "title": "विपणन",
+    "marketingDivision": "विपणन प्रभाग"
+  },
+  "medical": {
+    "title": "चिकित्सा",
+    "registrationFirm": "भाग-II वस्तुओं की आपूर्ति के लिए फर्म का पंजीकरण"
+  },
+  "personnel": {
+    "title": "कार्मिक",
+    "railwayServices": "रेलवे सेवाएं (आचरण) नियम, 1966",
+    "gazettedTransferOrders": "राजपत्रित स्थानांतरण आदेश",
+    "cadrePosition": "संवर्ग स्थिति",
+    "recruitmentSection": "भर्ती अनुभाग",
+    "staffWelfare": "कर्मचारी कल्याण",
+    "importantLetterNotice": "महत्वपूर्ण पत्र/नोटिस",
+    "selectionNotice": "चयन सूचना",
+    "importantFormEmployee": "कर्मचारी के लिए महत्वपूर्ण प्रपत्र",
+    "gazettedSection": "राजपत्रित अनुभाग",
+    "seniorityList": "गैर-राजपत्रित कर्मचारियों की वरिष्ठता सूची",
+    "publicGrievances": "सार्वजनिक शिकायतें",
+    "establishmentCircular": {
+      "title": "स्थापना परिपत्र",
+      "allCirculars": "सभी स्थापना परिपत्र",
+      "passRule": "PASS-पास नियम",
+      "recruitment": "RECT-भर्ती",
+      "promotion": "PSS-पदोन्नति, चयन और सेवारत कर्मचारी मामले",
+      "miscellaneous": "MISC-विविध परिपत्र",
+      "allowances": "ALWC-भत्ते",
+      "advances": "ADV-अग्रिम",
+      "settlement": "SETTL-निपटान",
+      "leaveRule": "LV-अवकाश नियम",
+      "welfare": "WMQA-क्वार्टर आवंटन सहित कल्याण मामले",
+      "reservation": "RES-आरक्षण",
+      "conductRules": "DAR-D&AR और आचरण नियम",
+      "irem": "IREM-खंड-I",
+      "medicalRule": "MED-चिकित्सा नियम",
+      "masterCircular": "मास्टर परिपत्र",
+      "irec": "IREC-भारतीय रेलवे स्थापना संहिता"
+    },
+    "jpoCMP": "संविदा चिकित्सा व्यवसायियों की नियुक्ति के लिए JPO",
+    "recruitmentRoster": {
+      "title": "भर्ती रोस्टर",
+      "accountsDept": "लेखा विभाग",
+      "personnelDept": "कार्मिक विभाग",
+      "civilEng": "सिविल इंजीनियरिंग",
+      "electricalEng": "विद्युत इंजीनियरिंग",
+      "mechEng": "यांत्रिक इंजीनियरिंग",
+      "storesDept": "भंडार विभाग",
+      "generalAdmin": "सामान्य प्रशासन",
+      "medicalDept": "चिकित्सा विभाग"
+    },
+    "settlementSec": "निपटान अनुभाग",
+    "revisedRules": "कर्मचारी क्लब के संशोधित नियम",
+    "sexualHarassment": "यौन उत्पीड़न शिकायत",
+    "staffCouncil": "BLW कर्मचारी परिषद चुनाव 2025-28 की अधिसूचना"
+  },
+  "rajbhasha": {
+    "title": "राजभाषा",
+    "barekaDarpan31": "बरेका दर्पण -31",
+    "barekaDarpan32": "बरेका दर्पण -32",
+    "barekaDarpan33": "बरेका दर्पण -33",
+    "barekaDarpan34": "बरेका दर्पण -34",
+    "barekaDarpan35": "बरेका दर्पण -35",
+    "barekaDarpan36": "बरेका दर्पण -36",
+    "listOfBooks": "हिंदी पुस्तकालय में पुस्तकों की सूची",
+    "gmMessage2023": "महाप्रबंधक, BLW हिंदी दिवस संदेश-2023",
+    "questionBank": "राजभाषा प्रश्न बैंक",
+    "narakas": "नराकास",
+    "gmMessage2024": "महाप्रबंधक, BLW हिंदी दिवस संदेश-2024",
+    "rajbhashaPakhwada": "राजभाषा पखवाड़ा 2025",
+    "gmMessage2025": "महाप्रबंधक, BLW हिंदी दिवस संदेश-2025"
+  },
+  "stores": {
+    "title": "भंडार",
+    "suspendedFirms": "निलंबित/प्रतिबंधित फर्मों की सूची",
+    "tenderDocuments": "BLW निविदा दस्तावेज",
+    "postContractMatter": "अनुबंध के बाद के मामले की सूचना",
+    "plUnification": "BLW में PL एकीकरण की स्थिति",
+    "checklistBills": "आपूर्तिकर्ता/ठेकेदार बिलों को पारित करने के लिए चेकलिस्ट",
+    "inactiveSurplus": "निष्क्रिय और अधिशेष वस्तु सूची",
+    "nonMovingHighValue": "नॉन मूविंग हाई वैल्यू आइटम सूची",
+    "gstChange": "GST संरचना में परिवर्तन",
+    "estimatedTender": "100 करोड़ रुपये से अधिक अनुमानित निविदा मूल्य वाली वस्तुओं की सूची",
+    "excessHighValue": "ZR को परिचालित HHP अतिरिक्त उच्च मूल्य वस्तु सूची",
+    "rejectionPolicy": "अस्वीकृति और ग्राउंड रेंट की नीति",
+    "videoAssembly": "HHP डीजल लोको डिटेक्टर असेंबली की असेंबली प्रक्रिया का वीडियो",
+    "tentativeRequirement": "FY 2025-26 और 2026-27 के लिए प्रस्तावित अतिरिक्त वस्तुओं की अगले 05 वर्षों (2025-26 से 2029-30) की अनंतिम आवश्यकता योजना",
+    "irsConditions": "IRS अनुबंध की शर्तें, संस्करण 11.09.2025"
+  },
+  "techTraining": {
+    "title": "तकनीकी प्रशिक्षण केंद्र",
+    "ttcBrochure": "TTC ब्रोशर",
+    "weldorNomination": "वेल्डिंग प्रशिक्षण मॉड्यूल के लिए वेल्डर का नामांकन",
+    "questionBank": "पर्यवेक्षकों और तकनीशियनों के लिए बहुविकल्पीय प्रश्न बैंक",
+    "trainingCalender": "प्रशिक्षण कैलेंडर",
+    "internshipTraining": "व्यावसायिक/इंटर्नशिप प्रशिक्षण कार्यक्रम 2026"
+  },
+  "vigilance": {
+    "title": "सतर्कता",
+    "awarenessWeek": "सतर्कता जागरूकता सप्ताह",
+    "organization": "संगठन",
+    "systemImprovements": "प्रणाली सुधार",
+    "bulletin": "सतर्कता बुलेटिन",
+    "complaintPolicy": "शिकायत नीति",
+    "selections": "चयन",
+    "rtiInfo": "RTI अधिनियम की धारा 4(1)(b) के अंतर्गत जानकारी"
+  },
+  "design": {
+    "title": "डिजाइन विभाग",
+    "videoMounting": "HHP डीजल लोको टर्बोचार्जर की माउंटिंग प्रक्रिया का वीडियो",
+    "eoiConversion": "HHP डीजल लोको को विद्युत लोको में परिवर्तन के लिए EOI",
+    "eoiUpgradation": "BLW डीजल इंजनों को समुद्री अनुप्रयोग के लिए उपयुक्त बनाने हेतु उन्नयन के लिए EOI"
+  },
+  "safety": "सुरक्षा विभाग"
+}

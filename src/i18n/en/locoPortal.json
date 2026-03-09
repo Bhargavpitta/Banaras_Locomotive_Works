@@ -1,0 +1,41 @@
+{
+  "hhpSpares": {
+    "title": "HHP BIM Spares",
+    "minutesBIM2122": "Minutes of BIM 2021-22",
+    "minutesMeeting": "Minutes of meeting on HHP Diesel locomotives held on 6th & 7th May 2022",
+    "agendaHHP1920": "Agenda for HHP BIM 2019-20",
+    "drawingsHHP": "Drawings of HHP Loco",
+    "minutesBIM1920": "Minutes of BIM 2019-20",
+    "minutesBIM1718": "Minutes of BIM 2017-18",
+    "agendaHHP1718": "Agenda for HHP BIM 2017-18",
+    "minutesBIM1617": "MINUTES BIM 2016-17",
+    "railwayBoardRSP": "Railway Board RSP Position",
+    "zonalRailwayRSP": "Zonal Railway RSP Position",
+    "supplyBalance": "Supply & Balance Position of HHP BIM, Imported & Tooling items",
+    "forwardingLetter": "Forwarding letter for Minutes of BIM 2016-17",
+    "additionalTechnical": "Additional Technical Agenda for HHP BIM 2017-18",
+    "toolingItems": {
+      "title": "Tooling items for HHP locomotives (Rly.Bd letter, Drawings,Catalogue & Vendor List)",
+      "maintenanceTools": "Maintenance Tools Catalogue",
+      "railwayBoardLetter": "Railway board Letter",
+      "vendorList": "Vendor List for Maintenance tooling",
+      "coveringLetter": "Covering Letter",
+      "drawingsMaintenance": "Drawings of Maintenance tools"
+    },
+    "vettedIndents": "Submission of vetted indents for year 2024-25",
+    "poCopy": "PO Copy of 51 Purchase tooling items"
+  },
+  "designBulletin": {
+    "title": "Design Bulletin",
+    "vehicle": "Vehicle",
+    "engine": "Engine",
+    "electrical": "Electrical"
+  },
+  "warrantyClaim": {
+    "title": "Warranty Claim",
+    "electricLoco": "Electric Loco Warranty Claim",
+    "dieselLoco": "Diesel Loco Portal",
+    "vendorLogin": "Vendor Login for Electric Loco Warranty"
+  },
+  "nonRailway": "Non Railway Customer Portal"
+}

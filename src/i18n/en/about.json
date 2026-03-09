@@ -1,44 +1,54 @@
 {
-  "header": {
-    "title": "Banaras Locomotive Works, Varanasi",
-    "subtitle": "An IRIS (ISO 22163), ISO 9001, 14001, 45001, & 5-S Certified Organization",
-    "address": "Varanasi-221004, Uttar Pradesh (India)",
-    "phone": "Tel.: 0542-2270589-90",
-    "fax": "Fax: 0542-2270603",
-    "search": "Search",
-    "langToggle": "हिन्दी"
+  "briefHistory": "Brief History",
+  "organization": "BLW Organization",
+  "heritage": "BLW Heritage",
+  "orgStrength": "Organizational Strength",
+  "qualityAssurance": "Quality Assurance",
+  "department": "Department",
+  "milestones": "Recent Milestones & Future Plans",
+  "productForSale": {
+    "title": "Product for Sale",
+    "dieselLocomotive": "Diesel Locomotive",
+    "dgSets": "DG Sets",
+    "contactDetails": "Contact Details for Purchase",
+    "previousProduct": "Previous Product",
+    "productPhotograph": {
+      "title": "Product Photograph",
+      "blwProduct": "B.L.W Product",
+      "exportLocomotives": "Export Locomotives"
+    }
   },
-  "nav": {
-    "aboutBLW": "About BLW",
-    "department": "Department",
-    "locoPortal": "Loco Portal",
-    "tenderInfo": "Tender Information",
-    "vendorInfo": "Vendor Information",
-    "newsEvents": "News & Events",
-    "contactUs": "Contact Us"
+  "designCapabilities": "Design & Development Capabilities",
+  "qualityPolicy": "Our Quality Policy",
+  "portalPolicies": "Portal Policies",
+  "photoGallery": "Photo Gallery",
+  "sop": {
+    "title": "SOP",
+    "modelSop": "Model SOP",
+    "oldSop": "Old SOP"
   },
-
-  "about": {
-    "briefHistory": "Brief History",
-    "organization": "BLW Organization",
-    "heritage": "BLW Heritage",
-    "orgStrength": "Organizational Strength",
-    "qualityAssurance": "Quality Assurance",
-    "department": "Department",
-    "milestones": "Recent Milestones & Future Plans",
-    "productForSale": "Product for Sale",
-    "designCapabilities": "Design & Development Capabilities",
-    "qualityPolicy": "Our Quality Policy",
-    "portalPolicies": "Portal Policies",
-    "photoGallery": "Photo Gallery",
-
-    "bookmark": "Bookmark",
-    "mailPage": "Mail this Page",
-    "printPage": "Print Page",
-    "quickLinks": "Quick Links",
-    "briefHistoryTitle": "Brief History of BLW",
-
-    "historyData": [
+  "immovablePropertyReturn": {
+    "title": "Immovable Property Return by Officer as on 01.01.2022",
+    "administration": "Administration,Civil,RPF",
+    "stores": "Stores",
+    "electrical": "Electrical",
+    "mechanical": "Mechanical",
+    "medical": "Medical",
+    "accounts": "Accounts"
+  },
+  "visitors": {
+    "title": "Visitors",
+    "visitoregatepass": "Apply for Visitor egatepass"
+  },
+  "environmentalSocialOrientation": "Environmental / Social Orientation",
+  "blwCalendar2026": "B.L.W Calendar 2026",
+  "swachhBharatMission": "Swachh Bharat Mission",
+  "bookmark": "Bookmark",
+  "mailPage": "Mail this Page",
+  "printPage": "Print Page",
+  "quickLinks": "Quick Links",
+  "briefHistoryTitle": "Brief History of BLW",
+  "historyData": [
     { "date": "23-Apr", "year": "1956", "event": "Laying of foundation stone of factory by the first President of India Late Dr. Rajendra Prasad." },
     { "date": "August", "year": "1961", "event": "Banaras Locomotive Works (erstwhile Diesel Locomotive works) came into existence." },
     { "date": "January", "year": "1964", "event": "First Broad Gauge Locomotive (WDM-2) released by (Late) Shri Lal Bahadur Shastri." },
@@ -69,24 +79,24 @@
     { "date": "February", "year": "2012", "event": "First 5500 HP WDG-5 locomotive manufactured." },
     { "date": "November", "year": "2012", "event": "First Dual Cab WDG-4D loco turned out." },
     { "date": "January", "year": "2013", "event": "Enter into Golden Jubilee Year." },
-    { "date": "April", "year": "2013", "event": "BLW bagged the ‘Best Production Unit Shield 2012-13’ of Indian Railways." },
+    { "date": "April", "year": "2013", "event": "BLW bagged the 'Best Production Unit Shield 2012-13' of Indian Railways." },
     { "date": "July", "year": "2013", "event": "1000th High Horse Power Locomotive turned out." },
-    { "date": "January", "year": "2014", "event": "Golden Jubilee Locomotive WDP4B ‘PRATEEK’ turned out." },
-    { "date": "April", "year": "2016", "event": "BLW bagged the ‘Best Production Unit Shield 2015-16’ of Indian Railways." },
+    { "date": "January", "year": "2014", "event": "Golden Jubilee Locomotive WDP4B 'PRATEEK' turned out." },
+    { "date": "April", "year": "2016", "event": "BLW bagged the 'Best Production Unit Shield 2015-16' of Indian Railways." },
     { "date": "April", "year": "2016", "event": "First Vacuum type Bio-Toilet equipped WDG-4D loco turned out." },
     { "date": "December", "year": "2016", "event": "2000th HHP loco flagged off by MoSR." },
     { "date": "February", "year": "2017", "event": "First electric loco WAP-7 turned out." },
     { "date": "March", "year": "2017", "event": "Obtained certification of ISO 50001, for Energy Management and GreenCo Silver Rating under the GreenCo Green Company Rating System." },
-    { "date": "April", "year": "2017", "event": "BLW bagged the ‘Best Production Unit Shield 2016-17’ of Indian Railways for second successive year." },
+    { "date": "April", "year": "2017", "event": "BLW bagged the 'Best Production Unit Shield 2016-17' of Indian Railways for second successive year." },
     { "date": "August", "year": "2017", "event": "Obtained certification of ISO 3834, for Fusion Welding of Metallic Materials." },
     { "date": "January", "year": "2018", "event": "Obtained NABL Accreditation for Laboratories." },
     { "date": "March", "year": "2018", "event": "Implementation of 5 S Workplace Management System." },
-    { "date": "April", "year": "2018", "event": "BLW bagged the ‘Best Production Unit Shield 2017-18’ of Indian Railways for 3rd consecutive year." },
+    { "date": "April", "year": "2018", "event": "BLW bagged the 'Best Production Unit Shield 2017-18' of Indian Railways for 3rd consecutive year." },
     { "date": "December", "year": "2018", "event": "Successfully converted two old HHP diesel loco (WDG4) into Electric loco WAG11." },
     { "date": "January", "year": "2020", "event": "IRIS Certification obtained." },
     { "date": "March", "year": "2020", "event": "First ever dual traction WDAP 5 locomotive turned out." },
     { "date": "January", "year": "2021", "event": "Obtained certification of ISO 50001:2018 for Energy Management System." },
-    { "date": "December", "year": "2021", "event": "BLW bagged the ‘Best Production Unit Shield 2020-21’ of Indian Railways fifth time." },
+    { "date": "December", "year": "2021", "event": "BLW bagged the 'Best Production Unit Shield 2020-21' of Indian Railways fifth time." },
     { "date": "January", "year": "2022", "event": "1000th Electric loco turned out." },
     { "date": "March", "year": "2022", "event": "Highest ever locomotive production of 367 in 2021-22." },
     { "date": "November", "year": "2022", "event": "Highest ever Electric locomotive Bogies Production of 52 loco set in a month." },
@@ -95,27 +105,25 @@
     { "date": "March", "year": "2025", "event": "Highest ever Electric locomotives Production of 61 in a month & highest ever locomotive production figure of 477." },
     { "date": "October", "year": "2025", "event": "11,000th locomotive turned out." }
   ],
-
-       "orgStrengthData": {
-      "title": "Organization Strength",
-      "points": [
-        "Banaras Locomotive Works (BLW) is a premier locomotive manufacturing unit of Indian Railways, capable of producing locomotives with a wide range of horsepower—from 1350 HP to 6000 HP.",
-        "The facilities at BLW are equipped with state-of-the-art machinery, tools, and technologies required for manufacturing high-quality locomotives.",
-        "In line with Indian Railways' policy of 100% electrification, BLW now manufactures electric locomotives for IR and also domestic and export requirements of diesel locomotives.",
-        "State-of-the-art design and manufacturing facility to manufacture locomotives for meeting transportation needs of Indian Railways and Non-Railway Customers (NRC) & Export.",
-        "Maintenance support is provided through the supply of spares to Zonal Railways, Non-Railway Customers, and export clients as per demand.",
-        "Unbeatable trail-blazing track record in providing cost-effective, eco-friendly and reliable solutions to ever-increasing transportation needs for over six decades.",
-        "Fully geared to meet specific transportation needs by putting Price - Value - Technology equation perfectly right.",
-        "A large base of delighted customers among many countries viz. Myanmar, Sri Lanka, Malaysia, Vietnam, Bangladesh, Tanzania, Angola, Mozambique to name a few, bearing testimony to product leadership in its category.",
-        "BLW has an advanced Regional Welding Research Institute, capable of certifying welders for Indian Railways.",
-        "It also serves as a nodal center for the ‘Rail Kaushal Vikas’ programme of Indian Railways.",
-        "BLW has a strong focus on environmental sustainability, with initiatives like roof-mounted solar power plants, rainwater harvesting, energy-efficient lighting, tree plantations, and waste management. Approximately 40% of BLW area is green, with more than 1.2 lakh trees in the township area.",
-        "BLW is certified under ISO 9001, ISO 14001, and ISO 45001, covering integrated Quality, Environment, and Health & Safety Management Systems.",
-        "BLW has achieved ISO 50001 for Energy Management, ISO 3834 for Fusion Welding of Metallic Materials, NABL Accreditation for laboratory, 5S Workplace Management System, and IRIS for efficient and transparent system for Design & Development and Manufacturing of Locos."
-      ]
-    }, 
-    
-    "heritageLocomotives": {
+  "orgStrengthData": {
+    "title": "Organization Strength",
+    "points": [
+      "Banaras Locomotive Works (BLW) is a premier locomotive manufacturing unit of Indian Railways, capable of producing locomotives with a wide range of horsepower—from 1350 HP to 6000 HP.",
+      "The facilities at BLW are equipped with state-of-the-art machinery, tools, and technologies required for manufacturing high-quality locomotives.",
+      "In line with Indian Railways' policy of 100% electrification, BLW now manufactures electric locomotives for IR and also domestic and export requirements of diesel locomotives.",
+      "State-of-the-art design and manufacturing facility to manufacture locomotives for meeting transportation needs of Indian Railways and Non-Railway Customers (NRC) & Export.",
+      "Maintenance support is provided through the supply of spares to Zonal Railways, Non-Railway Customers, and export clients as per demand.",
+      "Unbeatable trail-blazing track record in providing cost-effective, eco-friendly and reliable solutions to ever-increasing transportation needs for over six decades.",
+      "Fully geared to meet specific transportation needs by putting Price - Value - Technology equation perfectly right.",
+      "A large base of delighted customers among many countries viz. Myanmar, Sri Lanka, Malaysia, Vietnam, Bangladesh, Tanzania, Angola, Mozambique to name a few, bearing testimony to product leadership in its category.",
+      "BLW has an advanced Regional Welding Research Institute, capable of certifying welders for Indian Railways.",
+      "It also serves as a nodal center for the 'Rail Kaushal Vikas' programme of Indian Railways.",
+      "BLW has a strong focus on environmental sustainability, with initiatives like roof-mounted solar power plants, rainwater harvesting, energy-efficient lighting, tree plantations, and waste management. Approximately 40% of BLW area is green, with more than 1.2 lakh trees in the township area.",
+      "BLW is certified under ISO 9001, ISO 14001, and ISO 45001, covering integrated Quality, Environment, and Health & Safety Management Systems.",
+      "BLW has achieved ISO 50001 for Energy Management, ISO 3834 for Fusion Welding of Metallic Materials, NABL Accreditation for laboratory, 5S Workplace Management System, and IRIS for efficient and transparent system for Design & Development and Manufacturing of Locos."
+    ]
+  },
+  "heritageLocomotives": {
     "heritagePageTitle": "BLW Heritage",
     "heritagePageSubtitle": "List of Preserved Steam and Diesel Locomotives at Banaras Locomotive Works (BLW)",
     "description": [
@@ -129,7 +137,6 @@
         "para2": "The locomotives had two 3-axle tri-mount type Co-Co bogies.",
         "para3": "The locomotive was powered with a 251-B type, 16-cylinder, turbo charged, 4-stroke diesel engine capable of developing 2636 HP under SAE standard climatic conditions. The power transmission was electric, consisting of one DC main generator, Exciter and Auxiliary generator. The transmission included 6 DC traction motors, geared for a maximum speed of 120 kmph. Compressed air brake for locomotive and vacuum brake system for the train was provided. This 50-year-old locomotive has now been decommissioned and is permanent exhibit at Central Market, BLW as heritage of Indian Railways."
       },
-
       {
         "id": 2,
         "heading": "[2] Miss Muffet (YB: 1935-Narrow Gauge Steam Locomotive)",
@@ -140,7 +147,6 @@
         "para2": "It was manufactured by W.G. Bangal Ltd. Castle Engine Works, U.K. It was on the line in 1935 with a maximum rolling speed of 13 mph. Its coal capacity was 10 cwt and the water tank capacity of 260 gallons, when fully loaded it weighed 11.80 tones.",
         "para3": "The heritage steam locomotive is on display in the front of BLW Administrative Office."
       },
-
       {
         "id": 3,
         "heading": "[3] Hercules (YB: 1908 Steam Locomotive)",
@@ -151,7 +157,6 @@
         "para2": "The Locomotive is 7440 mm long, 2410 mm in width and 4110 mm in height. Its total weight is 23 tonnes, water capacity 2272 litres having one tonne of coal also.",
         "para3": "The heritage steam locomotive is on display in the front of BLW Administrative Office."
       },
-
       {
         "id": 4,
         "heading": "[4] Mahalaxmi (YB: 1944-WDS1 Diesel Locomotive)",
@@ -162,7 +167,6 @@
         "para2": "It is of 10331 mm in length, 2743 mm in width and 3760 mm in height. Its fuel capacity is 946 litres and total weight 46 tonnes.",
         "para3": "It was utilized in yard shunting and as goods pilot in Bombay area. This heritage diesel locomotive is on display in the front of BLW Administrative Office."
       },
-
       {
         "id": 5,
         "heading": "[5] Locomotive No. 6073 (YB-1960 YDM3 Meter Gauge Diesel Electric)",
@@ -173,7 +177,6 @@
         "para2": "It was powered by single 12-cylinders, 2-stroke EMD 567C type diesel engine capable of developing 1390 hp at 800 RPM under SAE standard conditions.",
         "para3": "The locomotive was equipped with Electric Transmission consisting of one EMD make D-25 Direct Current main generator and two EMU make D 69 MC direct current. This heritage diesel locomotive is on display in the front of BLW Cinema Hall."
       },
-
       {
         "id": 6,
         "heading": "[6] Locomotive No 6074  (YB-1960* YDM3 Meter Gauge Diesel Electric)",
@@ -183,7 +186,6 @@
         "para1": "This YDM3 Class MG Diesel Locomotive was homed at Sabarmati Diesel Shed, WR. The locomotive was manufactured by M/s GM-EMD, USA.",
         "para2": "It was powered by single 12-cylinders, 2-stroke EMD 567C type diesel engine capable of developing 1390 hp at 800 RPM under SAE standard conditions.",
         "para3": "The locomotive was equipped with Electric Transmission consisting of one EMD make D-25 Direct Current main generator and two EMU make D 69 MC direct current. This heritage diesel locomotive is on display in the front of BLW EDP Centre. (* Tentative)"
-        
       },
       {
         "id": 7,
@@ -194,105 +196,61 @@
         "para1": "This 5th generation YDM5 Class MG Diesel Locomotive was homed at Sabarmati Diesel Shed, WR. The locomotive was manufactured by M/s GM-EMD, USA.",
         "para2": "The locomotive was powered by a single 12-cylinders, 2-stroke EMD 567C type diesel engine capable of developing 1390 hp at 800 RPM under SAE standard conditions.",
         "para3": "The locomotive was equipped with Electric Transmission consisting of one EMD make D-25 Direct Current main generator and two EMU make D 69 MC direct current. This heritage diesel locomotive is on display in the front of BLW Design Office. (* Tentative)"
-  
       }
-
-
-      
     ]
-
   },
-
-     "quality": {
-      "title": "Quality Assurance",
-      "subtitle": "Quality Assurance",
-
-      "description": [
-        "Quality has been a crusade in BLW since its very inception. We actively inculcate the primary importance of manufacturing a quality product in all our workmen, supervisors and engineers from the day they join BLW.",
-        "Each of our workmen is continually trained and re-trained in quality aspects. Modern instrumentation and machinery help the workmen in maintaining a high standard of quality.",
-        "Under ISO 9001 certification scheme, all our jigs and fixtures, tools and gauges are calibrated regularly according to a carefully worked out plan.",
-        "BLW has a fully equipped Gauge Room for calibration of gauges, and a Tool Room for checking of jigs and fixtures.",
-        "To supplement the rigorous standards of certification for BLW’s vendors, almost all bought-out items are subjected to quality checks and certified by our inspectors.",
-        "BLW’s quality thrust has been certified by an internationally accredited ISO certifying body, and BLW is a proud owner of ISO 9001 & 5-S certificate for the entire range of manufacturing activities."
-      ],
-
-      "objectivesTitle": "Quality Objectives",
-
-      "objectives": [
-        "Reduction in rectification & rework",
-        "Improvement in reliability of locomotives",
-        "Reduction in inventory including W.I.P."
-      ]
-     },
-
-    "milestonesFuturePlans": {
+  "quality": {
+    "title": "Quality Assurance",
+    "subtitle": "Quality Assurance",
+    "description": [
+      "Quality has been a crusade in BLW since its very inception. We actively inculcate the primary importance of manufacturing a quality product in all our workmen, supervisors and engineers from the day they join BLW.",
+      "Each of our workmen is continually trained and re-trained in quality aspects. Modern instrumentation and machinery help the workmen in maintaining a high standard of quality.",
+      "Under ISO 9001 certification scheme, all our jigs and fixtures, tools and gauges are calibrated regularly according to a carefully worked out plan.",
+      "BLW has a fully equipped Gauge Room for calibration of gauges, and a Tool Room for checking of jigs and fixtures.",
+      "To supplement the rigorous standards of certification for BLW's vendors, almost all bought-out items are subjected to quality checks and certified by our inspectors.",
+      "BLW's quality thrust has been certified by an internationally accredited ISO certifying body, and BLW is a proud owner of ISO 9001 & 5-S certificate for the entire range of manufacturing activities."
+    ],
+    "objectivesTitle": "Quality Objectives",
+    "objectives": [
+      "Reduction in rectification & rework",
+      "Improvement in reliability of locomotives",
+      "Reduction in inventory including W.I.P."
+    ]
+  },
+  "milestonesFuturePlans": {
     "title": "Recent Milestones & Future Plans",
-
     "recentMilestonesTitle": "Recent Milestones (2024-25)",
     "recentMilestones": [
       "BLW achieved a significant milestone by manufacturing 523 locomotives in current FY 2025-26, setting a new record for highest annual locomotive production. This includes 511 electric and 12 diesel locomotives for domestic and export customers."
     ],
-
     "certificationsTitle": "At present BLW have following certifications:",
-    "certifications": [
-      "IRIS",
-      "ISO 9001",
-      "ISO 14001",
-      "ISO 45001",
-      "ISO 50001",
-      "ISO 3834",
-      "NABL Accreditation",
-      "5S - Workplace Management System"
-    ],
-
-     "image ": "#",
+    "certifications": ["IRIS", "ISO 9001", "ISO 14001", "ISO 45001", "ISO 50001", "ISO 3834", "NABL Accreditation", "5S - Workplace Management System"],
+    "image": "#",
     "locomotiveProductionLast10Years": "Locomotive Production (Last 10 Years)",
-
     "locomotiveProductionTitle": "Locomotive Production",
     "locomotiveProductionDescription": [
       "Since its inception, BLW has manufactured 11,210 locomotives (all types) till February 2026. This includes 5031 ALCO, 2467 HHP and 2878 Electric locomotives for Indian Railways, and 182 export and 643 diesel locomotives for Non-Railway Customers (NRC)."
     ],
-
     "productionPlan2025Title": "Production Plan for FY 2025-26",
     "productionPlan2025": [
       "A total of 553 electric locomotives, comprising 394 WAG9H and 159 WAP7 (including 24 'Amrit Bharat') locomotives, have been planned for manufacturing in FY 2025–26 against the Railway Board target.",
       "In addition, 17 diesel locomotives have been planned to manufacture for domestic and foreign customers."
     ],
-
     "futurePlan2026Title": "Future Plan FY 2026-27",
     "futurePlan2026": [
       "A total of 642 electric locomotives, comprising 400 WAG9H and 242 WAP7 (including 166 'Amrit Bharat') locomotives, have been planned to manufacture in FY 2026–27 against the Railway Board target.",
       "Further, the Railway Board has directed BLW to undertake the POH of diesel and electric locomotives."
     ],
-
     "pohPlanTitle": "Year-wise POH Plan up to FY 2029-30",
-
     "pohTable": {
-      "headers": [
-        "Description",
-        "2025-26",
-        "2026-27",
-        "2027-28",
-        "2028-29",
-        "2029-30"
-      ],
+      "headers": ["Description", "2025-26", "2026-27", "2027-28", "2028-29", "2029-30"],
       "rows": [
-        {
-          "description": "POH of HHP Diesel Locomotives",
-          "data": ["8", "10", "35", "54", "70"]
-        },
-        {
-          "description": "POH of Electric Locomotives",
-          "data": ["-", "5", "40", "60", "50"]
-        }
+        { "description": "POH of HHP Diesel Locomotives", "data": ["8", "10", "35", "54", "70"] },
+        { "description": "POH of Electric Locomotives", "data": ["-", "5", "40", "60", "50"] }
       ]
     },
-
-    "electricProductionLast10Years": "Electric Locomotives Production (Last 10 Years)",
-     "image":"#"
-},
-
- 
+    "electricProductionLast10Years": "Electric Locomotives Production (Last 10 Years)"
+  },
   "QualityPolicy": {
     "title": "Our Quality Policy",
     "subtitle": "Quality, Health, Safety & Environment (QHSE) Policy",
@@ -311,7 +269,6 @@
       "Ensuring failure prevention and customer expectations."
     ]
   },
-
   "Portal": {
     "title": "Portal Policies",
     "introduction": "The users of the portal would like to contact Indian Railway organisations to ask questions, get information, seek clarifications or sort out problems. Therefore it is essential that websites provide them with the means to do that.",
@@ -362,133 +319,13 @@
       ]
     }
   },
-
-   "Department": {
+  "Department": {
     "title": "Department",
     "description": "The department is responsible for overseeing and managing various functions within the organization, ensuring that all operations are conducted efficiently, safely, and in accordance with applicable rules and regulations. It coordinates with other departments and stakeholders to implement policies, monitor performance, and achieve organizational objectives."
   },
-
-   "design": {
-  "title": "Design & Development Capabilities",
-  "description": "Click here to view the detailed PDF.",
-  "pdfLink": "/images/DD.pdf"
-}
-
-
-
-
-    
-  },
-
-  "departments": {
-    "accounts": "Accounts",
-    "civilEng": "Civil Engineering",
-    "electricalEng": "Electrical Engineering",
-    "mechEng": "Mechanical Engineering (Production)",
-    "marketing": "Marketing",
-    "medical": "Medical",
-    "personnel": "Personnel",
-    "stores": "Stores",
-    "techTraining": "Technical Training Centre",
-    "vigilance": "Vigilance",
-    "design": "Design Department",
-    "safety": "Safety Department"
-  },
-
-  "locoPortal": {
-    "hhpSpares": "HHP BIM Spares",
-    "designBulletin": "Design Bulletin",
-    "warrantyClaim": "Warranty Claim",
-    "nonRailway": "Non Railway Customer Portal"
-  },
-
-  "tender": {
-    "materialMgmt": "Material Management",
-    "liveTender": "Live Tender",
-    "awardedContracts": "Awarded Contracts",
-    "tenders": "Tenders",
-    "auctionInfo": "Auction Informations",
-    "cppTenders": "CPP Tenders"
-  },
-
-  "vendor": {
-    "draftSpec": "Draft Specification",
-    "login": "Vendor Login",
-    "billingStatus": "Vendors Billing Status",
-    "billsFormat": "Bills Format for Stores Supplied",
-    "vendorDirectory": "Vendor Directory (VD)",
-    "newRegistration": "New Vendor Registration System",
-    "guidelines": "Guideline to vendors for registration",
-    "rejectionPolicy": "Policy for Rejection and Ground Rent",
-    "approvalSystem": "Vendor Approval System",
-    "eftMandate": "EFT Mandate Form",
-    "particulars": "Vendor Particulars",
-    "gst": "BLW GST"
-  },
-
-  "news": {
-    "announcements": "News & Announcements",
-    "annualReport": "GM's Annual Report",
-    "pressReleases": "Press Releases",
-    "currentNews": "Current News & Features",
-    "achievements": "Achievements of BLW",
-    "civilDefence": "Civil Defence BLW",
-    "tourism": "Varanasi Tourism"
-  },
-
-  "hero": {
-    "banner1": "Building the Future of Indian Railways",
-    "banner2": "World-Class Locomotive Manufacturing",
-    "banner3": "Innovation in Railway Engineering",
-    "cta": "Explore More"
-  },
-
-  "ministers": {
-    "title": "Leadership",
-    "minister1": "Shri Ashwini Vaishnaw",
-    "minister1Role": "Minister for Railways",
-    "minister2": "Shri V. Somanna",
-    "minister2Role": "Minister of State for Railways",
-    "minister3": "Shri Ravneet Singh",
-    "minister3Role": "Minister of State for Railways"
-  },
-
-  "sidebar": {
-    "newsTitle": "News & Announcements",
-    "tendersTitle": "Active Tenders",
-    "noTenders": "Currently there are no active Tenders.",
-    "quickLinks": "Quick Links",
-    "complaints": "Complaints (Rail Madad)",
-    "gstRailways": "GST - Indian Railways",
-    "publicGrievances": "Public Grievances",
-    "lastUpdated": "Last updated on: 01-03-2026",
-    "visitors": "No. of Visitors: 16049255",
-    "eoi": "EOI for Sale/Leasing/Hiring of In-Service Diesel Locomotives"
-  },
-  "governmentMedia": {
-  "title": "Government & Media",
-  "indiaPortal": "india.gov.in",
-  "indiaPortalDesc": "The National Portal of India",
-  "visitPortal": "Visit Portal"
-},
-  "footer": {
-    "quickLinks": "Quick Links",
-    "siteMap": "Site Map",
-    "contactUs": "Contact Us",
-    "rti": "RTI",
-    "disclaimer": "Disclaimer",
-    "privacyPolicy": "Privacy Policy",
-    "termsConditions": "Terms & Conditions",
-    "accessibility": "Accessibility",
-    "copyright": "© 2010 All Rights Reserved. Indian Railways.",
-    "description": "This is a portal of Indian Railways for information and services provided by various Indian Railway organizations, Railway Ministry, Government of India.",
-    "skillDev": "Rail Skill Development Scheme",
-    "vision": "Vision - To become a world-class manufacturer of Diesel-Electric Locomotives with reliable, cost-effective, and state-of-the-art technology.",
-    "mission": "Mission - To fulfill our vision by:",
-    "missionPoints": [
-      "Ensuring reliability and continuous improvement in product quality through customer satisfaction.",
-      "Innovation, human resource development, and teamwork to develop competency.",
-      "Conservation of energy and natural resources for a clean environment."
-    ]
+  "design": {
+    "title": "Design & Development Capabilities",
+    "description": "Click here to view the detailed PDF.",
+    "pdfLink": "/images/DD.pdf"
   }
 }

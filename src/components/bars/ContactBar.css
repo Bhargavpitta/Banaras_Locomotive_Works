@@ -1,7 +1,7 @@
 /* Sidebar container */
-.aboutbar {
-  width: 16rem; /* desktop width */
-  border-right: 1px solid #e5e7eb; /* optional */
+.contactbar {
+  width: 16rem;
+  border-right: 1px solid #e5e7eb;
   padding: 1rem;
   background-color: #1f277b;
   color: white;
@@ -10,11 +10,11 @@
 }
 
 /* Back button */
-.aboutbar .back-button {
+.contactbar .back-button {
   margin-bottom: 1rem;
 }
 
-.aboutbar .back-button a {
+.contactbar .back-button a {
   color: white;
   background-color: #2563eb;
   padding: 0.25rem 0.75rem;
@@ -23,12 +23,12 @@
   display: inline-block;
 }
 
-.aboutbar .back-button a:hover {
+.contactbar .back-button a:hover {
   background-color: #1d4ed8;
 }
 
 /* List styles */
-.aboutbar ul {
+.contactbar ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -38,22 +38,22 @@
   gap: 0.75rem;
 }
 
-.aboutbar ul li {
+.contactbar ul li {
   color: white;
 }
 
-.aboutbar ul li a {
+.contactbar ul li a {
   color: #ffffff;
   text-decoration: none;
 }
 
-.aboutbar ul li a:hover {
+.contactbar ul li a:hover {
   text-decoration: underline;
   color: #a5b4fc;
 }
 
 /* ===== SUBMENU TOGGLE ===== */
-.submenu-toggle {
+.contactbar .submenu-toggle {
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -62,17 +62,17 @@
   padding: 0;
 }
 
-.submenu-toggle:hover {
+.contactbar .submenu-toggle:hover {
   color: #a5b4fc;
 }
 
-.submenu-toggle span {
+.contactbar .submenu-toggle span {
   font-size: 0.65rem;
   margin-left: 0.5rem;
 }
 
 /* ===== SUBMENU LIST ===== */
-.submenu {
+.contactbar .submenu {
   padding-left: 0.75rem;
   border-left: 2px solid rgba(255, 255, 255, 0.3);
   margin-top: 0.4rem;
@@ -81,67 +81,52 @@
   gap: 0.5rem !important;
 }
 
-.submenu li {
+.contactbar .submenu li {
   font-size: 0.8rem !important;
 }
 
-.submenu li a {
+.contactbar .submenu li a {
   color: #c7d2fe !important;
   text-decoration: none;
 }
 
-.submenu li a:hover {
+.contactbar .submenu li a:hover {
   color: #a5b4fc !important;
   text-decoration: underline;
 }
 
-/* ===== NESTED SUBMENU (level 3) ===== */
-.submenu .submenu {
-  padding-left: 0.75rem;
-  border-left: 2px solid rgba(255, 255, 255, 0.2);
-  margin-top: 0.3rem;
-}
-
-.submenu .submenu li {
-  font-size: 0.75rem !important;
-}
-
-.submenu .submenu li a {
-  color: #e0e7ff !important;
-}
-
 /* ===== MOBILE VIEW ===== */
 @media (max-width: 768px) {
-  .aboutbar {
+  .contactbar {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%; /* full width on mobile */
+    width: 100%;
     height: auto;
     min-height: auto;
     z-index: 50;
-    transform: translateY(-100%); /* hidden by default */
+    transform: translateY(-100%);
   }
 
-  .aboutbar.open {
-    transform: translateY(0); /* show sidebar */
+  .contactbar.open {
+    transform: translateY(0);
   }
 
-  .aboutbar ul {
-    flex-direction: row; /* horizontal list */
+  .contactbar ul {
+    flex-direction: row;
     overflow-x: auto;
   }
 
-  .aboutbar ul li {
+  .contactbar ul li {
     white-space: nowrap;
     padding: 0.5rem 1rem;
   }
 
-  .submenu {
+  .contactbar .submenu {
     display: none;
   }
 
-  .submenu-toggle {
+  .contactbar .submenu-toggle {
     white-space: nowrap;
   }
 }

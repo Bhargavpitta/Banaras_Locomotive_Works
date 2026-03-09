@@ -1,0 +1,54 @@
+/* Layout container */
+.layout-content {
+  display: flex;
+  min-height: calc(100vh - 120px); /* full screen minus header/navbar */
+}
+
+/* Sidebar (Department sidebar) */
+.departmentbar {
+  width: 16rem;       /* fixed width */
+  flex-shrink: 0;     /* prevent shrinking */
+}
+
+/* Main content */
+.main-content {
+  flex: 1;            /* remaining space */
+  padding: 1.5rem;
+}
+
+/* Mobile back button */
+.mobile-back {
+  display: none;      /* hidden on desktop */
+  padding: 10px;
+}
+
+.mobile-back .back-button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+}
+
+/* ===== MOBILE VIEW ===== */
+@media (max-width: 768px) {
+
+  .mobile-back {
+    display: block;   /* show back button */
+  }
+
+  .layout-content {
+    flex-direction: column; /* stack vertically */
+  }
+
+  /* Hide sidebar on mobile */
+  .departmentbar {
+    display: none;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 1rem;
+  }
+
+}

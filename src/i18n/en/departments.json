@@ -1,0 +1,152 @@
+{
+  "accounts": {
+    "title": "Accounts",
+    "billsFormat": "Bills Format for Stores Supplied",
+    "codesManuals": "Codes/Manuals",
+    "eftMandate": "E F T Mandate Form",
+    "declarationNonApplicability": "Declaration to be given on every invoice regarding non applicability of e-invoice",
+    "amendmentTurnover": "Amendment to turnover threshold for e-invoicing under GST",
+    "assetRegister": "Form for Preparation of Asset Register for the Year 2017-18 & 2018-19",
+    "selectionNotice": "Notification for Selection 30% LDCE"
+  },
+  "civilEng": {
+    "title": "Civil Engineering",
+    "eliminationManualScavenging": "Elimination of Manual Scavenging"
+  },
+  "electricalEng": "Electrical Engineering",
+  "mechEng": {
+    "title": "Mechanical Engineering (Production)",
+    "manufacturingProcess": "Manufacturing Process",
+    "orgStructure": "Organizational Structure",
+    "nonMovingItems": "LIST OF NON MOVING ITEMS (NON STOCK)"
+  },
+  "marketing": {
+    "title": "Marketing",
+    "marketingDivision": "Marketing Division"
+  },
+  "medical": {
+    "title": "Medical",
+    "registrationFirm": "Registration of Firm for Supply of Part-II items"
+  },
+  "personnel": {
+    "title": "Personnel",
+    "railwayServices": "Railway Services (Conduct) Rules,1966",
+    "gazettedTransferOrders": "Gazetted Transfer Orders",
+    "cadrePosition": "Cadre Position",
+    "recruitmentSection": "Recruitment Section",
+    "staffWelfare": "Staff Welfare",
+    "importantLetterNotice": "Important Letter/Notice",
+    "selectionNotice": "Selection Notice",
+    "importantFormEmployee": "Important Form For Employee",
+    "gazettedSection": "Gazetted Section",
+    "seniorityList": "Seniority List of Non Gaz Staff",
+    "publicGrievances": "Public Grievances",
+    "establishmentCircular": {
+      "title": "Establishment Circular",
+      "allCirculars": "All Establishment Circulars",
+      "passRule": "PASS-Pass Rule",
+      "recruitment": "RECT-RECRUITMENT",
+      "promotion": "PSS-Promotion, Selection and Serving Staff Matter",
+      "miscellaneous": "MISC-MISCELLANEOUS CIRCULAR",
+      "allowances": "ALWC-Allowances",
+      "advances": "ADV-ADVANCES",
+      "settlement": "SETTL-SETTELMENT",
+      "leaveRule": "LV-LEAVE RUIE",
+      "welfare": "WMQA-Welfare Matters Including Quarter Allotment",
+      "reservation": "RES-RESERVATION",
+      "conductRules": "DAR-D&AR AND CONDUCT RULES",
+      "irem": "IREM-Vol-I",
+      "medicalRule": "MED-Medical Rule",
+      "masterCircular": "Master Circular",
+      "irec": "IREC-Indian Railway Establishment Code"
+    },
+    "jpoCMP": "JPO for engagement of Contract Medical Practitioners",
+    "recruitmentRoster": {
+      "title": "Recruitment Roster",
+      "accountsDept": "Accounts Department",
+      "personnelDept": "Personnel Department",
+      "civilEng": "Civil Engineering",
+      "electricalEng": "Electrical Engineering",
+      "mechEng": "Mechanical Engineering",
+      "storesDept": "Stores Department",
+      "generalAdmin": "General Admin",
+      "medicalDept": "Medical Deptt"
+    },
+    "settlementSec": "Settlement Sec",
+    "revisedRules": "Revised Rules of Employees Club",
+    "sexualHarassment": "Sexual Harassment Complaint",
+    "staffCouncil": "Notification for BLW Staff Council Election 2025-28"
+  },
+  "rajbhasha": {
+    "title": "Rajbhasaha",
+    "barekaDarpan31": "Bareka darpan -31",
+    "barekaDarpan32": "Bareka darpan -32",
+    "barekaDarpan33": "Bareka darpan -33",
+    "barekaDarpan34": "Bareka darpan -34",
+    "barekaDarpan35": "Bareka darpan -35",
+    "barekaDarpan36": "Bareka darpan -36",
+    "listOfBooks": "List of Books in Hindi Library",
+    "gmMessage2023": "General Manager, BLW Hindi Day Message-2023",
+    "questionBank": "Rajbhasha Question Bank",
+    "narakas": "Narakas",
+    "gmMessage2024": "General Manager, BLW Hindi Day Message-2024",
+    "rajbhashaPakhwada": "Rajbhasha Pakhwada 2025",
+    "gmMessage2025": "General Manager, BLW Hindi Day Message-2025"
+  },
+  "stores": {
+    "title": "Stores",
+    "suspendedFirms": "List of Suspended/Banned firms",
+    "tenderDocuments": "BLW Tender Documents",
+    "postContractMatter": "Notice for post-contract matter",
+    "plUnification": "Status of PL Unification at BLW",
+    "checklistBills": "Checklist for passing supplier/Contractor bills",
+    "inactiveSurplus": "Inactive and Surplus Item List",
+    "nonMovingHighValue": "Non Moving High Value Items List",
+    "gstChange": "Change in GST structure",
+    "estimatedTender": "List of Items with Estimated Tender value above Rs. 100 Crore",
+    "excessHighValue": "Excess High value HHP items list circulation to ZR",
+    "rejectionPolicy": "Policy for Rejection and Ground Rent",
+    "videoAssembly": "Video of assembly procedure of HHP Diesel Loco Detector Assembly",
+    "tentativeRequirement": "Tentative requirement plan up to next 05 years (2025-26 to 2029-30) for additional items having proposed for FY 2025-26 & 2026-27",
+    "irsConditions": "IRS Conditions of Contract, Version 11.09.2025"
+  },
+  "techTraining": {
+    "title": "Technical Training Centre",
+    "ttcBrochure": "TTC Brochure",
+    "weldorNomination": "Nomination of weldor for welding training module",
+    "questionBank": "Multiple Choice Question Bank for Supervisors & Technicians",
+    "trainingCalender": "Training Calender",
+    "internshipTraining": "Vocational/Internship Training Programme 2026"
+  },
+  "vigilance": {
+    "title": "Vigilance",
+    "awarenessWeek": "Vigilance Awareness Week",
+    "organization": "Organization",
+    "systemImprovements": "System Improvements",
+    "bulletin": "Vigilance Bulletin",
+    "complaintPolicy": "Complaint Policy",
+    "selections": "Selections",
+    "rtiInfo": "Information us 4(1)(b) of RTI ACT"
+  },
+  "design": {
+    "title": "Design Department",
+    "videoMounting": "Video of mounting procedure of HHP Diesel Loco Turbocharger",
+    "eoiConversion": "EOI for Conversion of HHP Diesel Loco into Electric Loco",
+    "eoiUpgradation": "EOI For Upgradation of BLW Diesel engines to make suitable for Marine application"
+  },
+  "safety": "Safety Department",
+  "bookmark": "Bookmark",
+  "mailPage": "Mail this Page",
+  "printPage": "Print Page",
+  "quickLinks": "Quick Links",
+  "briefHistoryTitle": "Brief History of BLW",
+  
+  
+  "bills": {
+    "title": "Bills",
+    "storesSupplied": "Bills Format for Stores Supplied"
+  }
+
+  
+  
+}

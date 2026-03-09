@@ -1,0 +1,24 @@
+{
+  "title": "Contact Us",
+  "seniorOfficers": "Contact Details of Senior Officers",
+  "railNetMail": "RailNet Mail Users",
+  "mailGov": "Mail.gov.in",
+  "rti": {
+    "title": "RTI",
+    "rtiAct": "RTI Act",
+    "rtiCell": "RTI Cell in BLW",
+    "feeStructure": "Fee Structure",
+    "applicationFormat": "Application Format",
+    "information4": "Information u/s 4(1)(b) of RTI Act"
+  },
+  "feedback": "Feedback",
+  "importantLinks": "Important Links",
+  "yourSuggestion": "Your Suggestion",
+  "privacyPolicy": "Privacy Policy",
+  "termsConditions": "Terms and Conditions",
+  "help": "Help",
+  "disclaimer": "Disclaimer",
+  "sitemap": "Sitemap",
+  "faq": "FAQ",
+  "otherRailwaySites": "Other Railway Sites"
+}

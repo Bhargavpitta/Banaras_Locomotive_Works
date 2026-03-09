@@ -1,0 +1,41 @@
+{
+  "hhpSpares": {
+    "title": "HHP BIM स्पेयर पार्ट्स",
+    "minutesBIM2122": "BIM 2021-22 के कार्यवृत्त",
+    "minutesMeeting": "6 और 7 मई 2022 को HHP डीजल लोकोमोटिव पर बैठक के कार्यवृत्त",
+    "agendaHHP1920": "HHP BIM 2019-20 का एजेंडा",
+    "drawingsHHP": "HHP लोको के चित्र",
+    "minutesBIM1920": "BIM 2019-20 के कार्यवृत्त",
+    "minutesBIM1718": "BIM 2017-18 के कार्यवृत्त",
+    "agendaHHP1718": "HHP BIM 2017-18 का एजेंडा",
+    "minutesBIM1617": "BIM 2016-17 के कार्यवृत्त",
+    "railwayBoardRSP": "रेलवे बोर्ड RSP स्थिति",
+    "zonalRailwayRSP": "जोनल रेलवे RSP स्थिति",
+    "supplyBalance": "HHP BIM, आयातित और टूलिंग वस्तुओं की आपूर्ति और शेष स्थिति",
+    "forwardingLetter": "BIM 2016-17 के कार्यवृत्त के लिए अग्रेषण पत्र",
+    "additionalTechnical": "HHP BIM 2017-18 के लिए अतिरिक्त तकनीकी एजेंडा",
+    "toolingItems": {
+      "title": "HHP लोकोमोटिव के लिए टूलिंग आइटम (रेलवे बोर्ड पत्र, चित्र, कैटलॉग और विक्रेता सूची)",
+      "maintenanceTools": "रखरखाव उपकरण कैटलॉग",
+      "railwayBoardLetter": "रेलवे बोर्ड पत्र",
+      "vendorList": "रखरखाव टूलिंग के लिए विक्रेता सूची",
+      "coveringLetter": "कवरिंग लेटर",
+      "drawingsMaintenance": "रखरखाव उपकरणों के चित्र"
+    },
+    "vettedIndents": "वर्ष 2024-25 के लिए जांचे गए इंडेंट का प्रस्तुतीकरण",
+    "poCopy": "51 खरीद टूलिंग वस्तुओं की PO प्रति"
+  },
+  "designBulletin": {
+    "title": "डिजाइन बुलेटिन",
+    "vehicle": "वाहन",
+    "engine": "इंजन",
+    "electrical": "विद्युत"
+  },
+  "warrantyClaim": {
+    "title": "वारंटी दावा",
+    "electricLoco": "विद्युत लोको वारंटी दावा",
+    "dieselLoco": "डीजल लोको पोर्टल",
+    "vendorLogin": "विद्युत लोको वारंटी के लिए विक्रेता लॉगिन"
+  },
+  "nonRailway": "गैर-रेलवे ग्राहक पोर्टल"
+}

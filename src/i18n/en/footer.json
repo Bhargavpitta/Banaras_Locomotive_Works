@@ -1,0 +1,20 @@
+{
+  "quickLinks": "Quick Links",
+  "siteMap": "Site Map",
+  "contactUs": "Contact Us",
+  "rti": "RTI",
+  "disclaimer": "Disclaimer",
+  "privacyPolicy": "Privacy Policy",
+  "termsConditions": "Terms & Conditions",
+  "accessibility": "Accessibility",
+  "copyright": "© 2010 All Rights Reserved. Indian Railways.",
+  "description": "This is a portal of Indian Railways for information and services provided by various Indian Railway organizations, Railway Ministry, Government of India.",
+  "skillDev": "Rail Skill Development Scheme",
+  "vision": "Vision - To become a world-class manufacturer of Diesel-Electric Locomotives with reliable, cost-effective, and state-of-the-art technology.",
+  "mission": "Mission - To fulfill our vision by:",
+  "missionPoints": [
+    "Ensuring reliability and continuous improvement in product quality through customer satisfaction.",
+    "Innovation, human resource development, and teamwork to develop competency.",
+    "Conservation of energy and natural resources for a clean environment."
+  ]
+}

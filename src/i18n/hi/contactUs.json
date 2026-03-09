@@ -1,0 +1,24 @@
+{
+  "title": "संपर्क करें",
+  "seniorOfficers": "वरिष्ठ अधिकारियों का संपर्क विवरण",
+  "railNetMail": "रेलनेट मेल उपयोगकर्ता",
+  "mailGov": "Mail.gov.in",
+  "rti": {
+    "title": "RTI",
+    "rtiAct": "RTI अधिनियम",
+    "rtiCell": "BLW में RTI सेल",
+    "feeStructure": "शुल्क संरचना",
+    "applicationFormat": "आवेदन प्रारूप",
+    "information4": "RTI अधिनियम की धारा 4(1)(b) के अंतर्गत जानकारी"
+  },
+  "feedback": "प्रतिक्रिया",
+  "importantLinks": "महत्वपूर्ण लिंक",
+  "yourSuggestion": "आपका सुझाव",
+  "privacyPolicy": "गोपनीयता नीति",
+  "termsConditions": "नियम और शर्तें",
+  "help": "सहायता",
+  "disclaimer": "अस्वीकरण",
+  "sitemap": "साइटमैप",
+  "faq": "सामान्य प्रश्न",
+  "otherRailwaySites": "अन्य रेलवे साइटें"
+}
