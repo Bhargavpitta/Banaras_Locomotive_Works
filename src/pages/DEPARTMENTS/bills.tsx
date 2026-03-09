@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Bookmark, Mail, Printer } from "lucide-react";
-import "./Bills.css";
+import "./bills.css";
 
 const Bills = () => {
   const { t } = useTranslation();
