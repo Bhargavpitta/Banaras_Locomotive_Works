@@ -1,0 +1,33 @@
+{
+  "newsTitle": "News & Announcements",
+  "tendersTitle": "Active Tenders",
+  "noTenders": "Currently there are no active Tenders.",
+  "quickLinks": "Quick Links",
+  "complaints": "Complaints (Rail Madad)",
+  "gstRailways": "GST - Indian Railways",
+  "publicGrievances": "Public Grievances",
+  "lastUpdated": "Last updated on: 01-03-2026",
+  "visitors": "No. of Visitors: 16049255",
+  "eoi": "EOI for Sale/Leasing/Hiring of In-Service Diesel Locomotives",
+  "news1": "Result for Junior Resident (House Surgeon) on contract basis for the Central Hospital, BLW/Varanasi",
+  "news2": "C & T Lab, BLW Varanasi Testing Charges for Outside Firm",
+  "aboutBLW": {
+    "title": "About BLW",
+    "description": "Banaras Locomotive Works (BLW), Varanasi is a Production Unit of Indian Railways, operational since August 1961. Located in Varanasi, Uttar Pradesh, BLW is India's premier locomotive manufacturing unit — producing diesel and electric locomotives ranging from 1350 HP to 6000 HP for Indian Railways, Non-Railway Customers, and export markets. BLW is certified under IRIS (ISO 22163), ISO 9001, ISO 14001, ISO 45001 and 5-S standards.",
+    "readMore": "Read More →"
+  },
+  "activeTenders": {
+    "title": "Active Tenders"
+  },
+  "corporateFilm": {
+    "title": "BLW Corporate Film",
+    "desc": "Watch the official corporate film of Banaras Locomotive Works, Varanasi.",
+    "watchNow": "Watch Now →"
+  },
+  "governmentMedia": {
+    "title": "Government & Media",
+    "indiaPortal": "india.gov.in",
+    "indiaPortalDesc": "The National Portal of India",
+    "visitPortal": "Visit Portal"
+  }
+}

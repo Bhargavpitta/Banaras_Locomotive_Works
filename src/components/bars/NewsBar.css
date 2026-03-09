@@ -1,0 +1,81 @@
+/* Sidebar container */
+.newsbar {
+  width: 16rem;
+  border-right: 1px solid #e5e7eb;
+  padding: 1rem;
+  background-color: #1f277b;
+  color: white;
+  min-height: 100vh;
+  transition: transform 0.3s ease;
+}
+
+/* Back button */
+.newsbar .back-button {
+  margin-bottom: 1rem;
+}
+
+.newsbar .back-button a {
+  color: white;
+  background-color: #2563eb;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.newsbar .back-button a:hover {
+  background-color: #1d4ed8;
+}
+
+/* List styles */
+.newsbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.newsbar ul li {
+  color: white;
+}
+
+.newsbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.newsbar ul li a:hover {
+  text-decoration: underline;
+  color: #a5b4fc;
+}
+
+/* ===== MOBILE VIEW ===== */
+@media (max-width: 768px) {
+  .newsbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    z-index: 50;
+    transform: translateY(-100%);
+  }
+
+  .newsbar.open {
+    transform: translateY(0);
+  }
+
+  .newsbar ul {
+    flex-direction: row;
+    overflow-x: auto;
+  }
+
+  .newsbar ul li {
+    white-space: nowrap;
+    padding: 0.5rem 1rem;
+  }
+}

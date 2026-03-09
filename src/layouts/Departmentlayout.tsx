@@ -1,10 +1,10 @@
 import { Link, Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import AboutBar from "../components/bars/AboutBar";
+import DepartmentBar from "../components/bars/DepartmentBar";
 import Header from "../components/Header";
-import "./AboutLayout.css";
+import "./Departmentlayout.css";
 
-const AboutLayout = () => {
+const DepartmentLayout = () => {
   return (
     <>
       <Header />
@@ -13,7 +13,7 @@ const AboutLayout = () => {
         <Link to="/" className="back-button">← Back</Link>
       </div>
       <div className="layout-content">
-        <AboutBar />
+        <DepartmentBar />
         <div className="main-content">
           <Outlet />
         </div>
@@ -22,4 +22,4 @@ const AboutLayout = () => {
   );
 };
 
-export default AboutLayout;
+export default DepartmentLayout;

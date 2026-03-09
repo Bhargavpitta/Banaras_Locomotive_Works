@@ -2,9 +2,21 @@ import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import "./Navbar.css";
 
+interface SubSubDropdownItem {
+  label: string;
+  href?: string;
+}
+
+interface SubDropdownItem {
+  label: string;
+  href?: string;
+  subDropdown?: SubSubDropdownItem[];
+}
+
 interface DropdownItem {
   label: string;
   href?: string;
+  subDropdown?: SubDropdownItem[];
 }
 
 interface NavItem {
@@ -17,11 +29,12 @@ const Navbar = () => {
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<number | null>(null);
+  const [activeSubDropdown, setActiveSubDropdown] = useState<string | null>(null);
+  const [activeSubSubDropdown, setActiveSubSubDropdown] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
-  const [navBottom, setNavBottom] = useState(60); // tracks real bottom of navbar
+  const [navBottom, setNavBottom] = useState(60);
   const navRef = useRef<HTMLElement>(null);
 
-  // Track navbar's bottom position so drawer always starts right below it
   useEffect(() => {
     const updateNavBottom = () => {
       if (navRef.current) {
@@ -38,14 +51,12 @@ const Navbar = () => {
     };
   }, []);
 
-  // Detect scroll for style change
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Lock body scroll when mobile menu is open
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
     return () => {
@@ -55,103 +66,435 @@ const Navbar = () => {
 
   const toggleDropdown = (index: number) => {
     setActiveDropdown(activeDropdown === index ? null : index);
+    setActiveSubDropdown(null);
+    setActiveSubSubDropdown(null);
+  };
+
+  const toggleSubDropdown = (key: string) => {
+    setActiveSubDropdown(activeSubDropdown === key ? null : key);
+    setActiveSubSubDropdown(null);
+  };
+
+  const toggleSubSubDropdown = (key: string) => {
+    setActiveSubSubDropdown(activeSubSubDropdown === key ? null : key);
   };
 
   const closeAll = () => {
     setMenuOpen(false);
     setActiveDropdown(null);
+    setActiveSubDropdown(null);
+    setActiveSubSubDropdown(null);
   };
 
   const navItems: NavItem[] = [
+    /*---------------------------------------------ABOUT SECTION----------------------------------------------*/ 
+
     {
       label: t("nav.aboutBLW"),
       dropdown: [
         { label: t("about.briefHistory"), href: "/about/brief-history" },
         { label: t("about.organization") },
-        { label: t("about.heritage"), href:"/about/blw-heritage"},
+        { label: t("about.heritage"), href: "/about/blw-heritage" },
         { label: t("about.orgStrength"), href: "/about/organization-strength" },
-        { label: t("about.qualityAssurance"), href:"/about/quality" },
-        { label: t("about.department"), href:"/about/Department" },
-        { label: t("about.milestones"),href:"/about/milestones" },
-        { label: t("about.productForSale") },
-        { label: t("about.designCapabilities"), href:"/about/design" },
-        { label: t("about.qualityPolicy"), href:"/about/quality" },
-        { label: t("about.portalPolicies"), href:"/about/portal"},
+        { label: t("about.qualityAssurance"), href: "/about/quality" },
+        { label: t("about.department"), href: "/about/Department" },
+        { label: t("about.milestones"), href: "/about/milestones" },
+        {
+          label: t("about.productForSale.title"),
+          href: "/about/product-for-sale",
+          subDropdown: [
+            { label: t("about.productForSale.dieselLocomotive"), href: "/about/product-for-sale/diesel-locomotive" },
+            { label: t("about.productForSale.dgSets"), href: "/about/product-for-sale/dg-sets" },
+            { label: t("about.productForSale.contactDetails"), href: "/about/product-for-sale/contact" },
+            { label: t("about.productForSale.previousProduct"), href: "/about/product-for-sale/previous-product" },
+            {
+              label: t("about.productForSale.productPhotograph.title"),
+              href: "/about/product-for-sale/photographs",
+              subDropdown: [
+                { label: t("about.productForSale.productPhotograph.blwProduct"), href: "/about/product-for-sale/photographs/blw-product" },
+                { label: t("about.productForSale.productPhotograph.exportLocomotives"), href: "/about/product-for-sale/photographs/export-locomotives" },
+              ],
+            },
+          ],
+        },
+        {label:t("about.photoGallery"), href:"#"},
+        { label: t("about.designCapabilities"), href: "/about/design" },
+        { label: t("about.qualityPolicy"), href: "/about/quality" },
+        { label: t("about.portalPolicies"), href: "/about/portal" },
+        {
+         label: t("about.sop.title"),
+         subDropdown: [
+         { label: t("about.sop.modelSop"), href: "/about/sop/model-sop" },
+         { label: t("about.sop.oldSop"), href: "/about/sop/old-sop" },
+         ],
+       },
+      {
+      label: t("about.immovablePropertyReturn.title"),
+      subDropdown: [
+        { label: t("about.immovablePropertyReturn.administration"), href: "/about/immovable-property/administration" },
+        { label: t("about.immovablePropertyReturn.stores"), href: "/about/immovable-property/stores" },
+        { label: t("about.immovablePropertyReturn.electrical"), href: "/about/immovable-property/electrical" },
+        { label: t("about.immovablePropertyReturn.mechanical"), href: "/about/immovable-property/mechanical" },
+        { label: t("about.immovablePropertyReturn.medical"), href: "/about/immovable-property/medical" },
+        { label: t("about.immovablePropertyReturn.accounts"), href: "/about/immovable-property/accounts" },
       ],
     },
     {
-      label: t("nav.department"),
-      dropdown: [
-        { label: t("departments.accounts") },
-        { label: t("departments.civilEng") },
-        { label: t("departments.electricalEng") },
-        { label: t("departments.mechEng") },
-        { label: t("departments.marketing") },
-        { label: t("departments.medical") },
-        { label: t("departments.personnel") },
-        { label: t("departments.stores") },
-        { label: t("departments.techTraining") },
-        { label: t("departments.vigilance") },
-        { label: t("departments.design") },
-        { label: t("departments.safety") },
+  label: t("about.visitors.title"),
+  subDropdown: [
+    { label: t("about.visitors.visitoregatepass"), href: "/about/visitors/egatepass" },
+  ],
+},
+    { label: t("about.environmentalSocialOrientation"), href: "/about/environmental-social-orientation" },
+    { label: t("about.blwCalendar2026"), href: "/about/blw-calendar-2026" },
+    { label: t("about.swachhBharatMission"), href: "/about/swachh-bharat-mission" }
+
+
+     ]
+    },
+
+    /*-------------------------------------DEPARTMENT SECTION--------------------------------------------*/
+
+    {
+  label: t("nav.department"),
+  dropdown: [
+    {
+      label: t("departments.accounts.title"),
+      subDropdown: [
+        { label: t("departments.accounts.billsFormat"), href: "/departments/accounts/bills-format" },
+        { label: t("departments.accounts.codesManuals"), href: "#" },
+        { label: t("departments.accounts.eftMandate"), href: "#" },
+        { label: t("departments.accounts.declarationNonApplicability"), href: "#" },
+        { label: t("departments.accounts.amendmentTurnover"), href: "#" },
+        { label: t("departments.accounts.assetRegister"), href: "#" },
+        { label: t("departments.accounts.selectionNotice"), href: "#" },
       ],
     },
     {
-      label: t("nav.locoPortal"),
-      dropdown: [
-        { label: t("locoPortal.hhpSpares") },
-        { label: t("locoPortal.designBulletin") },
-        { label: t("locoPortal.warrantyClaim") },
-        { label: t("locoPortal.nonRailway") },
-        { label: t("locoPortal.procur") },
+      label: t("departments.civilEng.title"),
+      subDropdown: [
+        { label: t("departments.civilEng.eliminationManualScavenging"), href: "#" },
+      ],
+    },
+    { label: t("departments.electricalEng") },
+    {
+      label: t("departments.mechEng.title"),
+      subDropdown: [
+        { label: t("departments.mechEng.manufacturingProcess"), href: "#" },
+        { label: t("departments.mechEng.orgStructure"), href: "#" },
+        { label: t("departments.mechEng.nonMovingItems"), href: "#" },
       ],
     },
     {
-      label: t("nav.tenderInfo"),
-      dropdown: [
-        { label: t("tender.materialMgmt") },
-        { label: t("tender.liveTender") },
-        { label: t("tender.awardedContracts") },
-        { label: t("tender.tenders") },
-        { label: t("tender.auctionInfo") },
-        { label: t("tender.cppTenders") },
+      label: t("departments.marketing.title"),
+      subDropdown: [
+        { label: t("departments.marketing.marketingDivision"), href: "#" },
       ],
     },
     {
-      label: t("nav.vendorInfo"),
-      dropdown: [
-        { label: t("vendor.draftSpec") },
-        { label: t("vendor.login") },
-        { label: t("vendor.billingStatus") },
-        { label: t("vendor.billsFormat") },
-        { label: t("vendor.vendorDirectory") },
-        { label: t("vendor.newRegistration") },
-        { label: t("vendor.guidelines") },
-        { label: t("vendor.rejectionPolicy") },
-        { label: t("vendor.approvalSystem") },
-        { label: t("vendor.eftMandate") },
-        { label: t("vendor.particulars") },
-        { label: t("vendor.gst") },
+      label: t("departments.medical.title"),
+      subDropdown: [
+        { label: t("departments.medical.registrationFirm"), href: "#" },
       ],
     },
     {
-      label: t("nav.newsEvents"),
-      dropdown: [
-        { label: t("news.announcements") },
-        { label: t("news.annualReport") },
-        { label: t("news.pressReleases") },
-        { label: t("news.currentNews") },
-        { label: t("news.achievements") },
-        { label: t("news.civilDefence") },
-        { label: t("news.tourism") },
+  label: t("departments.personnel.title"),
+  subDropdown: [
+    { label: t("departments.personnel.railwayServices"), href: "#" },
+    { label: t("departments.personnel.gazettedTransferOrders"), href: "#" },
+    { label: t("departments.personnel.cadrePosition"), href: "#" },
+    { label: t("departments.personnel.recruitmentSection"), href: "#" },
+    { label: t("departments.personnel.staffWelfare"), href: "#" },
+    { label: t("departments.personnel.importantLetterNotice"), href: "#" },
+    { label: t("departments.personnel.selectionNotice"), href: "#" },
+    { label: t("departments.personnel.importantFormEmployee"), href: "#" },
+    { label: t("departments.personnel.gazettedSection"), href: "#" },
+    { label: t("departments.personnel.seniorityList"), href: "#" },
+    { label: t("departments.personnel.publicGrievances"), href: "#" },
+    {
+      label: t("departments.personnel.establishmentCircular.title"),
+      subDropdown: [
+        { label: t("departments.personnel.establishmentCircular.allCirculars"), href: "#" },
+        { label: t("departments.personnel.establishmentCircular.passRule"), href: "#" },
+        { label: t("departments.personnel.establishmentCircular.recruitment"), href: "#" },
+        { label: t("departments.personnel.establishmentCircular.promotion"), href: "#" },
+        { label: t("departments.personnel.establishmentCircular.miscellaneous"), href: "#" },
+        { label: t("departments.personnel.establishmentCircular.allowances"), href: "#" },
+        { label: t("departments.personnel.establishmentCircular.advances"), href: "#" },
+        { label: t("departments.personnel.establishmentCircular.settlement"), href: "#" },
+        { label: t("departments.personnel.establishmentCircular.leaveRule"), href: "#" },
+        { label: t("departments.personnel.establishmentCircular.welfare"), href: "#" },
+        { label: t("departments.personnel.establishmentCircular.reservation"), href: "#" },
+        { label: t("departments.personnel.establishmentCircular.conductRules"), href: "#" },
+        { label: t("departments.personnel.establishmentCircular.irem"), href: "#" },
+        { label: t("departments.personnel.establishmentCircular.medicalRule"), href: "#" },
+        { label: t("departments.personnel.establishmentCircular.masterCircular"), href: "#" },
+        { label: t("departments.personnel.establishmentCircular.irec"), href: "#" },
+      ],
+    },
+    { label: t("departments.personnel.jpoCMP"), href: "#" },
+    {
+      label: t("departments.personnel.recruitmentRoster.title"),
+      subDropdown: [
+        { label: t("departments.personnel.recruitmentRoster.accountsDept"), href: "#" },
+        { label: t("departments.personnel.recruitmentRoster.personnelDept"), href: "#" },
+        { label: t("departments.personnel.recruitmentRoster.civilEng"), href: "#" },
+        { label: t("departments.personnel.recruitmentRoster.electricalEng"), href: "#" },
+        { label: t("departments.personnel.recruitmentRoster.mechEng"), href: "#" },
+        { label: t("departments.personnel.recruitmentRoster.storesDept"), href: "#" },
+        { label: t("departments.personnel.recruitmentRoster.generalAdmin"), href: "#" },
+        { label: t("departments.personnel.recruitmentRoster.medicalDept"), href: "#" },
+      ],
+    },
+    { label: t("departments.personnel.settlementSec"), href: "#" },
+    { label: t("departments.personnel.revisedRules"), href: "#" },
+    { label: t("departments.personnel.sexualHarassment"), href: "#" },
+    { label: t("departments.personnel.staffCouncil"), href: "#" },
+  ],
+},
+    {
+      label: t("departments.rajbhasha.title"),
+      subDropdown: [
+        { label: t("departments.rajbhasha.barekaDarpan31"), href: "#" },
+        { label: t("departments.rajbhasha.barekaDarpan32"), href: "#" },
+        { label: t("departments.rajbhasha.barekaDarpan33"), href: "#" },
+        { label: t("departments.rajbhasha.barekaDarpan34"), href: "#" },
+        { label: t("departments.rajbhasha.barekaDarpan35"), href: "#" },
+        { label: t("departments.rajbhasha.barekaDarpan36"), href: "#" },
+        { label: t("departments.rajbhasha.listOfBooks"), href: "#" },
+        { label: t("departments.rajbhasha.gmMessage2023"), href: "#" },
+        { label: t("departments.rajbhasha.questionBank"), href: "#" },
+        { label: t("departments.rajbhasha.narakas"), href: "#" },
+        { label: t("departments.rajbhasha.gmMessage2024"), href: "#" },
+        { label: t("departments.rajbhasha.rajbhashaPakhwada"), href: "#" },
+        { label: t("departments.rajbhasha.gmMessage2025"), href: "#" },
       ],
     },
     {
-      label: t("nav.contactUs"),
+      label: t("departments.stores.title"),
+      subDropdown: [
+        { label: t("departments.stores.suspendedFirms"), href: "#" },
+        { label: t("departments.stores.tenderDocuments"), href: "#" },
+        { label: t("departments.stores.postContractMatter"), href: "#" },
+        { label: t("departments.stores.plUnification"), href: "#" },
+        { label: t("departments.stores.checklistBills"), href: "#" },
+        { label: t("departments.stores.inactiveSurplus"), href: "#" },
+        { label: t("departments.stores.nonMovingHighValue"), href: "#" },
+        { label: t("departments.stores.gstChange"), href: "#" },
+        { label: t("departments.stores.estimatedTender"), href: "#" },
+        { label: t("departments.stores.excessHighValue"), href: "#" },
+        { label: t("departments.stores.rejectionPolicy"), href: "#" },
+        { label: t("departments.stores.videoAssembly"), href: "#" },
+        { label: t("departments.stores.tentativeRequirement"), href: "#" },
+        { label: t("departments.stores.irsConditions"), href: "#" },
+      ],
     },
+    {
+      label: t("departments.techTraining.title"),
+      subDropdown: [
+        { label: t("departments.techTraining.ttcBrochure"), href: "#" },
+        { label: t("departments.techTraining.weldorNomination"), href: "#" },
+        { label: t("departments.techTraining.questionBank"), href: "#" },
+        { label: t("departments.techTraining.trainingCalender"), href: "#" },
+        { label: t("departments.techTraining.internshipTraining"), href: "#" },
+      ],
+    },
+    {
+      label: t("departments.vigilance.title"),
+      subDropdown: [
+        { label: t("departments.vigilance.awarenessWeek"), href: "#" },
+        { label: t("departments.vigilance.organization"), href: "#" },
+        { label: t("departments.vigilance.systemImprovements"), href: "#" },
+        { label: t("departments.vigilance.bulletin"), href: "#" },
+        { label: t("departments.vigilance.complaintPolicy"), href: "#" },
+        { label: t("departments.vigilance.selections"), href: "#" },
+        { label: t("departments.vigilance.rtiInfo"), href: "#" },
+      ],
+    },
+    {
+      label: t("departments.design.title"),
+      subDropdown: [
+        { label: t("departments.design.videoMounting"), href: "#" },
+        { label: t("departments.design.eoiConversion"), href: "#" },
+        { label: t("departments.design.eoiUpgradation"), href: "#" },
+      ],
+    },
+    { label: t("departments.safety") },
+  ],
+},
+
+/*------------------------------------- LOCOPORTAL SECTION----------------------------------------------*/ 
+
+
+    {
+  label: t("nav.locoPortal"),
+  dropdown: [
+    {
+      label: t("locoPortal.hhpSpares.title"),
+      subDropdown: [
+        { label: t("locoPortal.hhpSpares.minutesBIM2122"), href: "#" },
+        { label: t("locoPortal.hhpSpares.minutesMeeting"), href: "#" },
+        { label: t("locoPortal.hhpSpares.agendaHHP1920"), href: "#" },
+        { label: t("locoPortal.hhpSpares.drawingsHHP"), href: "#" },
+        { label: t("locoPortal.hhpSpares.minutesBIM1920"), href: "#" },
+        { label: t("locoPortal.hhpSpares.minutesBIM1718"), href: "#" },
+        { label: t("locoPortal.hhpSpares.agendaHHP1718"), href: "#" },
+        { label: t("locoPortal.hhpSpares.minutesBIM1617"), href: "#" },
+        { label: t("locoPortal.hhpSpares.railwayBoardRSP"), href: "#" },
+        { label: t("locoPortal.hhpSpares.zonalRailwayRSP"), href: "#" },
+        { label: t("locoPortal.hhpSpares.supplyBalance"), href: "#" },
+        { label: t("locoPortal.hhpSpares.forwardingLetter"), href: "#" },
+        { label: t("locoPortal.hhpSpares.additionalTechnical"), href: "#" },
+        {
+          label: t("locoPortal.hhpSpares.toolingItems.title"),
+          subDropdown: [
+            { label: t("locoPortal.hhpSpares.toolingItems.maintenanceTools"), href: "#" },
+            { label: t("locoPortal.hhpSpares.toolingItems.railwayBoardLetter"), href: "#" },
+            { label: t("locoPortal.hhpSpares.toolingItems.vendorList"), href: "#" },
+            { label: t("locoPortal.hhpSpares.toolingItems.coveringLetter"), href: "#" },
+            { label: t("locoPortal.hhpSpares.toolingItems.drawingsMaintenance"), href: "#" },
+          ],
+        },
+        { label: t("locoPortal.hhpSpares.vettedIndents"), href: "#" },
+        { label: t("locoPortal.hhpSpares.poCopy"), href: "#" },
+      ],
+    },
+    {
+      label: t("locoPortal.designBulletin.title"),
+      subDropdown: [
+        { label: t("locoPortal.designBulletin.vehicle"), href: "#" },
+        { label: t("locoPortal.designBulletin.engine"), href: "#" },
+        { label: t("locoPortal.designBulletin.electrical"), href: "#" },
+      ],
+    },
+    {
+      label: t("locoPortal.warrantyClaim.title"),
+      subDropdown: [
+        { label: t("locoPortal.warrantyClaim.electricLoco"), href: "#" },
+        { label: t("locoPortal.warrantyClaim.dieselLoco"), href: "#" },
+        { label: t("locoPortal.warrantyClaim.vendorLogin"), href: "#" },
+      ],
+    },
+    { label: t("locoPortal.nonRailway"), href: "#" },
+  ],
+},
+
+/*------------------------------------------------------------ TENDER SECTION -------------------------------*/ 
+
+    {
+  label: t("nav.tenderInfo"),
+  dropdown: [
+    {
+      label: t("tender.materialMgmt.title"),
+      subDropdown: [
+        { label: t("tender.materialMgmt.tenderNotice"), href: "#" },
+        { label: t("tender.materialMgmt.downloadDrawings"), href: "#" },
+      ],
+    },
+    {
+      label: t("tender.liveTender.title"),
+      subDropdown: [
+        { label: t("tender.liveTender.electrical"), href: "#" },
+      ],
+    },
+    {
+      label: t("tender.awardedContracts.title"),
+      subDropdown: [
+        { label: t("tender.awardedContracts.mechanical"), href: "#" },
+        { label: t("tender.awardedContracts.engineering"), href: "#" },
+      ],
+    },
+    { label: t("tender.blwItemsGTE"), href: "#" },
+    { label: t("tender.blwHHPItems"), href: "#" },
+    { label: t("tender.list48HHP"), href: "#" },
+    { label: t("tender.procurementLash"), href: "#" },
+    { label: t("tender.procurementGTE2530"), href: "#" },
+    { label: t("tender.tenders"), href: "#" },
+    { label: t("tender.auctionInfo"), href: "#" },
+    { label: t("tender.cppTenders"), href: "#" },
+    { label: t("tender.procurementGTE2425"), href: "#" },
+    { label: t("tender.gteAdditional"), href: "#" },
+    { label: t("tender.procurementGTE2732"), href: "#" },
+  ],
+},
+/*-------------------------------------------- VENDOR SECTION -----------------------------*/ 
+
+    {
+  label: t("nav.vendorInfo"),
+  dropdown: [
+    { label: t("vendor.draftSpec"), href: "#" },
+    { label: t("vendor.login"), href: "#" },
+    { label: t("vendor.billingStatus"), href: "#" },
+    { label: t("vendor.billsFormat"), href: "#" },
+    { label: t("vendor.detailsBills"), href: "#" },
+    {
+      label: t("vendor.vendorDirectory.title"),
+      subDropdown: [
+        { label: t("vendor.vendorDirectory.currentDirectory"), href: "#" },
+        { label: t("vendor.vendorDirectory.previousDirectories"), href: "#" },
+      ],
+    },
+    { label: t("vendor.newRegistration"), href: "#" },
+    { label: t("vendor.guidelines"), href: "#" },
+    { label: t("vendor.rejectionPolicy"), href: "#" },
+    { label: t("vendor.approvalSystem"), href: "#" },
+    { label: t("vendor.eftMandate"), href: "#" },
+    { label: t("vendor.particulars"), href: "#" },
+    { label: t("vendor.gst"), href: "#" },
+  ],
+},
+
+/* -----------------------------------------------NEWSEVENTS SECTION --------------------------------*/ 
+  {
+  label: t("nav.newsEvents"),
+  dropdown: [
+    { label: t("news.announcements"), href: "#" },
+    { label: t("news.annualReport"), href: "#" },
+    { label: t("news.pressReleases"), href: "#" },
+    { label: t("news.shortVideo"), href: "#" },
+    { label: t("news.currentNews"), href: "#" },
+    { label: t("news.samwad"), href: "#" },
+    { label: t("news.gmArticle"), href: "#" },
+    { label: t("news.videoAssembly"), href: "#" },
+    { label: t("news.tourism"), href: "#" },
+    { label: t("news.achievements"), href: "#" },
+    { label: t("news.civilDefence"), href: "#" },
+    { label: t("news.procedureChecking"), href: "#" },
+  ],
+},
+
+/* ----------------------------------------------- CONTACT SETION --------------------------*/ 
+
+   {
+  label: t("nav.contactUs"),
+  dropdown: [
+    { label: t("contactUs.seniorOfficers"), href: "#" },
+    { label: t("contactUs.railNetMail"), href: "#" },
+    { label: t("contactUs.mailGov"), href: "#" },
+    {
+      label: t("contactUs.rti.title"),
+      subDropdown: [
+        { label: t("contactUs.rti.rtiAct"), href: "#" },
+        { label: t("contactUs.rti.rtiCell"), href: "#" },
+        { label: t("contactUs.rti.feeStructure"), href: "#" },
+        { label: t("contactUs.rti.applicationFormat"), href: "#" },
+        { label: t("contactUs.rti.information4"), href: "#" },
+      ],
+    },
+    { label: t("contactUs.feedback"), href: "#" },
+    { label: t("contactUs.importantLinks"), href: "#" },
+    { label: t("contactUs.yourSuggestion"), href: "#" },
+    { label: t("contactUs.privacyPolicy"), href: "#" },
+    { label: t("contactUs.termsConditions"), href: "#" },
+    { label: t("contactUs.help"), href: "#" },
+    { label: t("contactUs.disclaimer"), href: "#" },
+    { label: t("contactUs.sitemap"), href: "#" },
+    { label: t("contactUs.faq"), href: "#" },
+    { label: t("contactUs.otherRailwaySites"), href: "#" },
+  ],
+},
   ];
 
-  // Inline styles for drawer & overlay — driven by real navbar bottom position
   const drawerStyle: React.CSSProperties = {
     top: navBottom,
     height: `calc(100vh - ${navBottom}px)`,
@@ -164,7 +507,6 @@ const Navbar = () => {
   return (
     <nav ref={navRef} className={`navbar ${scrolled ? "navbar--scrolled" : ""}`}>
 
-      {/* Overlay rendered only when menu is open */}
       {menuOpen && (
         <div
           className="navbar__overlay"
@@ -176,7 +518,6 @@ const Navbar = () => {
 
       <div className="navbar__inner">
 
-        {/* Hamburger / Close Button */}
         <button
           className="navbar__hamburger"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -211,25 +552,90 @@ const Navbar = () => {
                 onClick={() => item.dropdown ? toggleDropdown(index) : closeAll()}
               >
                 {item.label}
-                {item.dropdown && (
-                  <span className="navbar__arrow">▾</span>
-                )}
+                {item.dropdown && <span className="navbar__arrow">▾</span>}
               </button>
 
+              {/* LEVEL 1 DROPDOWN */}
               {item.dropdown && (
-                <div
-                  className={`navbar__dropdown ${activeDropdown === index ? "navbar__dropdown--open" : ""}`}
-                >
-                  {item.dropdown.map((sub, subIndex) => (
-                    <a
-                      key={subIndex}
-                      href={sub.href || "#"}
-                      className="navbar__dropdown-link"
-                      onClick={closeAll}
-                    >
-                      {sub.label}
-                    </a>
-                  ))}
+                <div className={`navbar__dropdown ${activeDropdown === index ? "navbar__dropdown--open" : ""}`}>
+                  {item.dropdown.map((sub, subIndex) => {
+                    const subKey = `${index}-${subIndex}`;
+                    return (
+                      <div key={subIndex} className="navbar__dropdown-item">
+                        {sub.subDropdown ? (
+                          <>
+                            {/* Has sub-dropdown: render as button */}
+                            <button
+                              className="navbar__dropdown-link navbar__dropdown-link--has-sub"
+                              onClick={() => toggleSubDropdown(subKey)}
+                            >
+                              {sub.label}
+                              <span className="navbar__arrow">▾</span>
+                            </button>
+
+                            {/* LEVEL 2 SUB-DROPDOWN */}
+                            {activeSubDropdown === subKey && (
+                              <div className="navbar__subdropdown">
+                                {sub.subDropdown.map((subSub, subSubIndex) => {
+                                  const subSubKey = `${subKey}-${subSubIndex}`;
+                                  return (
+                                    <div key={subSubIndex} className="navbar__subdropdown-item">
+                                      {subSub.subDropdown ? (
+                                        <>
+                                          {/* Has sub-sub-dropdown: render as button */}
+                                          <button
+                                            className="navbar__subdropdown-link navbar__dropdown-link--has-sub"
+                                            onClick={() => toggleSubSubDropdown(subSubKey)}
+                                          >
+                                            {subSub.label}
+                                            <span className="navbar__arrow">▾</span>
+                                          </button>
+
+                                          {/* LEVEL 3 SUB-SUB-DROPDOWN */}
+                                          {activeSubSubDropdown === subSubKey && (
+                                            <div className="navbar__subsubdropdown">
+                                              {subSub.subDropdown.map((subSubSub, i) => (
+                                                <a
+                                                  key={i}
+                                                  href={subSubSub.href || "#"}
+                                                  className="navbar__subsubdropdown-link"
+                                                  onClick={closeAll}
+                                                >
+                                                  {subSubSub.label}
+                                                </a>
+                                              ))}
+                                            </div>
+                                          )}
+                                        </>
+                                      ) : (
+                                        // Regular sub-dropdown item
+                                        <a
+                                          href={subSub.href || "#"}
+                                          className="navbar__subdropdown-link"
+                                          onClick={closeAll}
+                                        >
+                                          {subSub.label}
+                                        </a>
+                                      )}
+                                    </div>
+                                  );
+                                })}
+                              </div>
+                            )}
+                          </>
+                        ) : (
+                          // Regular dropdown item
+                          <a
+                            href={sub.href || "#"}
+                            className="navbar__dropdown-link"
+                            onClick={closeAll}
+                          >
+                            {sub.label}
+                          </a>
+                        )}
+                      </div>
+                    );
+                  })}
                 </div>
               )}
             </li>

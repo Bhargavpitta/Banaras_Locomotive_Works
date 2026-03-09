@@ -13,9 +13,12 @@ import PortalPolicies from "./pages/About BLW/PortalPolicies";
 import Department from "./pages/About BLW/Department";
 import Design from "./pages/About BLW/design"; // small d in filename
 
+// DEPARTMETS
+import Bills from "./pages/DEPARTMENTS/bills"
 
 // Layout
 import AboutLayout from "./layouts/AboutLayout";
+import DepartmentLayout from "./layouts/Departmentlayout";
 
 const App = () => (
   <BrowserRouter>
@@ -38,6 +41,12 @@ const App = () => (
          
 
       </Route>
+      {/* Departments */}
+<Route path="/departments" element={< DepartmentLayout/>}>
+
+  <Route path="accounts/bills-format" element={<Bills />} />
+</Route>
+     
 
       {/* 404 */}
       <Route path="*" element={<NotFound />} />

@@ -1,0 +1,27 @@
+{
+  "materialMgmt": {
+    "title": "Material Management",
+    "tenderNotice": "Tender Notice",
+    "downloadDrawings": "Download Drawings"
+  },
+  "liveTender": {
+    "title": "Live Tender",
+    "electrical": "Electrical"
+  },
+  "awardedContracts": {
+    "title": "Awarded Contracts",
+    "mechanical": "Mechanical",
+    "engineering": "Engineering"
+  },
+  "blwItemsGTE": "BLW Items to be Procured through G.T.E",
+  "blwHHPItems": "BLW HHP ITEMS TO BE PROCURED THROUGH GLOBAL TENDER ENQUIRY DURING 23-24, 24-25, 25-26, 26-27 and 27-28",
+  "list48HHP": "List of 48 HHP Items to be procured through Global Tender enquiry for FY-2022-23",
+  "procurementLash": "Procurement plan of Lash Adjuster (PL.No.16040144) for 5 years from FY 2023-24 to FY 2027-28",
+  "procurementGTE2530": "Procurement plan for next 5 years of GTE items (Diesel Locomotives) for FY 2025-26, 2026-27, 2027-28, 2028-29 and 2029-30",
+  "tenders": "Tenders",
+  "auctionInfo": "Auction Informations",
+  "cppTenders": "CPP Tenders",
+  "procurementGTE2425": "Procurement plan for next 5 years of GTE items (Diesel Locomotives) for FY 2024-25",
+  "gteAdditional": "GTE item list of additional items for FY 2025-26, 2026-27, 2027-28, 2028-29 & 2029-30",
+  "procurementGTE2732": "Procurement plan for next 5 years of GTE items (Diesel Locomotives) for FY 2027-28, 2028-29, 2029-30, 2030-31 and 2031-32"
+}
