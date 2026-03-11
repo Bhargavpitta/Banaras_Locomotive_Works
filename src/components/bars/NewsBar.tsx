@@ -19,18 +19,30 @@ const NewsBar = () => {
         </div>
 
         <ul>
-          <li><Link to="#">{t("news.announcements")}</Link></li>
-          <li><Link to="#">{t("news.annualReport")}</Link></li>
-          <li><Link to="#">{t("news.pressReleases")}</Link></li>
-          <li><Link to="#">{t("news.shortVideo")}</Link></li>
-          <li><Link to="#">{t("news.currentNews")}</Link></li>
-          <li><Link to="#">{t("news.samwad")}</Link></li>
-          <li><Link to="#">{t("news.gmArticle")}</Link></li>
-          <li><Link to="#">{t("news.videoAssembly")}</Link></li>
-          <li><Link to="#">{t("news.tourism")}</Link></li>
-          <li><Link to="#">{t("news.achievements")}</Link></li>
-          <li><Link to="#">{t("news.civilDefence")}</Link></li>
-          <li><Link to="#">{t("news.procedureChecking")}</Link></li>
+         {/* News & Announcements */}
+          <li><Link to="/news/announcements">{t("news.announcements")}</Link></li>
+         {/* GM's Annual Report */}
+          <li><Link to="/news/annual-report">{t("news.annualReport")}</Link></li>
+         {/* Press Releases */}
+          <li><Link to="/news/press-releases">{t("news.pressReleases")}</Link></li>
+         {/* Short Video */}
+          <li><Link to="/news/short-video">{t("news.shortVideo")}</Link></li>
+         {/* Current News */}
+          <li><Link to="/news/current-news">{t("news.currentNews")}</Link></li>
+         {/* Samwad */}
+          <li><Link to="/news/samwad">{t("news.samwad")}</Link></li>
+         {/* GM's Article */}
+          <li><Link to="/news/gm-article">{t("news.gmArticle")}</Link></li>
+         {/* Video Assembly */}
+          <li><Link to="/news/video-assembly">{t("news.videoAssembly")}</Link></li>
+         {/* Varanasi Tourism */}
+          <li><Link to="/news/tourism">{t("news.tourism")}</Link></li>
+         {/* Achievements of BLW */}
+          <li><Link to="/news/achievements">{t("news.achievements")}</Link></li>
+          {/* Civil Defence BLW */}
+          <li><Link to="/news/civil-defence">{t("news.civilDefence")}</Link></li>
+         {/* Procedure Checking */}
+          <li><Link to="/news/procedure-checking">{t("news.procedureChecking")}</Link></li>
         </ul>
       </aside>
     </>

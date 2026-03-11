@@ -1,4 +1,6 @@
 {
+  "title": "निविदा सूचना",
+
   "materialMgmt": {
     "title": "सामग्री प्रबंधन",
     "tenderNotice": "निविदा सूचना",
@@ -13,15 +15,140 @@
     "mechanical": "यांत्रिक",
     "engineering": "इंजीनियरिंग"
   },
-  "blwItemsGTE": "G.T.E के माध्यम से खरीदी जाने वाली BLW वस्तुएं",
-  "blwHHPItems": "23-24, 24-25, 25-26, 26-27 और 27-28 के दौरान वैश्विक निविदा जांच के माध्यम से खरीदी जाने वाली BLW HHP वस्तुएं",
-  "list48HHP": "FY-2022-23 के लिए वैश्विक निविदा जांच के माध्यम से खरीदी जाने वाली 48 HHP वस्तुओं की सूची",
-  "procurementLash": "FY 2023-24 से FY 2027-28 तक 5 वर्षों के लिए लैश एडजस्टर की खरीद योजना",
+  "blwItemsGTE":        "G.T.E के माध्यम से खरीदी जाने वाली BLW वस्तुएं",
+  "blwHHPItems":        "23-24, 24-25, 25-26, 26-27 और 27-28 के दौरान वैश्विक निविदा जांच के माध्यम से खरीदी जाने वाली BLW HHP वस्तुएं",
+  "list48HHP":          "FY-2022-23 के लिए वैश्विक निविदा जांच के माध्यम से खरीदी जाने वाली 48 HHP वस्तुओं की सूची",
+  "procurementLash":    "FY 2023-24 से FY 2027-28 तक 5 वर्षों के लिए लैश एडजस्टर की खरीद योजना",
   "procurementGTE2530": "FY 2025-26, 2026-27, 2027-28, 2028-29 और 2029-30 के लिए GTE वस्तुओं (डीजल लोकोमोटिव) की अगले 5 वर्षों की खरीद योजना",
-  "tenders": "निविदाएं",
-  "auctionInfo": "नीलामी जानकारी",
-  "cppTenders": "CPP निविदाएं",
+  "tenders":            "निविदाएं",
+  "auctionInfo":        "नीलामी जानकारी",
+  "cppTenders":         "CPP निविदाएं",
   "procurementGTE2425": "FY 2024-25 के लिए GTE वस्तुओं (डीजल लोकोमोटिव) की अगले 5 वर्षों की खरीद योजना",
-  "gteAdditional": "FY 2025-26, 2026-27, 2027-28, 2028-29 और 2029-30 के लिए अतिरिक्त वस्तुओं की GTE वस्तु सूची",
-  "procurementGTE2732": "FY 2027-28, 2028-29, 2029-30, 2030-31 और 2031-32 के लिए GTE वस्तुओं (डीजल लोकोमोटिव) की अगले 5 वर्षों की खरीद योजना"
+  "gteAdditional":      "FY 2025-26, 2026-27, 2027-28, 2028-29 और 2029-30 के लिए अतिरिक्त वस्तुओं की GTE वस्तु सूची",
+  "procurementGTE2732": "FY 2027-28, 2028-29, 2029-30, 2030-31 और 2031-32 के लिए GTE वस्तुओं (डीजल लोकोमोटिव) की अगले 5 वर्षों की खरीद योजना",
+
+  "bookmark":   "बुकमार्क",
+  "mailPage":   "इस पेज को मेल करें",
+  "printPage":  "इस पेज को प्रिंट करें",
+  "quickLinks": "त्वरित लिंक",
+  "select":     "चुनें",
+  "source":     "स्रोत",
+
+  "pages": {
+    "tenderInformation": {
+      "title": "निविदा सूचना",
+      "source": "28-02-2016"
+    },
+    "liveTender": {
+      "title": "लाइव निविदा",
+      "body": "जल्द आ रहा है",
+      "source": "11-09-2025"
+    },
+    "awardedContracts": {
+      "title": "प्रदत्त अनुबंध",
+      "body": "हिंदी में विवरण",
+      "source": "26-02-2011"
+    },
+    "materialManagement": {
+      "title": "सामग्री प्रबंधन",
+      "link": "सामग्री प्रबंधन निविदा सूचना",
+      "linkUrl": "/uploads/files/Material_Management_Tender_Notice.pdf",
+      "isRedLink": true,
+      "source": "06-03-2014"
+    },
+    "tenderNotice": {
+      "title": "निविदा सूचना",
+      "link": "IREPS निविदाएं",
+      "linkUrl": "https://ireps.gov.in",
+      "isCenterLink": true,
+      "source": "20-10-2020"
+    },
+    "downloadDrawings": {
+      "title": "चित्र डाउनलोड करें",
+      "link": "ई-निविदाओं के लिए चित्र डाउनलोड करें",
+      "linkUrl": "/uploads/files/Download_Drawings_For_E_Tenders.pdf",
+      "source": "25-02-2016"
+    },
+    "liveTenderElectrical": {
+      "title": "लाइव निविदा — विद्युत",
+      "link": "लाइव निविदा — विद्युत",
+      "linkUrl": "/uploads/files/Live_Tender_Electrical.pdf",
+      "source": "28-02-2016"
+    },
+    "awardedContractsMechanical": {
+      "title": "प्रदत्त अनुबंध — यांत्रिक",
+      "link": "प्रदत्त अनुबंध — यांत्रिक",
+      "linkUrl": "/uploads/files/Awarded_Contracts_Mechanical.pdf",
+      "source": "28-02-2016"
+    },
+    "awardedContractsEngineering": {
+      "title": "प्रदत्त अनुबंध — इंजीनियरिंग",
+      "link": "प्रदत्त अनुबंध — इंजीनियरिंग",
+      "linkUrl": "/uploads/files/Awarded_Contracts_Engineering.pdf",
+      "source": "28-02-2016"
+    },
+    "blwItemsGTE": {
+      "title": "G.T.E के माध्यम से खरीदी जाने वाली BLW वस्तुएं",
+      "link": "G.T.E के माध्यम से खरीदी जाने वाली BLW वस्तुएं",
+      "linkUrl": "/uploads/files/BLW_Items_GTE.pdf",
+      "source": "28-02-2016"
+    },
+    "blwHHPItems": {
+      "title": "23-24, 24-25, 25-26, 26-27 और 27-28 के दौरान वैश्विक निविदा जांच के माध्यम से खरीदी जाने वाली BLW HHP वस्तुएं",
+      "link": "23-24, 24-25, 25-26, 26-27 और 27-28 के दौरान वैश्विक निविदा जांच के माध्यम से खरीदी जाने वाली BLW HHP वस्तुएं",
+      "linkUrl": "/uploads/files/BLW_HHP_Items_Global_Tender.pdf",
+      "source": "09-11-2022"
+    },
+    "list48HHP": {
+      "title": "FY-2022-23 के लिए वैश्विक निविदा जांच के माध्यम से खरीदी जाने वाली 48 HHP वस्तुओं की सूची",
+      "link": "FY-2022-23 के लिए वैश्विक निविदा जांच के माध्यम से खरीदी जाने वाली 48 HHP वस्तुओं की सूची",
+      "linkUrl": "/uploads/files/List_48_HHP_Items_FY2022_23.pdf",
+      "source": "14-01-2023"
+    },
+    "procurementLash": {
+      "title": "FY 2023-24 से FY 2027-28 तक 5 वर्षों के लिए लैश एडजस्टर (PL.No.16040144) की खरीद योजना",
+      "link": "FY 2023-24 से FY 2027-28 तक 5 वर्षों के लिए लैश एडजस्टर (PL. No.16040144) की खरीद योजना",
+      "linkUrl": "/uploads/files/Procurement_Lash_Adjuster_FY2023_28.pdf",
+      "source": "10-05-2023"
+    },
+    "procurementGTE2530": {
+      "title": "FY 2025-26, 2026-27, 2027-28, 2028-29 और 2029-30 के लिए GTE वस्तुओं (डीजल लोकोमोटिव) की अगले 5 वर्षों की खरीद योजना",
+      "link": "FY 2025-26, 2026-27, 2027-28, 2028-29 और 2029-30 के लिए GTE वस्तुओं (डीजल लोकोमोटिव) की अगले 5 वर्षों की खरीद योजना",
+      "linkUrl": "/uploads/files/Procurement_GTE_2025_30.pdf",
+      "source": "10-01-2025"
+    },
+    "tenders": {
+      "title": "निविदाएं",
+      "isTenderSearch": true,
+      "source": "28-02-2016"
+    },
+    "auctionInfo": {
+      "title": "नीलामी जानकारी",
+      "isAuction": true,
+      "source": "23-12-2025"
+    },
+    "cppTenders": {
+      "title": "CPP निविदाएं",
+      "isTenderSearch": true,
+      "source": "28-02-2016"
+    },
+    "procurementGTE2425": {
+      "title": "FY 2024-25 के लिए GTE वस्तुओं (डीजल लोकोमोटिव) की अगले 5 वर्षों की खरीद योजना",
+      "link": "FY 2024-25 के लिए GTE वस्तुओं (डीजल लोकोमोटिव) की अगले 5 वर्षों की खरीद योजना",
+      "linkUrl": "/uploads/files/Procurement_GTE_2024_25.pdf",
+      "source": "14-11-2023"
+    },
+    "gteAdditional": {
+      "title": "FY 2025-26, 2026-27, 2027-28, 2028-29 और 2029-30 के लिए अतिरिक्त वस्तुओं की GTE वस्तु सूची",
+      "link": "FY 2025-26, 2026-27, 2027-28, 2028-29 और 2029-30 के लिए अतिरिक्त वस्तुओं की GTE वस्तु सूची",
+      "linkUrl": "/uploads/files/GTE_Additional_Items_FY2025_30.pdf",
+      "source": "26-08-2025"
+    },
+    "procurementGTE2732": {
+      "title": "FY 2027-28, 2028-29, 2029-30, 2030-31 और 2031-32 के लिए GTE वस्तुओं (डीजल लोकोमोटिव) की अगले 5 वर्षों की खरीद योजना",
+      "link": "FY 2027-28, 2028-29, 2029-30, 2030-31 और 2031-32 के लिए GTE वस्तुओं (डीजल लोकोमोटिव) की अगले 5 वर्षों की खरीद योजना",
+      "linkUrl": "/uploads/files/Procurement_GTE_2027_32.pdf",
+      "source": "16-01-2026"
+    }
+  }
 }

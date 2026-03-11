@@ -1,0 +1,39 @@
+/* VendorLayout — mirrors TenderLayout.css */
+
+.layout-content {
+  display: flex;
+  min-height: calc(100vh - 120px);
+}
+
+.main-content {
+  flex: 1;
+  padding: 1.5rem;
+}
+
+.mobile-back {
+  display: none;
+  padding: 10px;
+}
+
+.mobile-back .back-button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-back {
+    display: block;
+  }
+
+  .layout-content {
+    flex-direction: column;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 1rem;
+  }
+}

@@ -1,4 +1,6 @@
 {
+  "title": "Tender Information",
+
   "materialMgmt": {
     "title": "Material Management",
     "tenderNotice": "Tender Notice",
@@ -13,15 +15,140 @@
     "mechanical": "Mechanical",
     "engineering": "Engineering"
   },
-  "blwItemsGTE": "BLW Items to be Procured through G.T.E",
-  "blwHHPItems": "BLW HHP ITEMS TO BE PROCURED THROUGH GLOBAL TENDER ENQUIRY DURING 23-24, 24-25, 25-26, 26-27 and 27-28",
-  "list48HHP": "List of 48 HHP Items to be procured through Global Tender enquiry for FY-2022-23",
-  "procurementLash": "Procurement plan of Lash Adjuster (PL.No.16040144) for 5 years from FY 2023-24 to FY 2027-28",
+  "blwItemsGTE":        "BLW Items to be Procured through G.T.E",
+  "blwHHPItems":        "BLW HHP ITEMS TO BE PROCURED THROUGH GLOBAL TENDER ENQUIRY DURING 23-24, 24-25, 25-26, 26-27 and 27-28",
+  "list48HHP":          "List of 48 HHP Items to be procured through Global Tender enquiry for FY-2022-23",
+  "procurementLash":    "Procurement plan of Lash Adjuster (PL.No.16040144) for 5 years from FY 2023-24 to FY 2027-28",
   "procurementGTE2530": "Procurement plan for next 5 years of GTE items (Diesel Locomotives) for FY 2025-26, 2026-27, 2027-28, 2028-29 and 2029-30",
-  "tenders": "Tenders",
-  "auctionInfo": "Auction Informations",
-  "cppTenders": "CPP Tenders",
+  "tenders":            "Tenders",
+  "auctionInfo":        "Auction Informations",
+  "cppTenders":         "CPP Tenders",
   "procurementGTE2425": "Procurement plan for next 5 years of GTE items (Diesel Locomotives) for FY 2024-25",
-  "gteAdditional": "GTE item list of additional items for FY 2025-26, 2026-27, 2027-28, 2028-29 & 2029-30",
-  "procurementGTE2732": "Procurement plan for next 5 years of GTE items (Diesel Locomotives) for FY 2027-28, 2028-29, 2029-30, 2030-31 and 2031-32"
+  "gteAdditional":      "GTE item list of additional items for FY 2025-26, 2026-27, 2027-28, 2028-29 & 2029-30",
+  "procurementGTE2732": "Procurement plan for next 5 years of GTE items (Diesel Locomotives) for FY 2027-28, 2028-29, 2029-30, 2030-31 and 2031-32",
+
+  "bookmark":   "Bookmark",
+  "mailPage":   "Mail this page",
+  "printPage":  "Print this page",
+  "quickLinks": "QUICK LINKS",
+  "select":     "Select",
+  "source":     "Source",
+
+  "pages": {
+    "tenderInformation": {
+      "title": "Tender Information",
+      "source": "28-02-2016"
+    },
+    "liveTender": {
+      "title": "Live Tender",
+      "body": "Coming soon",
+      "source": "11-09-2025"
+    },
+    "awardedContracts": {
+      "title": "Awarded Contracts",
+      "body": "Description in English",
+      "source": "26-02-2011"
+    },
+    "materialManagement": {
+      "title": "Material Management",
+      "link": "Material Management Tender Notice",
+      "linkUrl": "/uploads/files/Material_Management_Tender_Notice.pdf",
+      "isRedLink": true,
+      "source": "06-03-2014"
+    },
+    "tenderNotice": {
+      "title": "Tender Notice",
+      "link": "IREPS Tenders",
+      "linkUrl": "https://ireps.gov.in",
+      "isCenterLink": true,
+      "source": "20-10-2020"
+    },
+    "downloadDrawings": {
+      "title": "Download Drawings",
+      "link": "Download Drawings For E-Tenders",
+      "linkUrl": "/uploads/files/Download_Drawings_For_E_Tenders.pdf",
+      "source": "25-02-2016"
+    },
+    "liveTenderElectrical": {
+      "title": "Live Tender — Electrical",
+      "link": "Live Tender — Electrical",
+      "linkUrl": "/uploads/files/Live_Tender_Electrical.pdf",
+      "source": "28-02-2016"
+    },
+    "awardedContractsMechanical": {
+      "title": "Awarded Contracts — Mechanical",
+      "link": "Awarded Contracts — Mechanical",
+      "linkUrl": "/uploads/files/Awarded_Contracts_Mechanical.pdf",
+      "source": "28-02-2016"
+    },
+    "awardedContractsEngineering": {
+      "title": "Awarded Contracts — Engineering",
+      "link": "Awarded Contracts — Engineering",
+      "linkUrl": "/uploads/files/Awarded_Contracts_Engineering.pdf",
+      "source": "28-02-2016"
+    },
+    "blwItemsGTE": {
+      "title": "BLW Items to be Procured through G.T.E",
+      "link": "BLW Items to be Procured through G.T.E",
+      "linkUrl": "/uploads/files/BLW_Items_GTE.pdf",
+      "source": "28-02-2016"
+    },
+    "blwHHPItems": {
+      "title": "BLW HHP ITEMS TO BE PROCURED THROUGH GLOBAL TENDER ENQUIRY DURING 23-24, 24-25, 25-26, 26-27 and 27-28",
+      "link": "BLW HHP ITEMS TO BE PROCURED THROUGH GLOBAL TENDER ENQUIRY DURING 23-24, 24-25, 25-26, 26-27 and 27-28",
+      "linkUrl": "/uploads/files/BLW_HHP_Items_Global_Tender.pdf",
+      "source": "09-11-2022"
+    },
+    "list48HHP": {
+      "title": "List of 48 HHP Items to be procured through Global Tender enquiry for FY-2022-23",
+      "link": "List of 48 HHP Items to be procured through Global Tender enquiry for FY-2022-23",
+      "linkUrl": "/uploads/files/List_48_HHP_Items_FY2022_23.pdf",
+      "source": "14-01-2023"
+    },
+    "procurementLash": {
+      "title": "Procurement plan of Lash Adjuster (PL.No.16040144) for 5 years from FY 2023-24 to FY 2027-28",
+      "link": "Procurement plan of Lash Adjuster (PL. No.16040144) for 5 years from FY 2023-24 to FY 2027-28",
+      "linkUrl": "/uploads/files/Procurement_Lash_Adjuster_FY2023_28.pdf",
+      "source": "10-05-2023"
+    },
+    "procurementGTE2530": {
+      "title": "Procurement plan for next 5 years of GTE items (Diesel Locomotives) for FY 2025-26, 2026-27, 2027-28, 2028-29 and 2029-30",
+      "link": "Procurement plan for next 5 years of GTE items (Diesel Locomotives) for FY 2025-26, 2026-27, 2027-28, 2028-29 and 2029-30",
+      "linkUrl": "/uploads/files/Procurement_GTE_2025_30.pdf",
+      "source": "10-01-2025"
+    },
+    "tenders": {
+      "title": "Tenders",
+      "isTenderSearch": true,
+      "source": "28-02-2016"
+    },
+    "auctionInfo": {
+      "title": "Auction Informations",
+      "isAuction": true,
+      "source": "23-12-2025"
+    },
+    "cppTenders": {
+      "title": "CPP Tenders",
+      "isTenderSearch": true,
+      "source": "28-02-2016"
+    },
+    "procurementGTE2425": {
+      "title": "Procurement plan for next 5 years of GTE items (Diesel Locomotives) for FY 2024-25",
+      "link": "Procurement plan for next 5 years of GTE items (Diesel Locomotives) for FY 2024-25",
+      "linkUrl": "/uploads/files/Procurement_GTE_2024_25.pdf",
+      "source": "14-11-2023"
+    },
+    "gteAdditional": {
+      "title": "GTE item list of additional items for FY 2025-26, 2026-27, 2027-28, 2028-29 & 2029-30",
+      "link": "GTE item list of additional items for FY 2025-26, 2026-27, 2027-28, 2028-29 & 2029-30",
+      "linkUrl": "/uploads/files/GTE_Additional_Items_FY2025_30.pdf",
+      "source": "26-08-2025"
+    },
+    "procurementGTE2732": {
+      "title": "Procurement plan for next 5 years of GTE items (Diesel Locomotives) for FY 2027-28, 2028-29, 2029-30, 2030-31 and 2031-32",
+      "link": "Procurement plan for next 5 years of GTE items (Diesel Locomotives) for FY 2027-28, 2028-29, 2029-30, 2030-31 and 2031-32",
+      "linkUrl": "/uploads/files/Procurement_GTE_2027_32.pdf",
+      "source": "16-01-2026"
+    }
+  }
 }
