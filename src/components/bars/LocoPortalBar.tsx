@@ -42,19 +42,19 @@ const LocoPortalBar = () => {
             </div>
             {isOpenMenu("hhpSpares") && (
               <ul className="submenu">
-                <li><Link to="#">{t("locoPortal.hhpSpares.minutesBIM2122")}</Link></li>
-                <li><Link to="#">{t("locoPortal.hhpSpares.minutesMeeting")}</Link></li>
-                <li><Link to="#">{t("locoPortal.hhpSpares.agendaHHP1920")}</Link></li>
-                <li><Link to="#">{t("locoPortal.hhpSpares.drawingsHHP")}</Link></li>
-                <li><Link to="#">{t("locoPortal.hhpSpares.minutesBIM1920")}</Link></li>
-                <li><Link to="#">{t("locoPortal.hhpSpares.minutesBIM1718")}</Link></li>
-                <li><Link to="#">{t("locoPortal.hhpSpares.agendaHHP1718")}</Link></li>
-                <li><Link to="#">{t("locoPortal.hhpSpares.minutesBIM1617")}</Link></li>
-                <li><Link to="#">{t("locoPortal.hhpSpares.railwayBoardRSP")}</Link></li>
-                <li><Link to="#">{t("locoPortal.hhpSpares.zonalRailwayRSP")}</Link></li>
-                <li><Link to="#">{t("locoPortal.hhpSpares.supplyBalance")}</Link></li>
-                <li><Link to="#">{t("locoPortal.hhpSpares.forwardingLetter")}</Link></li>
-                <li><Link to="#">{t("locoPortal.hhpSpares.additionalTechnical")}</Link></li>
+                <li><Link to="/loco-portal/hhp-bim-spares/minutes-of-bim">{t("locoPortal.hhpSpares.minutesBIM2122")}</Link></li>
+                <li><Link to="/loco-portal/hhp-bim-spares/minutes-of-meeting">{t("locoPortal.hhpSpares.minutesMeeting")}</Link></li>
+                <li><Link to="/loco-portal/hhp-bim-spares/agenda-hhp-1920">{t("locoPortal.hhpSpares.agendaHHP1920")}</Link></li>
+                <li><Link to="/loco-portal/hhp-bim-spares/drawings-hhp">{t("locoPortal.hhpSpares.drawingsHHP")}</Link></li>
+                <li><Link to="/loco-portal/hhp-bim-spares/minutes-bim-1920">{t("locoPortal.hhpSpares.minutesBIM1920")}</Link></li>
+                <li><Link to="/loco-portal/hhp-bim-spares/minutes-bim-1718">{t("locoPortal.hhpSpares.minutesBIM1718")}</Link></li>
+                <li><Link to="/loco-portal/hhp-bim-spares/agenda-hhp-1718">{t("locoPortal.hhpSpares.agendaHHP1718")}</Link></li>
+                <li><Link to="/loco-portal/hhp-bim-spares/minutes-bim-1617">{t("locoPortal.hhpSpares.minutesBIM1617")}</Link></li>
+                <li><Link to="/loco-portal/hhp-bim-spares/railway-board-rsp">{t("locoPortal.hhpSpares.railwayBoardRSP")}</Link></li>
+                <li><Link to="/loco-portal/hhp-bim-spares/zonal-railway-rsp">{t("locoPortal.hhpSpares.zonalRailwayRSP")}</Link></li>
+                <li><Link to="/loco-portal/hhp-bim-spares/supply-balance">{t("locoPortal.hhpSpares.supplyBalance")}</Link></li>
+                <li><Link to="/loco-portal/hhp-bim-spares/forwarding-letter">{t("locoPortal.hhpSpares.forwardingLetter")}</Link></li>
+                <li><Link to="/loco-portal/hhp-bim-spares/additional-technical">{t("locoPortal.hhpSpares.additionalTechnical")}</Link></li>
 
                 {/* Tooling Items - level 3 */}
                 <li>
@@ -64,17 +64,17 @@ const LocoPortalBar = () => {
                   </div>
                   {isOpenMenu("toolingItems") && (
                     <ul className="submenu">
-                      <li><Link to="#">{t("locoPortal.hhpSpares.toolingItems.maintenanceTools")}</Link></li>
-                      <li><Link to="#">{t("locoPortal.hhpSpares.toolingItems.railwayBoardLetter")}</Link></li>
-                      <li><Link to="#">{t("locoPortal.hhpSpares.toolingItems.vendorList")}</Link></li>
-                      <li><Link to="#">{t("locoPortal.hhpSpares.toolingItems.coveringLetter")}</Link></li>
-                      <li><Link to="#">{t("locoPortal.hhpSpares.toolingItems.drawingsMaintenance")}</Link></li>
+                      <li><Link to="/loco-portal/hhp-bim-spares/maintenance-tools">{t("locoPortal.hhpSpares.toolingItems.maintenanceTools")}</Link></li>
+                      <li><Link to="/loco-portal/hhp-bim-spares/railway-board-letter">{t("locoPortal.hhpSpares.toolingItems.railwayBoardLetter")}</Link></li>
+                      <li><Link to="/loco-portal/hhp-bim-spares/vendor-list">{t("locoPortal.hhpSpares.toolingItems.vendorList")}</Link></li>
+                      <li><Link to="/loco-portal/hhp-bim-spares/covering-letter">{t("locoPortal.hhpSpares.toolingItems.coveringLetter")}</Link></li>
+                      <li><Link to="/loco-portal/hhp-bim-spares/drawings-maintenance">{t("locoPortal.hhpSpares.toolingItems.drawingsMaintenance")}</Link></li>
                     </ul>
                   )}
                 </li>
 
-                <li><Link to="#">{t("locoPortal.hhpSpares.vettedIndents")}</Link></li>
-                <li><Link to="#">{t("locoPortal.hhpSpares.poCopy")}</Link></li>
+                <li><Link to="/loco-portal/hhp-bim-spares/vetted-indents">{t("locoPortal.hhpSpares.vettedIndents")}</Link></li>
+                <li><Link to="/loco-portal/hhp-bim-spares/po-copy">{t("locoPortal.hhpSpares.poCopy")}</Link></li>
               </ul>
             )}
           </li>
@@ -87,9 +87,9 @@ const LocoPortalBar = () => {
             </div>
             {isOpenMenu("designBulletin") && (
               <ul className="submenu">
-                <li><Link to="#">{t("locoPortal.designBulletin.vehicle")}</Link></li>
-                <li><Link to="#">{t("locoPortal.designBulletin.engine")}</Link></li>
-                <li><Link to="#">{t("locoPortal.designBulletin.electrical")}</Link></li>
+                <li><Link to="/loco-portal/design-bulletin/vehicle">{t("locoPortal.designBulletin.vehicle")}</Link></li>
+                <li><Link to="/loco-portal/design-bulletin/engine">{t("locoPortal.designBulletin.engine")}</Link></li>
+                <li><Link to="/loco-portal/design-bulletin/electrical">{t("locoPortal.designBulletin.electrical")}</Link></li>
               </ul>
             )}
           </li>
@@ -103,15 +103,15 @@ const LocoPortalBar = () => {
             {isOpenMenu("warrantyClaim") && (
               <ul className="submenu">
                 <li><Link to="#">{t("locoPortal.warrantyClaim.electricLoco")}</Link></li>
-                <li><Link to="#">{t("locoPortal.warrantyClaim.dieselLoco")}</Link></li>
-                <li><Link to="#">{t("locoPortal.warrantyClaim.vendorLogin")}</Link></li>
+                <li><Link to="https://blw.indianrailways.gov.in/works/webadmin/index.jsp">{t("locoPortal.warrantyClaim.dieselLoco")}</Link></li>
+                <li><Link to="/loco-portal/warranty-claim/vendor-login">{t("locoPortal.warrantyClaim.vendorLogin")}</Link></li>
               </ul>
             )}
           </li>
 
           {/* Non Railway */}
           <li>
-            <Link to="#">{t("locoPortal.nonRailway")}</Link>
+            <Link to="/loco-portal/non-railway-customer">{t("locoPortal.nonRailway")}</Link>
           </li>
         </ul>
       </aside>

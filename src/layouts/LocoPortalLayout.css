@@ -1,0 +1,30 @@
+.layout-content {
+  display: flex;
+  min-height: calc(100vh - 120px);
+}
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+.mobile-back {
+  display: none;
+}
+
+.back-button {
+  color: #1d4ed8;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+  .layout-content {
+    flex-direction: column;
+  }
+
+  .mobile-back {
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+}

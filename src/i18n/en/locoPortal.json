@@ -37,5 +37,267 @@
     "dieselLoco": "Diesel Loco Portal",
     "vendorLogin": "Vendor Login for Electric Loco Warranty"
   },
-  "nonRailway": "Non Railway Customer Portal"
+  "nonRailway": "Non Railway Customer Portal",
+
+  "safety": "Safety Department",
+  "bookmark": "Bookmark",
+  "mailPage": "Mail this Page",
+  "printPage": "Print Page",
+  "quickLinks": "Quick Links",
+  "briefHistoryTitle": "Brief History of BLW",
+  "hhpBimSpares": {
+  "minutesOfBim": {
+    "title": "Minutes of BIM 2021-22",
+    "items": [
+      { "id": 1, "label": "Minutes of BIM 2021-22", "pdf": "#" },
+      { "id": 2, "label": "Supplementary Minutes of BIM 2021-22", "pdf": "#" }
+    ]
+  }
+},
+  "minutesOfMeeting": {
+  "title": "Minutes of meeting on HHP Diesel locomotives held on 6th & 7th May 2022",
+  "items": [
+    { "id": 1, "label": "Minutes of meeting on HHP Diesel locomotives held on 6th & 7th May 2022", "pdf": "#" }
+  ]
+},
+  "agendaHHP1920": {
+  "title": "Agenda for HHP BIM 2019-20",
+  "items": [
+    { "id": 1, "label": "Agenda for HHP BIM 2019-20", "pdf": "#" }
+  ]
+},
+  "drawingsHHPData": {
+  "title": "Drawings of HHP Loco",
+  "items": [
+    { "id": 1, "label": "Drawings of HHP Loco", "pdf": "#" },
+    { "id": 2, "label": "D.L.W HHP Drawing", "pdf": "#" },
+    { "id": 3, "label": "DLW Drawing for FP Gauge fitment in Rear cab of WDP4D WDG4D Locos", "pdf": "#" }
+  ]
+},
+  "minutesBIM1920": {
+  "title": "Minutes of BIM 2019-20",
+  "items": [
+    { "id": 1, "label": "Minutes of BIM 2019-20", "pdf": "#" }
+  ]
+},
+  "minutesBIM1718": {
+  "title": "Minutes of BIM 2017-18",
+  "items": [
+    { "id": 1, "label": "Minutes of BIM 2017-18", "pdf": "#" }
+  ]
+},
+  "agendaHHP1718": {
+  "title": "Agenda for HHP BIM 2017-18",
+  "items": [
+    { "id": 1, "label": "Agenda for HHP BM 2017-18.pdf", "pdf": "#" }
+  ]
+},
+  "minutesBIM1617": {
+  "title": "MINUTES BIM 2016-17",
+  "items": [
+    { "id": 1, "label": "MINUTES BIM 2016-17", "pdf": "#" }
+  ]
+},
+  "railwayBoardRSP": {
+  "title": "Railway Board RSP Position",
+  "items": [
+    { "id": 1, "label": "Railway Board RSP Position", "pdf": "#" }
+  ]
+},
+  "zonalRailwayRSP": {
+  "title": "Zonal Railway RSP Position",
+  "items": [
+    { "id": 1, "label": "Zonal Railway RSP Position", "pdf": "#" }
+  ]
+},
+  "supplyBalance": {
+  "title": "Supply & Balance Position of HHP BIM, Imported & Tooling items",
+  "items": [
+    { "id": 1, "label": "Supply & Balance Position of HHP BIM, Imported & Tooling items", "pdf": "#" }
+  ]
+},
+"forwardingLetter": {
+  "title": "Forwarding letter for Minutes of BIM 2016-17",
+  "items": [
+    { "id": 1, "label": "Forwarding letter for Minutes of BIM 2016-17", "pdf": "#" }
+  ]
+},
+  "additionalTechnical": {
+  "title": "Additional Technical Agenda for HHP BIM 2017-18",
+  "items": [
+    { "id": 1, "label": "Revised Additional Technical Agenda for HHP BIM 2017-18", "pdf": "#" }
+  ]
+},
+"maintenanceTools": {
+  "title": "Maintenance Tools Catalogue",
+  "items": [
+    { "id": 1, "label": "Maintenance Tools Catalogue", "pdf": "#" }
+  ]
+},
+"railwayBoardLetter": {
+  "title": "Railway board Letter",
+  "items": [
+    { "id": 1, "label": "Railway board Letter", "pdf": "#" }
+  ]
+},
+"vendorList": {
+  "title": "Vendor List for Maintenance tooling",
+  "items": [
+    { "id": 1, "label": "Vendor List for Maintenance tooling", "pdf": "#" }
+  ]
+},
+"coveringLetter": {
+  "title": "Covering Letter",
+  "items": [
+    { "id": 1, "label": "Covering Letter", "pdf": "#" }
+  ]
+},
+"drawingsMaintenance": {
+  "title": "Drawings of Maintenance tools",
+  "items": [
+    { "id": 1, "label": "Drawings of Maintenance tools", "pdf": "#" }
+  ]
+},
+"vettedIndentsData": {
+  "title": "Submission of vetted indents for year 2024-25",
+  "items": [
+    { "id": 1, "label": "Submission of indents for year 2024-25", "pdf": "#" }
+  ]
+},
+"poCopyData": {
+  "title": "PO Copy of 51 Purchase tooling items",
+  "items": [
+    { "id": 1, "label": "PO Copy of 51 Purchase tooling items", "pdf": "#" }
+  ]
+},
+"vehicleDesignBulletin": {
+  "title": "Vehicle",
+  "link": "E-Book on QA for shell assembly of 3phase Electric Locomotive",
+  "linkUrl": "#",
+  "items": [
+    { "id": 1, "dbNo": "DB/02/2010/01", "dbUrl": "#", "year": "2010", "subject": "GR operation problem in EMD locos due to water ingress in TA, ECCI & TCC Compartment." },
+    { "id": 2, "dbNo": "DB/02/2011/01", "dbUrl": "#", "year": "2011", "subject": "Problem of Hose pipe rubbing with Tight lock couplers provided in WDP4B locomotives." },
+    { "id": 3, "dbNo": "DB/02/2013/01", "dbUrl": "#", "year": "2013", "subject": "Failure of fuel pumps on WDG4/WDP4B/WDP4D Locomotives." },
+    { "id": 4, "dbNo": "DB/02/2014/01", "dbUrl": "#", "year": "2014", "subject": "Failure of radiators onWDG4/WDP4B/WDP4D Locomotives" },
+    { "id": 5, "dbNo": "DB/02/2010/02", "dbUrl": "#", "year": "2010", "subject": "Failure of Air Inlet Hose of compressor for EMD loco." },
+    { "id": 6, "dbNo": "DB/02/2011/02", "dbUrl": "#", "year": "2011", "subject": "Provision of inspector's seat in side wall instead of Cab Door in EMD locomotives & provision of inter locking of inspector seat and Door opening in ALCO locos." },
+    { "id": 7, "dbNo": "DB/02/2012/02", "dbUrl": "#", "year": "2012", "subject": "Infringement of dust-bin blower outlet duct opening with the TM no.3 bellow connector flange in WDP4D locomotives." },
+    { "id": 8, "dbNo": "DB/02/2013/02", "dbUrl": "#", "year": "2013", "subject": "Provision of 400 watt twin bearn Head Light in place of the existing ALCO type 200 watt twin bearn Head Light on Bangladesh locomotive." },
+    { "id": 9, "dbNo": "DB/02/2014/02", "dbUrl": "#", "year": "2014", "subject": "Fitment of FP gauge in rear cab of WDP4D Locomotive." },
+    { "id": 10, "dbNo": "DB/02/2010/03", "dbUrl": "#", "year": "2010", "subject": "Failure of Flexible coupling of Auxiliary generator drive shaft of EMD locos to part no. 17320409." },
+    { "id": "10-", "dbNo": "DB/02/2010/03 (Modified)", "dbUrl": "#", "year": "2010", "subject": "Failure of Flexible coupling of Auxiliary generator drive shaft of EMD locos to part no. 17320409." },
+    { "id": 11, "dbNo": "DB/02/2011/03", "dbUrl": "#", "year": "2011", "subject": "Failure of HP outlet pipe of compressor (Welding quality of the compressor pipe to part no. 10634919 which connects the compressor outlet to the after cooler finned asm,) Total six failures were reported by shed." },
+    { "id": 12, "dbNo": "DB/02/2011/03", "dbUrl": "#", "year": "2011", "subject": "Swollen perforated sheet around cab light eject the cab light." },
+    { "id": 13, "dbNo": "DB/02/2012/03", "dbUrl": "#", "year": "2012", "subject": "Problem of side bearer plate getting damaged/bent due to excessive and uneven loading of plate during turning of under frame in loco frame shop." },
+    { "id": 14, "dbNo": "DB/02/2014/03", "dbUrl": "#", "year": "2014", "subject": "Design modification of return header box structure located inside rear cab WDP4D & WDG4D Locomotives." },
+    { "id": 15, "dbNo": "DB/02/2012/04", "dbUrl": "#", "year": "2012", "subject": "Problem of wire Rope sling fouling with projected portion of under frame causing damage of wire as well as floor plate of WDG4/WDP4B locomotives." },
+    { "id": 16, "dbNo": "DB/02/2010/04", "dbUrl": "#", "year": "2010", "subject": "Failure of Cab Seat of EMD locos." },
+    { "id": 17, "dbNo": "DB/02/2013/04", "dbUrl": "#", "year": "2013", "subject": "Failure of Brake Valve Controllers in CCB-1.5 on HHP locomotive." },
+    { "id": 18, "dbNo": "DB/02/2014/04", "dbUrl": "#", "year": "2014", "subject": "Re-calibration of 5000 Litres fuel tank used in HHP locomotives." },
+    { "id": 19, "dbNo": "DB/02/2010/05", "dbUrl": "#", "year": "2010", "subject": "Problem of Hose pipe rubbing with Tight lock couplers provided in WDP4B locomotives." },
+    { "id": 20, "dbNo": "DB/02/2013/05", "dbUrl": "#", "year": "2013", "subject": "Problem of Hose pipe rubbing with Tight lock couplers provided in WDP4B locomotives." },
+    { "id": 21, "dbNo": "DB/02/2014/05", "dbUrl": "#", "year": "2014", "subject": "Provision of cut-out cock in the horn application air circuit / Horn pipeline in HHP Locomotives." },
+    { "id": 22, "dbNo": "DB/02/2011/06", "dbUrl": "#", "year": "2011", "subject": "Water pump failures on ALCO locomotives." },
+    { "id": 23, "dbNo": "DB/02/2012/06", "dbUrl": "#", "year": "2012", "subject": "Fuel Tank Failure on HHP Locomotives." },
+    { "id": 24, "dbNo": "DB/02/2014/06", "dbUrl": "#", "year": "2014", "subject": "Application of wider windshield (front look-out glass) in rear cab of WDP4D & WDG4D Locomotives." },
+    { "id": 25, "dbNo": "DB/02/2013/06", "dbUrl": "#", "year": "2013", "subject": "Problem of breakage of lever assembly & slack adjuster of Brake Rigging of HHP Locomotives." },
+    { "id": 26, "dbNo": "DB/02/2013/07", "dbUrl": "#", "year": "2013", "subject": "Removal of lugs from the bottom plates of HHP fuel tank assembly" },
+    { "id": 27, "dbNo": "DB/02/2014/08", "dbUrl": "#", "year": "2014", "subject": "Fitment of LHB type hotel load junction box/coupler arrangement in HHP locomotives equipped with Hotel Load module." },
+    { "id": 28, "dbNo": "DB/02/2011/10", "dbUrl": "#", "year": "2011", "subject": "Problem of breakage of dead lever assembly & slack adjuster of EMD locomotives." },
+    { "id": 29, "dbNo": "DB/02/2014/05", "dbUrl": "#", "year": "2014", "subject": "Mounting radiator assemblies in HHP locomotives" },
+    { "id": 30, "dbNo": "DB/02/2015/01", "dbUrl": "#", "year": "2015", "subject": "Failures due to crack in TM Blower casing at weld pad locations on HHP locomotives." },
+    { "id": 31, "dbNo": "DB/02/2016/01", "dbUrl": "#", "year": "2016", "subject": "Failure of Compressor end Coupling assembly of HHP Locomotives" },
+    { "id": 32, "dbNo": "DB/02/2016/02", "dbUrl": "#", "year": "2016", "subject": "Infringement of head lights while coupling from Cab-II to Cab-II side of two HHP Loco" },
+    { "id": 33, "dbNo": "DB/02/2016/03", "dbUrl": "#", "year": "2016", "subject": "Rubbing of flywheel mounting bolt to part no 19019130 with alternator cover in HHP loco" },
+    { "id": 34, "dbNo": "DB/02/2016/04", "dbUrl": "#", "year": "2016", "subject": "Drainage problem in Underframe ASM of WDG4D locomotive." },
+    { "id": 35, "dbNo": "DB/02/2016/05", "dbUrl": "#", "year": "2016", "subject": "Accessibility problem in attending to compressor in WDG4D/WDP4D locomotive." },
+    { "id": 36, "dbNo": "DB/02/2016/06", "dbUrl": "#", "year": "2016", "subject": "Cattle guard height adjustment and widening of cattle guard fitted under cab-II of WDG4D/WDP4D and cab of WDG4/WDP4B locomotive" },
+    { "id": 37, "dbNo": "DB/02/2016/08", "dbUrl": "#", "year": "2016", "subject": "Fitment of Higher Inverter Rating Fuel Oil Pump under the bottom plate of the centre-sill of WDG4/WDP4B Locomotives" },
+    { "id": 38, "dbNo": "DB/02/2023/01", "dbUrl": "#", "year": "2023", "subject": "Raising of Emergency Valve Lever at ALP side in Dual Cab HHP Locomotives (WDP4D/ WDG4D)" }
+  ]
+},
+"engineDesignBulletin": {
+  "title": "Engine",
+  "items": [
+    { "id": 1, "dbNo": "DB/01/2010/01", "dbUrl": "#", "year": "2010", "subject": "Repeated failures of Power assembly no. 7 in EMD engines on engine test bed & locomotives at shed." },
+    { "id": 2, "dbNo": "DB/01/2010/02", "dbUrl": "#", "year": "2010", "subject": "Inspection procedure of Air Duct LB to part no. 16080105 and Air Duct RB to part no. 16080063." },
+    { "id": 3, "dbNo": "DB/01/2010/03", "dbUrl": "#", "year": "2010", "subject": "Turbo failures in EMD engines." },
+    { "id": 4, "dbNo": "DB/01/2010/04", "dbUrl": "#", "year": "2010", "subject": "Inadequate water head generated by water pumps fitted with indigenous make impellers on G4 Engines, resulting in improper cooling & failures of power assembly no.7." },
+    { "id": 5, "dbNo": "DB/01/2010/05", "dbUrl": "#", "year": "2010", "subject": "Crab nut torquing on EMD engines." },
+    { "id": 6, "dbNo": "DB/01/2010/07", "dbUrl": "#", "year": "2010", "subject": "Inspection procedure for fully finished Oil Pan (part no. 16020534)." },
+    { "id": 7, "dbNo": "DB/01/2010/08", "dbUrl": "#", "year": "2010", "subject": "Inadequate machining allowance. Dimensional deviation in retainer forgings causing fouling of the welding arm, improper flatness of the CRV pad mounting surface of retainer forgings leading to various problems during fabrication of Crankcase in Block shop /DLW." },
+    { "id": 8, "dbNo": "DB/01/2011/10", "dbUrl": "#", "year": "2011", "subject": "Repair of longitudinal cracks in air-box channels." },
+    { "id": 9, "dbNo": "DB/01/2011/11", "dbUrl": "#", "year": "2011", "subject": "Failures of Accessory drive end gear train." },
+    { "id": 10, "dbNo": "DB/01/2011/12", "dbUrl": "#", "year": "2011", "subject": "Power assembly component failures involving damages to valve bridge assemblies, rocker am assemblies, cam lobe scouring, valve droppage cases, cylinder head fire-face cracks, piston crown damage etc. (reported by Zonal railways)." },
+    { "id": 11, "dbNo": "DB/01/2011/12", "dbUrl": "#", "year": "2011", "subject": "Failures of By-pass sight glass bowl in spin-in Fuel filter Assly to part no. 16050174" },
+    { "id": 12, "dbNo": "DB/01/2011/13", "dbUrl": "#", "year": "2011", "subject": "Fitment procedure of Air Duct LB to part no. 16080105 and Air Duct RB to part no. 16080063." },
+    { "id": 13, "dbNo": "DB/01/2011/14", "dbUrl": "#", "year": "2011", "subject": "Load control / regulation (LR activation) in WDG4/P4B." },
+    { "id": 14, "dbNo": "DB/01/2012/15", "dbUrl": "#", "year": "2012", "subject": "Modified inspection procedure of Air Duct LB to part no. 16080105 and Air Duct RB to part no. 16080063." },
+    { "id": 15, "dbNo": "DB/01/2012/16", "dbUrl": "#", "year": "2012", "subject": "Provision of Chamfer in ALCO M.B. Cap (Inter) to drawing no. 14A72150-4 & PL no. 10142034." },
+    { "id": 16, "dbNo": "DB/01/2012/17", "dbUrl": "#", "year": "2012", "subject": "Repair of Water leakage in Crankcase through face of Top Deck to Exhaust Elbow Joint." },
+    { "id": 17, "dbNo": "DB/01/2013/18", "dbUrl": "#", "year": "2013", "subject": "Excess Black smoke from turbo exhaust at lower notches in 12Cyl-251C (2300HP) (Sri Lanka) Engines." },
+    { "id": 18, "dbNo": "DB/01/2013/19", "dbUrl": "#", "year": "2013", "subject": "Revised design of stiffer unit camshaft segments." },
+    { "id": 19, "dbNo": "DB/01/2013/20", "dbUrl": "#", "year": "2013", "subject": "Revision of OST setting of 4500 hp HHP engine." },
+    { "id": 20, "dbNo": "DB/01/2014/21", "dbUrl": "#", "year": "2014", "subject": "Failure of Clutch Drive Asm. In the field" },
+    { "id": 21, "dbNo": "DB/01/2014/22", "dbUrl": "#", "year": "2014", "subject": "Addition of 160 litres lube oil in HHP locomotive" },
+    { "id": 22, "dbNo": "DB/01/2014/23", "dbUrl": "#", "year": "2014", "subject": "Measurement of Exhaust Gas temperature at turbo inlet on HHP Loco" },
+    { "id": 23, "dbNo": "DB/01/2014/24", "dbUrl": "#", "year": "2014", "subject": "Scoring marks on piston observed during commissioning of new HHP Locomotives" },
+    { "id": 24, "dbNo": "DB/01/2015/25", "dbUrl": "#", "year": "2015", "subject": "Procedure of assembly of HHP loco con rod fork bearing and con rod fork basket." },
+    { "id": 25, "dbNo": "DB/01/2015/26", "dbUrl": "#", "year": "2015", "subject": "Procedure of fitment and matching of turbocharger on HHP engines at Diesel sheds" },
+    { "id": "25R", "dbNo": "DB/01/2015/26 Rev-1", "dbUrl": "#", "year": "2019", "subject": "Procedure of fitment and matching of turbocharger on HHP engines at Diesel sheds" },
+    { "id": "25V", "dbNo": "Video of mounting procedure of HHP Diesel Loco Turbocharger", "dbUrl": "#", "year": "", "subject": "" },
+    { "id": 26, "dbNo": "DB/01/2017/01", "dbUrl": "#", "year": "2017", "subject": "Test & Inspection Procedure for performing in-service cleaning of severely carbon plugged exhaust nozzle & turbine on HHP turbocharger at Diesel sheds" },
+    { "id": 27, "dbNo": "DB/01/2017/03", "dbUrl": "#", "year": "2017", "subject": "Design change in Hose Assembly (PL no. 16241411 & 16241423) used in Governor Booster Pump." },
+    { "id": 28, "dbNo": "DB/01/2017/02", "dbUrl": "#", "year": "2017", "subject": "Design Change in Oil Separator/Ejector Application to Part No 16060441." }
+  ]
+},
+"electricalDesignBulletin": {
+  "title": "Electrical",
+  "items": [
+    { "id": 1, "dbNo": "DB/03/2010/01", "dbUrl": "#", "year": "2010", "subject": "Issue of Burning of Radiator Cooling Fan Cables in EMD locos." },
+    { "id": 2, "dbNo": "DB/03/2011/01", "dbUrl": "#", "year": "2011", "subject": "Modification/Rectification in manufacturing process of controller ASM Dynamic in EMD locomotives supplied by M/s Kay Sons Electrical Pvt. Ltd. Varanasi." },
+    { "id": 3, "dbNo": "DB/03/2012/01", "dbUrl": "#", "year": "2012", "subject": "Issue of failure of amphenol plug of engine governor (Woodward) in HHP locomotives." },
+    { "id": 4, "dbNo": "DB/03/2013/01", "dbUrl": "#", "year": "2013", "subject": "Issue of Failure of Inverter Card of Air Conditioning Unit Supplied by M/s DPG/USA." },
+    { "id": 5, "dbNo": "DB/03/2014/01", "dbUrl": "#", "year": "2014", "subject": "Deletion of Low coolant level Sw in 4500 HP WDG4/WDP4B/WDP4D Locomotive" },
+    { "id": 6, "dbNo": "DB/03/2010/02", "dbUrl": "#", "year": "2010", "subject": "Provision of microprocessor driven Speed indicator on ALCO locomotives in place of conventional standalone speed indicator cum recorder." },
+    { "id": 7, "dbNo": "DB/03/2011/02", "dbUrl": "#", "year": "2011", "subject": "Issue of failure of locomotive no. WDP4B-40021 due to abnormal operation of PCS circuit." },
+    { "id": 8, "dbNo": "DB/03/2012/02", "dbUrl": "#", "year": "2012", "subject": "Use of additional Horn Push Button switch for assistant loco Pilot in control console #1 & #2 in WDG4/WDP4B locomotives." },
+    { "id": 9, "dbNo": "DB/03/2013/02", "dbUrl": "#", "year": "2013", "subject": "Modification of Indication Light Panel ASM to DRG No. 10622773/DLW Part No. 18000162 for WDG4/WDP4B Locomotives supplied by M/s Trolex/Bangalore & M/s Pricol/Coimbatore." },
+    { "id": 10, "dbNo": "DB/03/2014/02", "dbUrl": "#", "year": "2014", "subject": "Relocation of Alarm Bell in Control Console #1 & #2 in WDG4/WDP4B Locomotives." },
+    { "id": 11, "dbNo": "DB/03/2012/03", "dbUrl": "#", "year": "2012", "subject": "Indication/Crew message provision regarding failure of Turbo Lube Soak Back Pump Motor in HHP locomotives." },
+    { "id": 12, "dbNo": "DB/03/2013/03", "dbUrl": "#", "year": "2013", "subject": "Use of LED based cab light with spot light in place of lamp/CFL type cab light in HHP and ALCO Locomotives" },
+    { "id": 13, "dbNo": "DB/03/2014/03", "dbUrl": "#", "year": "2014", "subject": "Modification in end terminal of Head Light resistor 3.75 Drg. No. 8429166 Pl no. 18300352 used in 4500 HP WDG4/WDP4B/WDP4D Locomotives." },
+    { "id": 14, "dbNo": "DB/03/2012/04", "dbUrl": "#", "year": "2012", "subject": "Modification of Location of Head Light Resistance ASM & removing mesh type cover ASM (short hood side) in HHP Locomotive." },
+    { "id": 15, "dbNo": "DB/03/2013/04", "dbUrl": "#", "year": "2013", "subject": "Issues of Loco Failures due to breakage of wires in Governor Plug" },
+    { "id": 16, "dbNo": "DB/03/2014/04", "dbUrl": "#", "year": "2014", "subject": "Application of Silicon Grease on housing hole of manual push button of Radiator Fan Contactor (ECC3#3) in HHP Locomotives." },
+    { "id": 17, "dbNo": "DB/03/2012/05", "dbUrl": "#", "year": "2012", "subject": "Issue of Burning for removal of RC circuits (Snubber Circuits) from Traction alternators of 4000/4500HP HHP Locomotives." },
+    { "id": 18, "dbNo": "DB/03/2013/05", "dbUrl": "#", "year": "2013", "subject": "Fitment of cab fan without resistor in HHP Locomotives." },
+    { "id": 19, "dbNo": "DB/03/2013/06", "dbUrl": "#", "year": "2013", "subject": "Modification in electrical circuit to avoid discharge of battery in HHP locos due to repeated cranking." },
+    { "id": 20, "dbNo": "DB/03/2013/07", "dbUrl": "#", "year": "2013", "subject": "Modification in electrical circuit to avoid discharge of battery in operation in both cab during locomotive shut down condition." },
+    { "id": 21, "dbNo": "DB/03/2013/08", "dbUrl": "#", "year": "2013", "subject": "Taking precautions during meaning and welding to avoid the failure of Diodes & fuses of traction alternators for HHP Locomotives." }
+  ]
+},
+"nonRailwayData": {
+  "title": "Non Railway Customer Portal",
+  "subtitle": "Marketing Department",
+  "items": [
+    { "id": 1, "label": "About Marketing Deptt.", "url": "#" },
+    { "id": 2, "label": "Products for Sale", "url": null, "children": [
+      { "id": "2a", "label": "Diesel Locomotives", "url": "/about/product-for-sale/diesel-locomotive" },
+      { "id": "2b", "label": "DG Sets", "url": "/about/product-for-sale/dg-sets" },
+      { "id": "2c", "label": "Diesel Engine", "url": "#" }
+    ]},
+    { "id": 3, "label": "Maintenance Instructions", "url": "#" },
+    { "id": 4, "label": "Maintenance Manuals & Specifications of Locomotives & Their Accessories", "url": "#" },
+    { "id": 5, "label": "Covering Letter", "url": "#", "extras": [
+      { "label": "NRCs Price List For 2024-2025", "url": "#" },
+      { "label": "Terms and Condition", "url": "#" }
+    ]},
+    { "id": 6, "label": "Contact Details", "url": "#" }
+  ]
+},
+"vendorLoginData": {
+  "title": "Vendor Login for Electric Loco Warranty",
+  "comingSoon": true
+}
 }

@@ -145,7 +145,123 @@
   "bills": {
     "title": "Bills",
     "storesSupplied": "Bills Format for Stores Supplied"
-  }
+  },
+  "codesManuals": {
+  "title": "Codes/Manuals",
+  "items": [
+    { "id": 1, "label": "Account Codes / Manuals", "pdf": "#" }
+  ]
+},
+"eftMandate": {
+  "title": "E F T Mandate Form",
+  "items": [
+    { "id": 1, "label": "E F T Mandate Form", "pdf": "#" }
+  ]
+},
+"declaration": {
+  "title": "Declaration to be given on every invoice regarding non applicability of e-invoice",
+  "items": [
+    { "id": 1, "label": "Declaration to be given on every invoice regarding non applicability of e-invoice.", "pdf": "#" }
+  ]
+},
+"amendment": {
+  "title": "Amendment to turnover threshold for e-invoicing under GST",
+  "items": [
+    { "id": 1, "label": "Amendment to turnover threshold for e-invoicing under GST", "pdf": "#" }
+  ]
+},
+"assetRegister": {
+  "title": "Form for Preparation of Asset Register for the Year 2017-18 & 2018-19",
+  "items": [
+    { "id": 1, "label": "Form for Current assets and Current liability", "pdf": "#" },
+    { "id": 2, "label": "Form For Fixed Asset Register", "pdf": "#" }
+  ]
+},
+"notificationLDCE": {
+  "title": "Notification for Selection 30% LDCE",
+  "items": [
+    { "id": 1, "label": "Notificartion for promotion from Gr.'C' to Gr.(B) to the post of AFA/Gr. B against 30%LDCE quota through CCBT", "pdf": "#" }
+  ]
+},
+"manualScavenging": {
+  "title": "Elimination of Manual Scavenging",
+  "items": [
+    { "id": 1, "label": "Elimination of Manual Scavenging - There is no Employment as Manual Scavengers", "pdf": "#" }
+  ]
+},
+"electricalEngineering": {
+  "title": "Electrical Engineering",
+  "items": [
+    { "id": 1, "label": "General Condition Of Contract", "pdf": "#" },
+    { "id": 2, "label": "Electrical Engineering Library Books", "pdf": "#" },
+    { "id": 3, "label": "Information u/s 4(1)(b) of RTI Act", "pdf": "#" },
+    { "id": 4, "label": "ELECTRICAL ORGANIZATION CHART AS ON 04.09.2025", "pdf": "#" }
+  ]
+},
+"manufacturingProcess": {
+  "title": "Manufacturing Process",
+  "items": [
+    { "id": 1, "label": "Engine Division", "pdf": "#" },
+    { "id": 2, "label": "Vehicle Division", "pdf": "#" },
+    { "id": 3, "label": "Block Division", "pdf": "#" }
+  ]
+},
+"mechanicalOrgStructure": {
+  "title": "Organizational Structure",
+  "items": [
+    { "id": 1, "label": "Organizational Structure of Production Wing", "pdf": "#" }
+  ]
+},
+"nonMovingItems": {
+  "title": "LIST OF NON MOVING ITEMS (NON STOCK)",
+  "table": {
+    "headers": ["SUBJECT", "NO. OF NON STOCK ITEMS"],
+    "rows": [
+      { "subject": "No. of items Non-moving Non stock for more than 3 years", "count": "2493" }
+    ]
+  },
+  "items": [
+    { "id": 1, "label": "Non-moving Non-stock items of CTC (Tool Room)", "pdf": "#" },
+    { "id": 2, "label": "Non-moving Non-stock items of HMS Crib (Tool Room)", "pdf": "#" },
+    { "id": 3, "label": "Non-moving Non-stock items of LMS Crib (Tool Room)", "pdf": "#" },
+    { "id": 4, "label": "Non-moving Non-stock items of NBS Crib (Tool Room)", "pdf": "#" },
+    { "id": 5, "label": "Non-moving Non-stock items of TMS Crib (Tool Room)", "pdf": "#" }
+  ]
+},
+"marketingDivision": {
+  "title": "Marketing Division",
+  "items": [
+    { "id": 1, "label": "About Marketing Deptt.", "url": "#" },
+    {
+      "id": 2,
+      "label": "Products for Sale",
+      "children": [
+        { "id": "2a", "label": "Diesel Locomotives", "url": "#" },
+        { "id": "2b", "label": "DG Sets", "url": "#" },
+        { "id": "2c", "label": "Diesel Engine", "url": "#" }
+      ]
+    },
+    { "id": 3, "label": "Maintenance Instructions", "url": "#" },
+    { "id": 4, "label": "Maintenance Manuals & Specifications of Locomotives & Their Accessories", "url": "#" },
+    {
+      "id": 5,
+      "label": "Covering Letter",
+      "url": "#",
+      "extras": [
+        { "id": "5a", "label": "NRCs Price List For 2024-2025", "url": "#" },
+        { "id": "5b", "label": "M-Item Price List FY:2024-25", "url": "#" },
+        { "id": "5c", "label": "Terms and Condition", "url": "#" }
+      ]
+    },
+    { "id": 6, "label": "Contact Details", "url": "#" }
+  ]
+},
+"registrationFirm": {
+  "title": "Registration of Firm for Supply of Part-II items",
+  "items": [
+    { "id": 1, "label": "Registration of Firm for Supply of Part-II items", "pdf": "#" }
+  ]
+}
 
   
   
