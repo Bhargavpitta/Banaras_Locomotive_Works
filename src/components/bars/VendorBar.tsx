@@ -34,11 +34,11 @@ const VendorBar = () => {
         </div>
 
         <ul>
-          <li><Link to="#">{t("vendor.draftSpec")}</Link></li>
-          <li><Link to="#">{t("vendor.login")}</Link></li>
-          <li><Link to="#">{t("vendor.billingStatus")}</Link></li>
-          <li><Link to="#">{t("vendor.billsFormat")}</Link></li>
-          <li><Link to="#">{t("vendor.detailsBills")}</Link></li>
+          <li><Link to="/vendor/draft-specification">{t("vendor.draftSpec")}</Link></li>
+          <li><Link to="/vendor/login">{t("vendor.login")}</Link></li>
+          <li><Link to="/vendor/billing-status">{t("vendor.billingStatus")}</Link></li>
+          <li><Link to="/vendor/bills-format">{t("vendor.billsFormat")}</Link></li>
+          <li><Link to="/vendor/details-bills">{t("vendor.detailsBills")}</Link></li>
 
           {/* Vendor Directory */}
           <li>
@@ -48,19 +48,19 @@ const VendorBar = () => {
             </div>
             {isOpenMenu("vendorDirectory") && (
               <ul className="submenu">
-                <li><Link to="#">{t("vendor.vendorDirectory.currentDirectory")}</Link></li>
-                <li><Link to="#">{t("vendor.vendorDirectory.previousDirectories")}</Link></li>
+                <li><Link to="/vendor/vendor-directory/current">{t("vendor.vendorDirectory.currentDirectory")}</Link></li>
+                <li><Link to="/vendor/vendor-directory/previous">{t("vendor.vendorDirectory.previousDirectories")}</Link></li>
               </ul>
             )}
           </li>
 
-          <li><Link to="#">{t("vendor.newRegistration")}</Link></li>
-          <li><Link to="#">{t("vendor.guidelines")}</Link></li>
-          <li><Link to="#">{t("vendor.rejectionPolicy")}</Link></li>
-          <li><Link to="#">{t("vendor.approvalSystem")}</Link></li>
-          <li><Link to="#">{t("vendor.eftMandate")}</Link></li>
-          <li><Link to="#">{t("vendor.particulars")}</Link></li>
-          <li><Link to="#">{t("vendor.gst")}</Link></li>
+          <li><Link to="/vendor/new-registration">{t("vendor.newRegistration")}</Link></li>
+          <li><Link to="/vendor/guidelines">{t("vendor.guidelines")}</Link></li>
+          <li><Link to="/vendor/rejection-policy">{t("vendor.rejectionPolicy")}</Link></li>
+          <li><Link to="/vendor/approval-system">{t("vendor.approvalSystem")}</Link></li>
+          <li><Link to="/vendor/eft-mandate">{t("vendor.eftMandate")}</Link></li>
+          <li><Link to="/vendor/particulars">{t("vendor.particulars")}</Link></li>
+          <li><Link to="/vendor/gst">{t("vendor.gst")}</Link></li>
         </ul>
       </aside>
     </>

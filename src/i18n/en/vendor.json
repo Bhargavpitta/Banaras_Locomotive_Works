@@ -1,19 +1,117 @@
 {
-  "draftSpec": "Draft Specification",
-  "login": "Vendor Login",
-  "billingStatus": "Vendors Billing Status (Fifteen Days)",
-  "billsFormat": "Bills Format for Stores Supplied",
-  "detailsBills": "Details of Bills Registered in Last Fifteen Days",
-  "vendorDirectory": {
-    "title": "Vendor Directory (VD)",
-    "currentDirectory": "Current Vendor Directory",
-    "previousDirectories": "Previous Vendor Directories"
-  },
-  "newRegistration": "New Vendor Registration System",
-  "guidelines": "Guideline to vendors for registration in BLW on UVAM portal",
-  "rejectionPolicy": "Policy for Rejection and Ground Rent",
-  "approvalSystem": "Vendor Approval System",
-  "eftMandate": "E F T Mandate Form",
-  "particulars": "Vendor Particulars",
-  "gst": "BLW GST"
+  "vendor": {
+    "bookmark":   "Bookmark",
+    "mailPage":   "Mail this page",
+    "printPage":  "Print this page",
+    "quickLinks": "QUICK LINKS",
+    "select":     "Select",
+    "source":     "Source",
+
+    "nav":             "Vendor Information",
+    "draftSpec":       "Draft Specification",
+    "login":           "Vendor Login",
+    "billingStatus":   "Vendors Billing Status (Fifteen Days)",
+    "billsFormat":     "Bills Format for Stores Supplied",
+    "detailsBills":    "Details of Bills Registered in Last Fifteen Days",
+    "vendorDirectory": {
+      "title":               "Vendor Directory (VD)",
+      "currentDirectory":    "Current Vendor Directory",
+      "previousDirectories": "Previous Vendor Directories"
+    },
+    "newRegistration": "New Vendor Registration System",
+    "guidelines":      "Guideline to vendors for registration in BLW on UVAM portal",
+    "rejectionPolicy": "Policy for Rejection and Ground Rent",
+    "approvalSystem":  "Vendor Approval System",
+    "eftMandate":      "E F T Mandate Form",
+    "particulars":     "Vendor Particulars",
+    "gst":             "BLW GST",
+
+    "pages": {
+      "vendorInformation": {
+        "title":  "Vendor Information",
+        "source": ""
+      },
+      "draftSpec": {
+        "title":   "Draft Specification",
+        "link":    "Draft specification of  3M 847 H ( PL No. 17270716)",
+        "linkUrl": "#",
+        "source":  "04-08-2020"
+      },
+      "login": {
+        "title":   "Vendor Login",
+        "isLogin": true,
+        "source":  ""
+      },
+      "billingStatus": {
+        "title":           "Vendors Billing Status (Fifteen Days)",
+        "isBillingStatus": true,
+        "source":          "25-04-2024"
+      },
+      "billsFormat": {
+        "title":   "Bills Format for Stores Supplied",
+        "link":    "Bills Format for Stores Supplied",
+        "linkUrl": "#",
+        "source":  "05-10-2018"
+      },
+      "detailsBills": {
+        "title":          "Details of Bills Registered in Last Fifteen Days",
+        "isDetailsBills": true,
+        "source":         "25-04-2024"
+      },
+      "vendorDirectory": {
+        "title":             "Vendor Directory (VD)",
+        "isVendorDirectory": true,
+        "source":            "04-10-2017"
+      },
+      "currentVendorDir": {
+        "title":       "Current Vendor Directory",
+        "isCurrentVD": true,
+        "source":      "10-06-2021"
+      },
+      "previousVendorDirs": {
+        "title":        "Previous Vendor Directories",
+        "isPreviousVD": true,
+        "source":       "10-06-2021"
+      },
+      "newRegistration": {
+        "title":   "New Vendor Registration System",
+        "link":    "Registration of New firms on IREPS site, current guidelines of Rly Bd's is submitted",
+        "linkUrl": "#",
+        "source":  "22-10-2020"
+      },
+      "guidelines": {
+        "title":   "Guideline to vendors for registration in BLW on UVAM portal",
+        "link":    "Guideline to vendors for registration in BLW on UVAM portal",
+        "linkUrl": "#",
+        "source":  "25-04-2023"
+      },
+      "rejectionPolicy": {
+        "title":             "Policy for Rejection and Ground Rent",
+        "isRejectionPolicy": true,
+        "source":            "14-03-2024"
+      },
+      "approvalSystem": {
+        "title":            "Vendor Approval System",
+        "isApprovalSystem": true,
+        "source":           "23-01-2026"
+      },
+      "eftMandate": {
+        "title":   "E F T Mandate Form",
+        "link":    "E F T Mandate Form",
+        "linkUrl": "#",
+        "source":  "22-01-2021"
+      },
+      "particulars": {
+        "title":   "Vendor Particulars",
+        "link":    "Vendor Particulars",
+        "linkUrl": "#",
+        "source":  "12-06-2017"
+      },
+      "gst": {
+        "title":  "BLW GST",
+        "isGST":  true,
+        "source": "02-11-2020"
+      }
+    }
+  }
 }
