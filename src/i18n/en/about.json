@@ -327,5 +327,534 @@
     "title": "Design & Development Capabilities",
     "description": "Click here to view the detailed PDF.",
     "pdfLink": "/images/DD.pdf"
+  },
+ "dieselLocomotive": {
+  "title": "Diesel Locomotive",
+  "items": [
+    { "id": 1, "label": "WDP4D BLW Locomotive Brochure", "pdf": "/DL PDFS/DL1.pdf" },
+    { "id": 2, "label": "WDG4D BLW Locomotive Brochure", "pdf": "/DL PDFS/DL2.pdf" },
+    { "id": 3, "label": "WDG4 BLW Locomotive Brochure", "pdf": "/DL PDFS/DL3.pdf" },
+    { "id": 4, "label": "WDG5 BLW Locomotive Brochure", "pdf": "/DL PDFS/DL4.pdf" },
+    { "id": 5, "label": "WAP7 BLW Locomotive Brochure", "pdf": "/DL PDFS/DL5.pdf" },
+    { "id": 6, "label": "WDG3A BLW Locomotive Brochure", "pdf": "/DL PDFS/DL6.pdf" },
+    { "id": 7, "label": "WDS6ADT BLW Locomotive Brochure", "pdf": "/DL PDFS/DL7.pdf" },
+    { "id": 8, "label": "WDM3D BLW Locomotive Brochure", "pdf": "/DL PDFS/DL8.pdf" },
+    { "id": 9, "label": "WAG.9H BLW Locomotive Brochure", "pdf": "/DL PDFS/DL9.pdf" },
+    { "id": 10, "label": "3000HP Cape Gauge BLW Locomotive Brochure", "pdf": "/DL PDFS/DL10.pdf" },
+    { "id": 11, "label": "2300HP MG/Cape Gauge BLW Locomotive Brochure", "pdf": "/DL PDFS/DL11.pdf" },
+    { "id": 12, "label": "YDM4 BLW Locomotive Brochure", "pdf": "/DL PDFS/DL12..pdf" },
+    { "id": 13, "label": "DG Set Brochure", "pdf": "/DL PDFS/DL13.pdf" }
+  ]
+},
+"dgSets": {
+  "title": "DG Sets",
+  "items": [
+    { "id": 1, "label": "DG Sets", "pdf": "/DL PDFS/DG.pdf" }
+  ]
+},
+"previousProduct": {
+  "title": "Previous Product",
+  "locomotive": {
+    "name": "WDP3A",
+    "subtitle": "3100 HP PASSENGER LOCOMOTIVE",
+    "description": [
+      "High power-high speed dual cab Passenger Locomotive. Powered with 3100 HP, 4 stroke, fuel efficient diesel engine. Fabricated Underframe and two stage suspension, 3-axle, flexi-coil MK-V bogies, excellent riding quality.",
+      "The locomotive is powered with BLW make 251C uprated 16 cylinder fuel efficient engine with Napier NA 295 IR model or ABB VTC 304-VG 15 model turbo super charger and a large after cooler for better cooling of the engine inlet air.",
+      "The locomotive is equipped with AC-DC transmission consisting of a directly coupled self ventilated BHEL make TA10102 model traction alternator.",
+      "This engine develops 3100HP at 1050 RPM under standard condition."
+    ],
+    "specs": {
+      "dieselEngine": {
+        "title": "Diesel Engine",
+        "points": [
+          "16 Cylinder 251 B- (Uprated) Engine, 4 stroke, turbocharged",
+          "Fuel Efficient Engine",
+          "Injection System - Direct Injector",
+          "Governor - Woodward",
+          "Compression Ratio- 11.75:1",
+          "Lube Oil Sump Capacity - 1025 Liter"
+        ]
+      },
+      "transmission": {
+        "title": "Transmission",
+        "points": [
+          "Electrical AC-DC",
+          "6 Traction motor ( 3 in parallel per bogie)",
+          "Suspension - Axle hung / nose suspension",
+          "Gear Ratio - 22:61"
+        ]
+      },
+      "truck": {
+        "title": "Truck",
+        "points": [
+          "Fabricated flexi coil MK-V CO-CO Bogie",
+          "Adhesion - 0.25"
+        ]
+      },
+      "brakes": {
+        "title": "Brakes",
+        "points": [
+          "Panel mounted IRAB-I System",
+          "Air , hand",
+          "Pure air brake"
+        ]
+      }
+    },
+    "generalCharacteristic": {
+      "title": "General Characteristic",
+      "specs": [
+        { "label": "Installed Power", "value": "3100 HP" },
+        { "label": "Axle Load", "value": "19.5 T" },
+        { "label": "Gauge", "value": "1676 mm" },
+        { "label": "Wheel arrangement", "value": "Co-Co" },
+        { "label": "Wheel diameter", "value": "1092 mm" },
+        { "label": "Height", "value": "4081 mm" },
+        { "label": "Width", "value": "3000 mm" },
+        { "label": "Overall Length (Over Buffer Beam)", "value": "17900 mm" },
+        { "label": "Weight", "value": "117 T" },
+        { "label": "Max tractive effort", "value": "29.25 T" },
+        { "label": "Maximum speed", "value": "160 Kmph" },
+        { "label": "Fuel tank capacity", "value": "5000 lts" },
+        { "label": "Locomotive Control", "value": "E-Type Excitation" }
+      ]
+    },
+    "bottomLinks": [
+      { "id": 1, "label": "WDP3A-3100 HP GOODS LOCOMOTIVE", "pdf": "#" },
+      { "id": 2, "label": "TRACTIVE EFFORT & SPEED CHART, BRACKING EFFORT & SPEED CHART", "pdf": "#" }
+    ]
+  },
+  "contact": {
+    "title": "For enquiry contact:",
+    "name": "Chief Marketing Manager,",
+    "organization": "Banaras Locomotive Works,",
+    "address": "Varanasi, INDIA, 221 004.",
+    "tel": "Tel: 0542-2642502",
+    "fax": "Fax: 0542-28282828",
+    "email": "cmgm@dlw.railnet.gov.in",
+    "website": "http://blw.indianrailways.gov.in"
   }
+}, 
+"blwProduct": {
+  "title": "B.L.W Product",
+  "images": [
+    { "id": 1, "src": "/about images/blw1.jpg", "caption": "6000 HP WAG9 Electric Locomotive" },
+    { "id": 2, "src": "/about images/blw2.jpg", "caption": "12000 HP WAG11 Conversion Locomotive" },
+    { "id": 3, "src": "/about images/blw3.jpg", "caption": "Locomotive 3" },
+    { "id": 4, "src": "/about images/blw4.jpg", "caption": "Locomotive 4" },
+    { "id": 5, "src": "/about images/blw5.jpg", "caption": "Locomotive 5" },
+    { "id": 6, "src": "/about images/blw6.jpg", "caption": "Locomotive 6" },
+    { "id": 7, "src": "/about images/blw7.jpg", "caption": "Locomotive 7" },
+    { "id": 8, "src": "/about images/blw8.jpg", "caption": "Locomotive 8" },
+    { "id": 9, "src": "/about images/blw9.jpg", "caption": "Locomotive 9" },
+    { "id": 10, "src": "/about images/blw10.jpg", "caption": "Locomotive 10" },
+    { "id": 11, "src": "/about images/blw11.jpg", "caption": "Locomotive 11" },
+    { "id": 12, "src": "/about images/blw12.jpg", "caption": "Locomotive 12" },
+    { "id": 13, "src": "/about images/blw13.jpg", "caption": "Locomotive 13" },
+    { "id": 14, "src": "/about images/blw14.jpg", "caption": "Locomotive 14" }
+   
+  ]
+},
+"exportLocomotives": {
+  "title": "Export Locomotives",
+  "images": [
+    { "id": 1, "src": "/about images/ex1.jpg", "caption": "Export Locomotive 1" },
+    { "id": 2, "src": "/about images/ex2.jpg", "caption": "Export Locomotive 2" }
+    
+  ]
+},
+"modelSop": {
+  "title": "Model SOP",
+  "items": [
+    { "id": 1, "label": "Letter for implementation of Model SOP-2018", "pdf": "#" },
+    { "id": 2, "label": "Railway Board Model SOP-2018", "pdf": "#" },
+    { "id": 3, "label": "Corrigendum Slip No. 1 to Model SOP", "pdf": "#" },
+    { "id": 4, "label": "Corrigendum Slip No. 2 to Model SOP", "pdf": "#" },
+    { "id": 5, "label": "Corrigendum Slip No. 3 to Model SOP", "pdf": "#" },
+    { "id": 6, "label": "Corrigendum to PR Matters in Model SOP", "pdf": "#" },
+    { "id": 7, "label": "Corrigendum to Items nos. 15(A) , 20(C)(i) , 41(A) and 97 E(ii) of Model SOP", "pdf": "#" },
+    { "id": 8, "label": "Corrigendum Slip No. 5 to Model SOP", "pdf": "#" },
+    { "id": 9, "label": "Corrigendum Slip No. 6 to Model SOP", "pdf": "#" },
+    { "id": 10, "label": "Corrigendum Slip No. 7 to Model SOP Chapter C", "pdf": "#" },
+    { "id": 11, "label": "Corrigendum to PR to Model SOP Chapter C", "pdf": "#" },
+    { "id": 12, "label": "Correction Slip 1/18 (Model SOP Para no. 9F of Store matter Part-D)", "pdf": "#" },
+    { "id": 13, "label": "Correction Slip 3/18 (Model SOP Chapter C Para no. 48D)", "pdf": "#" },
+    { "id": 14, "label": "Correction Slip 4/18 (Model SOP Chapter C Para no. 4)", "pdf": "#" },
+    { "id": 15, "label": "Correction Slip 5/18 (Model SOP Chapter A Annexure A)", "pdf": "#" },
+    { "id": 16, "label": "Correction Slip 1/19 (Model SOP Chapter A Annexure A)", "pdf": "#" },
+    { "id": 17, "label": "Correction Slip 1/21 (Model SOP Chapter A Annexure A)", "pdf": "#" },
+    { "id": 18, "label": "Corrigendum Slip No. 1/22 (Chapter) to Model SOP", "pdf": "#" },
+    { "id": 19, "label": "Corrigendum Slip No. 1/22 (Chapter) to Model SOP 13.04.2022", "pdf": "#" },
+    { "id": 20, "label": "Corrigendum to PR Matter Chapter-C", "pdf": "#" },
+    { "id": 21, "label": "Corrigendum Slip No. 8 to Model SOP", "pdf": "#" },
+    { "id": 22, "label": "Corrigendum Slip No. 9 to Model SOP Chapter- B Medical Matter", "pdf": "#" },
+    { "id": 23, "label": "Corrigendum Slip No. 10 to Model SOP Chapter-A Works Matter", "pdf": "#" },
+    { "id": 24, "label": "Approval list of Consultants (PMC) work", "pdf": "#" },
+    { "id": 25, "label": "Clarification on delegation of power under MSOP-2018", "pdf": "#" },
+    { "id": 26, "label": "Corrigendum Slip No. 01/22, 13.04.2023 to Model SOP", "pdf": "#" },
+    { "id": 27, "label": "Corrigendum Slip No. 01/23, 26.09.2023 to Model SOP", "pdf": "#" },
+    { "id": 28, "label": "Corrigendum Slip to Model SOP 2018", "pdf": "#" },
+    { "id": 29, "label": "Corrigendum Slip No. 02/23, 28.10.2023 to Model SOP", "pdf": "#" },
+    { "id": 30, "label": "Revision/Addition of Model SOP para no-4 Miscellaneous Matter Part-C", "pdf": "#" },
+    { "id": 31, "label": "Corrigendum Slip No. 02/24, 28.11.2024 to Model SOP", "pdf": "#" },
+    { "id": 32, "label": "Notice for Corrigendum Slip No. 02/24, 28.11.2024 to Model SOP", "pdf": "#" },
+    { "id": 33, "label": "Correction Slip No-01/25 (SOP Para no-3.1 Store Matter Part-D)", "pdf": "#" },
+    { "id": 34, "label": "Correction Slip No-1/25 works Matter", "pdf": "#" },
+    { "id": 35, "label": "Correction Slip No-1/26 Stores Matter", "pdf": "#" }
+  ]
+},
+"oldSop": {
+  "title": "Old SOP",
+  "items": [
+    { "id": 1, "label": "Schedule of Power", "pdf": "#" },
+    { "id": 2, "label": "Chapter-1 Works and M&P", "pdf": "#" },
+    { "id": 3, "label": "Chapter-2 Purchase", "pdf": "#" },
+    { "id": 4, "label": "Chapter-3 Tender Contracts and Agreement (For Works)", "pdf": "#" },
+    { "id": 5, "label": "Chapter-4 Contingent Charges", "pdf": "#" },
+    { "id": 6, "label": "Chapter-5 Sales & Disposal", "pdf": "#" },
+    { "id": 7, "label": "Chapter-6 Medical", "pdf": "#" },
+    { "id": 8, "label": "Chapter-7 Law Charges", "pdf": "#" },
+    { "id": 9, "label": "Chapter-8 Public Relation", "pdf": "#" },
+    { "id": 10, "label": "Chapter-9 Miscellaneous", "pdf": "#" },
+    { "id": 11, "label": "Chapter-10 Marketing", "pdf": "#" },
+    { "id": 12, "label": "Chapter-11 Establishment: Non-Gazetted", "pdf": "#" },
+    { "id": 13, "label": "Chapter-12 Establishment: Gazetted", "pdf": "#" },
+    { "id": 14, "label": "Chapter-13 IT Matters", "pdf": "#" },
+    { "id": 15, "label": "CORRIGENDUM 1.03.03 (C) (iv)", "pdf": "#" },
+    { "id": 16, "label": "CORRIGENDUM (SOP of Chapter II para 2.05(b))", "pdf": "#" },
+    { "id": 17, "label": "CORRIGENDUM (SOP of Chapter IX para 9.08.01, 9.08.02, & 9.08.02(a))", "pdf": "#" },
+    { "id": 18, "label": "Correction Slip No.01/17 - Revision / Addition of SOP Para No.1.06(a)(i) of Chapter I", "pdf": "#" },
+    { "id": 19, "label": "Correction Slip No.02/17 - Revision / Addition of SOP Para No.4.06 of Chapter IV", "pdf": "#" },
+    { "id": 20, "label": "Correction Slip No.03/17 - Revision / Addition of SOP Para no.2.01,2.02(a),2.02.01(b),2.02.02(i),2.02.02(ii)(a),2.02.02(ii)(b),2.02.02(ii)(c),2.02.03(a)(i),2.02.03(a)(ii),2.02.03(b)(i),2.03(a),2.03(b),2.03(c),2.03(d),2.03(e),2.03(f),2.03(g),2.04(a),2.05(a),2.06,2.07(a),2.07(d),2.08.01(a),2.08.01(b),2.09(l),2.09(J),2.10,4.03(iv),5.02(a),5.02(b) of Chapter II", "pdf": "#" },
+    { "id": 21, "label": "Correction Slip No.04/17 Revision / Addition of SOP Para No.11.17 of Chapter XI", "pdf": "#" },
+    { "id": 22, "label": "Correction Slip No.05/17 Revision / Addition of SOP Para No.3.4.1 of Chapter III", "pdf": "#" },
+    { "id": 23, "label": "Correction Slip No.06/17 Revision / Addition of SOP Para No.3.02(a) of Chapter III", "pdf": "#" },
+    { "id": 24, "label": "Form for Technical Vetting under Para 13.08 of SOP", "pdf": "#" },
+    { "id": 25, "label": "Forms for Condemnation of Computer Hardware", "pdf": "#" }
+  ]
+},
+"administrationCivilRpf": {
+  "title": "Administration, Civil, RPF",
+  "subtitle": "Immovable Property Return by Officer as on 01.01.2022",
+  "items": [
+    { "id": 1, "label": "Ms Anjali Goyal- GM", "pdf": "#" },
+    { "id": 2, "label": "P K Chaudhary- CVO", "pdf": "#" },
+    { "id": 3, "label": "Pradeep Kumar Singh- PCPO", "pdf": "#" },
+    { "id": 4, "label": "Santosh Shukla, PCE", "pdf": "#" },
+    { "id": 5, "label": "Vijay SrDGM- Secy", "pdf": "#" },
+    { "id": 6, "label": "Shyam Babu- DyCPO", "pdf": "#" },
+    { "id": 7, "label": "R K Singh- Dy.CVO", "pdf": "#" },
+    { "id": 8, "label": "Gulab Chandra, DyCE", "pdf": "#" },
+    { "id": 9, "label": "Vijay Prakash Kumawat- OSD", "pdf": "#" },
+    { "id": 10, "label": "Deepak Singh Chauhan- ASC/RPF", "pdf": "#" }
+  ]
+},
+"storesProperty": {
+  "title": "Stores",
+  "subtitle": "Immovable Property Return by Officer as on 01.01.2022",
+  "items": [
+    { "id": 1, "label": "A.K. Rathore, PCMM", "pdf": "#" },
+    { "id": 2, "label": "Sanjay Rastogi, CMM/Loco", "pdf": "#" },
+    { "id": 3, "label": "Manoj Kumar, CMM/HQ", "pdf": "#" },
+    { "id": 4, "label": "Sameer Verma, CMM/Eng", "pdf": "#" },
+    { "id": 5, "label": "S K Mishra, CMM/I", "pdf": "#" },
+    { "id": 6, "label": "A K Rai. Dy CMgM/Sales", "pdf": "#" },
+    { "id": 7, "label": "Vipul Kanujia, DyCMM/HQ", "pdf": "#" },
+    { "id": 8, "label": "Bhupendra Kumar Dy CMM/Imp-I", "pdf": "#" },
+    { "id": 9, "label": "Ankit Saxena Dy. CMM/ Depot", "pdf": "#" },
+    { "id": 10, "label": "Animesh Verma, SMM/imp-II", "pdf": "#" },
+    { "id": 11, "label": "Virendra Verma, Dy CMM/Imp-II", "pdf": "#" },
+    { "id": 12, "label": "Ravi Nandan Sinha, DyCMM/Eng", "pdf": "#" },
+    { "id": 13, "label": "Kanwar Dhruv Singh, DyCMM", "pdf": "#" },
+    { "id": 14, "label": "Mohmad Hussain, SMM/HQ", "pdf": "#" },
+    { "id": 15, "label": "Akash Deep, DyCMm/M&P", "pdf": "#" },
+    { "id": 16, "label": "Nitesh Kumar Sharma, DyCMM/Loco", "pdf": "#" },
+    { "id": 17, "label": "Ankit Kumar Jain, AMM/Depot-II", "pdf": "#" },
+    { "id": 18, "label": "Deepak Agarwal, AMM/Kol", "pdf": "#" }
+  ]
+},
+"electricalProperty": {
+  "title": "Electrical",
+  "subtitle": "Immovable Property Return by Officer as on 01.01.2022",
+  "items": [
+    { "id": 1, "label": "A K Sharma-DyCEE/Insp", "pdf": "#" },
+    { "id": 2, "label": "A S Pandey-DyCEE", "pdf": "#" },
+    { "id": 3, "label": "Anant Sadashiva-CEE/Loco", "pdf": "#" },
+    { "id": 4, "label": "Angad Tiwari-DyCEE", "pdf": "#" },
+    { "id": 5, "label": "Krishan Mohan Singh-DyCEE", "pdf": "#" },
+    { "id": 6, "label": "M K Gupta-CESE", "pdf": "#" },
+    { "id": 7, "label": "Manoj Kumar Singh-DyCEE", "pdf": "#" },
+    { "id": 8, "label": "P P Raju-CEE/Insp", "pdf": "#" },
+    { "id": 9, "label": "Rajesh Kumar Rai-PCEE", "pdf": "#" },
+    { "id": 10, "label": "Ramesh Maurya-CEE", "pdf": "#" },
+    { "id": 11, "label": "Ran Vijay-CEE/Plg", "pdf": "#" },
+    { "id": 12, "label": "Santosh Kumar Pathak-DyCEE", "pdf": "#" },
+    { "id": 13, "label": "Shishir Tyagi-DyCEE", "pdf": "#" },
+    { "id": 14, "label": "Sujeet Mishra-CDE/Elect", "pdf": "#" }
+  ]
+},
+"mechanicalProperty": {
+  "title": "Mechanical",
+  "subtitle": "Immovable Property Return by Officer as on 01.01.2022",
+  "items": [
+    { "id": 1, "label": "Amitabh, PCME", "pdf": "#" },
+    { "id": 2, "label": "Y.B.Shahare, CQAM", "pdf": "#" },
+    { "id": 3, "label": "Praveen Kumar, CME/QMS", "pdf": "#" },
+    { "id": 4, "label": "R.R.Prasad, CDE/DL", "pdf": "#" },
+    { "id": 5, "label": "Neeraj Jain, CME/P & MKTG", "pdf": "#" },
+    { "id": 6, "label": "Suneel Kumar CME/Service Engineering", "pdf": "#" },
+    { "id": 7, "label": "S.B.Patel CSO", "pdf": "#" },
+    { "id": 8, "label": "Vaibhav Sohane Dy CMgM-I", "pdf": "#" },
+    { "id": 9, "label": "R.J.Chaubey PTC", "pdf": "#" },
+    { "id": 10, "label": "Karan Singh Tyagi Dy CDE/Veh-I", "pdf": "#" },
+    { "id": 11, "label": "Jitendra Agarwal Dy.CME/Eng", "pdf": "#" },
+    { "id": 12, "label": "Anupam Chudhary Dy CME/Planning", "pdf": "#" },
+    { "id": 13, "label": "Ashok Kumar Dy CME/Tooling & Modernisation", "pdf": "#" },
+    { "id": 14, "label": "Shammi Nayyer Dy CDE/Mech", "pdf": "#" },
+    { "id": 15, "label": "B.L.Nag Dy CME/Block", "pdf": "#" },
+    { "id": 16, "label": "Santosh Kumar Singh Dy.CME/Plant", "pdf": "#" },
+    { "id": 17, "label": "Mukesh Ojha Dy.CME/Progress", "pdf": "#" },
+    { "id": 18, "label": "Manoj Kumar Dy.CDE/Eng.", "pdf": "#" },
+    { "id": 19, "label": "Satish Chandra Mishra Dy CMgM-II", "pdf": "#" },
+    { "id": 20, "label": "U.S.Srivastava Dy CSO", "pdf": "#" },
+    { "id": 21, "label": "Shravan Kumar Dy CME/Insp-I", "pdf": "#" },
+    { "id": 22, "label": "Devendra Kumar Dy CQAM-II", "pdf": "#" },
+    { "id": 23, "label": "Mahesh Pratap WM", "pdf": "#" },
+    { "id": 24, "label": "Harish Chandra, CMT", "pdf": "#" },
+    { "id": 25, "label": "J K Tripathi, WM", "pdf": "#" },
+    { "id": 26, "label": "Mukesh Karidhal, WM", "pdf": "#" },
+    { "id": 27, "label": "Pradeep Kumar, AMgM", "pdf": "#" },
+    { "id": 28, "label": "Prakash Rattan, DyCME", "pdf": "#" },
+    { "id": 29, "label": "S K Arya, WM", "pdf": "#" },
+    { "id": 30, "label": "B P Gupta, WM", "pdf": "#" },
+    { "id": 31, "label": "Anil Kumar Singh, AWM", "pdf": "#" }
+  ]
+},
+"medicalProperty": {
+  "title": "Medical",
+  "subtitle": "Immovable Property Return by Officer as on 01.01.2022",
+  "items": [
+    { "id": 1, "label": "Dr Devesh Kumar, PCMO", "pdf": "#" },
+    { "id": 2, "label": "Dr Sunil Kumar, ACMS", "pdf": "#" },
+    { "id": 3, "label": "Dr S K Sharma, ACMS", "pdf": "#" },
+    { "id": 4, "label": "Dr Madhulika Singh, Sr.DMO", "pdf": "#" },
+    { "id": 5, "label": "Dr Santosh Kr Maurya, DMO", "pdf": "#" },
+    { "id": 6, "label": "Dr. Vishal Mishra, DMO", "pdf": "#" },
+    { "id": 7, "label": "Dr. Monika Shukla, DMO", "pdf": "#" },
+    { "id": 8, "label": "Dr.Minhaj Ahmad, DMO", "pdf": "#" },
+    { "id": 9, "label": "Dr. P.R Thakur, ACMS", "pdf": "#" },
+    { "id": 10, "label": "Dr. Tanmay Anand, DMO", "pdf": "#" },
+    { "id": 11, "label": "Dr. Amit Gupta, DMO", "pdf": "#" }
+  ]
+},
+"accountsProperty": {
+  "title": "Accounts",
+  "subtitle": "Immovable Property Return by Officer as on 01.01.2022",
+  "items": [
+    { "id": 1, "label": "Y K Srivastava- PFA", "pdf": "#" },
+    { "id": 2, "label": "Giriraj Kumar Meena- FA&CAO/TOT", "pdf": "#" },
+    { "id": 3, "label": "Jose Kumar Rozario- SrEDPM", "pdf": "#" },
+    { "id": 4, "label": "Anuj Kumar- Dy FA S&W", "pdf": "#" }
+  ]
+},
+"environmentalSocialOrientationData": {
+  "title": "Environmental/Social Orientation",
+  "sections": [
+    {
+      "id": 1,
+      "heading": "Environmental Management",
+      "image": "#",
+      "imageAlt": "Environmental Management",
+      "paragraphs": [
+        "A healthy and congenial environment alone can produce and promote healthy citizens, we firmly believe. In order to have a clean and green BLW, we have a well defined integrated environmental policy. This promotes an ever motivated work-force, giving rise to products of International standard."
+      ],
+      "subHeading": "Environmental Objectives:",
+      "points": [
+        "Reduction in Resource consumption",
+        "Reduction in Fire Emergencies -10% every year",
+        "Improvement in Emergency preparedness",
+        "Monitoring of water & ambient air periodically"
+      ]
+    },
+    {
+      "id": 2,
+      "heading": "Sewage Treatment Plant:",
+      "image": "#",
+      "imageAlt": "Sewage Treatment Plant",
+      "paragraphs": [
+        "STP is mainly concerned with the treatment of domestic and industrial sewage. The treated water is used for irrigation purpose up to kitchen gardening at BLW premises. The digested sludge is sent to sludge drying beds, later to be used as manure. Methane gas mainly produced from the digester is collected in the gas holder and supplied to the canteen."
+      ],
+      "subHeading": "",
+      "points": []
+    },
+    {
+      "id": 3,
+      "heading": "Industrial Effluent Treatment Plant:",
+      "image": "#",
+      "imageAlt": "Industrial Effluent Treatment Plant",
+      "paragraphs": [
+        "IETP does the job of treatment of industrial effluent which mainly contains oil and grease. The treated water is sent to nearby villages for farming and kitchen gardening at BLW."
+      ],
+      "subHeading": "",
+      "points": []
+    },
+    {
+      "id": 4,
+      "heading": "Occupational Health & Safety Management:",
+      "image": "#",
+      "imageAlt": "Occupational Health and Safety",
+      "paragraphs": [
+        "BLW is OHSAS-18001 certified since September, 2005. OHSAS formulates the work-procedures, defines hazards, assesses the risks involved therein and generates awareness regarding use of personal protective equipments at workplace. This enhances safety at work-place, reduces chances of accidents and makes workers more confident leading to increase in productivity."
+      ],
+      "subHeading": "OHS Objectives:",
+      "points": [
+        "Reduction in HOD cases -10% every year",
+        "Improvement in use of PPEs (100%)",
+        "Monitoring of water & ambient air periodically"
+      ]
+    }
+  ]
+},
+"blwCalendar2026Data": {
+  "title": "B.L.W Calendar 2026",
+  "items": [
+    { "id": 1, "label": "BLW Calendar-Year-2026", "pdf": "#" }
+  ]
+},
+"swachhBharatMissionData": {
+  "title": "Swachh Bharat Mission",
+  "achievements": [
+    { "id": 1, "label": "Achievements - March, 2018", "pdf": "#" },
+    { "id": 2, "label": "Achievements - February, 2018", "pdf": "#" },
+    { "id": 3, "label": "Achievements - January, 2018", "pdf": "#" },
+    { "id": 4, "label": "Achievements - December, 2017", "pdf": "#" },
+    { "id": 5, "label": "Achievements - November, 2017", "pdf": "#" },
+    { "id": 6, "label": "Achievements - October, 2017", "pdf": "#" },
+    { "id": 7, "label": "Achievements - September, 2017", "pdf": "#" },
+    { "id": 8, "label": "Achievements - August, 2017", "pdf": "#" },
+    { "id": 9, "label": "Achievements - July, 2017", "pdf": "#" },
+    { "id": 10, "label": "Achievements - June, 2017", "pdf": "#" },
+    { "id": 11, "label": "Achievements - May, 2017", "pdf": "#" },
+    { "id": 12, "label": "Achievements - April, 2017", "pdf": "#" },
+    { "id": 13, "label": "Achievements - March, 2017", "pdf": "#" },
+    { "id": 14, "label": "Achievements - February, 2017", "pdf": "#" },
+    { "id": 15, "label": "Achievements - January, 2017", "pdf": "#" },
+    { "id": 16, "label": "Achievements - December, 2016", "pdf": "#" },
+    { "id": 17, "label": "Achievements - November, 2016", "pdf": "#" },
+    { "id": 18, "label": "Achievements - October, 2016", "pdf": "#" },
+    { "id": 19, "label": "Achievements - September, 2016", "pdf": "#" },
+    { "id": 20, "label": "Achievements - August, 2016", "pdf": "#" },
+    { "id": 21, "label": "Achievements - July, 2016", "pdf": "#" },
+    { "id": 22, "label": "Achievements - June, 2016", "pdf": "#" },
+    { "id": 23, "label": "Achievements - May, 2016", "pdf": "#" },
+    { "id": 24, "label": "Achievements - April, 2016", "pdf": "#" }
+  ],
+  "photographsTitle": "Photographs",
+  "photographs": [
+    { "id": 1, "label": "Cleanliness Drive on National Cleanliness Fortnight-2016", "pdf": "#" },
+    { "id": 2, "label": "Special Cleanliness Drive on 2nd October 2016", "pdf": "#" },
+    { "id": 3, "label": "Cleanliness Drive on Swachhta Saptah from 17th to 25th September, 2016", "pdf": "#" },
+    { "id": 4, "label": "Cleanliness Drive - July 2016", "pdf": "#" },
+    { "id": 5, "label": "Cleanliness Drive - June 2016", "pdf": "#" },
+    { "id": 6, "label": "Cleanliness Drive - April-May 2016", "pdf": "#" },
+    { "id": 7, "label": "Cleanliness Drive - March 2016", "pdf": "#" },
+    { "id": 8, "label": "Cleanliness Drive on Railyatri Upbhokta Pakhwada on 06th June 2015", "pdf": "#" },
+    { "id": 9, "label": "Cleanliness Drive on 2nd October 2014", "pdf": "#" }
+  ]
+},
+"photoGalleryData": {
+  "title": "Photo Gallery",
+  "galleries": [
+    {
+      "id": 1,
+      "thumbnail": "#",
+      "caption": "On 26 February 2026, General Manager Shri Ashutosh Pant conducted a thorough inspection of the New Block Shop in the workshop.",
+      "slides": ["#", "#", "#"]
+    },
+    {
+      "id": 2,
+      "thumbnail": "#",
+      "caption": "General Manager Shri Ashutosh Pant Conducted Intensive Workshop Inspection",
+      "slides": ["#", "#", "#"]
+    },
+    {
+      "id": 3,
+      "thumbnail": "#",
+      "caption": "The 500th Electric Locomotive of FY 2025-26 turn-out.",
+      "slides": ["#", "#", "#"]
+    },
+    {
+      "id": 4,
+      "thumbnail": "#",
+      "caption": "Shri Ashutosh Pant assumed charge as the General Manager of Banaras Locomotive Works on 18th February 2026.",
+      "slides": ["#", "#", "#"]
+    },
+    {
+      "id": 5,
+      "thumbnail": "#",
+      "caption": "Annual Inspection Ceremony of BLW St. John's Ambulance Brigade Successfully Concluded on dt 05.02.2026",
+      "slides": ["#", "#", "#"]
+    },
+    {
+      "id": 6,
+      "thumbnail": "#",
+      "caption": "Excellent performance of BLW Music Team in Inter Railway Cultural Competition (Music)-2025 from 2nd to 3rd February 2026",
+      "slides": ["#", "#", "#"]
+    },
+    {
+      "id": 7,
+      "thumbnail": "#",
+      "caption": "Mock Drill on Disaster Management Organized by BLW Civil Defence Organization at Bhusawal on 02 Feb. 2026",
+      "slides": ["#", "#", "#"]
+    },
+    {
+      "id": 8,
+      "thumbnail": "#",
+      "caption": "Certificates awarded to teachers after a five-day training at Chetna Training Center run by BLW Women Welfare Organization in BLW on 28th January",
+      "slides": ["#", "#", "#"]
+    },
+    {
+      "id": 9,
+      "thumbnail": "#",
+      "caption": "Banaras Locomotive Works (BLW) Clinches Title at the 69th All India Railway Golf Championship 2025-26, Dtd. 09.01.2026",
+      "slides": ["#", "#", "#"]
+    },
+    {
+      "id": 10,
+      "thumbnail": "#",
+      "caption": "BLW General Manager Shri Somesh Kumar extended New Year greetings to officers and employees on 1st of January, 2026",
+      "slides": ["#", "#", "#"]
+    },
+    {
+      "id": 11,
+      "thumbnail": "#",
+      "caption": "BLW General Manager Shri Somesh Kumar Extends New Year Greetings to Officers and Employees on 01.01.2026",
+      "slides": ["#", "#", "#"]
+    }
+  ]
+},
+"contactDetailsForPurchase": {
+  "title": "Contact Details for purchase",
+  "linkLabel": "Contact Details for purchase",
+  "from": "From",
+  "emailLabel": "E-mail :",
+  "emailPlaceholder": "",
+  "emailError": "[Please Enter Your E-Mail]",
+  "to": "To",
+  "toEmail": "cmgm@dlw.railnet.gov.in",
+  "subject": "Subject",
+  "message": "Message",
+  "submitBtn": "Submit",
+  "resetBtn": "Reset"
+},
+"visitorEgatePass": {
+  "title": "Apply for Visitor eGate Pass",
+  "items": [
+    {
+      "id": 1,
+      "label": "Apply for Visitor eGate Pass",
+      "url": "http://112.133.212.18/gatepass/index.php"
+    }
+  ]
+}
+
 }

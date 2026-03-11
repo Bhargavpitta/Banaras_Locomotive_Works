@@ -97,7 +97,7 @@ const AboutBar = () => {
                   <Link to="/about/product-for-sale/dg-sets">{t("about.productForSale.dgSets")}</Link>
                 </li>
                 <li>
-                  <Link to="/about/product-for-sale/contact">{t("about.productForSale.contactDetails")}</Link>
+                  <Link to="/about/product-for-sale/contact-details">{t("about.productForSale.contactDetails")}</Link>
                 </li>
                 <li>
                   <Link to="/about/product-for-sale/previous-product">{t("about.productForSale.previousProduct")}</Link>
@@ -126,7 +126,7 @@ const AboutBar = () => {
 
           {/* Photo Gallery */}
           <li>
-            <Link to="#">{t("about.photoGallery")}</Link>
+            <Link to="/about/photo-gallery">{t("about.photoGallery")}</Link>
           </li>
 
           {/* Design & Development Capabilities */}
@@ -136,7 +136,7 @@ const AboutBar = () => {
 
           {/* Quality Policy */}
           <li>
-            <Link to="/about/quality">{t("about.qualityPolicy")}</Link>
+            <Link to="/about/quality-policy">{t("about.qualityPolicy")}</Link>
           </li>
 
           {/* Portal Policies */}
