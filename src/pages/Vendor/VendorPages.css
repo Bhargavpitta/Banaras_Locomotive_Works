@@ -1,0 +1,354 @@
+/* ═══════════════════════════════════════════════════
+   VendorPage.css
+═══════════════════════════════════════════════════ */
+
+.vendor-container {
+  padding: 1rem 1.5rem;
+  font-size: 0.88rem;
+  color: #222;
+  font-family: inherit;
+  max-width: 100%;
+}
+
+/* ─── Top action bar ─────────────────────────────── */
+.vendor-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.6rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.vendor-buttons {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.8rem;
+}
+
+.vendor-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 0.78rem;
+  color: #333;
+  padding: 0;
+  white-space: nowrap;
+}
+.vendor-btn:hover     { color: #1d4ed8; }
+.vendor-btn svg       { color: #555; }
+.vendor-btn:hover svg { color: #1d4ed8; }
+
+.vendor-quick {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.vendor-quick-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #111;
+  white-space: nowrap;
+}
+.vendor-quick-select {
+  padding: 0.2rem 0.4rem;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  font-size: 0.82rem;
+}
+
+/* ─── Page Title ─────────────────────────────────── */
+.vendor-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1d4ed8;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+/* ─── Shared link helpers ────────────────────────── */
+.vendor-link-blue {
+  color: #1d4ed8;
+  text-decoration: none;
+  font-size: 0.88rem;
+  word-break: break-word;
+}
+.vendor-link-blue:hover { text-decoration: underline; }
+.vendor-link-bold       { font-weight: 700; }
+
+/* ─── Source footer ───────────────────────────────── */
+.vendor-source {
+  font-size: 0.8rem;
+  color: #444;
+  margin-top: 2rem;
+  padding-top: 0.4rem;
+  text-align: right;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* ═══════════════════════════════════════════════════
+   STANDARD layout
+   Draft Spec, Bills Format, New Registration,
+   Guidelines, EFT Mandate, Vendor Particulars
+═══════════════════════════════════════════════════ */
+.vendor-standard-wrap  { margin-bottom: 1rem; }
+.vendor-subtitle {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 0.4rem;
+}
+.vendor-standard-wrap .vendor-link-blue { display: block; }
+
+/* ═══════════════════════════════════════════════════
+   IMG 3 — Vendor Login
+═══════════════════════════════════════════════════ */
+.vendor-login-wrap  { max-width: 640px; }
+
+.vendor-login-note {
+  color: #cc0000;
+  font-size: 0.88rem;
+  line-height: 1.65;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.vendor-login-center {
+  display: flex;
+  justify-content: center;
+}
+
+.vendor-login-table {
+  border-collapse: collapse;
+  min-width: 350px;
+}
+.vendor-login-table th {
+  border: 1px solid #888;
+  padding: 0.4rem 1rem;
+  text-align: center;
+  font-size: 0.88rem;
+  background: #f3f4f6;
+}
+.vendor-login-table td {
+  border: 1px solid #aaa;
+  padding: 0.38rem 0.75rem;
+  font-size: 0.85rem;
+  vertical-align: middle;
+}
+.vendor-login-input {
+  border: 1px solid #aaa;
+  padding: 0.22rem 0.5rem;
+  width: 200px;
+  border-radius: 2px;
+  font-size: 0.85rem;
+}
+.vendor-login-btns {
+  display: flex;
+  gap: 0.5rem;
+}
+.vendor-btn-go,
+.vendor-btn-reset {
+  padding: 0.25rem 1.1rem;
+  border: 1px solid #888;
+  background: #e8e8e8;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+.vendor-btn-go:hover,
+.vendor-btn-reset:hover { background: #d0d0d0; }
+
+.vendor-login-reg { text-align: center; padding: 0.4rem; }
+.vendor-login-reg a {
+  color: #1d4ed8;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+.vendor-login-reg a:hover { text-decoration: underline; }
+
+/* ═══════════════════════════════════════════════════
+   IMG 4 — Billing Status
+═══════════════════════════════════════════════════ */
+.vendor-billing-wrap p {
+  margin-bottom: 0.6rem;
+  font-size: 0.88rem;
+}
+.vendor-billing-wrap .vendor-link-blue { display: inline; }
+
+/* ═══════════════════════════════════════════════════
+   IMG 7 — Details of Bills (numbered list)
+═══════════════════════════════════════════════════ */
+.vendor-details-list {
+  padding-left: 1.4rem;
+  margin-bottom: 1rem;
+}
+.vendor-details-list li {
+  margin-bottom: 0.7rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.vendor-details-list .vendor-link-blue {
+  display: inline;
+  font-size: 0.9rem;
+}
+
+/* ═══════════════════════════════════════════════════
+   IMG 8 — Vendor Directory (VD) empty index
+═══════════════════════════════════════════════════ */
+.vendor-empty { min-height: 1.5rem; }
+
+/* ═══════════════════════════════════════════════════
+   IMG 9 — Current Vendor Directory
+═══════════════════════════════════════════════════ */
+.vendor-currentvd-wrap {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.vendor-currentvd-heading {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.vendor-currentvd-heading .vendor-link-blue {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+.vendor-uvam-box {
+  display: inline-block;
+  border: 2px solid #aaa;
+  border-radius: 8px;
+  padding: 1.2rem 3rem;
+  background: linear-gradient(135deg, #f0f9e8 0%, #d4edda 100%);
+  min-width: 220px;
+  text-align: center;
+}
+.vendor-uvam-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.4rem;
+}
+.vendor-uvam-brand {
+  font-size: 1.6rem;
+  font-weight: 900;
+  font-style: italic;
+  color: #7c3aed;
+  letter-spacing: 2px;
+}
+
+/* ═══════════════════════════════════════════════════
+   IMG 10/11 — Previous Vendor Directories
+═══════════════════════════════════════════════════ */
+.vendor-prevvd-wrap   { margin-bottom: 1rem; }
+.vendor-prevvd-heading {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.vendor-prevvd-heading .vendor-link-blue {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.vendor-table-scroll { overflow-x: auto; }
+.vendor-prevvd-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  min-width: 500px;
+}
+.vendor-prevvd-table th,
+.vendor-prevvd-table td {
+  border: 1px solid #888;
+  padding: 0.35rem 0.6rem;
+  text-align: left;
+  vertical-align: middle;
+}
+.vendor-prevvd-table thead th {
+  background: #e5e7eb;
+  font-weight: 700;
+  text-align: center;
+}
+.vendor-prevvd-sn { text-align: center; white-space: nowrap; }
+
+/* ═══════════════════════════════════════════════════
+   IMG 16/17 — Vendor Approval System
+═══════════════════════════════════════════════════ */
+.vendor-approval-wrap  { margin-bottom: 1rem; }
+.vendor-approval-item  { margin-bottom: 0.45rem; }
+.vendor-approval-item .vendor-link-blue { display: inline; }
+
+/* ═══════════════════════════════════════════════════
+   IMG 14/15 — Policy for Rejection and Ground Rent
+═══════════════════════════════════════════════════ */
+.vendor-rejection-wrap {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+.vendor-rejection-noticetitle { margin-bottom: 0.75rem; }
+.vendor-rejection-intro       { margin-bottom: 0.75rem; }
+
+.vendor-rejection-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+.vendor-rejection-table td {
+  border: 1px solid #888;
+  padding: 0.55rem 0.75rem;
+  vertical-align: top;
+}
+.vendor-rejection-td-label {
+  width: 32%;
+  font-weight: 600;
+}
+.vendor-rejection-para  { margin-bottom: 0.5rem; }
+.vendor-rejection-point { margin-bottom: 0.45rem; padding-left: 0.5rem; }
+
+.vendor-officials-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+.vendor-officials-table th,
+.vendor-officials-table td {
+  border: 1px solid #888;
+  padding: 0.35rem 0.6rem;
+  text-align: left;
+}
+.vendor-officials-table th {
+  background: #e5e7eb;
+  font-weight: 700;
+}
+
+.vendor-rejection-auth    { font-size: 0.85rem; margin-bottom: 1rem; }
+.vendor-rejection-auth p  { margin-bottom: 0.4rem; }
+
+.vendor-rejection-signoff {
+  text-align: right;
+  font-weight: 700;
+  font-size: 0.88rem;
+  line-height: 2;
+  margin-top: 1.2rem;
+}
+.vendor-rejection-signoff p { margin: 0; }
+
+/* ═══════════════════════════════════════════════════
+   IMG 20 — BLW GST
+═══════════════════════════════════════════════════ */
+.vendor-gst-wrap    { margin-bottom: 1rem; }
+.vendor-gst-gstin   { margin-bottom: 1rem; font-size: 0.9rem; }
+.vendor-gst-link    { display: block; margin-bottom: 0.45rem; }
+
+/* ─── Mobile ─────────────────────────────────────── */
+@media (max-width: 768px) {
+  .vendor-top     { flex-direction: column; }
+  .vendor-buttons { gap: 1rem; }
+  .vendor-login-input { width: 100%; }
+}

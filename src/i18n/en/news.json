@@ -10,5 +10,51 @@
   "tourism": "Varanasi Tourism",
   "achievements": "Achievements of BLW",
   "civilDefence": "Civil Defence BLW",
-  "procedureChecking": "Procedure for checking of clearances during Assembly of Power Asm of HHP Locomotive"
+  "procedureChecking": "Procedure for checking of clearances during Assembly of Power Asm of HHP Locomotive",
+
+  "bookmark": "Bookmark",
+  "mailPage": "Mail this page",
+  "printPage": "Print this page",
+  "quickLinks": "QUICK LINKS",
+  "select": "Select",
+  "back": "Back",
+  "source": "Source",
+
+  "shortVideoLink": "Short Video on 3000 HP Cape Guage Locompotive Export to Mozambique",
+  "videoAssemblyLink": "Video of assembly procedure of HHP Diesel Loco Detector Assembly (Engine Protection Device)",
+  "tourismLink": "Varanasi – A Treasure of Rich Cultural Heritage of India",
+  "procedureCheckingLink": "Procedure for checking of clearances during Assembly of Power Asm of HHP Locomotive",
+  "newspaperClippings": "NEWSPAPER CLIPPINGS",
+
+  "annualReports": {
+    "2024-25": "GM's Annual Report 2024-25",
+    "2023-24": "GM's Annual Report 2023-24",
+    "2022-23": "GM's Annual Report 2022-23",
+    "2021-22": "GM's Annual Report 2021-22",
+    "2020-21": "GM's Annual Report 2020-21",
+    "2019-20": "GM's Annual Report 2019-20",
+    "2018-19": "GM's Annual Report 2018-19",
+    "2017-18": "GM's Annual Report 2017-18",
+    "2016-17": "GM's Annual Report 2016-17",
+    "2015-16": "GM's Annual Report 2015-16"
+  },
+
+  "gmArticles": {
+    "2025": "GM's Article 2025",
+    "2024": "GM's Article 2024",
+    "envDay2021": "GM's Article Environment Day 5th June, 2021",
+    "envDay2020": "GM's Article Environment Day 5th June, 2020",
+    "april2020": "GM's Article April 2020"
+  },
+
+  "achievementsList": {
+    "2023-24": "Achievements of BLW 2023-24",
+    "2022-23": "Achievements of BLW 2022-23",
+    "2021-22": "Achievements of BLW 2021-22"
+  },
+
+  "civilDefenceOrg": "Civil Defence Organisations",
+  "civilDefencePara1": "Civil Defence was firstly established in India on 24th October 1941. It was enacted by Parliament on May 1968 as Civil Defence Act 27 of 1968. The policy of the Government of India till the declaration of emergency in 1962 was confined to making the States and Union Territories conscious of the need of Civil Defence measures and to ask them to keep ready Civil Defence Paper Plans for major cities and towns. 2(two) events of major significance which gave fillip to Civil Defence in India, took place since independence. The first, which really marked the revival of Civil Defence in the Country, was the Chinese aggression in November, 1962. The other was the Indo-Pakistan conflict in September 1965, when, for the first time after Independence, the nation was subjected to enemy air attacks. This led to considerable rethinking about the policy and scope of Civil Defence and as a result the Civil Defence policy, as it exists today, was evolved. The country was subjected to further hostile attacks from Pakistan in December 1971 when the Civil Defence Organisation performed its duties commendably. Since then, as per policy, the revision and renewal of categorised towns is being done at regular intervals, the basic criteria of categorisation remains the threat perception.",
+  "civilDefencePara2": "Upto 1985, all Civil Defence Preparedness were restricted against threat of conventional weapons. During 1985, revision of list of categorised Civil Defence Towns, preparedness against nuclear threat to a very limited extend was considered by the Ministry. The zones/town so identified against nuclear threat have been categorised as Category I-A Civil Defence Towns. Civil Defence is to be organised as an integral part of the defence of the country. The scale is to be such as the nation can live with it on long term basis. It is to be appropriately augmented as and when the situation worsens.",
+  "photoGallery": "-Photo Gallery-"
 }

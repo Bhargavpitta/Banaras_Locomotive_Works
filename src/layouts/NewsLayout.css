@@ -1,0 +1,51 @@
+/* Layout container */
+.news-layout-content {
+  display: flex;
+  min-height: calc(100vh - 120px);
+}
+
+/* Sidebar */
+.newsbar {
+  width: 16rem;
+  flex-shrink: 0;
+}
+
+/* Main content */
+.news-main-content {
+  flex: 1;
+  padding: 1.5rem;
+}
+
+/* Mobile back button */
+.mobile-back {
+  display: none;
+  padding: 10px;
+}
+
+.mobile-back .back-button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+}
+
+/* ===== MOBILE VIEW ===== */
+@media (max-width: 768px) {
+  .mobile-back {
+    display: block;
+  }
+
+  .news-layout-content {
+    flex-direction: column;
+  }
+
+  .newsbar {
+    display: none;
+  }
+
+  .news-main-content {
+    width: 100%;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,254 @@
+/* ===== PAGE CONTAINER ===== */
+.news-page-container {
+  padding: 1rem 1.5rem;
+}
+
+/* ===== TOP ACTION BAR ===== */
+.news-page-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #d1d5db;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Left button group */
+.news-page-buttons {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.news-page-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.875rem;
+  color: #1d4ed8;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.news-page-buttons button:hover {
+  text-decoration: underline;
+}
+
+/* Quick links section */
+.news-page-quick {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.news-page-quick span {
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: #111;
+}
+
+.news-page-quick select {
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+/* ===== PAGE TITLE ===== */
+.news-page-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #1d4ed8;
+  margin-bottom: 1.25rem;
+  margin-top: 0.75rem;
+}
+
+/* ===== BACK LINK ===== */
+.news-page-back {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.news-page-back a {
+  color: #1d4ed8;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.news-page-back a:hover {
+  text-decoration: underline;
+}
+
+/* ===== SOURCE FOOTER ===== */
+.news-page-source {
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  color: #555;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 0.75rem;
+  text-align: right;
+}
+
+.news-page-source span {
+  font-weight: bold;
+  color: #333;
+}
+
+/* ===== MOBILE VIEW ===== */
+@media (max-width: 768px) {
+  .news-page-container {
+    padding: 1rem;
+  }
+
+  .news-page-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .news-page-buttons {
+    gap: 0.75rem;
+  }
+
+  .news-page-quick {
+    width: 100%;
+  }
+
+  .news-page-back {
+    text-align: left;
+  }
+}
+/* ===== VIDEO LINK ===== */
+.news-video-link {
+  margin-bottom: 2rem;
+}
+
+.news-video-link a {
+  color: #1d4ed8;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.news-video-link a:hover {
+  text-decoration: underline;
+  color: #1e40af;
+}
+/* ===== NEWSPAPER CLIPPINGS SUBTITLE ===== */
+.clippings-subtitle {
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #000;
+  background-color: #ffff00;
+  display: inline-block;
+  padding: 0.1rem 0.3rem;
+  margin-bottom: 1.5rem;
+  text-decoration: underline;
+  letter-spacing: 0.05em;
+}
+
+/* ===== CLIPPINGS LIST ===== */
+.clippings-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* ===== DATE LINK ===== */
+.clipping-link {
+  color: #1d4ed8;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.clipping-link:hover {
+  text-decoration: underline;
+  color: #1e40af;
+}
+
+.clipping-link sup {
+  font-size: 0.6rem;
+  vertical-align: super;
+  font-weight: 600;
+}
+
+/* ===== VIDEO LINK ===== */
+.news-video-link {
+  margin-bottom: 2rem;
+}
+
+.news-video-link a {
+  color: #1d4ed8;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.news-video-link a:hover {
+  text-decoration: underline;
+  color: #1e40af;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .clipping-link {
+    font-size: 0.95rem;
+  }
+
+  .clippings-subtitle {
+    font-size: 0.95rem;
+  }
+}
+
+
+/* ===== CIVIL DEFENCE - SECTION HEADING ===== */
+.civil-defence-heading {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* ===== CIVIL DEFENCE - DESCRIPTION TEXT ===== */
+.civil-defence-text {
+  font-size: 0.9rem;
+  color: #111;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 1.5rem;
+}
+
+.civil-defence-text p {
+  margin-bottom: 1rem;
+}
+
+/* ===== CIVIL DEFENCE - PHOTO GALLERY TITLE ===== */
+.civil-defence-gallery-title {
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #1d4ed8;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .civil-defence-text {
+    font-size: 0.825rem;
+    text-align: left;
+  }
+
+  .civil-defence-heading {
+    font-size: 1rem;
+  }
+}
