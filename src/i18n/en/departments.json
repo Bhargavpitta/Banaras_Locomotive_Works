@@ -261,6 +261,1122 @@
   "items": [
     { "id": 1, "label": "Registration of Firm for Supply of Part-II items", "pdf": "#" }
   ]
+},
+"conductRules": {
+  "title": "Railway Services (Conduct) Rules,1966",
+  "items": [
+    { "id": 1, "label": "Railway Services (Conduct) Rules,1966", "pdf": "#" }
+  ]
+},
+"gazettedTransferOrders": {
+  "title": "Gazetted Transfer Orders",
+  "tableHeaders": ["SN.", "OFFICE ORDER NO", "SUBJECT", "ORDER DATE", "DEPARTMENT"],
+  "rows": [
+    { "sn": "01", "orderNo": "GAZ 24", "subject": "", "date": "04.04.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "02", "orderNo": "GAZ 25", "subject": "", "date": "06.04.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "03", "orderNo": "GAZ 26", "subject": "", "date": "06.04.2023", "department": "Medical", "pdf": "#" },
+    { "sn": "04", "orderNo": "GAZ 27", "subject": "", "date": "11.04.2023", "department": "Personnel", "pdf": "#" },
+    { "sn": "05", "orderNo": "GAZ 28", "subject": "", "date": "11.04.2023", "department": "Personnel", "pdf": "#" },
+    { "sn": "06", "orderNo": "GAZ 29", "subject": "", "date": "12.04.2023", "department": "Admin General", "pdf": "#" },
+    { "sn": "07", "orderNo": "GAZ 30", "subject": "", "date": "15.04.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "08", "orderNo": "GAZ 31", "subject": "", "date": "15.04.2023", "department": "Medical", "pdf": "#" },
+    { "sn": "09", "orderNo": "GAZ 32", "subject": "", "date": "15.04.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "10", "orderNo": "GAZ 33", "subject": "", "date": "15.04.2023", "department": "Civil Enginneering", "pdf": "#" },
+    { "sn": "11", "orderNo": "GAZ 33", "subject": "", "date": "20.04.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "12", "orderNo": "GAZ 34", "subject": "", "date": "20.04.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "13", "orderNo": "GAZ 35", "subject": "", "date": "27.04.2023", "department": "Medical", "pdf": "#" },
+    { "sn": "14", "orderNo": "GAZ 36", "subject": "", "date": "27.04.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "15", "orderNo": "GAZ 37", "subject": "", "date": "10.05.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "16", "orderNo": "GAZ 38", "subject": "", "date": "12.05.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "17", "orderNo": "GAZ 39", "subject": "", "date": "13.05.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "18", "orderNo": "GAZ 39 Corrigendum", "subject": "", "date": "13.05.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "19", "orderNo": "GAZ 40", "subject": "", "date": "16.05.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "20", "orderNo": "GAZ 41", "subject": "", "date": "17.05.2023", "department": "Civil", "pdf": "#" },
+    { "sn": "21", "orderNo": "GAZ 42", "subject": "", "date": "17.05.2023", "department": "Civil", "pdf": "#" },
+    { "sn": "22", "orderNo": "GAZ 43", "subject": "", "date": "18.05.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "23", "orderNo": "GAZ 44", "subject": "", "date": "19.05.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "24", "orderNo": "GAZ 45", "subject": "", "date": "20.05.2023", "department": "Medical", "pdf": "#" },
+    { "sn": "25", "orderNo": "GAZ 46", "subject": "", "date": "22.05.2023", "department": "Civil", "pdf": "#" },
+    { "sn": "26", "orderNo": "GAZ 47", "subject": "", "date": "24.05.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "27", "orderNo": "GAZ 48", "subject": "", "date": "26.05.2023", "department": "Medical", "pdf": "#" },
+    { "sn": "28", "orderNo": "GAZ 49", "subject": "", "date": "29.05.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "29", "orderNo": "GAZ 50", "subject": "", "date": "29.05.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "30", "orderNo": "GAZ 51", "subject": "", "date": "01.06.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "31", "orderNo": "GAZ 52", "subject": "", "date": "10.06.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "32", "orderNo": "GAZ 53", "subject": "", "date": "10.06.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "33", "orderNo": "GAZ 54", "subject": "", "date": "14.06.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "34", "orderNo": "GAZ 55", "subject": "", "date": "15.06.2023", "department": "Medical", "pdf": "#" },
+    { "sn": "35", "orderNo": "GAZ 56", "subject": "", "date": "16.06.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "36", "orderNo": "GAZ 57", "subject": "", "date": "16.06.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "37", "orderNo": "GAZ 58", "subject": "", "date": "16.06.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "38", "orderNo": "GAZ 59", "subject": "", "date": "20.06.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "39", "orderNo": "GAZ 60", "subject": "", "date": "21.06.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "40", "orderNo": "GAZ 61", "subject": "", "date": "22.06.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "41", "orderNo": "GAZ 61 corrigendum", "subject": "", "date": "13.07.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "42", "orderNo": "GAZ 62", "subject": "", "date": "03.07.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "43", "orderNo": "GAZ 63", "subject": "", "date": "03.07.2023", "department": "Personnel", "pdf": "#" },
+    { "sn": "44", "orderNo": "GAZ 64", "subject": "", "date": "07.07.2023", "department": "Civil", "pdf": "#" },
+    { "sn": "45", "orderNo": "GAZ 65", "subject": "", "date": "08.07.2023", "department": "Civil", "pdf": "#" },
+    { "sn": "46", "orderNo": "GAZ 66", "subject": "", "date": "13.07.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "47", "orderNo": "GAZ 67", "subject": "", "date": "15.07.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "48", "orderNo": "GAZ 68", "subject": "", "date": "17.07.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "49", "orderNo": "GAZ 69", "subject": "", "date": "20.07.2023", "department": "Medical", "pdf": "#" },
+    { "sn": "50", "orderNo": "GAZ 70", "subject": "", "date": "21.07.2023", "department": "Admin. General", "pdf": "#" },
+    { "sn": "51", "orderNo": "GAZ 71", "subject": "", "date": "21.07.2023", "department": "Medical", "pdf": "#" },
+    { "sn": "52", "orderNo": "GAZ 72", "subject": "", "date": "21.07.2023", "department": "Medical", "pdf": "#" },
+    { "sn": "53", "orderNo": "GAZ 73", "subject": "", "date": "22.07.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "54", "orderNo": "GAZ 74", "subject": "", "date": "26.07.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "55", "orderNo": "GAZ 75", "subject": "", "date": "26.07.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "56", "orderNo": "GAZ 76", "subject": "", "date": "27.07.2023", "department": "School", "pdf": "#" },
+    { "sn": "57", "orderNo": "GAZ 77", "subject": "", "date": "01.08.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "58", "orderNo": "GAZ 78", "subject": "", "date": "01.08.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "59", "orderNo": "GAZ 79", "subject": "", "date": "01.08.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "60", "orderNo": "GAZ 80", "subject": "", "date": "03.08.2023", "department": "Security", "pdf": "#" },
+    { "sn": "61", "orderNo": "GAZ 81", "subject": "", "date": "03.08.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "62", "orderNo": "GAZ 82", "subject": "", "date": "16.08.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "63", "orderNo": "GAZ 83", "subject": "", "date": "16.08.2023", "department": "Medical", "pdf": "#" },
+    { "sn": "64", "orderNo": "GAZ 84", "subject": "", "date": "19.08.2023", "department": "Medical", "pdf": "#" },
+    { "sn": "65", "orderNo": "GAZ 85", "subject": "", "date": "26.08.2023", "department": "General Administration", "pdf": "#" },
+    { "sn": "66", "orderNo": "GAZ 86", "subject": "", "date": "30.08.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "67", "orderNo": "GAZ 87", "subject": "", "date": "31.08.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "68", "orderNo": "GAZ 88", "subject": "", "date": "02.09.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "69", "orderNo": "GAZ 89", "subject": "", "date": "04.09.2023", "department": "Medical", "pdf": "#" },
+    { "sn": "70", "orderNo": "GAZ 90", "subject": "", "date": "04.09.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "71", "orderNo": "GAZ 91", "subject": "", "date": "11.09.2023", "department": "Medical", "pdf": "#" },
+    { "sn": "72", "orderNo": "GAZ 92", "subject": "", "date": "15.09.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "73", "orderNo": "GAZ 93", "subject": "", "date": "19.09.2023", "department": "Medical", "pdf": "#" },
+    { "sn": "74", "orderNo": "GAZ 94", "subject": "", "date": "19.09.2023", "department": "Medical", "pdf": "#" },
+    { "sn": "75", "orderNo": "GAZ 95", "subject": "", "date": "21.09.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "76", "orderNo": "GAZ 96", "subject": "", "date": "21.09.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "77", "orderNo": "GAZ 97", "subject": "", "date": "21.09.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "78", "orderNo": "GAZ 98", "subject": "", "date": "22.09.2023", "department": "Mechanical", "pdf": "#" },
+    { "sn": "79", "orderNo": "GAZ 99", "subject": "", "date": "22.09.2023", "department": "Security", "pdf": "#" },
+    { "sn": "80", "orderNo": "GAZ 100", "subject": "", "date": "25.09.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "81", "orderNo": "GAZ 101", "subject": "", "date": "26.09.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "82", "orderNo": "GAZ 102", "subject": "", "date": "26.09.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "83", "orderNo": "GAZ 103", "subject": "", "date": "30.09.2023", "department": "Stores", "pdf": "#" },
+    { "sn": "84", "orderNo": "GAZ 104", "subject": "", "date": "30.09.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "85", "orderNo": "GAZ 105", "subject": "", "date": "30.09.2023", "department": "Electrical", "pdf": "#" },
+    { "sn": "86", "orderNo": "GAZ 106", "subject": "", "date": "05.10.2023", "department": "MECHANICAL", "pdf": "#" },
+    { "sn": "87", "orderNo": "GAZ 107", "subject": "", "date": "06.10.2023", "department": "MECHANICAL", "pdf": "#" },
+    { "sn": "88", "orderNo": "GAZ 108", "subject": "", "date": "09.10.2023", "department": "MEDICAL", "pdf": "#" },
+    { "sn": "89", "orderNo": "GAZ 109", "subject": "", "date": "11.10.2023", "department": "GENERAL ADMINISTRATION", "pdf": "#" },
+    { "sn": "90", "orderNo": "GAZ 110", "subject": "", "date": "13.10.2023", "department": "MECHANICAL", "pdf": "#" },
+    { "sn": "91", "orderNo": "GAZ 111", "subject": "", "date": "13.10.2023", "department": "MECHANICAL", "pdf": "#" },
+    { "sn": "92", "orderNo": "GAZ 112", "subject": "", "date": "13.10.2023", "department": "MECHANICAL", "pdf": "#" },
+    { "sn": "93", "orderNo": "GAZ 113", "subject": "", "date": "16.10.2023", "department": "STORES", "pdf": "#" },
+    { "sn": "94", "orderNo": "GAZ 114", "subject": "", "date": "16.10.2023", "department": "MEDICAL", "pdf": "#" },
+    { "sn": "95", "orderNo": "GAZ 115", "subject": "", "date": "18.10.2023", "department": "STORES", "pdf": "#" },
+    { "sn": "96", "orderNo": "GAZ 116", "subject": "", "date": "23.11.2023", "department": "ELECTRICAL", "pdf": "#" },
+    { "sn": "97", "orderNo": "GAZ 117", "subject": "", "date": "23.11.2023", "department": "STORES", "pdf": "#" },
+    { "sn": "98", "orderNo": "GAZ 118", "subject": "", "date": "24.11.2023", "department": "MEDICAL", "pdf": "#" },
+    { "sn": "99", "orderNo": "GAZ 119", "subject": "", "date": "28.11.2023", "department": "MEDICAL", "pdf": "#" },
+    { "sn": "100", "orderNo": "GAZ 120", "subject": "", "date": "02.12.2023", "department": "ELECTRICAL", "pdf": "#" },
+    { "sn": "101", "orderNo": "GAZ 121", "subject": "", "date": "04.12.2023", "department": "CMT DEPARTMENT", "pdf": "#" },
+    { "sn": "102", "orderNo": "GAZ 122", "subject": "", "date": "04.12.2023", "department": "PERSONNEL", "pdf": "#" },
+    { "sn": "103", "orderNo": "GAZ 123", "subject": "", "date": "07.12.2023", "department": "CIVIL", "pdf": "#" },
+    { "sn": "104", "orderNo": "GAZ/01", "subject": "Transfer order of Shri Janardan Singh SAG/IRPS from CORE to BLW", "date": "01.01.2024", "department": "Personnel", "pdf": "#" },
+    { "sn": "105", "orderNo": "GAZ/14", "subject": "Transfer order of Shri Md. Hussain JAG/IRSS to SECR", "date": "08.01.2024", "department": "Stores", "pdf": "#" },
+    { "sn": "106", "orderNo": "GAZ/21", "subject": "Transfer order of Shri Piyush Singh SAG/IRSEE from RVNL", "date": "19.01.2024", "department": "Electrical", "pdf": "#" },
+    { "sn": "107", "orderNo": "GAZ/22", "subject": "Transfer order of Shri P.K.Singh CMT from ECR", "date": "25.01.2024", "department": "C&M", "pdf": "#" },
+    { "sn": "108", "orderNo": "GAZ/33", "subject": "Transfer order of Shri Virender Singh JAG/IRSS from NR", "date": "05.02.2024", "department": "Stores", "pdf": "#" },
+    { "sn": "109", "orderNo": "GAZ/40", "subject": "Transfer order of Shri V.K. Srivastava NF-HAG/IRSS to Railway Board", "date": "09.02.2024", "department": "Stores", "pdf": "#" },
+    { "sn": "110", "orderNo": "GAZ/43", "subject": "Transfer order of Shri Shravan Kumar, SG/IRSME to DFCCIL", "date": "14.02.2024", "department": "Mechanical", "pdf": "#" },
+    { "sn": "111", "orderNo": "GAZ/48", "subject": "Transfer order of Shri A.S.Pandey, SG/IRSEE to ECR", "date": "21.02.2024", "department": "Electrical", "pdf": "#" },
+    { "sn": "112", "orderNo": "GAZ/56", "subject": "Transfer order of Shri P K Choudhary, CVO/BLW to TCIL on deputation basis", "date": "22.03.2024", "department": "General Administration", "pdf": "#" },
+    { "sn": "113", "orderNo": "GAZ/57", "subject": "Transfer order of Dr Sunil Kumar, ACMS to ECR", "date": "27.03.2024", "department": "Medical", "pdf": "#" },
+    { "sn": "114", "orderNo": "GAZ/58", "subject": "Transfer order of Shri A K Agarwal, NF-HAG/IRSS transferred from NCR", "date": "27.03.2024", "department": "Stores", "pdf": "#" },
+    { "sn": "115", "orderNo": "GAZ/60", "subject": "Transfer order of Shri Shishir Dutt, PCME/BLW to COFMOW", "date": "30.03.2024", "department": "Mechanical", "pdf": "#" },
+    { "sn": "116", "orderNo": "GAZ/63", "subject": "Transfer order of Shri Anil Ku Jain, CDE/EL to SWR and Shri Bhardwaj Chaudhary, SAG/IRSEE from RDSO", "date": "03.04.2024", "department": "Electrical", "pdf": "#" },
+    { "sn": "117", "orderNo": "GAZ/66", "subject": "Transfer order of Shri M K Gautam, ASC from WR", "date": "09.04.2024", "department": "Security", "pdf": "#" },
+    { "sn": "118", "orderNo": "GAZ/68", "subject": "Transfer order of Shri Vijay, Sr.DGM to RDSO", "date": "15.04.2024", "department": "General Admin", "pdf": "#" },
+    { "sn": "119", "orderNo": "GAZ/69", "subject": "Transfer order of Shri Subrata Nath, HAG/IRSME, PCME from NWR", "date": "15.04.2024", "department": "Mechanical", "pdf": "#" },
+    { "sn": "120", "orderNo": "GAZ/70", "subject": "Transfer order of Shri Manik Gupta JAG/IRSEE from CORE", "date": "25.04.2024", "department": "Electrical", "pdf": "#" },
+    { "sn": "121", "orderNo": "GAZ/83", "subject": "Transfer order of Shri Akash Deep, Dy CMM/HQ to UIDAI on deputation basis", "date": "31.05.2024", "department": "Stores", "pdf": "#" },
+    { "sn": "122", "orderNo": "GAZ/88", "subject": "Transfer order of Shri M.K Gupta, CDE/EL from CLW", "date": "08.06.2024", "department": "Electrical", "pdf": "#" },
+    { "sn": "123", "orderNo": "GAZ/100", "subject": "Transfer order of Shri Rohit Tiwari, DEE/Maintenance, from CR", "date": "14.08.2024", "department": "Electrical", "pdf": "#" },
+    { "sn": "124", "orderNo": "GAZ/101", "subject": "VRS of Shri Abhay Bakre, GM/BLW", "date": "16.08.2024", "department": "General Admin", "pdf": "#" },
+    { "sn": "125", "orderNo": "GAZ/105", "subject": "Transfer order of Shri Sagar, Dy CDE/Project, from NER", "date": "03.09.2024", "department": "Electrical", "pdf": "#" },
+    { "sn": "126", "orderNo": "GAZ/107", "subject": "Transfer order of Shri Trilok Kothari, CMM/Loco to RWF", "date": "05.09.2024", "department": "Stores", "pdf": "#" },
+    { "sn": "127", "orderNo": "GAZ/108", "subject": "Transfer order of Shri Anurag Kumar Gupta, CDE/Project from NER", "date": "10.09.2024", "department": "Electrical", "pdf": "#" },
+    { "sn": "128", "orderNo": "GAZ/117", "subject": "Transfer order of Md. Nurul Hoda, NF-HAG, from DFCCIL", "date": "18.10.2024", "department": "Security", "pdf": "#" },
+    { "sn": "129", "orderNo": "GAZ/121", "subject": "Transfer order of Manoj Kumar, Dy CMgM-I to MCF alongwith 01 JAG post (PC:05DL5P010)", "date": "02.11.2024", "department": "Mechanical", "pdf": "#" }
+  ]
+},
+"cadrePosition": {
+  "title": "Cadre Position",
+  "isDownloadTable": true,
+  "rows": [
+    { "id": 1, "subject": "Cadre Position as on 01.09.2023", "pdf": "#" }
+  ]
+},
+"recruitmentSection": {
+  "title": "Recruitment Section",
+  "items": [
+    { "id": 1, "label": "Result for Cultural quota 2019-20", "pdf": "#" }
+  ]
+},
+"staffWelfare": {
+  "title": "Staff Welfare",
+  "subtitle": "Staff Welfare",
+  "link": "B.L.W Holiday Home",
+  "linkUrl": "#",
+  "sections": [
+    {
+      "id": 1,
+      "heading": "Education Facilities:",
+      "para": "BLW administration runs 1 BLW Inter College from class- 06 to 12 BLW Women's Welfare Organisation also runs a primary school Bal Niketan. BLW Township also possesses 1 Post Graduate Girl's College, 2 Central Schools, 1 St. John's school."
+    },
+    {
+      "id": 2,
+      "heading": "Medical Facilities:",
+      "para": "105 bedded well-equipped Railway Hospital, a Health Unit and a First-Aid post in workshop provide comprehensive health care to around 20,000 Railway family members. A Homeopathic Clinic also available."
+    },
+    {
+      "id": 3,
+      "heading": "Railway Quarters:",
+      "para": "A total of 3704 staff quarters (including bunglow) are provided to the BLW employees. The Railway colony is well maintained and green, providing excellent pollution free environment."
+    },
+    {
+      "id": 4,
+      "heading": "Compassionate Appointments:",
+      "para": "Families of deceased employees are helped by the way of compassionate appointment to the wards."
+    },
+    {
+      "id": 5,
+      "heading": "Settlement Dues to retired employees and the families of the deceased employees:",
+      "para": "Special attention at highest level is given to settle the dues of the retired employees and the families of the deceased employees."
+    },
+    {
+      "id": 6,
+      "heading": "Institute/Community Centre etc.:",
+      "para": "For various social needs of the staff 1 Community Hall, 2 Institutes, 3 Barat Ghars, 1 Kalyan Kendra, 1 Rangshala, 1 Officers Club and 1 Staff Club are functioning on the premises."
+    },
+    {
+      "id": 7,
+      "heading": "Cinema Club:",
+      "para": "For recreation of staff a Cinema Hall of around 690 capacity is functioning since 1967 in BLW."
+    },
+    {
+      "id": 8,
+      "heading": "Sports & Game:",
+      "para": "All kinds of facilities for various games like Aquatics, Athletic, Two Indoor Badminton Court, Two Basketball Court with Flood Light, Health Club, Cricket Ground with Pavilion, Football Ground, Golf Course with 18 holes, Hockey Ground, Two Synthetic Lawn Tennis with Flood Light, Volleyball Court with Flood Light, Indoor Wrestling hall with two mat and one Akhara, Squash Hall and Handball Ground have been provided for the staff. Various Inter Railway Tournaments are regularly arranged in BLW premises."
+    }
+  ]
+},
+"importantLetters": {
+  "title": "Important Letter/Notice",
+  "items": [
+    { "id": 1, "label": "Notice for BLW Supervision Club membership", "pdf": "#" },
+    { "id": 2, "label": "Notice for the selection of Clerk Level-2 against 33-1/3% departmental quota", "pdf": "#" },
+    { "id": 3, "label": "Examination date for the selection of Junior Clerk cum Typist Level-2 against 33-1/3% departmental quota", "pdf": "#" },
+    { "id": 4, "label": "Examination date for the selection of Junior Clerk cum Typist Level-2 against 33-1/3% departmental quota", "pdf": "#" },
+    { "id": 5, "label": "Notification for the selection of Junior Engineer/Mech against IAM quota 2026", "pdf": "#" },
+    { "id": 6, "label": "Corrigendum for Notification for the selection of Junior Engineer/Mech against IAM quota 2026", "pdf": "#" },
+    { "id": 7, "label": "Examination date for the selection of Junior Clerk cum Typist Level-2 against 33-1/3% departmental quota", "pdf": "#" },
+    { "id": 8, "label": "Notification for the selection of Clerk Level-2 against 33-1/3% quota for Store/Depot department", "pdf": "#" },
+    { "id": 9, "label": "Notice for the selection of Junior Clerk cum Typist Level-2 against 33-1/3% departmental quota", "pdf": "#" },
+    { "id": 10, "label": "List of candidates to appear in CBT exam of Jr Clerk level 2 dtd 13.12.25 in compliance of CAT ALD- OA No.1028/2025", "pdf": "#" },
+    { "id": 11, "label": "Notice for the selection of JE/Fitter Level-6 against 25% departmental quota", "pdf": "#" },
+    { "id": 12, "label": "Notice for the selection of JE/MCT Level-6 against 25% departmental quota", "pdf": "#" },
+    { "id": 13, "label": "Notification for filling up the 01 Ex-cadre Group-B post of protocol officer in level 8 in pay matrix", "pdf": "#" },
+    { "id": 14, "label": "Objection link for 33-1/3% exam dtd 13.12.2025", "pdf": "#" },
+    { "id": 15, "label": "Formation of panel for the Group-B post of AWM (Level-8) in Mechanical department against 30% LDCE quota", "pdf": "#" },
+    { "id": 16, "label": "Formation of panel for the Group-B post of AEE (Level-8) in Electrical department against 30% LDCE quota", "pdf": "#" },
+    { "id": 17, "label": "Objection link for CBT Exam dtd 26.12.2025", "pdf": "#" },
+    { "id": 18, "label": "Revised model answer sheet for the question paper of Junior Clerk cum Typist Level-2 against 33-1/3% departmental quota", "pdf": "#" },
+    { "id": 19, "label": "Revised model answer sheet for the question paper of JE/Fitter Level-6 against 25% departmental quota", "pdf": "#" },
+    { "id": 20, "label": "Notification of Suitable list for the post of CMS, L-7, 33% LDCE Quota", "pdf": "#" },
+    { "id": 21, "label": "Pre-selection training time table for the selection of Group B AWM Mechanical Department", "pdf": "#" },
+    { "id": 22, "label": "Selection for filling up the ex-cadre post of Chief Vigilance Inspector/Personnel, Pay Level-7, Pay Scale Rs. 44900-142400.", "pdf": "#" },
+    { "id": 23, "label": "Formation of panel of promotion of Group B post AWM (Level-8) in Mechanical Department against 30% quota. - Provisional Accept and reject list reg.", "pdf": "#" },
+    { "id": 24, "label": "Provisional result for the selection of Junior Clerk cum Typist Level-2 examination against 33-1/3% departmental quota", "pdf": "#" },
+    { "id": 25, "label": "Formation of panel of promotion of Group B post AEE (Level-8) in Electrical Department against 30% quota. - Provisional Accept and reject list reg.", "pdf": "#" },
+    { "id": 26, "label": "Inter-se-seniority list for the selection of JE/Mechanical Level-6 against 25% IAM quota", "pdf": "#" },
+    { "id": 27, "label": "Notice of Eligibility list for the selection of Instructor FTR Level-6", "pdf": "#" },
+    { "id": 28, "label": "Corrigendum for the selection of Clerk Level-2 against 33-1/3% quota for Store/Depot department", "pdf": "#" },
+    { "id": 29, "label": "Inter-se-seniority list for the selection of Junior clerk Level-2 against 33-1/3% quota", "pdf": "#" },
+    { "id": 30, "label": "Selection for Jr Clerk Level 02 Depot eligibility and non eligibility list", "pdf": "#" },
+    { "id": 31, "label": "Corrigendum for the Notification post of CMS, L-7, 33% LDCE Quota", "pdf": "#" }
+  ]
+},
+"selectionNotice": {
+  "title": "Selection Notice",
+  "tableHeaders": ["Description", "Notification Link", "Closing Date"],
+  "rows": [
+    { "sn": "1", "subject": "Notification of Inquiry Inspector, Level - 07", "orderNo": "Download", "date": "11.01.2024", "department": "", "pdf": "#" },
+    { "sn": "2", "subject": "Result of DMS", "orderNo": "Download", "date": "11.01.2024", "department": "", "pdf": "#" },
+    { "sn": "3", "subject": "Notification of Selection of Vigilance Watcher", "orderNo": "Download", "date": "29.02.2024", "department": "", "pdf": "#" },
+    { "sn": "4", "subject": "Notification of Selection of CVI", "orderNo": "Download", "date": "01.03.2024", "department": "", "pdf": "#" },
+    { "sn": "5", "subject": "Provisional Panel of SSE/Mech/Design, Level - 08", "orderNo": "Download", "date": "06.03.2024", "department": "", "pdf": "#" },
+    { "sn": "6", "subject": "Provisional Panel of SSE/Mech/Design, Level - 07", "orderNo": "Download", "date": "06.03.2024", "department": "", "pdf": "#" },
+    { "sn": "7", "subject": "Selection of Horticulture Inspector, Level - 06", "orderNo": "Download", "date": "27.04.2024", "department": "", "pdf": "#" },
+    { "sn": "8", "subject": "Selection of CVI, Ex cadre, Level - 07", "orderNo": "Download", "date": "30.04.2024", "department": "", "pdf": "#" },
+    { "sn": "9", "subject": "Selection of Publicity Inspector, Level - 05", "orderNo": "Download", "date": "27.04.2024", "department": "", "pdf": "#" },
+    { "sn": "10", "subject": "Nomination of SSE/Elect.Design, Level -08", "orderNo": "Download", "date": "09.06.2024", "department": "", "pdf": "#" },
+    { "sn": "11", "subject": "Selection Notification of Vig Watcher, Level - 01", "orderNo": "Download", "date": "10.06.2024", "department": "", "pdf": "#" },
+    { "sn": "12", "subject": "Syllabus of Sr. Clerk,66-2/3, Level -5", "orderNo": "Download", "date": "30.06.2024", "department": "", "pdf": "#" },
+    { "sn": "13", "subject": "Result of Chief Protocol Inspector(Ex.Cadre), Level-07", "orderNo": "Download", "date": "11.07.2024", "department": "", "pdf": "#" },
+    { "sn": "14", "subject": "Option form for Painter-III(PQ), Level - 02", "orderNo": "Download", "date": "11.07.2024", "department": "", "pdf": "#" },
+    { "sn": "15", "subject": "Selection Notification of Steno - III, Level - 04", "orderNo": "Download", "date": "04.09.2024", "department": "", "pdf": "#" },
+    { "sn": "16", "subject": "Examination of Tech Fitter-III, QSQ, Level - 02", "orderNo": "Download", "date": "16.09.2024", "department": "", "pdf": "#" },
+    { "sn": "17", "subject": "Selection Notification of JE/Machinist,Tool Maker, Welder, Level - 06", "orderNo": "Download", "date": "23.09.2024", "department": "", "pdf": "#" },
+    { "sn": "18", "subject": "PS-II Suitablity Result", "orderNo": "Download", "date": "04.10.2024", "department": "", "pdf": "#" },
+    { "sn": "19", "subject": "Notification of CMS, level - 07", "orderNo": "Download", "date": "04.10.2024", "department": "", "pdf": "#" },
+    { "sn": "20", "subject": "Examination of Horticulture inspector, level-06", "orderNo": "Download", "date": "11.10.2024", "department": "", "pdf": "#" },
+    { "sn": "21", "subject": "Selection Notification of Transport Inspector, Level-6", "orderNo": "Download", "date": "11.10.2024", "department": "", "pdf": "#" },
+    { "sn": "22", "subject": "List of eligible/non eligible employees in Publicity Inspector, Level-5", "orderNo": "Download", "date": "11.10.2024", "department": "", "pdf": "#" },
+    { "sn": "23", "subject": "Option form for Tech/Welder-III(Mech), Level - 02", "orderNo": "Download", "date": "15.10.2024", "department": "", "pdf": "#" },
+    { "sn": "24", "subject": "Notice against selection of Tech. Fitter-III, QSQ, Level-2", "orderNo": "Download", "date": "20.10.2024", "department": "", "pdf": "#" },
+    { "sn": "25", "subject": "Information against Selection of Steno-III, Level - 04", "orderNo": "Download", "date": "20.10.2024", "department": "", "pdf": "#" },
+    { "sn": "26", "subject": "Coregendam of Selection of Steno-III, Level - 04", "orderNo": "Download", "date": "27.10.2024", "department": "", "pdf": "#" },
+    { "sn": "27", "subject": "Notice for Written examination of Publicity Inspector, Level-05", "orderNo": "Download", "date": "10.11.2024", "department": "", "pdf": "#" },
+    { "sn": "28", "subject": "Examination Notice of Tech/Fitter-III, 25%QSQ, Level-2", "orderNo": "Download", "date": "10.11.2024", "department": "", "pdf": "#" },
+    { "sn": "29", "subject": "Examination Notice of Transport Inspector, Level - 06", "orderNo": "Download", "date": "10.11.2024", "department": "", "pdf": "#" },
+    { "sn": "30", "subject": "CMS, 33%, Level - 7, Selected Candidate list", "orderNo": "Download", "date": "16.11.2024", "department": "", "pdf": "#" },
+    { "sn": "31", "subject": "Written Examination Notification of CMS, Level - 07", "orderNo": "Download", "date": "24.11.2024", "department": "", "pdf": "#" },
+    { "sn": "32", "subject": "Examination Result of Transport Inspector, Level - 06", "orderNo": "Download", "date": "25.12.2024", "department": "", "pdf": "#" },
+    { "sn": "33", "subject": "Selected Steno, Level - 3 List", "orderNo": "Download", "date": "25.12.2024", "department": "", "pdf": "#" },
+    { "sn": "34", "subject": "Steno Corregendem", "orderNo": "Download", "date": "25.12.2024", "department": "", "pdf": "#" },
+    { "sn": "35", "subject": "Exam Date Sr.Clerk (GSG), Level - 05", "orderNo": "Download", "date": "25.12.2024", "department": "", "pdf": "#" },
+    { "sn": "36", "subject": "Selection Notification of Clerk, 33-1/3%, Level-02", "orderNo": "Download", "date": "27.12.2024", "department": "", "pdf": "#" },
+    { "sn": "37", "subject": "Selection Notification of CMS, Level - 07", "orderNo": "Download", "date": "27.12.2024", "department": "", "pdf": "#" },
+    { "sn": "38", "subject": "Written Exam Notification of Steno-III", "orderNo": "Download", "date": "31.12.2024", "department": "", "pdf": "#" },
+    { "sn": "39", "subject": "Written Examination Result of Publicity Inspector, L-5", "orderNo": "Download", "date": "18.01.2025", "department": "", "pdf": "#" },
+    { "sn": "40", "subject": "Tech/Fitter-III, 25 % QSQ Examination Information", "orderNo": "Download", "date": "30.01.2025", "department": "", "pdf": "#" },
+    { "sn": "41", "subject": "Result of Stenographer - III, Level-04", "orderNo": "Download", "date": "31.01.2025", "department": "", "pdf": "#" },
+    { "sn": "42", "subject": "Examination Notice of Canteen Manager-II", "orderNo": "Download", "date": "31.01.2025", "department": "", "pdf": "#" },
+    { "sn": "43", "subject": "Shorthand Examination Notice, Level-04", "orderNo": "Download", "date": "31.01.2025", "department": "", "pdf": "#" },
+    { "sn": "44", "subject": "Shorthand Examination date, level-04", "orderNo": "Download", "date": "05.02.2025", "department": "", "pdf": "#" },
+    { "sn": "45", "subject": "33-1/3 Clerk, form Accept Reject List", "orderNo": "Download", "date": "10.03.2025", "department": "", "pdf": "#" },
+    { "sn": "46", "subject": "Inquiry Inspector, Level - 07 Panel", "orderNo": "Download", "date": "10.03.2025", "department": "", "pdf": "#" },
+    { "sn": "47", "subject": "Result of Publicity Inspector, Level - 05", "orderNo": "Download", "date": "10.03.2025", "department": "", "pdf": "#" },
+    { "sn": "48", "subject": "Selection Cancellation of Steno-III, Level-04, 25%", "orderNo": "Download", "date": "20.04.2025", "department": "", "pdf": "#" },
+    { "sn": "49", "subject": "LDCE Cancellation of CMS, Level-07, 33%", "orderNo": "Download", "date": "20.04.2025", "department": "", "pdf": "#" },
+    { "sn": "50", "subject": "Option for Tech/Fitter-III, 50% PQ, Level-02", "orderNo": "Download", "date": "30.06.2025", "department": "", "pdf": "#" },
+    { "sn": "51", "subject": "Option for Tech/Painter-III, 50% PQ, Level-02", "orderNo": "Download", "date": "30.07.2025", "department": "", "pdf": "#" },
+    { "sn": "52", "subject": "Option for Tech/Welder-III, 50% PQ, Level-02", "orderNo": "Download", "date": "30.07.2025", "department": "", "pdf": "#" },
+    { "sn": "53", "subject": "Option for Saloon Attendent, L-2", "orderNo": "Download", "date": "31.12.2025", "department": "", "pdf": "#" }
+  ]
+},
+"importantForms": {
+  "title": "Important Form For Employee",
+  "items": [
+    { "id": 1, "label": "Achal Sampatti Permission Seller Consent", "pdf": "#" },
+    { "id": 2, "label": "Cycle,Car,Moped,Scoter,Computer form", "pdf": "#" },
+    { "id": 3, "label": "DCRG Nomination", "pdf": "#" },
+    { "id": 4, "label": "Fees Re Imbursement", "pdf": "#" },
+    { "id": 5, "label": "Festival Advance", "pdf": "#" },
+    { "id": 6, "label": "Futkar Bill", "pdf": "#" },
+    { "id": 7, "label": "Group Insurance Nomination", "pdf": "#" },
+    { "id": 8, "label": "HBA", "pdf": "#" },
+    { "id": 9, "label": "Incometax Declaration", "pdf": "#" },
+    { "id": 10, "label": "Inter Rly Transfer", "pdf": "#" },
+    { "id": 11, "label": "IPR Form", "pdf": "#" },
+    { "id": 12, "label": "Motor Vehicle Advance", "pdf": "#" },
+    { "id": 13, "label": "Mutual Transfer", "pdf": "#" },
+    { "id": 14, "label": "Pass Application Form", "pdf": "#" },
+    { "id": 15, "label": "Pass PTO Declaration", "pdf": "#" },
+    { "id": 16, "label": "PF Application form", "pdf": "#" },
+    { "id": 17, "label": "PF Nomination Form", "pdf": "#" },
+    { "id": 18, "label": "PTO application", "pdf": "#" },
+    { "id": 19, "label": "T A", "pdf": "#" },
+    { "id": 20, "label": "Transferable Property Permission", "pdf": "#" },
+    { "id": 21, "label": "Salary Certificate", "pdf": "#" },
+    { "id": 22, "label": "LAP", "pdf": "#" },
+    { "id": 23, "label": "Medical card registration in DLW Hospital (HMIS)", "pdf": "#" },
+    { "id": 24, "label": "Passport NOC", "pdf": "#" }
+  ]
+},
+"gazettedSection": {
+  "title": "Gazetted Section",
+  "items": [
+    { "id": 1, "label": "BLW Gazetted Officers List as on 15.12.2020", "pdf": "#" },
+    { "id": 2, "label": "Notification for formation of panel of 01 (UR) post of AWM (Gr. 'B') against 30% in mechanical department.", "pdf": "#" }
+  ]
+},
+"seniorityList": {
+  "title": "Seniority List of Non Gaz Staff",
+  "items": [
+    { "id": 1, "label": "Senior Section Engineer/JE Mechanical as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 2, "label": "Provisional seniority list of Personnel & Misc cadre as on 03-01-2026 (Provisional)", "pdf": "#" },
+    { "id": 3, "label": "Design (Mechanical, Electrical,), CMT Lab & Steno as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 4, "label": "Medical and Inter College as on 02.01.2023 (Provisional)", "pdf": "#" },
+    { "id": 5, "label": "Office Supporting Group-D Staff as on 01.01.2025 (Provisional)", "pdf": "#" },
+    { "id": 6, "label": "Group-C and Group-D Artisan Staff of Store Department as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 7, "label": "Seniority List of all employee working in Civil Engineering Department as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 8, "label": "Store Department as on 01.01.2025 (Provisional)", "pdf": "#" },
+    { "id": 9, "label": "Seniority List of GSG Ministerial Staff as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 10, "label": "Seniority Artisan Crane Driver as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 11, "label": "Electrical Supervisor, Artisan, Telephone operator and Helper as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 12, "label": "Fitter seniority as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 13, "label": "JE SENIORITY LIST 01.01.2020", "pdf": "#" },
+    { "id": 14, "label": "Artisan Tech Mechanist trade seniority as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 15, "label": "Mechatronics Seniority as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 16, "label": "Mech. Helper Seniority as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 17, "label": "Artisan Motor Mechanic as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 18, "label": "Painter Seniority as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 19, "label": "Welder Seniority as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 20, "label": "Store Department Non-UPC, UPC, Depot and DMS Cadre as on 01.01.2024 (Provisional)", "pdf": "#" },
+    { "id": 21, "label": "Black Smith/F Man as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 22, "label": "Artisan Mason Seniority as on 01.01.2025 (Provisional)", "pdf": "#" },
+    { "id": 23, "label": "Artisan Carpenter Seniority as on 01.01.2025 (Provisional)", "pdf": "#" },
+    { "id": 24, "label": "Driver M&P Seniority as on 01.01.2026 (Provisional)", "pdf": "#" },
+    { "id": 25, "label": "Genl.Asst.Lab Attendant School as on 01.01.2025 (Provisional)", "pdf": "#" },
+    { "id": 26, "label": "Electrical Helper as on 01.01.2025 (Provisional)", "pdf": "#" },
+    { "id": 27, "label": "Merged Seniority of Personnel Ministerial Cadre with Time Keeping Office Cadre as on 13.06.24 (Provisional)", "pdf": "#" },
+    { "id": 28, "label": "Asstt. Horticulture (Provisional)", "pdf": "#" },
+    { "id": 29, "label": "Civil Design (SSE & JE) (Provisional)", "pdf": "#" },
+    { "id": 30, "label": "Civil HKA & Chaukidar (Provisional)", "pdf": "#" },
+    { "id": 31, "label": "Seniority List of Asstt.Works category (Provisional)", "pdf": "#" },
+    { "id": 32, "label": "Seniority list of Black Smith Category (Provisional)", "pdf": "#" },
+    { "id": 33, "label": "Seniority List of Carpenter Category (Provisional)", "pdf": "#" },
+    { "id": 34, "label": "Seniority List of Engineering Works Category (SSE & JE) (Provisional)", "pdf": "#" },
+    { "id": 35, "label": "Seniority list of Horticulture (Provisional)", "pdf": "#" },
+    { "id": 36, "label": "Seniority List of Malaria Khalasi (Provisional)", "pdf": "#" },
+    { "id": 37, "label": "Seniority List of Masson Category (Provisional)", "pdf": "#" },
+    { "id": 38, "label": "Seniority list of P Way SSE (Provisional)", "pdf": "#" },
+    { "id": 39, "label": "Seniority List of Painter Category (Provisional)", "pdf": "#" },
+    { "id": 40, "label": "Seniority List of Plumber FTR Category (Provisional)", "pdf": "#" },
+    { "id": 41, "label": "Seniority List of Sarang FTR Category (Provisional)", "pdf": "#" },
+    { "id": 42, "label": "Seniority List of Track Maintainer Category (Provisional)", "pdf": "#" },
+    { "id": 43, "label": "Seniority list of Food & Safety Category (Provisional)", "pdf": "#" },
+    { "id": 44, "label": "SSE Bridge Seniority (Provisional)", "pdf": "#" },
+    { "id": 45, "label": "Seniority List of Mechanist Category (Provisional)", "pdf": "#" },
+    { "id": 46, "label": "Seniority list of store ministrial (Headquarter) staff (Provisional)", "pdf": "#" },
+    { "id": 47, "label": "Inter-seniority of employees for lateral entry", "pdf": "#" },
+    { "id": 48, "label": "Electrical artisan seniority as on 01.07.2025 (Provisional)", "pdf": "#" },
+    { "id": 49, "label": "Seniority List of Stores Gr C Ministerial & DMS cadre as on 01 January 2026 (Provisional)", "pdf": "#" }
+  ]
+},
+"publicGrievances": {
+  "title": "Public Grievances",
+  "from": "From",
+  "emailLabel": "E-mail :",
+  "emailError": "[Please Enter Your E-Mail]",
+  "to": "To",
+  "toEmail": "cpo@dlw.railnet.gov.in",
+  "subject": "Subject",
+  "message": "Your Suggestion",
+  "submitBtn": "Submit",
+  "resetBtn": "Reset"
+},
+"jpoCmp": {
+  "title": "JPO for engagement of Contract Medical Practitioners",
+  "items": [
+    { "id": 1, "label": "JPO for engagement of Contract Medical Practitioners", "pdf": "#" }
+  ]
+},
+"settlementSec": {
+  "title": "Settlement Sec",
+  "items": [
+    { "id": 1, "label": "Retirement List - 2025", "pdf": "#" },
+    { "id": 2, "label": "Retirement List - 2026", "pdf": "#" }
+  ]
+},
+"revisedRules": {
+  "title": "Revised Rules of Employees Club",
+  "items": [
+    { "id": 1, "label": "Revised Rules of Employees Club", "pdf": "#" }
+  ]
+},
+"staffCouncil": {
+  "title": "Notification for BLW Staff Council Election 2025-28",
+  "items": [
+    {
+      "id": 1,
+      "label": "Notification for BLW Staff Council Election 2025-28",
+      "pdf": "#"
+    },
+    {
+      "id": 2,
+      "label": "Provisional Voter List :",
+      "children": [
+        { "id": "2a", "label": "Constituency-01", "url": "#" },
+        { "id": "2b", "label": "Constituency-02", "url": "#" },
+        { "id": "2c", "label": "Constituency-03", "url": "#" },
+        { "id": "2d", "label": "Constituency-04", "url": "#" },
+        { "id": "2e", "label": "Constituency-05", "url": "#" },
+        { "id": "2f", "label": "Constituency-06", "url": "#" },
+        { "id": "2g", "label": "Constituency-07", "url": "#" },
+        { "id": "2h", "label": "Constituency-08", "url": "#" }
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Revised Provisional Voter List :",
+      "children": [
+        { "id": "3a", "label": "Constituency-01", "url": "#" },
+        { "id": "3b", "label": "Constituency-02", "url": "#" },
+        { "id": "3c", "label": "Constituency-03", "url": "#" },
+        { "id": "3d", "label": "Constituency-04", "url": "#" },
+        { "id": "3e", "label": "Constituency-05", "url": "#" },
+        { "id": "3f", "label": "Constituency-06", "url": "#" },
+        { "id": "3g", "label": "Constituency-07", "url": "#" },
+        { "id": "3h", "label": "Constituency-08", "url": "#" }
+      ]
+    },
+    {
+      "id": 4,
+      "label": "Final Voter List :",
+      "children": [
+        { "id": "4a", "label": "Constituency-01 Booth No.1", "url": "#" },
+        { "id": "4b", "label": "Constituency-01 Booth No.2", "url": "#" },
+        { "id": "4c", "label": "Constituency-02 Booth No.3", "url": "#" },
+        { "id": "4d", "label": "Constituency-02 Booth No.4", "url": "#" },
+        { "id": "4e", "label": "Constituency-03 Booth No.5", "url": "#" },
+        { "id": "4f", "label": "Constituency-03 Booth No.6", "url": "#" },
+        { "id": "4g", "label": "Constituency-04 Booth No.7", "url": "#" },
+        { "id": "4h", "label": "Constituency-04 Booth No.8", "url": "#" },
+        { "id": "4i", "label": "Constituency-05 Booth No.9", "url": "#" },
+        { "id": "4j", "label": "Constituency-05 Booth No.10", "url": "#" },
+        { "id": "4k", "label": "Constituency-06 Booth No.11", "url": "#" },
+        { "id": "4l", "label": "Constituency-07 Booth No.13", "url": "#" },
+        { "id": "4m", "label": "Constituency-08 Booth No.14", "url": "#" },
+        { "id": "4n", "label": "Constituency-08 Booth No.15", "url": "#" },
+        { "id": "4o", "label": "Constituency-04 Booth No.12 NDLS", "url": "#" }
+      ]
+    },
+    {
+      "id": 5,
+      "label": "Notice for voter list BLW Staff Council Election 2025-28",
+      "pdf": "#"
+    }
+  ]
+},
+"sexualHarassment": {
+  "title": "Sexual Harassment Complaint Committee",
+  "tableHeaders": ["Member Name", "Designation", "Committee Designation", "Mobile & Email"],
+  "rows": [
+    {
+      "sn": "1",
+      "subject": "Smt. Geeta Ku. Chaudhary",
+      "orderNo": "Assistant Nursing Officer / BAREGA / Varanasi",
+      "date": "Chairperson",
+      "department": "9794861568 | geetachaudhary109@gmail.com",
+      "pdf": "#"
+    },
+    {
+      "sn": "2",
+      "subject": "Dr. Jagriti Rahi",
+      "orderNo": "Secretary / Vision Society for Interactive Operational Needs / Varanasi",
+      "date": "Member",
+      "department": "7651864879 | jagritirahi@gmail.com",
+      "pdf": "#"
+    },
+    {
+      "sn": "3",
+      "subject": "Shri R.K. Gupta",
+      "orderNo": "Senior Personnel Officer / HQ / BAREGA / Varanasi",
+      "date": "Member",
+      "department": "9794861612 | rajkumar.gupta02@gov.in",
+      "pdf": "#"
+    }
+  ]
+},
+"rosterAccounts": {
+  "title": "Accounts Department",
+  "items": [
+    { "id": 1, "label": "Accounts JAA", "pdf": "#" },
+    { "id": 2, "label": "JE-IT", "pdf": "#" },
+    { "id": 3, "label": "Accounts Clerk", "pdf": "#" },
+    { "id": 4, "label": "Sr.Time Keeper", "pdf": "#" },
+    { "id": 5, "label": "Jr.Time Keeper", "pdf": "#" },
+    { "id": 6, "label": "Office Account Assistant", "pdf": "#" }
+  ]
+},
+"rosterPersonnel": {
+  "title": "Personnel Department",
+  "items": [
+    { "id": 1, "label": "Chief Law Assistant", "pdf": "#" },
+    { "id": 2, "label": "Sr.Clerk", "pdf": "#" },
+    { "id": 3, "label": "Jr.Clerk-Cum-Typist", "pdf": "#" },
+    { "id": 4, "label": "Assistant Canteen", "pdf": "#" },
+    { "id": 5, "label": "Canteen- Tea Maker", "pdf": "#" },
+    { "id": 6, "label": "Canteen-Cleaner", "pdf": "#" },
+    { "id": 7, "label": "Lab Astt School & Primary Teacher", "pdf": "#" }
+  ]
+},
+"rosterCivil": {
+  "title": "Civil Engineering",
+  "items": [
+    { "id": 1, "label": "Civil Chowkidar", "pdf": "#" },
+    { "id": 2, "label": "JE Civil Design & Works", "pdf": "#" },
+    { "id": 3, "label": "Helper Works", "pdf": "#" },
+    { "id": 4, "label": "Mali", "pdf": "#" },
+    { "id": 5, "label": "Cook- cum- bearer", "pdf": "#" },
+    { "id": 6, "label": "Track Maintainer & Helper Bridge", "pdf": "#" },
+    { "id": 7, "label": "Safaiwala", "pdf": "#" }
+  ]
+},
+"rosterElectrical": {
+  "title": "Electrical Engineering",
+  "items": [
+    { "id": 1, "label": "SSE Electrical Design", "pdf": "#" },
+    { "id": 2, "label": "JE Electrical Design", "pdf": "#" },
+    { "id": 3, "label": "JE Electrical", "pdf": "#" },
+    { "id": 4, "label": "Technician-III", "pdf": "#" },
+    { "id": 5, "label": "Electrical Helper", "pdf": "#" }
+  ]
+},
+"rosterMechanical": {
+  "title": "Mechanical Engineering",
+  "items": [
+    { "id": 1, "label": "SSE Mechanical Design", "pdf": "#" },
+    { "id": 2, "label": "JE Mechanical Design", "pdf": "#" },
+    { "id": 3, "label": "SSE Jig&Tool and JE Jig&Tool", "pdf": "#" },
+    { "id": 4, "label": "JE Tool Maker & Mechatronic and JE Welder", "pdf": "#" },
+    { "id": 5, "label": "JE Fitter & JE Machinist", "pdf": "#" },
+    { "id": 6, "label": "CMA & CMS", "pdf": "#" },
+    { "id": 7, "label": "Mechatronics - III", "pdf": "#" },
+    { "id": 8, "label": "Technician Fitter-III", "pdf": "#" },
+    { "id": 9, "label": "Crane Driver-II", "pdf": "#" },
+    { "id": 10, "label": "Driver M&P, Motor Mechanic, Black Smith, F-Man and Carpenter", "pdf": "#" },
+    { "id": 11, "label": "Technician Welder-III & Painter-III", "pdf": "#" },
+    { "id": 12, "label": "Machinist-III", "pdf": "#" },
+    { "id": 13, "label": "Mechanical Helper", "pdf": "#" }
+  ]
+},
+"rosterStores": {
+  "title": "Stores Department",
+  "items": [
+    { "id": 1, "label": "Chasing Insp & Purchase Astt.", "pdf": "#" },
+    { "id": 2, "label": "CDMS & DMS", "pdf": "#" },
+    { "id": 3, "label": "Clerk & Sr.Clerk Depot", "pdf": "#" },
+    { "id": 4, "label": "Clerk-Non-UPC", "pdf": "#" },
+    { "id": 5, "label": "Clerk-Cum-Typist", "pdf": "#" }
+  ]
+},
+"rosterAdmin": {
+  "title": "General Admin",
+  "items": [
+    { "id": 1, "label": "Jr.Translation officer", "pdf": "#" },
+    { "id": 2, "label": "Steno", "pdf": "#" },
+    { "id": 3, "label": "Sr.Clerk-GSG", "pdf": "#" },
+    { "id": 4, "label": "Jr.Clerk-GSG", "pdf": "#" },
+    { "id": 5, "label": "Motor cleaner, Daftary & Farrash", "pdf": "#" },
+    { "id": 6, "label": "Peon", "pdf": "#" }
+  ]
+},
+"rosterMedical": {
+  "title": "Medical Department",
+  "items": [
+    { "id": 1, "label": "Nursing Superintendent", "pdf": "#" },
+    { "id": 2, "label": "Physiotherapist", "pdf": "#" },
+    { "id": 3, "label": "Lady health visitor", "pdf": "#" },
+    { "id": 4, "label": "Lab Assistant & Lab Technician", "pdf": "#" },
+    { "id": 5, "label": "ECG Technician", "pdf": "#" },
+    { "id": 6, "label": "Pharmasist-III", "pdf": "#" },
+    { "id": 7, "label": "Radiographer", "pdf": "#" }
+  ]
+},
+"barekaDarpan31": {
+  "title": "Bareka Darpan - 31",
+  "items": [{ "id": 1, "label": "Bareka Darpan - 31", "pdf": "#" }]
+},
+"barekaDarpan32": {
+  "title": "Bareka Darpan - 32",
+  "items": [{ "id": 1, "label": "Bareka Darpan - 32", "pdf": "#" }]
+},
+"barekaDarpan33": {
+  "title": "Bareka Darpan - 33",
+  "items": [{ "id": 1, "label": "Bareka Darpan - 33", "pdf": "#" }]
+},
+"barekaDarpan34": {
+  "title": "Bareka Darpan - 34",
+  "items": [{ "id": 1, "label": "Bareka Darpan - 34", "pdf": "#" }]
+},
+"barekaDarpan35": {
+  "title": "Bareka Darpan - 35",
+  "items": [{ "id": 1, "label": "Bareka Darpan - 35", "pdf": "#" }]
+},
+"barekaDarpan36": {
+  "title": "Bareka Darpan - 36",
+  "items": [{ "id": 1, "label": "Bareka Darpan - 36", "pdf": "#" }]
+},
+"listOfBooks": {
+  "title": "List of Books in Hindi Library",
+  "items": [{ "id": 1, "label": "List of Books in Hindi Library", "pdf": "#" }]
+},
+"gmMessage2023": {
+  "title": "General Manager, BLW Hindi Day Message-2023",
+  "items": [{ "id": 1, "label": "General Manager, BLW Hindi Day Message-2023", "pdf": "#" }]
+},
+"questionBank": {
+  "title": "Rajbhasha Question Bank",
+  "items": [{ "id": 1, "label": "Rajbhasha Question Bank", "pdf": "#" }]
+},
+"narakas": {
+  "title": "Narakas",
+  "items": [
+    { "id": 1, "label": "Banaras Darpan Issue - 07 Narakas Patrika December 2025", "pdf": "#" },
+    { "id": 2, "label": "Banaras Darpan Issue - 06 Narakas Patrika July 2025", "pdf": "#" },
+    { "id": 3, "label": "Banaras Darpan Issue - 05 Narakas Patrika December 2024", "pdf": "#" },
+    { "id": 4, "label": "Banaras Darpan Issue - 04 Narakas Patrika July 2024", "pdf": "#" },
+    { "id": 5, "label": "Banaras Darpan Issue - 03 Narakas Patrika December 2023", "pdf": "#" },
+    { "id": 6, "label": "Banaras Darpan Issue - 02 Narakas Patrika July 2023", "pdf": "#" },
+    { "id": 7, "label": "Banaras Darpan Issue - 01 Narakas Patrika December 2022", "pdf": "#" }
+  ]
+},
+"gmMessage2024": {
+  "title": "General Manager, BLW Hindi Day Message-2024",
+  "items": [{ "id": 1, "label": "General Manager, BLW Hindi Day Message-2024", "pdf": "#" }]
+},
+"rajbhashaPakhwada": {
+  "title": "Rajbhasha Pakhwada 2025",
+  "items": [{ "id": 1, "label": "Rajbhasha Pakhwada 2025", "pdf": "#" }]
+},
+"gmMessage2025": {
+  "title": "General Manager, BLW Hindi Day Message-2025",
+  "items": [{ "id": 1, "label": "General Manager, BLW Hindi Day Message-2025", "pdf": "#" }]
+},
+"suspendedFirms": {
+  "title": "List of Suspended/Banned firms",
+  "items": [
+    { "id": 1, "label": "List of Suspended/Banned firms", "pdf": "#" }
+  ]
+},
+"tenderDocuments": {
+  "title": "BLW Tender Documents",
+  "items": [
+    { "id": 1, "label": "Tender Document Revision Year 2022-23", "pdf": "#" },
+    { "id": 2, "label": "Bid Documents for Global Tenders 06.08.2016", "pdf": "#" },
+    { "id": 3, "label": "Corrigendum-I dtd 18.06.2022", "pdf": "#" },
+    { "id": 4, "label": "Corrigendum-2 dated 23.05.23 BLW tender Doc Rev Year 2022-23", "pdf": "#" },
+    { "id": 5, "label": "Corrigendum-3 dated 30.11.23 BLW tender Doc Rev Year 2022-23", "pdf": "#" },
+    { "id": 6, "label": "Corrigendum-4 dated 09.09.2024 BLW tender Doc Rev Year 2022-23", "pdf": "#" },
+    { "id": 7, "label": "Corrigendum-5 and 6 dated 12.11.2025 BLW tender Doc Rev Year 2022-23", "pdf": "#" }
+  ]
+},
+"postContractMatter": {
+  "title": "Notice for post-contract matter",
+  "items": [
+    { "id": 1, "label": "Notice for post-contract matter", "pdf": "#" }
+  ]
+},
+"plUnification": {
+  "title": "Status of PL Unification at BLW",
+  "items": [
+    { "id": 1, "label": "PL Unification Structure at BLW", "pdf": "#" },
+    { "id": 2, "label": "Unified PL in excell for RDSO (Rly Bd List) Safety items (updated on 01.02.2013)", "pdf": "#" },
+    { "id": 3, "label": "WTA UPL BLW REV DT. 07122012", "pdf": "#" },
+    { "id": 4, "label": "PLUS items unified by BLW as on 20.10.2020", "pdf": "#" },
+    { "id": 5, "label": "BLW's Item Master of 10 to 19 groups", "pdf": "#" }
+  ]
+},
+"checklistBills": {
+  "title": "Checklist for passing supplier/Contractor bills",
+  "items": [
+    { "id": 1, "label": "Checklist for passing supplier/Contractor bills", "pdf": "#" }
+  ]
+},
+"inactiveSurplus": {
+  "title": "Inactive and Surplus Item List",
+  "items": [
+    { "id": 1, "label": "Combined list of Inactive and Surplus of GSD as on 22.01.2025", "pdf": "#" },
+    { "id": 2, "label": "List of items not required for Production/NRC/ZRs/Rites", "pdf": "#" },
+    { "id": 3, "label": "Reminder-II regarding disposal of Inactive & Surplus items", "pdf": "#" },
+    { "id": 4, "label": "Combined list of Inactive and Surplus of GSD as on 01.04.2025", "pdf": "#" },
+    { "id": 5, "label": "List of disposal of Inactive & Surplus items", "pdf": "#" },
+    { "id": 6, "label": "COMBINED LIST OF SURPLUS and INACTIVE ITEMS FOR BLW:GSD AS ON 01 JULY 2025", "pdf": "#" },
+    { "id": 7, "label": "LIST OF ALCO SURPLUS ITEMS BLW", "pdf": "#" },
+    { "id": 8, "label": "COMBINED LIST OF SURPLUS AND INACTIVE ITEMS 20.12.25", "pdf": "#" },
+    { "id": 9, "label": "Reclassified items", "pdf": "#" }
+  ]
+},
+"nonMovingHighValue": {
+  "title": "Non Moving High Value Items List",
+  "items": [
+    { "id": 1, "label": "Non-Moving High Value Items List", "pdf": "#" }
+  ]
+},
+"gstChange": {
+  "title": "Change in GST structure",
+  "items": [
+    { "id": 1, "label": "JPO for Implementation of Change in GST structure 12.03.2020", "pdf": "#" },
+    { "id": 2, "label": "JPO for Implementation of Change in GST Structure 24.12.2021", "pdf": "#" }
+  ]
+},
+"estimatedTender": {
+  "title": "List of Items with Estimated Tender value above Rs. 100 Crore",
+  "items": [
+    { "id": 1, "label": "List of Items with Estimated Tender value above Rs. 100 Crore", "pdf": "#" }
+  ]
+},
+"excessHighValue": {
+  "title": "Excess High value HHP items list circulation to ZR",
+  "items": [
+    { "id": 1, "label": "Excess High value HHP items list circulation to ZR", "pdf": "#" }
+  ]
+},
+"rejectionPolicy": {
+  "title": "Policy for Rejection and Ground Rent",
+  "items": [
+    { "id": 1, "label": "Policy for Rejection and Ground Rent", "pdf": "#" }
+  ]
+},
+"videoAssembly": {
+  "title": "Tentative requirement plan up to next 05 years (2025-26 to 2029-30)",
+  "items": [
+    { "id": 1, "label": "Tentative requirement plan up to next 05 years (2025-26 to 2029-30) for additional items having proposed for FY 2025-26 & 2026-27", "pdf": "#" }
+  ]
+},
+"tentativeRequirement": {
+  "title": "Tentative requirement plan up to next 05 years (2025-26 to 2029-30)",
+  "items": [
+    { "id": 1, "label": "Tentative requirement plan up to next 05 years (2025-26 to 2029-30) for additional items having proposed for FY 2025-26 & 2026-27", "pdf": "#" }
+  ]
+},
+"irsConditions": {
+  "title": "IRS Conditions of Contract, Version 11.09.2025",
+  "items": [
+    { "id": 1, "label": "IRS Conditions of Contract, Version 11.09.2025", "pdf": "#" }
+  ]
+},
+"ttcBrochure": {
+  "title": "TTC Brochure",
+  "items": [
+    { "id": 1, "label": "TTC Brochure-2025", "pdf": "#" }
+  ]
+},
+"weldorNomination": {
+  "title": "Nomination of Weldor for Welding Training Module",
+  "items": [
+    { "id": 1, "label": "Nomination zonal Module-IV welding training March-2026", "pdf": "#" },
+    { "id": 2, "label": "Nomination zonal Module-VI March-2026", "pdf": "#" }
+  ]
+},
+"ttcQuestionBank": {
+  "title": "Multiple Choice Question Bank for Supervisors & Technicians",
+  "items": [
+    { "id": 1, "label": "Question Bank Electrician and JE", "pdf": "#" },
+    { "id": 2, "label": "Question Bank Fitter, JE, Driver M&P and Crane Driver", "pdf": "#" },
+    { "id": 3, "label": "Question Bank (General)", "pdf": "#" },
+    { "id": 4, "label": "Question Bank (Machinist)", "pdf": "#" },
+    { "id": 5, "label": "Question Bank (Welder)", "pdf": "#" },
+    { "id": 6, "label": "Question Bank (Painter)", "pdf": "#" },
+    { "id": 7, "label": "Question Bank (Carpenter)", "pdf": "#" },
+    { "id": 8, "label": "Question Bank (Mechatronics)", "pdf": "#" }
+  ]
+},
+"trainingCalender": {
+  "title": "Training Calendar",
+  "items": [
+    { "id": 1, "label": "Training Calendar from April 2026 to March 2027", "pdf": "#" },
+    { "id": 2, "label": "Training Calendar of TTC December 2025 to March 2026", "pdf": "#" }
+  ]
+},
+"internshipTraining": {
+  "title": "Vocational/Internship Training Programme 2026",
+  "comingSoon": false,
+  "description": "The notification for Vocational/Internship training for the year-2026 will be issued in April-2026. The training programme will be conducted in the months of June and July-2026.",
+  "items": []
+},
+"vigilanceAwarenessWeek": {
+  "title": "Vigilance Awareness Week",
+  "items": [
+    { "id": 1, "label": "Vigilance Awareness Week-2025", "pdf": "#" }
+  ]
+},
+"vigilanceBulletin": {
+  "title": "Vigilance Bulletin",
+  "items": [
+    { "id": 1, "label": "Vigilance Bulletin-2021", "pdf": "#" },
+    { "id": 2, "label": "Vigilance Bulletin-2022", "pdf": "#" },
+    { "id": 3, "label": "Vigilance Bulletin-2023", "pdf": "#" },
+    { "id": 4, "label": "Vigilance Bulletin-2024", "pdf": "#" },
+    { "id": 5, "label": "Vigilance Bulletin-2025", "pdf": "#" }
+  ]
+},
+"complaintPolicy": {
+  "title": "Complaint Policy",
+  "description": "Complaint from public, various administrative authorities, NGOs, etc. are important sources of information for identification of vigilance related issues in the Railways. Complaints to the vigilance are thus meant to result in punitive action against the erring public servant(s). Relief as such in the matter to the complaint is only incidental to the vigilance action. Redressal of grievances vis-a-vis Government organizations or public sector enterprises should not be the focus of complaints to the vigilance.\n\nComplaint can be lodged only against Railway officials over which Chief Vigilance Officer, Banaras Locomotive Works has jurisdiction. The vigilance department has no jurisdiction over private individuals and other Government department. Therefore, please do not lodge complaints against officials of these organizations to the Chief Vigilance Officer, Banaras Locomotive Works.\n\nThe complainant should note:\n(i) The pre-requisite for investigation of a complaint, barring certain exceptions is that the complaint should be signed and contain the name and address of the complainant. Any complaint that does not bear the name and address of the complainant is an anonymous complaint. A complaint which does not bear the full particulars of the complainant or is unsigned or is not subsequently acknowledged by a complainant as having not been made is a pseudonymous complaint. The vigilance department will not entertain both anonymous and pseudonymous complaints.\n(ii) The complainant for valid reasons desires that his identity be withheld while processing the complaint, the complaint may be addressed to Secretary, Central Vigilance Commission, New Delhi and should be superscribed 'Complaint Under the Public Interest Disclosure' on the envelope.\n\nThe Vigilance Department will not entertain or inquire into any disclosure –\n(i) In respect of which a formal and public enquiry had been ordered under public servant's enquiries act, 1850 or\n(ii) In respect of a matter which has been returned for enquiries under the commission of enquiries act, 1952.\n\nComplaint should be addressed directly to the Chief Vigilance Officer, Banaras Locomotive Works. Complaints marked to a large number of functionaries are not normally pursued by the Chief Vigilance Officer.\n\nComplaints must be specific and contain factual details, verifiable facts and related matters. It should not be vague or contain sweeping general allegations.\n\nOnly those complaints which are against officials within the jurisdiction of the Chief Vigilance Officer, Banaras Locomotive Works and have allegations of corruption will be investigated.\n\nOther complaints will either be filed or will be referred to the department concerned for necessary administrative action.\n\nChief Vigilance Officer will not entertain unnecessary correspondence in the matter, but will ensure that the complaints are investigated and action taken to its logical conclusion.\n\nIn case the complaint is found to be motivated or vexatious, the Chief Vigilance Officer shall be at liberty to take appropriate steps.\n\nAny corruption related complaint pertaining to Banaras Locomotive Works/Varanasi may be addressed to:\nThe Chief Vigilance Officer, Room No. 16, Vigilance Cell, Banaras Locomotive Works, Varanasi- 221004\n\nBSNL Landline No.: 0542-2271853\nFax No.: 0542-2271853\n\nFor more information send your queries to cvo@dlw.railnet.gov.in",
+  "contactEmail": "cvo@dlw.railnet.gov.in",
+  "items": []
+},
+"vigilanceSelections": {
+  "title": "Selections",
+  "comingSoon": true,
+  "items": []
+},
+"rtiInfo": {
+  "title": "Information u/s 4(1)(b) of RTI ACT",
+  "items": [
+    { "id": 1, "label": "Information u/s 4(1)(b) of RTI ACT", "pdf": "#" }
+  ]
+},
+"vigilanceOrganization": {
+  "title": "Vigilance Organization",
+  "intro": "Vigilance department of Banaras Locomotive Works (BLW) is headed by the Chief Vigilance Officer (CVO), who is assisted by Deputy Chief Vigilance Officer (Dy.CVO)",
+  "links": [
+    { "id": 1, "label": "Organization Chart", "pdf": "#" },
+    { "id": 2, "label": "Vigilance Manual 2018", "pdf": "#" },
+    { "id": 3, "label": "CVC Portal", "url": "#" },
+    { "id": 4, "label": "Vigilance Directorate", "url": "#" }
+  ],
+  "appealText": "If you have noticed any malpractice/corruption or have a suggestion to prevent/minimize malpractices pertaining to BLW, you may please inform the same to Vigilance Department, Banaras Locomotive Works, Varanasi, for necessary action.",
+  "address": "Chief Vigilance Officer(CVO),\nRoom No. 16, Vigilance Department,\nBanaras Locomotive Works, Varanasi- 221004 (U.P.)",
+  "addressLabel": "Communication Address:",
+  "tableHeaders": ["Name & Designation", "Phone No."],
+  "contactRows": [
+    { "name": "Chief Vigilance Officer", "phone": "0542 - 2271141" },
+    { "name": "Dy. Chief Vigilance Officer", "phone": "0542 - 2271853" }
+  ],
+  "railMadad": "Complaints can also be lodged over Phone on Rail Madad at 139",
+  "rtiNote": "Voluntary Disclosure under Right to Information Act, 2005"
+},
+"systemImprovements": {
+  "title": "System Improvements",
+  "years": [
+    {
+      "year": "2022",
+      "headers": ["S.N.", "Description", "Date of Issue"],
+      "rows": [
+        { "sn": "1", "description": "Record keeping of such employees who joined/absorbed in other Central Govt. /State Govt. /PSUs.", "date": "21.05.2022", "pdf": "#" },
+        { "sn": "2", "description": "Compliance of SOP during purchase of items.", "date": "19.07.2022", "pdf": "#" },
+        { "sn": "3", "description": "Regarding junk data available in IPAS system.", "date": "01.11.2022", "pdf": "#" },
+        { "sn": "4", "description": "Irregularities found in selection of Staff & Welfare Inspector.", "date": "14.12.2022", "pdf": "#" }
+      ]
+    },
+    {
+      "year": "2023",
+      "headers": ["S.N.", "Description", "Date of Issue"],
+      "rows": [
+        { "sn": "1", "description": "Irregularities found in selection of Staff & Welfare Inspector.", "date": "27.01.2023", "pdf": "#" },
+        { "sn": "2", "description": "Entry of inventory items on User Depot Module (UDM).", "date": "31.05.2023", "pdf": "#" },
+        { "sn": "3", "description": "Irregularities and lapses found in execution of work in the tender.", "date": "07.06.2023", "pdf": "#" },
+        { "sn": "4", "description": "Regarding 20% LDCE quota examination.", "date": "05.06.2023", "pdf": "#" },
+        { "sn": "5", "description": "Rejection memo to be issued as per Store Code provisions.", "date": "02.12.2023", "pdf": "#" },
+        { "sn": "6", "description": "Detailing of product specification.", "date": "02.12.2023", "pdf": "#" }
+      ]
+    },
+    {
+      "year": "2024",
+      "headers": ["S.N.", "Description", "Date of Issue"],
+      "rows": [
+        { "sn": "1", "description": "System improvement regarding tenure of employees working in PRS/BLW and the process of their selection.", "date": "19.01.2024", "pdf": "#" },
+        { "sn": "2", "description": "System improvement regarding prototype approval and upgradation to developmental category.", "date": "15.03.2024", "pdf": "#" },
+        { "sn": "3", "description": "System improvement related to employees working on highly sensitive posts.", "date": "21.03.2024", "pdf": "#" },
+        { "sn": "4", "description": "System improvement regarding failed NEFT transactions.", "date": "29.03.2024", "pdf": "#" },
+        { "sn": "5", "description": "Ensuring entry in IPAS after an employee avails CCL.", "date": "03.04.2024", "pdf": "#" },
+        { "sn": "6", "description": "System improvement for timely disposal of 7 days/48 hours notices issued to firms during work execution.", "date": "14.05.2024", "pdf": "#" },
+        { "sn": "7", "description": "System improvement in tender cases invited for M&P procurement.", "date": "05.07.2024", "pdf": "#" },
+        { "sn": "8", "description": "System improvement regarding posting of officers transferred to BLW from other railways.", "date": "26.07.2024", "pdf": "#" },
+        { "sn": "9", "description": "System improvement regarding rules for allotment/change of quarters for BLW employees.", "date": "29.07.2024", "pdf": "#" },
+        { "sn": "10", "description": "System improvement regarding review of locally formulated policies at BLW.", "date": "29.08.2024", "pdf": "#" },
+        { "sn": "11", "description": "System improvement regarding multiple party codes in IPAS.", "date": "09.09.2024", "pdf": "#" },
+        { "sn": "12", "description": "System improvement regarding inclusion of current year APARs in the promotion selection process.", "date": "13.11.2024", "pdf": "#" }
+      ]
+    },
+    {
+      "year": "2025",
+      "headers": ["S.N.", "Description", "Date of Issue"],
+      "rows": [
+        { "sn": "1", "description": "System improvement for execution of zonal contract works of Engineering Department.", "date": "09.01.2025", "pdf": "#" },
+        { "sn": "2", "description": "System improvement related to bid security provisions in work tenders.", "date": "08.02.2025", "pdf": "#" },
+        { "sn": "3", "description": "System improvement for execution of tender process for medicines regularly used in BLW Hospital.", "date": "12.02.2025", "pdf": "#" },
+        { "sn": "4", "description": "Regarding attendance of employees working on honorarium basis in Cinema Club.", "date": "16.04.2025", "pdf": "#" },
+        { "sn": "5", "description": "Timely submission of FDR in safe custody.", "date": "25.06.2025", "pdf": "#" }
+      ]
+    }
+  ]
+},
+"videoMounting": {
+  "title": "Video of mounting procedure of HHP Diesel Loco Turbocharger",
+  "items": [
+    { "id": 1, "label": "Video of mounting procedure of HHP Diesel Loco Turbocharger", "pdf": "#" }
+  ]
+},
+"eoiConversion": {
+  "title": "EOI for Conversion of HHP Diesel Loco into Electric Loco",
+  "items": [
+    { "id": 1, "label": "Expression of Interest for Conversion of HHP Diesel Locomotives into Electric Locomotives", "pdf": "#" },
+    { "id": 2, "label": "Clarification/Modification on Expression of Interest (EOI)", "pdf": "#" },
+    { "id": 3, "label": "Reply of queries against Expression of Interest (EOI)", "pdf": "#" }
+  ]
+},
+"eoiUpgradation": {
+  "title": "EOI For Upgradation of BLW Diesel engines to make suitable for Marine application",
+  "items": [
+    { "id": 1, "label": "EOI For Upgradation of BLW Diesel engines to make suitable for Marine application", "pdf": "#" },
+    { "id": 2, "label": "Modification in Closing Date for Expression of Interest (EOI) by Banaras Locomotive Works, Varanasi", "pdf": "#" }
+  ]
+},
+"safetyDepartment": {
+  "title": "Safety Department",
+  "items": [
+    { "id": 1, "label": "Code of Practice For Protection From Fire And Other Such Untoward Incidents", "pdf": "#" },
+    { "id": 2, "label": "Accident report - Compliance with legal provisions", "pdf": "#" }
+  ]
+},
+"allCirculars": {
+  "title": "All Establishment Circulars",
+  "tableHeaders": ["S.No", "GM(P)/BLW Letter/Circular", "Date", "Rly. Board Letter No.", "RB's Letter Date", "Subject", "Download"],
+  "rows": [
+    {
+      "sn": "1",
+      "orderNo": "RECT-01",
+      "date": "04/07/2018",
+      "rbLetterNo": "2017/E(Sports)/4(1)/17/Service Bond",
+      "rbDate": "07/06/2018",
+      "subject": "Resignation of Sports Person Recruited under Sports Quota",
+      "pdf": "#"
+    }
+  ]
+},
+"passCirculars": {
+  "title": "Pass Circulars",
+  "tableHeaders": ["S.No", "GM(P)/BLW Letter/Circular", "Date", "Rly. Board Letter No.", "RB's Letter Date", "Subject", "Download"],
+  "rows": [
+    { "sn": "1", "orderNo": "PASS-01, GM(P)/ER/Pass Rule-Pt-1", "date": "09/08/2018", "rbLetterNo": "E(W)2015/PS5-1/1", "rbDate": "03.08.2018", "subject": "Inclusion of a Parent as well as Medical Attendant to Special Passes issued on medical grounds in favour of minor children of railway employees.", "pdf": "#" },
+    { "sn": "2", "orderNo": "PASS-02, GM(P)/ER/Pass Rule-Pt-1", "date": "27/08/2018", "rbLetterNo": "E(W)2007/PS5-6/28", "rbDate": "02.08.2018", "subject": "Complimentary Card Passes (CCPs) to Tenzing Norgay National Adventure Awardees (TNNA Awardees).", "pdf": "#" },
+    { "sn": "3", "orderNo": "PASS-03, GM(P)/ER/Pass-Pt-1", "date": "27.08.2018", "rbLetterNo": "E(W)2015/PS5-1/1", "rbDate": "03.08.2018", "subject": "Inclusion of a Parent as well as Medical Attendant to Special Passes issued on medical grounds in favour of minor children of railway employees.", "pdf": "#" },
+    { "sn": "4", "orderNo": "PASS-04, GM(P)/ER/Pass-Pt-1", "date": "28.09.2018", "rbLetterNo": "E(W)2017/PS5-1/3", "rbDate": "10.09.2018", "subject": "Scheme of optional All India Leave Travel Concession (AILTC) facility once in a block of four years (i.e. 2018-2021 onwards) on surrender of Privilege Passes (PP).", "pdf": "#" },
+    { "sn": "5", "orderNo": "PASS-05, GM(P)/ER/Pass-Pt-1", "date": "28.09.2018", "rbLetterNo": "E(W)2016/PS5-2/9", "rbDate": "24.09.2018", "subject": "Issuance of 2 sets of Post Retirement Complimentary Passes (PRCP) to Group D employees retired on or after 01.01.2006.", "pdf": "#" },
+    { "sn": "6", "orderNo": "PASS-06, GM(P)/ER/Pass-Pt-1", "date": "22.11.2018", "rbLetterNo": "E(W)2018/PS5-1/7", "rbDate": "05.11.2018", "subject": "Issue of First Class 'A' Special Duty Cheque Pass to Railway Servants called for special felicitation/reward/award.", "pdf": "#" },
+    { "sn": "7", "orderNo": "PASS-07, GM(P)/ER/Pass-Pt-1", "date": "04.12.2018", "rbLetterNo": "E(W)2015/PS5-2/4", "rbDate": "16.11.2018", "subject": "Issuance of Special Passes on Medical grounds for follow-up medical treatment in outstation Hospitals.", "pdf": "#" },
+    { "sn": "8", "orderNo": "PASS-08, GM(P)/ER/Pass-Pt-1", "date": "06.02.2019", "rbLetterNo": "E(W)2016/PS5-1/8", "rbDate": "31.01.2019", "subject": "Revised travel entitlements of Duty Passes, Privilege Passes and Post Retirement Complimentary Passes (PRCP).", "pdf": "#" },
+    { "sn": "9", "orderNo": "PASS-09, GM(P)/ER/Pass-Pt-1", "date": "15.03.2019", "rbLetterNo": "E(W)2019/PS5-6/6", "rbDate": "08.03.2019", "subject": "Enhancement of the number of Privilege Ticket Order (PTO) and extension of validity of Complimentary Admin Cheque Pass admissible to Sahayaks (Licensed Porters).", "pdf": "#" },
+    { "sn": "10", "orderNo": "PASS-10, GM(P)/ER/Pass-Pt-1", "date": "11.06.2019", "rbLetterNo": "E(W)2019/PS5-1/5", "rbDate": "03.06.2019", "subject": "Pass facility to non-Railway Servants.", "pdf": "#" },
+    { "sn": "11", "orderNo": "PASS-11, GM(P)/ER/Pass-Pt-1", "date": "23.07.2019", "rbLetterNo": "E(W)2017/PS5-1/6", "rbDate": "19.07.2019", "subject": "Revised pass facilities to the Railway Servants who are Persons with Disabilities (PwD).", "pdf": "#" },
+    { "sn": "12", "orderNo": "PASS-12, GM(P)/ER/Pass-Pt-1", "date": "31.07.2019", "rbLetterNo": "E(W)2016/PS5-1/8", "rbDate": "26.07.2019", "subject": "Revised pay limits for entitlement of Passes/PTOs.", "pdf": "#" },
+    { "sn": "13", "orderNo": "PASS-13, GM(P)/ER/Pass-Pt-1", "date": "22.08.2019", "rbLetterNo": "E(W)2018/FU-1/6", "rbDate": "09.08.2019", "subject": "Issue of Special Passes to Railway Servants who are Persons with Disability to participate in Conferences/Workshop/Seminars/Trainings for skill development organized under the aegis of Staff Benefit Fund.", "pdf": "#" },
+    { "sn": "14", "orderNo": "PASS-14, GM(P)/ER/Pass-Pt-1", "date": "12.09.2019", "rbLetterNo": "94/TG-I/20/P/14", "rbDate": "28.08.2019", "subject": "Reservation on Railway passes - Revised Guidelines.", "pdf": "#" },
+    { "sn": "15", "orderNo": "PASS-16, GM(P)/ER/Pass-Pt-1", "date": "07.03.2020", "rbLetterNo": "E(W)2016/PS5-1/9", "rbDate": "21.02.2020", "subject": "Amendment in the Railway Servants (Pass) Rules, 1986 (Second Edition-1993) to provide for issuance of Passes/PTO in digitized/electronic mode.", "pdf": "#" },
+    { "sn": "16", "orderNo": "PASS-17, GM(P)/ER/Pass-Pt-1", "date": "16.06.2020", "rbLetterNo": "E(W)2020/PS5-2/7", "rbDate": "15.06.2020", "subject": "Extension of validity of Passes/PTOs consequent to national lockdown to prevent the spread of COVID-19.", "pdf": "#" },
+    { "sn": "17", "orderNo": "PASS-18, GM(P)/ER/Pass-Pt-1", "date": "01.07.2020", "rbLetterNo": "2020/TG-I/20/P/e-Pass", "rbDate": "26.06.2020", "subject": "Testing of ticket booking facility on PRS with online pass issued from HRMS.", "pdf": "#" },
+    { "sn": "18", "orderNo": "PASS-19, GM(P)/ER/Pass-Pt-1", "date": "02.09.2020", "rbLetterNo": "E(W)2016/PS5-1/9", "rbDate": "21.02.2020", "subject": "Amendment in the Railway Servants (Pass) Rules, 1986 (Second Edition-1993) regarding issuance of Pass/PTO in digital/electronic mode.", "pdf": "#" },
+    { "sn": "19", "orderNo": "PASS-20, GM(P)/ER/Pass-Pt-1", "date": "10.09.2020", "rbLetterNo": "E(W)2020/PS5-1/3", "rbDate": "31.08.2020", "subject": "Modification in the All India Leave Travel Concession (AILTC) Scheme to facilitate unblocking of Privilege Pass Account in exceptional circumstances.", "pdf": "#" },
+    { "sn": "20", "orderNo": "PASS-21, GM(P)/ER/Pass-Pt-1", "date": "12.09.2020", "rbLetterNo": "", "rbDate": "", "subject": "Issuance of facility Pass/PTO through e-Pass via HRMS to officers/employees and amendment of officer/employee data entry in HRMS.", "pdf": "#" },
+    { "sn": "21", "orderNo": "PASS-22, GM(P)/ER/Pass-Pt-I", "date": "25.11.2020", "rbLetterNo": "PC-VII/2020/HRMS/6(Pt)", "rbDate": "09.11.2020", "subject": "Launch of e-Pass module for pensioners of Indian Railways.", "pdf": "#" },
+    { "sn": "22", "orderNo": "PASS-23, GM(P)/ER/Pass-Pt-I", "date": "15.12.2020", "rbLetterNo": "PC-VII/2020/HRMS/6", "rbDate": "14.12.2020", "subject": "User Guide for Post Retirement Complimentary Pass & Widow Pass Module of HRMS.", "pdf": "#" },
+    { "sn": "23", "orderNo": "PASS-24, GM(P)/ER/Pass-Pt-I", "date": "29.12.2020", "rbLetterNo": "E(W)2020/PS5-2/7", "rbDate": "28.12.2020", "subject": "Crediting back of Passes/PTOs already drawn but could not be used even during the extended validity period.", "pdf": "#" },
+    { "sn": "24", "orderNo": "PASS-25, GM(P)/ER/Pass-Pt-I", "date": "15.04.2021", "rbLetterNo": "E(W)2020/PS5-1/9", "rbDate": "13.04.2021", "subject": "Clarification regarding Pass/travel entitlement.", "pdf": "#" },
+    { "sn": "25", "orderNo": "PASS-26, GM(P)/ER/Pass-Pt-I", "date": "06.09.2021", "rbLetterNo": "E(W)2021/PS5-2/12", "rbDate": "28.07.2021", "subject": "Clarification regarding the term availing of Passes/PTOs.", "pdf": "#" },
+    { "sn": "26", "orderNo": "PASS-27, GM(P)/ER/Pass-Pt-I", "date": "22.06.2022", "rbLetterNo": "2022/E(W)/01/09", "rbDate": "10.06.2022", "subject": "Clarification regarding continuance of widow pass (WP) facility after demise of the Railway servant and his/her spouse.", "pdf": "#" },
+    { "sn": "27", "orderNo": "PASS-28, GM(P)/ER/PASS-PT-I", "date": "26.07.2022", "rbLetterNo": "E(W)2021/PS5-2/12", "rbDate": "28.07.2021", "subject": "Clarification regarding used pass & PTO.", "pdf": "#" },
+    { "sn": "28", "orderNo": "PASS-29, GM(P)/ER/PASS-Pt-I", "date": "06.09.2022", "rbLetterNo": "E(W)2021/PS5-2/8", "rbDate": "31.08.2022", "subject": "Clarification regarding surrender of Privilege Passes for availing All India Leave Travel Concession (AILTC) facility on N.F. Railway.", "pdf": "#" },
+    { "sn": "29", "orderNo": "PASS-30, GM(P)/ER/PASS-Pt-I", "date": "06.09.2022", "rbLetterNo": "2022/E(W)/01/09", "rbDate": "10.06.2022", "subject": "Clarification regarding continuance of widow Pass (WP) facility after demise of the Railway Servant and his/her spouse.", "pdf": "#" },
+    { "sn": "30", "orderNo": "PASS-31, GM(P)/ER/PASS-Pt-I", "date": "19.10.2022", "rbLetterNo": "2022/TG-I/20/85", "rbDate": "12.10.2022", "subject": "Reservation on Railway Passes/PTOs.", "pdf": "#" },
+    { "sn": "31", "orderNo": "PASS-32, GM(P)/ER/PASS-Pt-I", "date": "01.11.2022", "rbLetterNo": "2022/E(W)/01/08/1", "rbDate": "28.10.2022", "subject": "Revised Travel entitlement on Passes/PTOs integrated with class & Booking Codes issued by Commercial Directorate.", "pdf": "#" },
+    { "sn": "32", "orderNo": "PASS-33, GM(P)/ER/PASS-Pt-I", "date": "27.12.2022", "rbLetterNo": "2022/E(W)/12/2", "rbDate": "21.12.2022", "subject": "Advance issue of Privilege Pass Surrender Certificate (PPSC)/Confirmation Note (CN) for availing AILTC in the next Calendar Year.", "pdf": "#" },
+    { "sn": "33", "orderNo": "PASS-34, GM(P)/ER/PASS-Pt-I", "date": "10.01.2023", "rbLetterNo": "E(W)2019/PS5-1/7", "rbDate": "27.12.2022", "subject": "Incorporation of provision for rounding off the qualifying service for the purpose of Post Retirement Complimentary Pass (PRCP) Facility.", "pdf": "#" },
+    { "sn": "34", "orderNo": "PASS-35, GM(P)/ER/PASS-Pt-I", "date": "06.02.2023", "rbLetterNo": "2022/E(W)/01/02/5", "rbDate": "03.02.2023", "subject": "Rationalisation of Post Retirement Complimentary Pass (PRCP) entitlement of railway employees retired in the regime of different Pay Commissions.", "pdf": "#" },
+    { "sn": "35", "orderNo": "PASS-36, GM(P)/ER/PASS-Pt-I", "date": "24.02.2023", "rbLetterNo": "PC-VII/2020/HRMS/6", "rbDate": "06.02.2023", "subject": "Modifications in the e-Pass Module of HRMS.", "pdf": "#" },
+    { "sn": "36", "orderNo": "PASS-37, GM(P)/ER/PASS-Pt-I", "date": "18.05.2023", "rbLetterNo": "2022/E(W)/01/08/1", "rbDate": "17.05.2023", "subject": "Travel entitlement on Passes/PTOs integrated with Class & Booking Codes issued by Commercial Directorate - clarification.", "pdf": "#" },
+    { "sn": "37", "orderNo": "PASS-38, GM(P)/ER/PASS-Pt-I", "date": "03.11.2023", "rbLetterNo": "2023/E(W)/01/08/I", "rbDate": "02.11.2023", "subject": "Standardization of documents required for inclusion of family members/dependent relatives etc. in Passes/PTOs.", "pdf": "#" },
+    { "sn": "38", "orderNo": "PASS-39, GM(P)/ER/PASS-Pt-I", "date": "14.05.2024", "rbLetterNo": "2024/E(W)/01/02/1", "rbDate": "10.05.2024", "subject": "Privilege Pass/PTO facilities to Railway Servants on deputation to Public Sector Undertakings (PSU).", "pdf": "#" },
+    { "sn": "39", "orderNo": "PASS-40, GM(P)/ER/PASS-Pt-I", "date": "09.08.2024", "rbLetterNo": "2024/E(W)/01/08/4", "rbDate": "06.08.2024", "subject": "Clarification for issuance of only fresh Passes after expiry of validity period.", "pdf": "#" },
+    { "sn": "40", "orderNo": "PASS-41, GM(P)/ER/PASS-Pt-I", "date": "18.10.2024", "rbLetterNo": "E(W)2020/PS5-1/7", "rbDate": "15.10.2024", "subject": "Grant of notional higher Pay Level to Running Staff for the limited purpose of Pass/PTO entitlement.", "pdf": "#" },
+    { "sn": "41", "orderNo": "PASS-42, GM(P)/ER/PASS-Pt-I", "date": "26.10.2024", "rbLetterNo": "2024/E(W)/01/08/6", "rbDate": "25.10.2024", "subject": "Validity period of Privilege Passes/Post Retirement Complimentary Passes/Widow Passes and PTOs w.e.f. 01.11.2024.", "pdf": "#" },
+    { "sn": "42", "orderNo": "PASS-43, GM(P)/ER/PASS-Pt-I", "date": "22.11.2024", "rbLetterNo": "PC-VII/2024/HRMS/38", "rbDate": "14.11.2024", "subject": "Launch of Duty Pass Module of HRMS on pilot basis.", "pdf": "#" }
+  ]
+},
+"recruitmentCirculars": {
+  "title": "Recruitment Circulars",
+  "tableHeaders": ["S.No", "GM(P)/BLW Letter/Circular", "Date", "Rly. Board Letter No.", "RB's Letter Date", "Subject", "Download"],
+  "rows": [
+    { "sn": "1", "orderNo": "SQ-01, GM(P)/ER/SQ-Pt-1", "date": "09/08/2018", "rbLetterNo": "2015/E(Sports)/4(1)/5/Probation Period", "rbDate": "24/07/2018", "subject": "Recruitment of meritorious sportspersons afresh in higher grade (commensurate with his achievement) without diluting the benefits he has been getting in his previous grade.", "pdf": "#" },
+    { "sn": "2", "orderNo": "RECT-01, GM(P)/ER/Recruitment-Pt-1", "date": "17.10.2018", "rbLetterNo": "PC-VII/2018/I/RSRP/1", "rbDate": "12.10.2018", "subject": "Initial pay of employees appointed on the basis of direct recruitment on or after 01.01.2006 under Section II of Part 'A' of First Schedule of Railway Services (Revised Pay) Rules, 2008 and pay fixation in case of employees other than those appointed on such recruitment basis.", "pdf": "#" },
+    { "sn": "3", "orderNo": "CG-01, GM(P)/ER/Comp.-Pt-1", "date": "31.10.2018", "rbLetterNo": "E(NG)II/2018/RC-1/32", "rbDate": "20.09.2018", "subject": "Appointment on compassionate grounds - Relaxation in upper age limit regarding.", "pdf": "#" },
+    { "sn": "4", "orderNo": "RECT-02, GM(P)/ER/Recruitment-Pt-1", "date": "02.11.2018", "rbLetterNo": "E(NG)II/2018/RR-1/31", "rbDate": "25.10.2018", "subject": "Discontinuation of Direct Recruitment to the posts of Senior Section Engineers (SSEs).", "pdf": "#" },
+    { "sn": "5", "orderNo": "CG-02, GM(P)/ER/Comp.-Pt-1", "date": "06.12.2018", "rbLetterNo": "E(NG)RC-1/44", "rbDate": "27.11.2018", "subject": "Appointment on Compassionate Grounds - Priority No.1 case - reg.", "pdf": "#" },
+    { "sn": "6", "orderNo": "RECT-03, GM(P)/ER/Recruitment-Pt-1", "date": "01.01.2019", "rbLetterNo": "E(MPP)/2009/6/14", "rbDate": "04.12.2018", "subject": "System improvement regarding selection of Act Apprentices for training under the Apprentices Act 1961.", "pdf": "#" },
+    { "sn": "7", "orderNo": "RECT-04, GM(P)/ER/Recruitment-Pt-1", "date": "09.01.2019", "rbLetterNo": "2018/H/5/17(Policy)", "rbDate": "17.12.2018", "subject": "Medical category required for medical examination of non-gazetted Staff/Candidates of Accounts Department.", "pdf": "#" },
+    { "sn": "8", "orderNo": "RECT-05, GM(P)/ER/Recruitment-Pt-1", "date": "02.02.2019", "rbLetterNo": "E(NG)II/2018/RR-1/51", "rbDate": "16.01.2019", "subject": "Minimum prescribed educational qualification for direct recruitment to the post of Technician Grade III in Level-2 of pay Matrix of 7th CPC.", "pdf": "#" },
+    { "sn": "9", "orderNo": "RECT-06, GM(P)/ER/Recruitment-Pt-1", "date": "02.02.2019", "rbLetterNo": "E(NG)II/2001/RR-1/6", "rbDate": "10.01.2019", "subject": "Educational qualification for recruitment to Group 'C' posts in S&T Departments on the Railways.", "pdf": "#" },
+    { "sn": "10", "orderNo": "RECT-07, GM(P)/ER/Recruitment-Pt-1", "date": "05.03.2019", "rbLetterNo": "E(NG)II/2009/RR-1/10 Pt-1", "rbDate": "26.02.2019", "subject": "Level-1 recruitment as per notification CEN-2/2018.", "pdf": "#" },
+    { "sn": "11", "orderNo": "RECT-08, GM(P)/ER/Recruitment-Pt-1", "date": "05.03.2019", "rbLetterNo": "E(NG)II/2017/RR-1/12", "rbDate": "26.02.2019", "subject": "Minimum educational qualification for recruitment from open market in Level-1.", "pdf": "#" },
+    { "sn": "12", "orderNo": "SQ-02, GM(P)/ER/SQ-Pt-1", "date": "09.03.2019", "rbLetterNo": "2014/E(Sports)/4(2)/3(SCL)", "rbDate": "21.02.2019", "subject": "Sparing of talented players under Railway's Centre of Excellence (CoE) Scheme.", "pdf": "#" },
+    { "sn": "13", "orderNo": "RECT-09, GM(P)/ER/Recruitment-Pt-1", "date": "12.03.2019", "rbLetterNo": "E(NG)II/2018/RR-1/31", "rbDate": "06.03.2019", "subject": "Provisional discontinuation of Direct Recruitment to the posts of Senior Section Engineers (SSEs).", "pdf": "#" },
+    { "sn": "14", "orderNo": "CG-03, GM(P)/ER/Comp-Pt-1", "date": "12.03.2019", "rbLetterNo": "E(NG)II/2018/RC-1/45", "rbDate": "09.03.2019", "subject": "Screening/Suitability test for Compassionate Ground appointment to Group 'C' posts.", "pdf": "#" },
+    { "sn": "15", "orderNo": "RECT-10, GM(P)/ER/Recruitment-Pt-1", "date": "25.03.2019", "rbLetterNo": "2017/E(RRB)/23/15", "rbDate": "07.03.2019", "subject": "Framing of Teaching Skill & Performance Test for Teacher of Railway.", "pdf": "#" },
+    { "sn": "16", "orderNo": "RECT-11, GM(P)/ER/Recruitment-Pt-1", "date": "27.03.2019", "rbLetterNo": "E(NG)II/2008/RR-1/33", "rbDate": "11.03.2019", "subject": "Direct recruitment from open market in Level-1 (7th CPC pay matrix) procedure regarding.", "pdf": "#" },
+    { "sn": "17", "orderNo": "RECT-12, GM(P)/ER/Recruitment-Pt-1", "date": "02.04.2019", "rbLetterNo": "2016/E(G)RR/15/2/Electrical", "rbDate": "19.03.2019", "subject": "Notified Recruitment Rules of Indian Railway Assistant Electrical Engineer (Group 'B' Gazetted, 2019).", "pdf": "#" },
+    { "sn": "18", "orderNo": "RECT-13, GM(P)/ER/Recruitment-Pt-1", "date": "03.04.2019", "rbLetterNo": "E(NG)II/2019/RR-1/6", "rbDate": "25.03.2019", "subject": "Open Market Recruitment to Level-I Posts on Railway under Employment Notice (CEN) No. RRC-01/2019 - Revision of requirement.", "pdf": "#" },
+    { "sn": "19", "orderNo": "RECT-14, GM(P)/ER/Recruitment-Pt-1", "date": "11.04.2019", "rbLetterNo": "E(NG)II/2008/RR-1/33", "rbDate": "01.04.2019", "subject": "Supply of data for Physical Test (PET) and Document Verification (DV) in connection with recruitment in Level-1 (7th CPC pay matrix) - CEN 02/2018.", "pdf": "#" },
+    { "sn": "20", "orderNo": "SQ-03, GM(P)/ER/Recruitment-Pt-1", "date": "11.04.2019", "rbLetterNo": "2019/E(Sports)/4(2)/1", "rbDate": "26.03.2019", "subject": "Treating the period of participation in sporting events of National or International importance and pre-participating camp as 'On Duty'.", "pdf": "#" },
+    { "sn": "21", "orderNo": "RECT-15, GM(P)/ER/Recruitment-Pt-1", "date": "10.05.2019", "rbLetterNo": "E(NG)II/2017/RC-1/23", "rbDate": "03.05.2019", "subject": "Acquiring minimum Educational Qualification for regular posting in erstwhile Group-D, Level-1 (erstwhile GP-1800/-) of Trainee in -1S Pay Band (6th CPC) appointed on Compassionate Ground Policy Guidelines.", "pdf": "#" },
+    { "sn": "22", "orderNo": "RECT-16, GM(P)/ER/Recruitment-Pt-1", "date": "14.05.2019", "rbLetterNo": "E(NG)II/2019/RR-1/6", "rbDate": "07.05.2019", "subject": "Upper age relaxation to Course Completed Act Apprentices (CCAs) applying for Non-Gazetted posts on Railway.", "pdf": "#" },
+    { "sn": "23", "orderNo": "C&GQ-01, GM(P)/ER/C&G Quota-Pt-1", "date": "21.05.2019", "rbLetterNo": "E(W)2019/RSGB/4", "rbDate": "08.05.2019", "subject": "Scouts activities on Indian Railway - Master Circular.", "pdf": "#" },
+    { "sn": "24", "orderNo": "CG-04, GM(P)/ER/Comp-Pt-1", "date": "11.06.2019", "rbLetterNo": "E(NG)II/2019/RC-1/5", "rbDate": "04.06.2019", "subject": "Grant of compassionate appointment to spouse/ward/dependent of deceased trainee employees.", "pdf": "#" },
+    { "sn": "25", "orderNo": "RECT-17, GM(P)/ER/Recruitment-Pt-1", "date": "17.06.2019", "rbLetterNo": "E(NG)II/2017/RR-1/12", "rbDate": "14.06.2019", "subject": "Minimum educational qualification for recruitment of staff from open market in Level-1 of the pay matrix of 7th CPC.", "pdf": "#" },
+    { "sn": "26", "orderNo": "RECT-18, GM(P)/ER/Recruitment-Pt-1", "date": "24.06.2019", "rbLetterNo": "E(NG)II/2010/RC-4/6", "rbDate": "14.06.2019", "subject": "Re-engagement of retired staff on daily remuneration basis for the post of Loco Pilot (Both Diesel and Electrical Drivers).", "pdf": "#" },
+    { "sn": "27", "orderNo": "CG-05, GM(P)/ER/Comp.-Pt-1", "date": "25.06.2019", "rbLetterNo": "E(NG)II/2003/RC-1/Genl./4", "rbDate": "19.06.2019", "subject": "Appointment on Compassionate Grounds - Acquisition of higher qualification.", "pdf": "#" },
+    { "sn": "28", "orderNo": "C&GQ-02, GM(P)/ER/C&G Quota-Pt-1", "date": "09.07.2019", "rbLetterNo": "E(NG)II/2015/RR-2/1", "rbDate": "03.07.2019", "subject": "Recruitment against Scouts and Guides Quota - Procedure for.", "pdf": "#" },
+    { "sn": "29", "orderNo": "RECT-19, GM(P)/ER/Recruitment-Pt-1", "date": "30.07.2019", "rbLetterNo": "7-3/2012(AMPC)", "rbDate": "15.07.2019", "subject": "Public Notice on Fake Universities.", "pdf": "#" },
+    { "sn": "30", "orderNo": "RECT-20, GM(P)/ER/Recruitment-Pt-1", "date": "22.08.2019", "rbLetterNo": "2019/E(RRB)/25/42", "rbDate": "26.07.2019", "subject": "Validity period of OBC certificate.", "pdf": "#" },
+    { "sn": "31", "orderNo": "RECT-21, GM(P)/ER/Recruitment-Pt-1", "date": "19.11.2019", "rbLetterNo": "E(NG)II/2019/RR-1/29", "rbDate": "08.11.2019", "subject": "Extension in joining time date of offer of Appointment.", "pdf": "#" },
+    { "sn": "32", "orderNo": "RECT-22, GM(P)/ER/Recruitment-Pt-1", "date": "19.11.2019", "rbLetterNo": "E(NG)II/2010/RC-5/1", "rbDate": "11.11.2019", "subject": "Revision of policy regarding compensation of Land losers affected by land acquisition for Railway projects.", "pdf": "#" },
+    { "sn": "33", "orderNo": "CG-06, GM(P)/ER/Comp.-Pt", "date": "06.01.2020", "rbLetterNo": "E(NG)II/2018/RR-1/31", "rbDate": "30.12.2019", "subject": "Compassionate Ground Appointment as Sr. Section Engineer (SSE).", "pdf": "#" },
+    { "sn": "34", "orderNo": "CG-07, GM(P)/ER/Comp.-Pt-1", "date": "06.01.2020", "rbLetterNo": "E(NG)II/2016/RC-1/CR/12(Pt)", "rbDate": "30.12.2019", "subject": "Appointment on Compassionate Grounds - cases of second wife and her wards.", "pdf": "#" },
+    { "sn": "35", "orderNo": "RECT-23, GM(P)/ER/Recruitment-Pt-1", "date": "23.06.2021", "rbLetterNo": "2021-E(SCT)1/25/2", "rbDate": "16.06.2021", "subject": "Timely verification of Caste/Community Certificates.", "pdf": "#" },
+    { "sn": "36", "orderNo": "RECT-24, GM(P)/ER/Recruitment-Pt-I", "date": "07.09.2021", "rbLetterNo": "E(NG)II/2021/RR-1/2", "rbDate": "06.08.2021", "subject": "Recruitment Rule for the post of Public Prosecutor in Level-7 of 7th CPC Pay Matrix.", "pdf": "#" },
+    { "sn": "37", "orderNo": "RECT-25, GM(P)/ER/Recruitment-Pt-I", "date": "29.01.2022", "rbLetterNo": "E(NG)I-2020/PM9/1", "rbDate": "24.11.2021", "subject": "Introduction of General Departmental Competitive Examination (GDCE) in Accounts Department and Chief Law Assistant.", "pdf": "#" },
+    { "sn": "38", "orderNo": "RECT-26, GM(P)/ER/Recruitment-Pt-I", "date": "23.02.2022", "rbLetterNo": "E(NG)II/2020/RC-4/2(Pt.)", "rbDate": "21.02.2022", "subject": "Engagement of staff against posts of SSEs/JEs on contract basis.", "pdf": "#" },
+    { "sn": "39", "orderNo": "RECT-27, GM(P)/ER/Recruitment-Pt-I", "date": "21.04.2022", "rbLetterNo": "E(P&A)I-2012/PS-5/PE-3(pt)", "rbDate": "12.04.2022", "subject": "Amendments in the norms of minimum qualifications for recruitment/promotion of teachers for classes I to VIII in Railway Schools (Primary and Trained Graduate Teachers).", "pdf": "#" },
+    { "sn": "40", "orderNo": "RECT-28, GM(P)/ER/Recruitment-Pt-I", "date": "22.04.2022", "rbLetterNo": "E(NG)II/2021/RR-1/66", "rbDate": "13.04.2022", "subject": "Clarification regarding candidate possessing Post Graduate Diploma in Human Resource Management for appointment for the post of Staff & Welfare Inspector on Compassionate Grounds.", "pdf": "#" },
+    { "sn": "41", "orderNo": "RECT-29, GM(P)/ER/Recruitment-Pt-I", "date": "22.04.2022", "rbLetterNo": "E(NG)II/2019/RR-1/06", "rbDate": "13.04.2022", "subject": "Direct recruitment of Course Completed Act Apprentices (CCAAs) trained in railway establishments in Level-1 (7th CPC pay matrix) posts - Procedure reg.", "pdf": "#" },
+    { "sn": "42", "orderNo": "RECT-30, GM(P)/ER/Recruitment-Pt-I", "date": "31.05.2022", "rbLetterNo": "2018/H/5/14(Policy)", "rbDate": "11.05.2022", "subject": "Change of medical fitness category of Assistant Works of Engineering Department from B-I to C-I medical standard - Reg.", "pdf": "#" },
+    { "sn": "43", "orderNo": "RECT-31, GM(P)/ER/Recruitment-Pt-I", "date": "06.09.2022", "rbLetterNo": "2022/H/5/1/NER/Dalbir", "rbDate": "25.08.2022", "subject": "Examination of medical fitness of candidates who have undergone LASIK Surgery for various posts - reg.", "pdf": "#" },
+    { "sn": "44", "orderNo": "Rect-32, GM(P)/ER/Recruitment-Pt-I", "date": "20.09.2022", "rbLetterNo": "E(NG)II/2020/RR-2/1", "rbDate": "02.09.2022", "subject": "Recruitment under Cultural cum Scout & Guide Quota.", "pdf": "#" },
+    { "sn": "45", "orderNo": "Rect-33, GM(P)/ER/Recruitment-Pt-I", "date": "26.09.2022", "rbLetterNo": "E(NG)-II/2022/RR-1/17", "rbDate": "15.09.2022", "subject": "Inclusion of 'Third Gender/Any Other Category' in the application forms in recruitment to various posts in Indian Railways - reg.", "pdf": "#" },
+    { "sn": "46", "orderNo": "Rect-34, GM(P)/ER/Recruitment-Pt-I", "date": "04.11.2022", "rbLetterNo": "E(NG)II/2019/RR-1/11", "rbDate": "02.11.2022", "subject": "Recruitment Rule for the post of Audiologist and Speech Therapist in Level-6 of 7th CPC Pay Matrix.", "pdf": "#" },
+    { "sn": "47", "orderNo": "Rect-35, GM(P)/ER/Recruitment-Pt-I", "date": "24.11.2022", "rbLetterNo": "E(NG)II/2021 RR-1/30", "rbDate": "18.11.2022", "subject": "Recruitment of staff in Level-1 of 7th CPC Pay Matrix on Indian Railways - Criteria for Physical Efficiency Test (PET) regarding.", "pdf": "#" },
+    { "sn": "48", "orderNo": "Rect-36, GM(P)/ER/Recruitment-Pt-I", "date": "06.01.2023", "rbLetterNo": "E(NG)II/2020/RC-4/2(Pt.)", "rbDate": "03.01.2023", "subject": "Engagement of staff against posts of SSEs/JEs (Works) in Construction organization on contract basis.", "pdf": "#" },
+    { "sn": "49", "orderNo": "Rect-37, GM(P)/ER/Recruitment-Pt-I", "date": "28.01.2023", "rbLetterNo": "E(NG)II/2022/RC-I/NR/28", "rbDate": "25.01.2023", "subject": "Grant of compassionate appointment to spouse/ward/dependent of deceased trainee employees.", "pdf": "#" },
+    { "sn": "50", "orderNo": "Rect-38, GM(P)/ER/Recruitment-Pt-I", "date": "24.02.2023", "rbLetterNo": "2022/E(Sports)/4(1)/14/Gr.D", "rbDate": "08.02.2023", "subject": "Clarification regarding recruitment of Sportspersons in Indian Railway in pay Level-1.", "pdf": "#" },
+    { "sn": "51", "orderNo": "Rect-39, GM(P)/ER/Recruitment-Pt-I", "date": "24.02.2023", "rbLetterNo": "2022/E(Sports)/4(1)/1/Age Clarification", "rbDate": "08.02.2023", "subject": "Modification in Age Group of Junior National Championships for recruitment and other purposes.", "pdf": "#" },
+    { "sn": "52", "orderNo": "Rect-40, GM(P)/ER/Recruitment-Pt-I", "date": "24.02.2023", "rbLetterNo": "2021/E(Sports)/4(1)/2/status", "rbDate": "03.02.2021", "subject": "Recognition of Handball Federation of India - regarding.", "pdf": "#" },
+    { "sn": "53", "orderNo": "Rect-41, GM(P)/ER/Recruitment-Pt-I", "date": "27.02.2023", "rbLetterNo": "E(NG)II/2017/RC-1/23", "rbDate": "01.02.2023", "subject": "Clarification regarding Compassionate Ground Appointment (CGA) to spouse/ward/dependent of Railway employees.", "pdf": "#" },
+    { "sn": "54", "orderNo": "Rect-42, GM(P)/ER/Recruitment-Pt-I", "date": "28.04.2023", "rbLetterNo": "E(NG)I/2022/PM1/32", "rbDate": "20.04.2023", "subject": "Replacement of panel in lieu of non-joining of candidates or candidates resigned/demised within the currency of panel in GDCE - reg.", "pdf": "#" },
+    { "sn": "55", "orderNo": "Rect-43, GM(P)/ER/Recruitment-Pt-I", "date": "08.05.2023", "rbLetterNo": "2013/H/5/5(Pt.)", "rbDate": "27.04.2023", "subject": "Medical examination of candidates proposed to be appointed in Railway by way of CG appointment/Land losers - relaxation in medical condition - reg.", "pdf": "#" },
+    { "sn": "56", "orderNo": "Rect-44, GM(P)/ER/Recruitment-Pt-I", "date": "19.05.2023", "rbLetterNo": "E(NG)-II/2022/RR-I/42", "rbDate": "10.05.2023", "subject": "Relaxation to Agniveers for recruitment in Railway from open market in Level-I (erstwhile Gr.'D') and Level-2 and above non-Gazetted.", "pdf": "#" },
+    { "sn": "57", "orderNo": "Rect-45, GM(P)/ER/Recruitment-Pt-I", "date": "04.07.2023", "rbLetterNo": "2020/E(Sport)/4(1)/14/Gr.D", "rbDate": "04.01.2023", "subject": "Recruitment of sportspersons on Zonal Railways/Production Units against Sports Quota in Pay Level-1 (Erstwhile Group 'D' in GP Rs 1800/- as per 6th CPC).", "pdf": "#" },
+    { "sn": "58", "orderNo": "Rect-46, GM(P)/ER/Recruitment-Pt-I", "date": "04.07.2023", "rbLetterNo": "E(NG)I-2016/IC-2/2(Part)", "rbDate": "05.01.2023", "subject": "Recording of higher academic/educational qualification in the service record of employees recruited through RRBs - clarification reg.", "pdf": "#" },
+    { "sn": "59", "orderNo": "Rect-47, GM(P)/ER/Recruitment-Pt-I", "date": "04.07.2023", "rbLetterNo": "2021/E(Sports)/4(1)/4/FBL", "rbDate": "12.01.2023", "subject": "Recruitment of Men Football players on Indian Railway.", "pdf": "#" },
+    { "sn": "60", "orderNo": "Rect-48, GM(P)/ER/Recruitment-Pt-I", "date": "04.07.2023", "rbLetterNo": "E(NG)II/2017/RC-1/23", "rbDate": "27.02.2023", "subject": "Clarification regarding Compassionate Ground Appointment (CGA) to spouse/ward/dependent of Railway employees.", "pdf": "#" },
+    { "sn": "61", "orderNo": "Rect-49, GM(P)/ER/Recruitment-Pt-I", "date": "04.07.2023", "rbLetterNo": "E(NG)II/2020/RC-4/2(Pt.2)", "rbDate": "03.03.2023", "subject": "Re-engagement of retired State Government officials in exigencies of services projects where land acquisition is involved.", "pdf": "#" },
+    { "sn": "62", "orderNo": "Rect-50, GM(P)/ER/Recruitment-Pt-I", "date": "31.07.2023", "rbLetterNo": "E(NG)/II/2023/RR-1/59", "rbDate": "28.07.2023", "subject": "Clarification to Minimum prescribed educational qualification for direct recruitment to the post of Assistant Loco Pilot in Level 2 reg.", "pdf": "#" },
+    { "sn": "63", "orderNo": "Rect-51, GM(P)/ER/Recruitment-Pt-I", "date": "31.07.2023", "rbLetterNo": "2021/E(Sports)/RSPB/4(1)/2/Status", "rbDate": "31.07.2023", "subject": "Recognition of National Sports Federation (NFS) for the sport of Handball regarding.", "pdf": "#" },
+    { "sn": "64", "orderNo": "Rect-52, GM(P)/ER/Recruitment-Pt-I", "date": "22.09.2023", "rbLetterNo": "E(NG)I-2017/PM 10/2", "rbDate": "15.09.2023", "subject": "Staff Nurse vacancies in Indian Railways - Amendment to extant provision facilitating selection of serving employees who possess Educational Qualification reg.", "pdf": "#" },
+    { "sn": "65", "orderNo": "Rect-53, GM(P)/ER/Recruitment-Pt-I", "date": "09.10.2023", "rbLetterNo": "E(NG)II/2021/RC-4/1", "rbDate": "06.10.2023", "subject": "Engagement of Ex-Servicemen as Gatemen on Contract Basis.", "pdf": "#" },
+    { "sn": "66", "orderNo": "Rect-54, GM(P)/ER/Recruitment-Pt-I", "date": "06.11.2023", "rbLetterNo": "E(NG)II/2016/RC-1/CR/12(Pt)", "rbDate": "02.11.2023", "subject": "Appointment on Compassionate Grounds - cases of second wife and her wards.", "pdf": "#" },
+    { "sn": "67", "orderNo": "Rect-55, GM(P)/ER/Recruitment-Pt-I", "date": "28.11.2023", "rbLetterNo": "E(NG)II/2021/RR-I/32", "rbDate": "16.11.2023", "subject": "Framing of Recruitment Rule for the post of Prosthetist & Orthotist in Level-6 of 7th CPC Pay Matrix.", "pdf": "#" },
+    { "sn": "68", "orderNo": "Rect-56, GM(P)/ER/Recruitment-Pt-I", "date": "30.11.2023", "rbLetterNo": "E(NG)II/2023/RR-1/79", "rbDate": "01.11.2023", "subject": "Recruitment against horizontal reservation of Railway Course Completed Act Apprentices in Level 01 post against CEN RRC-01/2019.", "pdf": "#" },
+    { "sn": "69", "orderNo": "Rect-57, GM(P)/ER/Recruitment-Pt-I", "date": "13.12.2023", "rbLetterNo": "E(NG)II/2023/RR-1/59", "rbDate": "11.12.2023", "subject": "Clarification regarding Minimum prescribed educational qualification for direct recruitment to the post of Assistant Loco Pilot in Level-2 reg.", "pdf": "#" },
+    { "sn": "70", "orderNo": "Rect-58, GM(P)/ER/Recruitment-Pt-I", "date": "02.02.2024", "rbLetterNo": "E(NG)-II/2024/RR-1/4", "rbDate": "30.01.2024", "subject": "Relaxation in upper age limit for direct recruitment to non-gazetted posts on the Railways.", "pdf": "#" },
+    { "sn": "71", "orderNo": "Rect-59, GM(P)/ER/Recruitment-Pt-I", "date": "08.02.2024", "rbLetterNo": "E(NG)-II/2024/RR-1/4", "rbDate": "06.02.2024", "subject": "Relaxation in upper age limit for direct recruitment to non-gazetted posts on the Railways.", "pdf": "#" },
+    { "sn": "72", "orderNo": "Rect-60, GM(P)/ER/Recruitment-Pt-I", "date": "22.02.2024", "rbLetterNo": "E(NG)II/2023/RC-1/9", "rbDate": "20.02.2024", "subject": "Compassionate ground appointment to the wards/widows of late trainees appointed under LARGESS.", "pdf": "#" },
+    { "sn": "73", "orderNo": "Rect-61, GM(P)/ER/Recruitment-Pt-I", "date": "07.03.2024", "rbLetterNo": "E(NG)II/2021/RC-4/1", "rbDate": "01.03.2024", "subject": "Engagement of Ex-Servicemen as Gatemen on Contract Basis.", "pdf": "#" },
+    { "sn": "74", "orderNo": "Rect-62, GM(P)/ER/Recruitment-Pt-I", "date": "09.03.2024", "rbLetterNo": "E(NG)I/2020/PM1/9", "rbDate": "04.03.2024", "subject": "General Departmental Competitive Examination (GDCE) for filling up of 25% net direct recruitment quota vacancies in Group 'C' categories - Extension of currency upto 31.03.2026.", "pdf": "#" },
+    { "sn": "75", "orderNo": "Rect-63, GM(P)/ER/Recruitment-Pt-I", "date": "11.03.2024", "rbLetterNo": "E(NG)-II/2024/RR-1/4(Pt)", "rbDate": "07.03.2024", "subject": "Relaxation in upper age limit for direct recruitment to non-gazetted posts on the Railways.", "pdf": "#" },
+    { "sn": "76", "orderNo": "Rect-64, GM(P)/ER/Recruitment-Pt-I", "date": "21.03.2024", "rbLetterNo": "E(NG)I/2023/PM1/12", "rbDate": "15.03.2024", "subject": "GDCE Examination held on 15.12.2024.", "pdf": "#" },
+    { "sn": "77", "orderNo": "Rect-65, GM(P)/ER/Recruitment-Pt-I", "date": "19.04.2024", "rbLetterNo": "E(NG)II/2023/RR-2/1", "rbDate": "10.04.2024", "subject": "Clarification with regard to recruitment against Scout/Guide quota - Procedure for - reg.", "pdf": "#" },
+    { "sn": "78", "orderNo": "Rect-66, GM(P)/ER/Recruitment-Pt-I", "date": "08.07.2024", "rbLetterNo": "E(NG)II/2023/RC-1/29", "rbDate": "03.07.2024", "subject": "Appointment on compassionate grounds.", "pdf": "#" },
+    { "sn": "79", "orderNo": "Rect-67, GM(P)/ER/Recruitment-Pt-I", "date": "24.07.2024", "rbLetterNo": "E(NG)II/2021/RR-1/30", "rbDate": "11.07.2024", "subject": "Recruitment of staff in Level-1 of 7th CPC Pay Matrix on Indian Railways - modifications of criteria of Physical Efficiency Test (PET) for Ex-servicemen and Pregnant female candidates regarding.", "pdf": "#" },
+    { "sn": "80", "orderNo": "Rect-68, GM(P)/ER/Recruitment-Pt-I", "date": "24.07.2024", "rbLetterNo": "E(NG)II/2024/RR-1/4", "rbDate": "15.07.2024", "subject": "Relaxation in upper age limit for direct recruitment to non-gazetted posts on the Railways.", "pdf": "#" },
+    { "sn": "81", "orderNo": "Rect-69, GM(P)/ER/Recruitment-Pt-I", "date": "09.08.2024", "rbLetterNo": "2024/E(Sports)/1/116/BBG(EF 3453001)", "rbDate": "08.08.2024", "subject": "De-recognition of Indian Body Builders Federation (IBBF) - regarding.", "pdf": "#" },
+    { "sn": "82", "orderNo": "Rect-70, GM(P)/ER/Recruitment-Pt-I", "date": "20.08.2024", "rbLetterNo": "E(NG)II/2023/RC-1/29", "rbDate": "13.08.2021", "subject": "Appointment on compassionate grounds.", "pdf": "#" },
+    { "sn": "83", "orderNo": "Rect-71, GM(P)/ER/Recruitment-Pt-I", "date": "28.08.2024", "rbLetterNo": "2022/E(Sports)/4(1)/07/Ckt. Part 1", "rbDate": "21.08.2024", "subject": "Norms for recruitment of Sportspersons in Indian Railways in Cricket game discipline.", "pdf": "#" },
+    { "sn": "84", "orderNo": "Rect-72, GM(P)/ER/Recruitment-Pt-I", "date": "30.08.2024", "rbLetterNo": "2023/I & Trans.Cell/Digi-Locker in Recruitment", "rbDate": "24.08.2024", "subject": "Digi-Locker in Recruitment by RRB / Zonal Railways.", "pdf": "#" },
+    { "sn": "85", "orderNo": "Rect-73, GM(P)/ER/Recruitment-Pt-I", "date": "30.08.2024", "rbLetterNo": "E(NG)-II/2024/RR-1/31", "rbDate": "27.08.2024", "subject": "Policy formulation in respect of Ex-Servicemen Candidates who are not relieved by Defence authorities by the schedule date.", "pdf": "#" },
+    { "sn": "86", "orderNo": "Rect-74, GM(P)/ER/Recruitment-Pt-I", "date": "03.10.2024", "rbLetterNo": "E(NG)II/2021/RC-4/1", "rbDate": "01.10.2024", "subject": "Engagement of Ex-Servicemen as Gatemen on Contract Basis.", "pdf": "#" },
+    { "sn": "87", "orderNo": "Rect-75, GM(P)/ER/Recruitment-Pt-I", "date": "10.10.2024", "rbLetterNo": "2024 E(Trg.)/43/4", "rbDate": "09.10.2024", "subject": "Training period in Technician Category.", "pdf": "#" },
+    { "sn": "88", "orderNo": "Rect-76, GM(P)/ER/Recruitment-Pt-I", "date": "18.10.2024", "rbLetterNo": "E(NG)II/2024/RC-4/9", "rbDate": "15.10.2024", "subject": "Re-engagement of retired staff against vacant post on contractual basis.", "pdf": "#" },
+    { "sn": "89", "orderNo": "Rect-77, GM(P)/ER/Recruitment-Pt-I", "date": "18.11.2024", "rbLetterNo": "E(NG)II/2021/RC-4/1", "rbDate": "06.11.2024", "subject": "Engagement of Ex-Servicemen as Gatemen on Contract Basis.", "pdf": "#" },
+    { "sn": "90", "orderNo": "Rect-78, GM(P)/ER/Recruitment-Pt-I", "date": "15.01.2025", "rbLetterNo": "E(NG)II/2024/RR-1/41", "rbDate": "02.01.2025", "subject": "Minimum Educational Qualification for recruitment from open Market in Level-1 of the pay matrix of 7th CPC.", "pdf": "#" },
+    { "sn": "91", "orderNo": "Rect-79, GM(P)/ER/Recruitment-Pt-I", "date": "04.02.2025", "rbLetterNo": "2024/E(Trg.)/43/4", "rbDate": "21.01.2025", "subject": "Revision in Training Period of Technician Category.", "pdf": "#" },
+    { "sn": "92", "orderNo": "Rect-80, GM(P)/ER/Recruitment-Pt-I", "date": "30.05.2025", "rbLetterNo": "E(NG)II/2024/RR-1/28", "rbDate": "23.05.2025", "subject": "Recruitment of staff in Level-1 of 7th CPC Pay Matrix on Indian Railways - modifications of criteria of replacement panel regarding.", "pdf": "#" },
+    { "sn": "93", "orderNo": "Rect-81, GM(P)/ER/Recruitment-Pt-I", "date": "20.06.2025", "rbLetterNo": "2024/E(Sports)/4(3)/19/Misc.(E.O.No.3485404)", "rbDate": "30.05.2025", "subject": "Revocation of suspension of Wrestling Federation of India (WFI) and recognition of WFI as National Sports Federation (NSF) in wrestling.", "pdf": "#" },
+    { "sn": "94", "orderNo": "Rect-82, GM(P)/ER/Recruitment-Pt-I", "date": "30.08.2025", "rbLetterNo": "2025/E(Sports)/04/10 (NSF)", "rbDate": "22.08.2025", "subject": "Clarification on validity of sports achievement certificates of earlier recognized National Sports Federations (NSFs), whose current status of renewal not communicated by Ministry of Youth Affairs and Sports (MoYA&S).", "pdf": "#" },
+    { "sn": "95", "orderNo": "Rect-83, GM(P)/ER/Recruitment-Pt-I", "date": "30.08.2025", "rbLetterNo": "2021/E(Sports)/RSPB/4(1)/2/Status", "rbDate": "26.08.2025", "subject": "De-recognition of Handball Association India (HAI) in the game Discipline of Handball - reg.", "pdf": "#" },
+    { "sn": "96", "orderNo": "Rect-84, GM(P)/ER/Recruitment-Pt-I", "date": "01.10.2025", "rbLetterNo": "2025/E(Sports)/4(3)/12/WLG", "rbDate": "22.09.2025", "subject": "Recruitment of Sportspersons (Weightlifting) against sports quota as per new weight categories - Clarification regarding.", "pdf": "#" },
+    { "sn": "97", "orderNo": "Rect-85, GM(P)/ER/Recruitment-Pt-I", "date": "20.11.2025", "rbLetterNo": "2025/E(Trg.)/41/27", "rbDate": "11.11.2025", "subject": "Gazette Notification No. G.S.R.610(E) dated 03.09.2025 regarding enhancement of rates of stipend for Act Apprentices under Apprentices Act, 1961 and amendments in the Apprenticeship Rules, 1992.", "pdf": "#" },
+    { "sn": "98", "orderNo": "Rect-86, GM(P)/ER/Recruitment-Pt-I", "date": "03.12.2025", "rbLetterNo": "2025/E(Sports)/04/10(NSF)", "rbDate": "24.11.2025", "subject": "Validity of sports achievement certificates of recognized National Sports Federations (NSFs) for recruitment and other establishment purposes in Indian Railways.", "pdf": "#" },
+    { "sn": "99", "orderNo": "Rect-87, GM(P)/ER/Recruitment-Pt-I", "date": "29.01.2026", "rbLetterNo": "E(NG)II/2025/RR-1/67", "rbDate": "19.01.2026", "subject": "Recruitment to non-gazetted posts - equivalence on the minimum educational qualification.", "pdf": "#" },
+    { "sn": "100", "orderNo": "Rect-88, GM(P)/ER/Recruitment-Pt-I", "date": "07.02.2026", "rbLetterNo": "E(NG)II/2023/RC-1/1/CR", "rbDate": "21.01.2026", "subject": "Compassionate Ground Appointment (CGA) - cases of children born to second wife of deceased railway employee.", "pdf": "#" }
+  ]
 }
 
   

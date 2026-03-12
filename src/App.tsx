@@ -10,7 +10,7 @@ import LocoPage from "./pages/LOCOPORTAL/LocoPage";
 
 // DEPARTMENTS
 import DepPage from "./pages/DEPARTMENTS/DepPage";
-// DEPARTMETS
+
 
 //NEWS
 import Achievements      from "./pages/NEWS/Achievements";
@@ -161,8 +161,90 @@ const App = () => (
        <Route path="mechanical/org-structure" element={<DepPage translationKey="departments.mechanicalOrgStructure" />} />
        <Route path="mechanical/non-moving-items" element={<DepPage translationKey="departments.nonMovingItems" />} />
        <Route path="marketing/division" element={<DepPage translationKey="departments.marketingDivision" />} />
-       
+       <Route path="personnel/railway-services" element={<DepPage translationKey="departments.conductRules" />} />
        <Route path="medical/registration-firm" element={<DepPage translationKey="departments.registrationFirm" />} />
+       <Route path="personnel/gazetted-transfer" element={<DepPage translationKey="departments.gazettedTransferOrders" />} />
+       <Route path="personnel/cadre-position" element={<DepPage translationKey="departments.cadrePosition" />} />
+       <Route path="personnel/recruitment" element={<DepPage translationKey="departments.recruitmentSection" />} />
+       <Route path="personnel/staff-welfare" element={<DepPage translationKey="departments.staffWelfare" />} />
+       <Route path="personnel/important-letter" element={<DepPage translationKey="departments.importantLetters" />} />
+       <Route path="personnel/selection-notice" element={<DepPage translationKey="departments.selectionNotice" />} />
+       <Route path="personnel/important-form" element={<DepPage translationKey="departments.importantForms" />} />
+       <Route path="personnel/gazetted-section" element={<DepPage translationKey="departments.gazettedSection" />} />
+       <Route path="personnel/seniority-list" element={<DepPage translationKey="departments.seniorityList" />} />
+       <Route path="personnel/public-grievances" element={<DepPage translationKey="departments.publicGrievances" />} />
+       <Route path="personnel/jpo-cmp" element={<DepPage translationKey="departments.jpoCmp" />} />
+         <Route path="personnel/settlement" element={<DepPage translationKey="departments.settlementSec" />} />
+         <Route path="personnel/revised-rules" element={<DepPage translationKey="departments.revisedRules" />} />
+         <Route path="personnel/staff-council" element={<DepPage translationKey="departments.staffCouncil" />} />
+         <Route path="personnel/sexual-harassment" element={<DepPage translationKey="departments.sexualHarassment" />} />
+         <Route path="personnel/roster/accounts" element={<DepPage translationKey="departments.rosterAccounts" />} />
+<Route path="personnel/roster/personnel" element={<DepPage translationKey="departments.rosterPersonnel" />} />
+<Route path="personnel/roster/civil" element={<DepPage translationKey="departments.rosterCivil" />} />
+<Route path="personnel/roster/electrical" element={<DepPage translationKey="departments.rosterElectrical" />} />
+<Route path="personnel/roster/mechanical" element={<DepPage translationKey="departments.rosterMechanical" />} />
+<Route path="personnel/roster/stores" element={<DepPage translationKey="departments.rosterStores" />} />
+<Route path="personnel/roster/admin" element={<DepPage translationKey="departments.rosterAdmin" />} />
+<Route path="personnel/roster/medical" element={<DepPage translationKey="departments.rosterMedical" />} />
+<Route path="rajbhasha/bareka-darpan-31" element={<DepPage translationKey="departments.barekaDarpan31" />} />
+<Route path="rajbhasha/bareka-darpan-32" element={<DepPage translationKey="departments.barekaDarpan32" />} />
+<Route path="rajbhasha/bareka-darpan-33" element={<DepPage translationKey="departments.barekaDarpan33" />} />
+<Route path="rajbhasha/bareka-darpan-34" element={<DepPage translationKey="departments.barekaDarpan34" />} />
+<Route path="rajbhasha/bareka-darpan-35" element={<DepPage translationKey="departments.barekaDarpan35" />} />
+<Route path="rajbhasha/bareka-darpan-36" element={<DepPage translationKey="departments.barekaDarpan36" />} />
+<Route path="rajbhasha/list-of-books" element={<DepPage translationKey="departments.listOfBooks" />} />
+<Route path="rajbhasha/gm-message-2023" element={<DepPage translationKey="departments.gmMessage2023" />} />
+<Route path="rajbhasha/question-bank" element={<DepPage translationKey="departments.questionBank" />} />
+<Route path="rajbhasha/narakas" element={<DepPage translationKey="departments.narakas" />} />
+<Route path="rajbhasha/gm-message-2024" element={<DepPage translationKey="departments.gmMessage2024" />} />
+<Route path="rajbhasha/rajbhasha-pakhwada" element={<DepPage translationKey="departments.rajbhashaPakhwada" />} />
+<Route path="rajbhasha/gm-message-2025" element={<DepPage translationKey="departments.gmMessage2025" />} />
+<Route path="stores/suspended-firms" element={<DepPage translationKey="departments.suspendedFirms" />} />
+<Route path="stores/tender-documents" element={<DepPage translationKey="departments.tenderDocuments" />} />
+<Route path="stores/post-contract-matter" element={<DepPage translationKey="departments.postContractMatter" />} />
+<Route path="stores/pl-unification" element={<DepPage translationKey="departments.plUnification" />} />
+<Route path="stores/checklist-bills" element={<DepPage translationKey="departments.checklistBills" />} />
+<Route path="stores/inactive-surplus" element={<DepPage translationKey="departments.inactiveSurplus" />} />
+<Route path="stores/non-moving-high-value" element={<DepPage translationKey="departments.nonMovingHighValue" />} />
+<Route path="stores/gst-change" element={<DepPage translationKey="departments.gstChange" />} />
+<Route path="stores/estimated-tender" element={<DepPage translationKey="departments.estimatedTender" />} />
+<Route path="stores/excess-high-value" element={<DepPage translationKey="departments.excessHighValue" />} />
+<Route path="stores/rejection-policy" element={<DepPage translationKey="departments.rejectionPolicy" />} />
+<Route path="stores/video-assembly" element={<DepPage translationKey="departments.videoAssembly" />} />
+<Route path="stores/tentative-requirement" element={<DepPage translationKey="departments.tentativeRequirement" />} />
+<Route path="stores/irs-conditions" element={<DepPage translationKey="departments.irsConditions" />} />
+<Route path="technical-training/ttc-brochure" element={<DepPage translationKey="departments.ttcBrochure" />} />
+<Route path="technical-training/weldor-nomination" element={<DepPage translationKey="departments.weldorNomination" />} />
+<Route path="technical-training/question-bank" element={<DepPage translationKey="departments.ttcQuestionBank" />} />
+<Route path="technical-training/training-calender" element={<DepPage translationKey="departments.trainingCalender" />} />
+<Route path="technical-training/internship-training" element={<DepPage translationKey="departments.internshipTraining" />} />
+<Route path="vigilance/awareness-week" element={<DepPage translationKey="departments.vigilanceAwarenessWeek" />} />
+<Route path="vigilance/bulletin" element={<DepPage translationKey="departments.vigilanceBulletin" />} />
+<Route path="vigilance/complaint-policy" element={<DepPage translationKey="departments.complaintPolicy" />} />
+<Route path="vigilance/selections" element={<DepPage translationKey="departments.vigilanceSelections" />} />
+<Route path="vigilance/rti-info" element={<DepPage translationKey="departments.rtiInfo" />} />
+<Route path="vigilance/organization" element={<DepPage translationKey="departments.vigilanceOrganization" />} />
+<Route path="vigilance/system-improvements" element={<DepPage translationKey="departments.systemImprovements" />} />
+<Route path="design/video-mounting" element={<DepPage translationKey="departments.videoMounting" />} />
+<Route path="design/eoi-conversion" element={<DepPage translationKey="departments.eoiConversion" />} />
+<Route path="design/eoi-upgradation" element={<DepPage translationKey="departments.eoiUpgradation" />} />
+<Route path="safety" element={<DepPage translationKey="departments.safetyDepartment" />} />
+<Route path="personnel/establishment/all" element={<DepPage translationKey="departments.allCirculars" />} />
+<Route path="personnel/establishment/pass-rule" element={<DepPage translationKey="departments.passCirculars" />} />
+<Route path="personnel/establishment/recruitment" element={<DepPage translationKey="departments.recruitmentCirculars" />} />
+<Route path="personnel/establishment/promotion" element={<DepPage translationKey="departments.promotionCirculars" />} />
+<Route path="personnel/establishment/misc" element={<DepPage translationKey="departments.miscCirculars" />} />
+<Route path="personnel/establishment/allowances" element={<DepPage translationKey="departments.allowancesCirculars" />} />
+<Route path="personnel/establishment/advances" element={<DepPage translationKey="departments.advancesCirculars" />} />
+<Route path="personnel/establishment/settlement" element={<DepPage translationKey="departments.settlementCirculars" />} />
+<Route path="personnel/establishment/leave-rule" element={<DepPage translationKey="departments.leaveRuleCirculars" />} />
+<Route path="personnel/establishment/welfare" element={<DepPage translationKey="departments.welfareCirculars" />} />
+<Route path="personnel/establishment/reservation" element={<DepPage translationKey="departments.reservationCirculars" />} />
+<Route path="personnel/establishment/conduct-rules" element={<DepPage translationKey="departments.conductRulesCirculars" />} />
+<Route path="personnel/establishment/irem" element={<DepPage translationKey="departments.iremCirculars" />} />
+<Route path="personnel/establishment/medical-rule" element={<DepPage translationKey="departments.medicalRuleCirculars" />} />
+<Route path="personnel/establishment/master-circular" element={<DepPage translationKey="departments.masterCirculars" />} />
+<Route path="personnel/establishment/irec" element={<DepPage translationKey="departments.irecCirculars" />} />
       </Route>
       
       

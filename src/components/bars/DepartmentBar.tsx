@@ -201,19 +201,19 @@ const DepartmentBar = () => {
             </div>
             {isOpenMenu("rajbhasha") && (
               <ul className="submenu">
-                <li><Link to="#">{t("departments.rajbhasha.barekaDarpan31")}</Link></li>
-                <li><Link to="#">{t("departments.rajbhasha.barekaDarpan32")}</Link></li>
-                <li><Link to="#">{t("departments.rajbhasha.barekaDarpan33")}</Link></li>
-                <li><Link to="#">{t("departments.rajbhasha.barekaDarpan34")}</Link></li>
-                <li><Link to="#">{t("departments.rajbhasha.barekaDarpan35")}</Link></li>
-                <li><Link to="#">{t("departments.rajbhasha.barekaDarpan36")}</Link></li>
-                <li><Link to="#">{t("departments.rajbhasha.listOfBooks")}</Link></li>
-                <li><Link to="#">{t("departments.rajbhasha.gmMessage2023")}</Link></li>
-                <li><Link to="#">{t("departments.rajbhasha.questionBank")}</Link></li>
-                <li><Link to="#">{t("departments.rajbhasha.narakas")}</Link></li>
-                <li><Link to="#">{t("departments.rajbhasha.gmMessage2024")}</Link></li>
-                <li><Link to="#">{t("departments.rajbhasha.rajbhashaPakhwada")}</Link></li>
-                <li><Link to="#">{t("departments.rajbhasha.gmMessage2025")}</Link></li>
+                <li><Link to="/departments/rajbhasha/bareka-darpan-31">{t("departments.rajbhasha.barekaDarpan31")}</Link></li>
+<li><Link to="/departments/rajbhasha/bareka-darpan-32">{t("departments.rajbhasha.barekaDarpan32")}</Link></li>
+<li><Link to="/departments/rajbhasha/bareka-darpan-33">{t("departments.rajbhasha.barekaDarpan33")}</Link></li>
+<li><Link to="/departments/rajbhasha/bareka-darpan-34">{t("departments.rajbhasha.barekaDarpan34")}</Link></li>
+<li><Link to="/departments/rajbhasha/bareka-darpan-35">{t("departments.rajbhasha.barekaDarpan35")}</Link></li>
+<li><Link to="/departments/rajbhasha/bareka-darpan-36">{t("departments.rajbhasha.barekaDarpan36")}</Link></li>
+<li><Link to="/departments/rajbhasha/list-of-books">{t("departments.rajbhasha.listOfBooks")}</Link></li>
+<li><Link to="/departments/rajbhasha/gm-message-2023">{t("departments.rajbhasha.gmMessage2023")}</Link></li>
+<li><Link to="/departments/rajbhasha/question-bank">{t("departments.rajbhasha.questionBank")}</Link></li>
+<li><Link to="/departments/rajbhasha/narakas">{t("departments.rajbhasha.narakas")}</Link></li>
+<li><Link to="/departments/rajbhasha/gm-message-2024">{t("departments.rajbhasha.gmMessage2024")}</Link></li>
+<li><Link to="/departments/rajbhasha/rajbhasha-pakhwada">{t("departments.rajbhasha.rajbhashaPakhwada")}</Link></li>
+<li><Link to="/departments/rajbhasha/gm-message-2025">{t("departments.rajbhasha.gmMessage2025")}</Link></li>
               </ul>
             )}
           </li>
@@ -226,20 +226,20 @@ const DepartmentBar = () => {
             </div>
             {isOpenMenu("stores") && (
               <ul className="submenu">
-                <li><Link to="#">{t("departments.stores.suspendedFirms")}</Link></li>
-                <li><Link to="#">{t("departments.stores.tenderDocuments")}</Link></li>
-                <li><Link to="#">{t("departments.stores.postContractMatter")}</Link></li>
-                <li><Link to="#">{t("departments.stores.plUnification")}</Link></li>
-                <li><Link to="#">{t("departments.stores.checklistBills")}</Link></li>
-                <li><Link to="#">{t("departments.stores.inactiveSurplus")}</Link></li>
-                <li><Link to="#">{t("departments.stores.nonMovingHighValue")}</Link></li>
-                <li><Link to="#">{t("departments.stores.gstChange")}</Link></li>
-                <li><Link to="#">{t("departments.stores.estimatedTender")}</Link></li>
-                <li><Link to="#">{t("departments.stores.excessHighValue")}</Link></li>
-                <li><Link to="#">{t("departments.stores.rejectionPolicy")}</Link></li>
-                <li><Link to="#">{t("departments.stores.videoAssembly")}</Link></li>
-                <li><Link to="#">{t("departments.stores.tentativeRequirement")}</Link></li>
-                <li><Link to="#">{t("departments.stores.irsConditions")}</Link></li>
+                <li><Link to="/departments/stores/suspended-firms">{t("departments.stores.suspendedFirms")}</Link></li>
+<li><Link to="/departments/stores/tender-documents">{t("departments.stores.tenderDocuments")}</Link></li>
+<li><Link to="/departments/stores/post-contract-matter">{t("departments.stores.postContractMatter")}</Link></li>
+<li><Link to="/departments/stores/pl-unification">{t("departments.stores.plUnification")}</Link></li>
+<li><Link to="/departments/stores/checklist-bills">{t("departments.stores.checklistBills")}</Link></li>
+<li><Link to="/departments/stores/inactive-surplus">{t("departments.stores.inactiveSurplus")}</Link></li>
+<li><Link to="/departments/stores/non-moving-high-value">{t("departments.stores.nonMovingHighValue")}</Link></li>
+<li><Link to="/departments/stores/gst-change">{t("departments.stores.gstChange")}</Link></li>
+<li><Link to="/departments/stores/estimated-tender">{t("departments.stores.estimatedTender")}</Link></li>
+<li><Link to="/departments/stores/excess-high-value">{t("departments.stores.excessHighValue")}</Link></li>
+<li><Link to="/departments/stores/rejection-policy">{t("departments.stores.rejectionPolicy")}</Link></li>
+<li><Link to="/departments/stores/video-assembly">{t("departments.stores.videoAssembly")}</Link></li>
+<li><Link to="/departments/stores/tentative-requirement">{t("departments.stores.tentativeRequirement")}</Link></li>
+<li><Link to="/departments/stores/irs-conditions">{t("departments.stores.irsConditions")}</Link></li>
               </ul>
             )}
           </li>
@@ -252,11 +252,11 @@ const DepartmentBar = () => {
             </div>
             {isOpenMenu("techTraining") && (
               <ul className="submenu">
-                <li><Link to="#">{t("departments.techTraining.ttcBrochure")}</Link></li>
-                <li><Link to="#">{t("departments.techTraining.weldorNomination")}</Link></li>
-                <li><Link to="#">{t("departments.techTraining.questionBank")}</Link></li>
-                <li><Link to="#">{t("departments.techTraining.trainingCalender")}</Link></li>
-                <li><Link to="#">{t("departments.techTraining.internshipTraining")}</Link></li>
+                <li><Link to="/departments/technical-training/ttc-brochure">{t("departments.techTraining.ttcBrochure")}</Link></li>
+<li><Link to="/departments/technical-training/weldor-nomination">{t("departments.techTraining.weldorNomination")}</Link></li>
+<li><Link to="/departments/technical-training/question-bank">{t("departments.techTraining.questionBank")}</Link></li>
+<li><Link to="/departments/technical-training/training-calender">{t("departments.techTraining.trainingCalender")}</Link></li>
+<li><Link to="/departments/technical-training/internship-training">{t("departments.techTraining.internshipTraining")}</Link></li>
               </ul>
             )}
           </li>
@@ -269,13 +269,13 @@ const DepartmentBar = () => {
             </div>
             {isOpenMenu("vigilance") && (
               <ul className="submenu">
-                <li><Link to="#">{t("departments.vigilance.awarenessWeek")}</Link></li>
-                <li><Link to="#">{t("departments.vigilance.organization")}</Link></li>
-                <li><Link to="#">{t("departments.vigilance.systemImprovements")}</Link></li>
-                <li><Link to="#">{t("departments.vigilance.bulletin")}</Link></li>
-                <li><Link to="#">{t("departments.vigilance.complaintPolicy")}</Link></li>
-                <li><Link to="#">{t("departments.vigilance.selections")}</Link></li>
-                <li><Link to="#">{t("departments.vigilance.rtiInfo")}</Link></li>
+               <li><Link to="/departments/vigilance/awareness-week">{t("departments.vigilance.awarenessWeek")}</Link></li>
+<li><Link to="/departments/vigilance/organization">{t("departments.vigilance.organization")}</Link></li>
+<li><Link to="/departments/vigilance/system-improvements">{t("departments.vigilance.systemImprovements")}</Link></li>
+<li><Link to="/departments/vigilance/bulletin">{t("departments.vigilance.bulletin")}</Link></li>
+<li><Link to="/departments/vigilance/complaint-policy">{t("departments.vigilance.complaintPolicy")}</Link></li>
+<li><Link to="/departments/vigilance/selections">{t("departments.vigilance.selections")}</Link></li>
+<li><Link to="/departments/vigilance/rti-info">{t("departments.vigilance.rtiInfo")}</Link></li>
               </ul>
             )}
           </li>
@@ -288,9 +288,9 @@ const DepartmentBar = () => {
             </div>
             {isOpenMenu("design") && (
               <ul className="submenu">
-                <li><Link to="#">{t("departments.design.videoMounting")}</Link></li>
-                <li><Link to="#">{t("departments.design.eoiConversion")}</Link></li>
-                <li><Link to="#">{t("departments.design.eoiUpgradation")}</Link></li>
+               <li><Link to="/departments/design/video-mounting">{t("departments.design.videoMounting")}</Link></li>
+<li><Link to="/departments/design/eoi-conversion">{t("departments.design.eoiConversion")}</Link></li>
+<li><Link to="/departments/design/eoi-upgradation">{t("departments.design.eoiUpgradation")}</Link></li>
               </ul>
             )}
           </li>
